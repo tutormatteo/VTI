@@ -1,0 +1,9 @@
+\itemdomanda{Nessun ladro è onesto. Qualche cittadino è ladro. Quindi:}{
+    \item Qualche cittadino non è onesto
+    \item Tutti i cittadini sono onesti
+    \item Nessun cittadino è onesto
+    \item I ladri sono cittadini onesti
+    \item Chi è onesto è un ladro
+}
+
+Risposta Corretta: 1

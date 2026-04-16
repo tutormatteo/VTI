@@ -1,0 +1,10 @@
+\itemdomanda{Il sistema $ \begin{cases} 2x-y=3 \\ 4x-2y=6 \end{cases} $ è:
+}{
+\item determinato
+\item impossibile
+\item indeterminato
+\item omogeneo
+\item di primo grado
+}
+
+Risposta Corretta: 3

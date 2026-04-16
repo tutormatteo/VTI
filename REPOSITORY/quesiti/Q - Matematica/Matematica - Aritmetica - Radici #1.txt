@@ -1,0 +1,10 @@
+\itemdomanda{$ \sqrt{200} + \sqrt{2} = $ ...
+}{
+\item $ \sqrt{400} $
+\item $ 11 \sqrt{2} $
+\item $ \sqrt{202} $
+\item $ \sqrt{220} $
+\item $ 2\sqrt{10}+\sqrt{2} $
+}
+
+Risposta Corretta: 2

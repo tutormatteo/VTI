@@ -1,0 +1,9 @@
+\itemdomanda{L'espressione $\ln(e^{5} / e^{2})$ è uguale a:}{
+\item $3$
+\item $e^{3}$
+\item $\frac{5}{2}$
+\item $7$
+\item $10$
+}
+
+Risposta Corretta: 1

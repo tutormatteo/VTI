@@ -1,0 +1,10 @@
+\itemdomanda{Il mcm (minimo comune multiplo) tra $ 12, 18, 30 $ è:
+}{
+\item $ 60 $
+\item $ 180 $
+\item $ 240 $
+\item $ 360 $
+\item $ 90 $
+}
+
+Risposta Corretta: 2

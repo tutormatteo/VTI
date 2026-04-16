@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ \frac{x-1}{x-1} = 1 $ è verificata per:
+}{
+\item $ \forall x \in \mathbb{R} $
+\item $ x=1 $
+\item $ x \neq 1 $
+\item $ x=0 $
+\item non ha soluzioni
+}
+
+Risposta Corretta: 3

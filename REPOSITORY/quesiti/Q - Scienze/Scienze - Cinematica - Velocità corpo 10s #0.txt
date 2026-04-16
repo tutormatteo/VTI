@@ -1,0 +1,9 @@
+\itemdomanda{Un corpo parte a 30 m/s e accelera a 4.0 $m/s^2$. Quanto vale la sua velocità dopo 10 secondi?}{
+    \item 210 m/s
+    \item 140 m/s
+    \item 70 m/s
+    \item 35 m/s
+    \item 15 m/s
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,10 @@
+\itemdomanda{Quanto vale $ \tan(1973\pi) $:
+}{
+\item $0$
+\item $-1$
+\item $1$
+\item $3$
+\item Non esiste
+}
+
+Risposta Corretta: 1

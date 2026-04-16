@@ -1,0 +1,10 @@
+\itemdomanda{Il grado del polinomio $ P(x,y)=x^3y^2+2x^4y-5xy^5 $ è:
+}{
+\item $ 4 $
+\item $ 5 $
+\item $ 6 $
+\item $ 3 $
+\item $ 2 $
+}
+
+Risposta Corretta: 3

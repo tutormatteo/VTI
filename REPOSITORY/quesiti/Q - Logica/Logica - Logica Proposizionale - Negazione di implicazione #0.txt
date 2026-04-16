@@ -1,0 +1,9 @@
+\itemdomanda{Qual è la negazione logica della frase: "Se studi, allora verrai promosso"?}{
+    \item Se non studi, verrai bocciato
+    \item Studi e non verrai promosso
+    \item Non studi oppure verrai promosso
+    \item Verrai promosso solo se studi
+    \item Se non verrai promosso, allora non hai studiato
+}
+
+Risposta Corretta: 2

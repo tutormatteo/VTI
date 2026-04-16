@@ -1,0 +1,10 @@
+\itemdomanda{$ 10^{-2} \cdot 10^3 \cdot 10^{-1} $ è uguale a:
+}{
+\item $ 10^{-6} $
+\item $ 10 $
+\item $ 1 $
+\item $ 10^0 $
+\item $ 10^2 $
+}
+
+Risposta Corretta: 3

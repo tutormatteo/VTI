@@ -1,0 +1,48 @@
+\itemdomanda{Se un liquido scorre in una condotta con restringimento, quale di questi grafici rappresenta la portata in massa?}{
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi con stile locale
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Curva Parabolica (Concavità verso l'alto)
+    % Funzione: y = 0.5*(x-1.5)^2 + 0.8
+    \draw[thick, samples=100, domain=0.2:2.8] plot (\x, {0.5*(\x-1.5)*(\x-1.5) + 0.8});
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Linea Orizzontale (Costante)
+    \draw[thick] (0,1.8) -- (3,1.8);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Curva Parabolica (Concavità verso il basso)
+    % Funzione: y = -0.5*(x-1.5)^2 + 2.2
+    \draw[thick, samples=100, domain=0.1:2.9] plot (\x, {-0.5*(\x-1.5)*(\x-1.5) + 2.2});
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Funzione a campana (Gaussiana) su base costante
+    % y = baseline + ampiezza * exp(-(x-centro)^2 / larghezza)
+    \draw[thick, samples=100, domain=0:3] plot (\x, {0.6 + 1.4*exp(-(\x-1.5)*(\x-1.5)/0.2)});
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Funzione a "buca" invertita
+    % y = baseline - ampiezza * exp(-(x-centro)^2 / larghezza)
+    \draw[thick, samples=100, domain=0:3] plot (\x, {2.0 - 1.2*exp(-(\x-1.5)*(\x-1.5)/0.2)});
+\end{tikzpicture}
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,9 @@
+\itemdomanda{Un'automobile, inizialmente ferma, parte con un'accelerazione costante di 2 $m/s^2$. Nel medesimo istante, viene sorpassata da una bicicletta che viaggia alla velocità costante di 8 m/s. A quale distanza l'auto raggiungerà la bicicletta?}{
+    \item 64 m
+    \item 32 m
+    \item 6 m
+    \item 128 m
+    \item 16 m
+}
+
+Risposta Corretta: 1

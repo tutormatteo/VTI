@@ -1,0 +1,9 @@
+\itemdomanda{Batteria 36 V, parallelo 6 e 3 $\Omega$, serie R. Corrente 3 A. R?}{
+    \item 10 $\Omega$
+    \item 2 $\Omega$
+    \item 12 $\Omega$
+    \item 18 $\Omega$
+    \item 4 $\Omega$
+}
+
+Risposta Corretta: 1

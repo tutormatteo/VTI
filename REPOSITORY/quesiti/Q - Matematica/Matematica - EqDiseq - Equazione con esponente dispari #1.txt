@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ x^3 = -27 $ ha soluzione:
+}{
+\item $ x=3 $
+\item $ x=\pm 3 $
+\item $ x=-3 $
+\item $ x=9 $
+\item non ha soluzioni reali
+}
+
+Risposta Corretta: 3

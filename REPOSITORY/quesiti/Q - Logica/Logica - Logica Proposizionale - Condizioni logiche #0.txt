@@ -1,0 +1,9 @@
+\itemdomanda{Il ministro dell'economia di Matlandia afferma: \textit{"Se il bilancio non sarà tagliato, allora nel prossimo anno 2006 i prezzi rimarranno stabili se e soltanto se aumenteremo tutte le tasse"}. Ammessa l'assoluta verità di questa affermazione e fondandosi solo su di essa, che cosa può essere accaduto a Matlandia nel 2006?}{
+    \item Il bilancio non fu tagliato; tutte le tasse furono aumentate e i prezzi rimasero stabili
+    \item Il bilancio non fu tagliato; tutte le tasse furono aumentate e i prezzi crebbero
+    \item Il bilancio non fu tagliato; le tasse non furono aumentate e i prezzi rimasero stabili
+    \item Il bilancio non fu tagliato; furono aumentate le tasse solo sugli stipendi degli impiegati dello Stato e i prezzi rimasero stabili
+    \item Il bilancio non fu tagliato, e i prezzi crebbero comunque
+}
+
+Risposta Corretta: 1

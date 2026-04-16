@@ -1,0 +1,10 @@
+\itemdomanda{Quanto vale $ \sin(\pi) + \sin(2\pi) + \sin(3\pi) + \sin(4\pi) + \sin(5\pi) + \sin(6\pi) + \sin(7\pi) + \sin(8\pi) + \sin(9\pi) $:
+}{
+\item $-1$
+\item $0$
+\item $1$
+\item $2$
+\item $10$
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,9 @@
+\itemdomanda{Due corpi A e B, volume uguale, $m_B = 3m_A$. La spinta di Archimede su B è:}{
+    \item uguale a quella su A
+    \item nove volte quella su A
+    \item tre volte quella su A
+    \item un nono di quella su A
+    \item un terzo di quella su A
+}
+
+Risposta Corretta: 1

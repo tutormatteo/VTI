@@ -1,0 +1,10 @@
+\itemdomanda{$\log(x^{2}) $ è ...
+}{
+\item $ 2 \log(x) $
+\item $ 2 \log(-x) $
+\item $ 2 \log(|x|) $
+\item $ \log(2x) $
+\item $ (\log(|x|))^{2} $
+}
+
+Risposta Corretta: 3

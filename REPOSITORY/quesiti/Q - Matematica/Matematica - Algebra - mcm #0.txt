@@ -1,0 +1,10 @@
+\itemdomanda{Il minimo comune multiplo tra $(a+b)$, $(a+2b)$, $(2a+b)$ e $(2a+2b)$ è
+}{
+\item $(2a+2b)$
+\item $(2a+b)(a+2b)$
+\item $(2a+2b)(a+b)$
+\item $(a+b)(a+2b)(2a+b)$
+\item $2(a+b)(a+2b)(2a+b)$
+}
+
+Risposta Corretta: 5

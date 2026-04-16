@@ -1,0 +1,9 @@
+\itemdomanda{Negare l’affermazione “ogni cane ha almeno un padrone” è come dire:}{
+    \item esistono cani senza padrone
+    \item tutti i cani non hanno un padrone
+    \item tutti sono padroni di ogni cane
+    \item ogni cane non ha un padrone
+    \item nessun cane ha un padrone
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,9 @@
+\itemdomanda{Un tram sta viaggiando lungo dei binari dritti e orizzontali a una velocità di 12 m/s quando vengono attivati i freni. Decelera con un tasso costante di 1.50 $m/s^{2}$ fino a fermarsi. Qual è la distanza percorsa?}{
+    \item 48.0 m
+    \item 18.0 m
+    \item 96.0 m
+    \item 108.0 m
+    \item 216.0 m
+}
+
+Risposta Corretta: 1

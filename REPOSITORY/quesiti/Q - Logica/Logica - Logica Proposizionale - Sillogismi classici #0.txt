@@ -1,0 +1,13 @@
+\itemdomanda{Date per vere le premesse 1) e 2), qual è la logica conclusione?
+    \begin{enumerate}
+        \item Nessun gatto è acquatico.
+        \item Ogni gatto è un mammifero.
+    \end{enumerate} }{
+    \item Tutti i mammiferi sono acquatici.
+    \item Alcuni mammiferi non sono acquatici.
+    \item Nessun mammifero è acquatico.
+    \item Tutti i mammiferi sono gatti.
+    \item Tutti i mammiferi non sono acquatici.
+}
+
+Risposta Corretta: 2

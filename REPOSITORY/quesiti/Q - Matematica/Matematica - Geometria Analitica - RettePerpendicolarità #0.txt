@@ -1,0 +1,10 @@
+\itemdomanda{Le rette di equazione $ y=2x+1 $ e $ y=-\frac{1}{2}x+3 $ sono:
+}{
+\item parallele
+\item coincidenti
+\item perpendicolari
+\item incidenti (non perpendicolari)
+\item nessuna delle precedenti
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,9 @@
+\itemdomanda{In una traiettoria rettilinea, un corpo che parte da fermo varia la sua velocità di 2.50 m/s ogni secondo. Quanto vale la sua velocità dopo 72.0 secondi?}{
+    \item 180 km/h
+    \item 180 m/s
+    \item 210 m/s
+    \item 210 km/h
+    \item 150 m/s
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,9 @@
+\itemdomanda{Un oggetto emerge per 1/3 del proprio volume. Rapporto densità liquido/oggetto?}{
+    \item 1/3
+    \item 3
+    \item 2/3
+    \item 3/2
+    \item 5/3
+}
+
+Risposta Corretta: 4

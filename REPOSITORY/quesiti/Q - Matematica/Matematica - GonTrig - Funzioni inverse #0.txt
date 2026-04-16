@@ -1,0 +1,10 @@
+\itemdomanda{Quanto vale $ \arccos(\tan(\frac{\pi}{4})) $:
+}{
+\item $0$
+\item $ \frac{\pi}{3} $
+\item $ \frac{\pi}{4} $
+\item $ \pi $
+\item $1$
+}
+
+Risposta Corretta: 1

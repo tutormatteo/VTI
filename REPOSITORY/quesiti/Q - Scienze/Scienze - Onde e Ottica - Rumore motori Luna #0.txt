@@ -1,0 +1,9 @@
+\itemdomanda{Astronauta su Luna sente motori astronave. Scena inconsistente perché:}{
+    \item Leggi Fisica non valide
+    \item Gravità più piccola
+    \item Tuta assorbe suoni
+    \item Temperatura troppo alta
+    \item Luna priva di atmosfera (vuoto)
+}
+
+Risposta Corretta: 5

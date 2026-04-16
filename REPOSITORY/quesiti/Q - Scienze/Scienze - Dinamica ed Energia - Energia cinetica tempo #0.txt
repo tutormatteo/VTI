@@ -1,0 +1,9 @@
+\itemdomanda{Un corpo di peso P cade da fermo senza aria. L'energia cinetica dopo tempo $t$ è:}{
+    \item $1/2 Pgt$
+    \item $1/2 Pgt^2$
+    \item $2Pgt$
+    \item $2Pgt^2$
+    \item $1/2 Pg^2t^2$
+}
+
+Risposta Corretta: 2

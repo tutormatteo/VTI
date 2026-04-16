@@ -1,0 +1,9 @@
+\itemdomanda{Qual è il dominio della funzione $f(x) = \frac{1}{\sqrt{x}}$?}{
+\item $x > 0$
+\item $x \ge 0$
+\item $x \neq 0$
+\item Tutto $\mathbb{R}$
+\item $x < 0$
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ \frac{x}{x-2} \cdot \frac{x^2-4}{x^2} $ per i valori ammissibili è:
+}{
+\item $ x+2 $
+\item $ \frac{x+2}{x} $
+\item $ \frac{1}{x} $
+\item $ \frac{x-2}{x} $
+\item $ x(x+2) $
+}
+
+Risposta Corretta: 2

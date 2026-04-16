@@ -1,0 +1,9 @@
+\itemdomanda{Considerando l'operatore "o esclusivo" ($\dot{\lor}$), quale delle seguenti affermazioni sull'uguaglianza $A \dot{\lor} B = \lnot [(A \land B) \lor (\lnot A \land \lnot B)]$ è corretta?}{
+    \item L'uguaglianza è sempre vera (tautologia)
+    \item L'uguaglianza è sempre falsa
+    \item L'uguaglianza è vera solo se $A$ e $B$ sono entrambe vere
+    \item L'uguaglianza è vera solo se $A$ e $B$ sono entrambe false
+    \item Non è possibile stabilire un'equivalenza tra queste espressioni
+}
+
+Risposta Corretta: 1

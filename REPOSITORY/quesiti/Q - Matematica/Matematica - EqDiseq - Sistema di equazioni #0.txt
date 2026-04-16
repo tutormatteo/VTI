@@ -1,0 +1,10 @@
+\itemdomanda{Il sistema di equazioni $ \begin{cases} x+y=5 \\ x-y=1 \end{cases} $ ha soluzione:
+}{
+\item $ x=2, y=3 $
+\item $ x=3, y=2 $
+\item $ x=4, y=1 $
+\item $ x=1, y=4 $
+\item non ha soluzioni
+}
+
+Risposta Corretta: 2

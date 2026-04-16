@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ \log_3(x+1) = \log_3(x-1) + 1 $ ha soluzione:
+}{
+\item $ x = 2 $
+\item $ x = \frac{1}{2} $
+\item $ x = 1 $
+\item $ x = 0 $
+\item non ha soluzioni reali
+}
+
+Risposta Corretta: 1

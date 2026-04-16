@@ -1,0 +1,9 @@
+\itemdomanda{Un pianeta X ha raggio $2.4 \times 10^6$ m e $g = 11.5 m/s^2$. La massa è:}{
+    \item $9.9 \times 10^5$ kg
+    \item $9.9 \times 10^{11}$ kg
+    \item $9.9 \times 10^{23}$ kg
+    \item $9.9 \times 10^{33}$ kg
+    \item $9.9 \times 10^{43}$ kg
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,9 @@
+\itemdomanda{L'affermazione "Solo se mangi, cresci" equivale a dire che:}{
+    \item Se mangi, allora cresci sicuramente
+    \item Se cresci, allora significa che hai mangiato
+    \item Se non cresci, significa che non hai mangiato
+    \item Mangiare è condizione sufficiente per crescere
+    \item Crescere è condizione necessaria per mangiare
+}
+
+Risposta Corretta: 2

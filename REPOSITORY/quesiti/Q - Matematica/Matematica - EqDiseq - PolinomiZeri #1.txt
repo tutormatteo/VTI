@@ -1,0 +1,10 @@
+\itemdomanda{Il polinomio $ P(x)=x^2+4 $ ha zeri reali?
+}{
+\item Sì, $ x=2 $ e $ x=-2 $
+\item Sì, solo $ x=2 $
+\item No
+\item Sì, solo $ x=-2 $
+\item Sì, $ x=0 $
+}
+
+Risposta Corretta: 3

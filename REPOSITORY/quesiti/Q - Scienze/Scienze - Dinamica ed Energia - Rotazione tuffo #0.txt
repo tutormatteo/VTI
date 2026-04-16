@@ -1,0 +1,9 @@
+\itemdomanda{Un tuffatore, durante un tuffo, vuole ruotare velocemente. Dovrà:}{
+    \item gettarsi a candela
+    \item tuffarsi di testa
+    \item raccogliere il corpo il più possibile
+    \item muovere velocemente le gambe
+    \item mettere le gambe a squadra
+}
+
+Risposta Corretta: 3

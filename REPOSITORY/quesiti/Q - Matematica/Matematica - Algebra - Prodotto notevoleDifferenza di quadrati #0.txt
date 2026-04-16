@@ -1,0 +1,10 @@
+\itemdomanda{$ (x-y)(x+y) = $ ...
+}{
+\item $ x^2+y^2 $
+\item $ x^2-y^2 $
+\item $ x^2-2xy+y^2 $
+\item $ x^2+2xy+y^2 $
+\item $ x^2-xy+y^2 $
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,9 @@
+\itemdomanda{Indicando con "$\cdot$" il prodotto scalare e con "$\times$" il prodotto vettore, quale delle seguenti operazioni genera la proiezione del vettore $\vec{a}$ sul vettore $\vec{b}$?}{
+    \item $\vec{a} \times \frac{\vec{b}}{|\vec{b}|}$
+    \item $\vec{a} \times \vec{b}$
+    \item $\vec{a} \cdot \vec{b}$
+    \item $\vec{a} + \vec{b}$
+    \item $\vec{a} \cdot \frac{\vec{b}}{|\vec{b}|}$
+}
+
+Risposta Corretta: 5

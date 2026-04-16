@@ -1,0 +1,9 @@
+\itemdomanda{Due satelliti identici X e Y orbitano la Terra; il raggio dell'orbita di X è il doppio di quello di Y. Si considerino le affermazioni: (1) l'energia potenziale gravitazionale di X è maggiore di quella di Y; (2) l'energia cinetica di X è minore di quella di Y; (3) il periodo orbitale di X è minore di quello di Y. Quali affermazioni sono corrette?}{
+    \item La 1, 2 e 3
+    \item La 1 e la 2 (En. potenziale X > Y e En. cinetica X < Y)
+    \item La 2 e la 3
+    \item Solo la 1
+    \item Solo la 3
+}
+
+Risposta Corretta: 2

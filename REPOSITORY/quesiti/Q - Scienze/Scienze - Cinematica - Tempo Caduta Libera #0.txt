@@ -1,0 +1,9 @@
+\itemdomanda{Se lascio cadere un sasso da un'altezza di 100 m. Quanto vale il tempo di caduta $t$?}{
+    \item $t=3.4$ s
+    \item $t=9.8$ s
+    \item $t=4.5$ s
+    \item $t=98$ s
+    \item $t=45$ s
+}
+
+Risposta Corretta: 3

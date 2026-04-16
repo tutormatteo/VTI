@@ -1,0 +1,10 @@
+\itemdomanda{Determinare la terza parte delle somme di $ 5/6 $ e $ 9/8 $:
+}{
+\item $ \frac{47}{24} $
+\item $ \frac{47}{72} $
+\item $ {47} $
+\item $ \frac{24}{47} $
+\item $ {24} $
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,9 @@
+\itemdomanda{Un mattone pesa un chilo più mezzo mattone. Quanto pesa un mattone?}{
+    \item \SI{1.5}{kg}
+    \item \SI{2}{kg}
+    \item \SI{2.5}{kg}
+    \item \SI{3}{kg}
+    \item \SI{1}{kg}
+}
+
+Risposta Corretta: 2

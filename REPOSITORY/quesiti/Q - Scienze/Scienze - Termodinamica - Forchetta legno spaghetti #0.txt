@@ -1,0 +1,9 @@
+\itemdomanda{Perché forchetta legno è meglio della metallica per rigirare spaghetti?}{
+    \item conducibilità termica metalli molto più grande
+    \item calore specifico metalli maggiore
+    \item conducibilità elettrica metalli maggiore
+    \item legno si elettrizza meno
+    \item legno è più leggero
+}
+
+Risposta Corretta: 1

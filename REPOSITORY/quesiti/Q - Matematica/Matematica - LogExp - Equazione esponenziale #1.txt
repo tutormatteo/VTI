@@ -1,0 +1,10 @@
+\itemdomanda{La relazione $ 2^{x} = 3^{x} $ è vera per
+}{
+\item nessun $ x \in \mathbb{R} $
+\item $ x = \frac{3}{2} $
+\item $ x = \frac{2}{3} $
+\item $ x = 0 $
+\item $ x = 1 $
+}
+
+Risposta Corretta: 4

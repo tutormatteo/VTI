@@ -1,0 +1,9 @@
+\itemdomanda{Se 4 operai impiegano 6 ore per dipingere una staccionata, quanto tempo impiegherebbero 8 operai per fare lo stesso lavoro?}{
+    \item 12 ore
+    \item 4 ore
+    \item 3 ore
+    \item 2 ore
+    \item 5 ore
+}
+
+Risposta Corretta: 3

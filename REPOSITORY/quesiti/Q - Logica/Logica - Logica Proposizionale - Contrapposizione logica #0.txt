@@ -1,0 +1,9 @@
+\itemdomanda{Il cuoco Giovanni osserva che cucinando l'arrosto se non si usa il forno a gas la carne o è cruda all'interno o è bruciata all'esterno o entrambe le cose. Quindi se ne deduce che:}{
+    \item se l'arrosto ha l'interno ben cotto è stato cotto nel forno a gas
+    \item se l'arrosto ha l'interno ben cotto o non è bruciato all'esterno è stato cotto nel forno a gas
+    \item se l'arrosto ha l'interno ben cotto e non è bruciato all'esterno è stato cotto nel forno a gas
+    \item se l'arrosto è crudo all'interno non è stato cotto nel forno a gas
+    \item se l'arrosto è stato cotto nel forno elettrico la carne è cruda all'interno e bruciata all'esterno
+}
+
+Risposta Corretta: 3

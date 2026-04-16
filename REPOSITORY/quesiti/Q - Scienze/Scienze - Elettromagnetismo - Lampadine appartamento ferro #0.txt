@@ -1,0 +1,9 @@
+\itemdomanda{Ferro stiro ($40 \Omega$). Pmax 1.65 kW a 220 V. Max lampadine 100 W?}{
+    \item 9 lampadine
+    \item nessuna lampadina
+    \item 4 lampadine
+    \item 16 lampadine
+    \item 6 lampadine
+}
+
+Risposta Corretta: 3

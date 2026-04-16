@@ -1,0 +1,9 @@
+\itemdomanda{Completare la serie: $2, 6, 12, 20, 30, \dots$}{
+    \item 36
+    \item 40
+    \item 42
+    \item 50
+    \item 44
+}
+
+Risposta Corretta: 3

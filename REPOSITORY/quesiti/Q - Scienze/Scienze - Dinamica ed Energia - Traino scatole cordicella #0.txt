@@ -1,0 +1,25 @@
+\itemdomanda{Due scatole (5 kg e 7 kg) sono collegate da filo che resiste a 15 N. Qual è il valore massimo di F? \\ \begin{tikzpicture}[scale=0.75, >={Stealth[scale=1.2]}]
+    % Suolo
+    \draw[fill=gray!20, draw=none] (-1,-0.2) rectangle (8,0);
+    \draw[thick, gray] (-1,0) -- (8,0);
+
+    % Blocco 1 (5 kg)
+    \draw[fill=gray!40, thick] (0,0) rectangle (1.5,1) node[midway] {$5$ kg};
+
+    % Blocco 2 (7 kg)
+    \draw[fill=gray!40, thick] (3,0) rectangle (5,1.2) node[midway] {$7$ kg};
+
+    % Filo
+    \draw[thick] (1.5, 0.5) -- (3, 0.5);
+
+    % Forza F
+    \draw[->, thick] (5, 0.6) -- (7, 0.6) node[above] {$\vec{F}$};
+\end{tikzpicture}}{
+    \item 15 N
+    \item 26 N
+    \item 30 N
+    \item 36 N
+    \item 72 N
+}
+
+Risposta Corretta: 4

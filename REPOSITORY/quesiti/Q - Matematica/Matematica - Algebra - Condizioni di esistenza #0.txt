@@ -1,0 +1,10 @@
+\itemdomanda{La condizione di esistenza di $x^{-1} + y^{-1}$ è
+}{
+\item $ x \neq 1 \lor y \neq 1 $
+\item $ x \neq -1 \lor y \neq -1 $
+\item tutti i reali
+\item $ x \neq y $
+\item $ x \neq 0 \land y \neq 0 $
+}
+
+Risposta Corretta: 5

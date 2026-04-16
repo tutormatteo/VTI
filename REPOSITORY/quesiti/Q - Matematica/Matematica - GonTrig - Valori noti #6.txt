@@ -1,0 +1,9 @@
+\itemdomanda{Nell'intervallo $[0, \pi/2]$, per quale valore di $x$ si ha $\sin(x) = \frac{1}{2}$?}{
+\item $\frac{\pi}{6}$
+\item $\frac{\pi}{3}$
+\item $\frac{\pi}{4}$
+\item $0$
+\item $\frac{\pi}{2}$
+}
+
+Risposta Corretta: 1

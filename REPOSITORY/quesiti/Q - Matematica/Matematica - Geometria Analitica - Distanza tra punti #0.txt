@@ -1,0 +1,10 @@
+\itemdomanda{La distanza tra i punti $ A(1, 0) $ e $ B(4, 4) $ è:
+}{
+\item $ 5 $
+\item $ \sqrt{13} $
+\item $ 3 $
+\item $ 7 $
+\item $ 25 $
+}
+
+Risposta Corretta: 1

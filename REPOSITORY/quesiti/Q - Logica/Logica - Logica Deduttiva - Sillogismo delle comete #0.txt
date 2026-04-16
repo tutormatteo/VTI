@@ -1,0 +1,15 @@
+\itemdomanda{Date le premesse:
+    \begin{enumerate}
+        \item Nessun cane terrier gironzola tra i segni dello zodiaco.
+        \item Tra quelli che non gironzolano tra i segni dello zodiaco, nessuno è una cometa.
+        \item Solo i cani terrier hanno la coda arricciata.
+    \end{enumerate}
+    Si può concludere che:}{
+    \item Nessuna cometa ha la coda arricciata
+    \item Qualche cometa ha la coda arricciata
+    \item Tutte le comete sono cani terrier
+    \item Chi ha la coda arricciata è una cometa
+    \item I cani terrier sono comete
+}
+
+Risposta Corretta: 1

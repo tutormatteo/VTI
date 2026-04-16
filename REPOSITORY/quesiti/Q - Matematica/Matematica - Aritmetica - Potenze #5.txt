@@ -1,0 +1,10 @@
+\itemdomanda{Se $ x = 2^{-1} $, quanto vale $ x^2 $?
+}{
+\item $ -4 $
+\item $ 4 $
+\item $ \frac{1}{4} $
+\item $ \frac{1}{2} $
+\item $ -\frac{1}{4} $
+}
+
+Risposta Corretta: 3

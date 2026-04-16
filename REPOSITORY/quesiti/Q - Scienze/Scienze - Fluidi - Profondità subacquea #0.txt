@@ -1,0 +1,9 @@
+\itemdomanda{Un sub risente di una pressione di 2 atm. Si può affermare che:}{
+    \item è a circa 10 m di profondità
+    \item è a circa 20 m di profondità
+    \item è a circa 30 m di profondità
+    \item è a circa 40 m di profondità
+    \item sta risalendo velocemente
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,9 @@
+\itemdomanda{Per far sì che un pendolo sulla Terra abbia lo stesso periodo di uno sulla Luna:}{
+    \item il pendolo sulla Terra deve avere lunghezza maggiore
+    \item il pendolo sulla Terra deve avere lunghezza minore
+    \item il pendolo sulla Terra deve avere massa maggiore
+    \item il pendolo sulla Terra deve avere massa minore
+    \item è impossibile
+}
+
+Risposta Corretta: 1

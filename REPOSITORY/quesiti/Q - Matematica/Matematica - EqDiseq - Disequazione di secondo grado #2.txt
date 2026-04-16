@@ -1,0 +1,10 @@
+\itemdomanda{La disequazione $ x^2+1 < 0 $ ha soluzioni reali?
+}{
+\item Sì, $ x=\pm 1 $
+\item Sì, $ x=0 $
+\item No
+\item Sì, $ x \in \mathbb{R} $
+\item Sì, $ x < 0 $
+}
+
+Risposta Corretta: 3

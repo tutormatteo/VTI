@@ -1,0 +1,10 @@
+\itemdomanda{Quale delle seguenti disuguaglianze è falsa:
+}{
+\item $ 10^{100} < 10^{101} $
+\item $ 100^{1000} < 1000^{100} $
+\item $ 100^{100} < 101^{101}$
+\item $ 100^{100} < 101^{100} $
+\item $ 100^{100} < 100^{1000} $
+}
+
+Risposta Corretta: 2

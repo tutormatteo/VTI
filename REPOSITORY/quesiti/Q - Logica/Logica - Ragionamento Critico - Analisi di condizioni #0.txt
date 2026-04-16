@@ -1,0 +1,9 @@
+\itemdomanda{Tre società: A, B e C, di cui almeno due sono italiane. Sapendo che se A è italiana lo è anche B, e che se C è italiana lo è anche A, e che tra B e C almeno una non è italiana, possiamo dedurre che:}{
+    \item C non è italiana e B è italiana
+    \item A non è italiana e B è italiana
+    \item A, B e C sono italiane
+    \item A e C sono italiane
+    \item C è italiana e B non è italiana
+}
+
+Risposta Corretta: 1

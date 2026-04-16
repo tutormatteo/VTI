@@ -1,0 +1,9 @@
+\itemdomanda{Limitatore 18 A a 220 V. Stufa 1 kW e Lavatrice 1.5 kW. Max lampadine 100 W?}{
+    \item 15
+    \item 12
+    \item 16
+    \item 14
+    \item 13
+}
+
+Risposta Corretta: 4

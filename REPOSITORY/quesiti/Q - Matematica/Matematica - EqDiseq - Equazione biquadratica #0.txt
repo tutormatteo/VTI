@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ x^4-5x^2+4=0 $ ha soluzioni reali:
+}{
+\item $ x=\pm 1 $
+\item $ x=\pm 2 $
+\item $ x=\pm 1, x=\pm 2 $
+\item $ x=1, x=4 $
+\item non ha soluzioni reali
+}
+
+Risposta Corretta: 3

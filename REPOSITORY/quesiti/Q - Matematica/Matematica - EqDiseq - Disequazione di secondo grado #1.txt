@@ -1,0 +1,10 @@
+\itemdomanda{La disequazione $ x^2-x-2 > 0 $ è verificata per:
+}{
+\item $ -1 < x < 2 $
+\item $ x > 2 $
+\item $ x < -1 \lor x > 2 $
+\item $ x < -2 \lor x > 1 $
+\item $ x < 1 \lor x > 2 $
+}
+
+Risposta Corretta: 3

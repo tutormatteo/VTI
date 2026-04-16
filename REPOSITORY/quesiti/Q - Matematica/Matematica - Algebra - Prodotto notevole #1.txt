@@ -1,0 +1,10 @@
+\itemdomanda{Il risultato di $ (1008)^{2} $ è
+}{
+\item $1016064$
+\item $1016164$
+\item $1016264$
+\item $1016364$
+\item $1016464$
+}
+
+Risposta Corretta: 1

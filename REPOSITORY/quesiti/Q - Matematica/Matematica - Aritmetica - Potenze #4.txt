@@ -1,0 +1,10 @@
+\itemdomanda{Il valore di $ \left( \frac{1}{4} \right)^{-2} $ è:
+}{
+\item $ \frac{1}{16} $
+\item $ -16 $
+\item $ 16 $
+\item $ \frac{1}{8} $
+\item $ 8 $
+}
+
+Risposta Corretta: 3

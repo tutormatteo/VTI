@@ -1,0 +1,9 @@
+\itemdomanda{"Se la squadra vince il torneo, i giocatori riceveranno un premio. La squadra non ha vinto il torneo". Cosa si può concludere?}{
+    \item I giocatori non riceveranno il premio
+    \item I giocatori riceveranno il premio lo stesso
+    \item Alcuni giocatori riceveranno il premio, altri no
+    \item Non si può concludere nulla riguardo al premio
+    \item La squadra ha giocato male
+}
+
+Risposta Corretta: 4

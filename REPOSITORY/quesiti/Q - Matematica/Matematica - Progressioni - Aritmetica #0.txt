@@ -1,0 +1,10 @@
+\itemdomanda{Considerando la progressione $ 1, 5, 9, 13, 17, 21, \dots $, individuare l'unica affermazione CORRETTA.
+}{
+\item L'elemento mancante è $25$ e la progressione è geometrica di ragione $4$
+\item L'elemento mancante è $25$ e la progressione è aritmetica di ragione $4$
+\item L'elemento mancante è $27$ e la progressione è geometrica di ragione $4$
+\item L'elemento mancante è $27$ e la progressione è aritmetica di ragione $4$
+\item L'elemento mancante è $25$ e la progressione è decrescente
+}
+
+Risposta Corretta: 2

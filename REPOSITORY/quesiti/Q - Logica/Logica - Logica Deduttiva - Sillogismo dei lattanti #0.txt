@@ -1,0 +1,15 @@
+\itemdomanda{Date le premesse:
+    \begin{enumerate}
+        \item I lattanti sono illogici.
+        \item Chi sa tenere a bada un coccodrillo non è mai disprezzato.
+        \item Le persone illogiche sono disprezzate.
+    \end{enumerate}
+    Se ne deduce che:}{
+    \item I lattanti non sanno tenere a bada un coccodrillo
+    \item Chi è disprezzato sa tenere a bada un coccodrillo
+    \item Tutti i lattanti sanno gestire i coccodrilli
+    \item Le persone logiche sono sempre disprezzate
+    \item I coccodrilli sono animali illogici
+}
+
+Risposta Corretta: 1

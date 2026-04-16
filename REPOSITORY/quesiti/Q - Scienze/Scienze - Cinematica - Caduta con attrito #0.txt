@@ -1,0 +1,9 @@
+\itemdomanda{In presenza di attrito, lasciamo cadere dalla stessa altezza due corpi di uguale volume ma massa differente. Si può affermare che:}{
+    \item toccano il suolo contemporaneamente
+    \item arriva a terra per primo quello di massa minore
+    \item arriva a terra per primo quello di massa maggiore
+    \item la velocità del maggiore è minore del minore
+    \item le velocità di impatto sono identiche
+}
+
+Risposta Corretta: 3

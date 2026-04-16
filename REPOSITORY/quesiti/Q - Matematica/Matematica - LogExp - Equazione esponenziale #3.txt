@@ -1,0 +1,10 @@
+\itemdomanda{Se $ 4^{x-1} = 1 $, allora $ x $ vale:
+}{
+\item $ 4 $
+\item $ 0 $
+\item $ 1 $
+\item $ 2 $
+\item $ -1 $
+}
+
+Risposta Corretta: 3

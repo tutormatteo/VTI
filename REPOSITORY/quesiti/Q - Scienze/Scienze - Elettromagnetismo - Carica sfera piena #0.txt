@@ -1,0 +1,9 @@
+\itemdomanda{Carica Q su sfera con cavità interna. Si distribuirà:}{
+    \item Sulle due superfici interna/esterna
+    \item Immediatamente dispersa
+    \item Sulla superficie interna della cavità
+    \item Nel volume del metallo
+    \item Sulla superficie esterna della sfera
+}
+
+Risposta Corretta: 5

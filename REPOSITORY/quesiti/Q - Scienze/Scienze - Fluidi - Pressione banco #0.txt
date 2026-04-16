@@ -1,0 +1,9 @@
+\itemdomanda{Una forza di 80 N viene applicata perpendicolarmente a un banco su 80 $cm^2$. La pressione è:}{
+    \item 100 Pa
+    \item 1000 Pa
+    \item 10000 Pa
+    \item 1000 atm
+    \item 10000 atm
+}
+
+Risposta Corretta: 3

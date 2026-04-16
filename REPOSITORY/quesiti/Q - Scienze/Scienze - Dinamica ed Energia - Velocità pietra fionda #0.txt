@@ -1,0 +1,9 @@
+\itemdomanda{Fionda con corde (Hooke). Allungamento $x \rightarrow$ velocità $v$. Allungamento $2x \rightarrow$ velocità?}{
+    \item $v/2$
+    \item $v$
+    \item $\sqrt{2}v$
+    \item $2v$
+    \item $4v$
+}
+
+Risposta Corretta: 4

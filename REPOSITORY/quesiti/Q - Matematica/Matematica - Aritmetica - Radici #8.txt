@@ -1,0 +1,10 @@
+\itemdomanda{La radice cubica di $ 0,008 $ è:
+}{
+\item $ 0,02 $
+\item $ 0,2 $
+\item $ 0,002 $
+\item $ 0,000008 $
+\item $ 0,8 $
+}
+
+Risposta Corretta: 2

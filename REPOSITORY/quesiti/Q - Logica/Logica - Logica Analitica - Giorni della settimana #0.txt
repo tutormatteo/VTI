@@ -1,0 +1,9 @@
+\itemdomanda{Se dopodomani sarà giovedì, che giorno era ieri?}{
+    \item Lunedì
+    \item Martedì
+    \item Domenica
+    \item Mercoledì
+    \item Sabato
+}
+
+Risposta Corretta: 1

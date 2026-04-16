@@ -1,0 +1,9 @@
+\itemdomanda{Due buste di plastica di massa trascurabile contengono ciascuna 15 mele e sono poste su di un tavolo ad una certa distanza. Se 10 mele vengono trasferite da una busta all'altra, la forza di attrazione gravitazionale tra le due buste:}{
+    \item aumenta, divenendo i 5/3 di quella prima del trasferimento
+    \item si riduce ai 5/9 di quella prima del trasferimento
+    \item rimane invariata
+    \item aumenta, divenendo i 3/2 di quella prima del trasferimento
+    \item si riduce ai 2/5 di quella prima del trasferimento
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,10 @@
+\itemdomanda{La funzione $ f(x) = \frac{x}{\sin(x)} $ è:
+}{
+\item pari
+\item periodica
+\item dispari
+\item né pari né dispari
+\item con dominio coincidente con tutto $\mathbb{R}$
+}
+
+Risposta Corretta: 1

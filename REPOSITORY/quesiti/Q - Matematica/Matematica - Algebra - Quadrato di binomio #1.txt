@@ -1,0 +1,10 @@
+\itemdomanda{Il quadrato di un binomio $ (A+B)^2 $ è:
+}{
+\item $ A^2+B^2 $
+\item $ A^2+AB+B^2 $
+\item $ A^2+2AB+B^2 $
+\item $ A^2-2AB+B^2 $
+\item $ (A+B)(A-B) $
+}
+
+Risposta Corretta: 3

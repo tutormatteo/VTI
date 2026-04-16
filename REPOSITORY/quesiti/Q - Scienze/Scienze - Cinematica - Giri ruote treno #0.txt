@@ -1,0 +1,9 @@
+\itemdomanda{Un treno viaggia a 144 km/h. Se le ruote hanno diametro $d = 80$ cm, il numero di giri al secondo è circa:}{
+    \item 8
+    \item 57
+    \item 32
+    \item 115
+    \item 16
+}
+
+Risposta Corretta: 5

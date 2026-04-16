@@ -1,0 +1,9 @@
+\itemdomanda{Siano $f(x) = x + 1$ e $g(x) = x^{2}$. Quanto vale la funzione composta $g(f(2))$?}{
+\item $9$
+\item $5$
+\item $6$
+\item $4$
+\item $3$
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,10 @@
+\itemdomanda{Uno degli zeri della funzione $ f(x) = (x - k)(k^2+kx+x^7)$ , con $ k \in \mathbb{R} $ è sicuramente:
+}{
+\item $ k - 1 $
+\item $ k + 1 $
+\item $ k $
+\item $ k^{7} $
+\item $ k^{2} $
+}
+
+Risposta Corretta: 3

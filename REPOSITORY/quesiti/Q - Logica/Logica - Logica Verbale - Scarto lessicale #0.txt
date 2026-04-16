@@ -1,0 +1,9 @@
+\itemdomanda{Individuare il termine che NON appartiene allo stesso gruppo semantico degli altri:}{
+    \item Platano
+    \item Girasole
+    \item Margherita
+    \item Rosa
+    \item Viola
+}
+
+Risposta Corretta: 1

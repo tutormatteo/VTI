@@ -1,0 +1,9 @@
+\itemdomanda{Stesso calore a vetro e rame, $c_{vetro} > c_{rame}$. Allora:}{
+    \item rame riscalda prima ma T finale minore
+    \item rame avrà temperatura finale maggiore
+    \item vetro avrà temperatura finale maggiore
+    \item rame riscalda prima ma T finale uguale
+    \item temperature finali uguali
+}
+
+Risposta Corretta: 2

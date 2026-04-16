@@ -1,0 +1,16 @@
+\itemdomanda{Basandosi sulle seguenti regole:
+    \begin{enumerate}
+        \item Gli unici cibi che il mio medico mi concede sono quelli leggeri.
+        \item Nessuno dei cibi che mi giovano è inadatto per la cena.
+        \item Le torte nuziali sono sempre molto sostanziose.
+        \item Il mio medico mi concede ogni cibo adatto per la cena.
+    \end{enumerate}
+    Quale affermazione è corretta?}{
+    \item Le torte nuziali non mi giovano
+    \item Le torte nuziali sono adatte per la cena
+    \item Il mio medico mi concede le torte nuziali
+    \item I cibi sostanziosi mi giovano sempre
+    \item Tutti i cibi leggeri sono inadatti per la cena
+}
+
+Risposta Corretta: 1

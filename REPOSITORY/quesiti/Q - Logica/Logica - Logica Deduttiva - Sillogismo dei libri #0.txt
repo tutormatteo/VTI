@@ -1,0 +1,16 @@
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Gli unici libri di questa biblioteca che non consiglio hanno un tono immorale.
+        \item I libri rilegati sono tutti ben scritti.
+        \item Tutte le storie d'amore hanno un tono sano.
+        \item Non ti consiglio di leggere i libri non rilegati.
+    \end{enumerate}
+    Qual è la conclusione corretta?}{
+    \item Tutte le storie d’amore di questa biblioteca sono ben scritte
+    \item Nessun libro ben scritto è una storia d'amore
+    \item I libri non rilegati hanno tutti un tono sano
+    \item Tutti i libri che consiglio sono storie d'amore
+    \item Solo i libri immorali sono ben scritti
+}
+
+Risposta Corretta: 1

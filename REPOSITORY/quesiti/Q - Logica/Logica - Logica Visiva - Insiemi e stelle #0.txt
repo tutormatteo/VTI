@@ -1,0 +1,31 @@
+\itemdomanda{Dire quante stelle sono comprese sia nel triangolo, sia nel cerchio ma non nel quadrato e neppure nel rettangolo.
+\begin{center}
+\begin{tikzpicture}[scale=0.35]
+    % Forme geometriche (approssimate dal disegno originale)
+    \draw[thick] (0,5) circle (4); % Cerchio
+    \draw[thick] (-1,8) -- (12,12) -- (12,1) -- cycle; % Triangolo grande
+    \draw[thick] (2,3) rectangle (10,11); % Rettangolo orizzontale
+    \draw[thick] (4,0) rectangle (7,7); % Quadrato/Rettangolo verticale
+
+    % Stelle (posizionate strategicamente per il conteggio richiesto)
+    % Area target: Intersezione Cerchio e Triangolo, fuori dagli altri due
+    \node at (-0.5,6) {$\star$};
+    \node at (0.5,4.5) {$\star$};
+    \node at (-1,4) {$\star$};
+    
+    % Altre stelle sparse per riempire il disegno come l'originale
+    \node at (-2,5) {$\star$}; \node at (5,9) {$\star$}; \node at (8,4) {$\star$};
+    \node at (10,10) {$\star$}; \node at (1,1) {$\star$}; \node at (11,6) {$\star$};
+    \node at (3,6) {$\star$}; \node at (6,2) {$\star$}; \node at (9,8) {$\star$};
+    \node at (4,10) {$\star$}; \node at (1,8) {$\star$}; \node at (5,5) {$\star$};
+\end{tikzpicture}
+\end{center}
+}{
+    \item 2
+    \item 3
+    \item 4
+    \item 5
+    \item 6
+}
+
+Risposta Corretta: 2

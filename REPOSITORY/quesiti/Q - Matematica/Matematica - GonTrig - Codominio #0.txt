@@ -1,0 +1,10 @@
+\itemdomanda{La funzione $ y = \arctan(x) $ ha come insieme dei valori assunti (immagine):
+}{
+\item $ \mathbb{R} $
+\item $ [-\pi/2, \pi/2] $
+\item $ (-\pi/2, \pi/2) $
+\item $ [0, \pi] $
+\item $ (-\infty, 0) $
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,9 @@
+\itemdomanda{Durante l'ebollizione dell'acqua la temperatura:}{
+    \item rimane costante
+    \item aumenta con l'energia acquisita
+    \item diminuisce con l'energia acquisita
+    \item è sinusoidale
+    \item diminuisce poi aumenta
+}
+
+Risposta Corretta: 1

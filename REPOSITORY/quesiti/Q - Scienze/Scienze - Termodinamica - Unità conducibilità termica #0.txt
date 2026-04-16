@@ -1,0 +1,9 @@
+\itemdomanda{La conducibilità termica si misura in:}{
+    \item $W/(m^2 \cdot K)$
+    \item $N/(m \cdot K)$
+    \item $J/(m^2 \cdot K \cdot s)$
+    \item $W/(m \cdot K)$
+    \item $W/(m^2 \cdot K \cdot s)$
+}
+
+Risposta Corretta: 4

@@ -1,0 +1,9 @@
+\itemdomanda{Il monomio $(3x^{2}y^{3})^{2}$ è uguale a:}{
+\item $9x^{4}y^{6}$
+\item $6x^{4}y^{6}$
+\item $9x^{4}y^{5}$
+\item $3x^{4}y^{6}$
+\item $9x^{2}y^{5}$
+}
+
+Risposta Corretta: 1

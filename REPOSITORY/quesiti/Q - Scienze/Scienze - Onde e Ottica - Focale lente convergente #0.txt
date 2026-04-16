@@ -1,0 +1,9 @@
+\itemdomanda{Un oggetto è posto a una distanza di 60 cm da una lente sottile convergente. L'immagine prodotta dalla lente risulta capovolta e di dimensioni pari alla metà di quelle dell'oggetto originale. Qual è la distanza focale della lente?}{
+    \item 60 cm
+    \item 45 cm
+    \item 30 cm
+    \item 20 cm
+    \item 90 cm
+}
+
+Risposta Corretta: 4

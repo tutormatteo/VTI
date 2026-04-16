@@ -1,0 +1,9 @@
+\itemdomanda{Un catalizzatore aumenta la velocità di una reazione chimica perché:}{
+    \item Aumenta l'energia cinetica dei reagenti
+    \item Abbassa l'energia di attivazione
+    \item Aumenta la variazione di entalpia $\Delta H$
+    \item Sposta l'equilibrio verso i prodotti
+    \item Elimina i reagenti
+}
+
+Risposta Corretta: 2

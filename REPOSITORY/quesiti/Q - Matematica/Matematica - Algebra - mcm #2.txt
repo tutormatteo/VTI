@@ -1,0 +1,10 @@
+\itemdomanda{Il MCM tra $ x^2 $ e $ x+1 $ è:
+}{
+\item $ x $
+\item $ 1 $
+\item $ x^2(x+1) $
+\item $ x^2+1 $
+\item $ x(x+1) $
+}
+
+Risposta Corretta: 3

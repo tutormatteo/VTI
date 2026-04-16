@@ -1,0 +1,10 @@
+\itemdomanda{La funzione tangente di $x$ è definita per:
+}{
+\item $ x \neq \frac{\pi}{2} + k \pi , k \in \mathbb{Z} $
+\item $ x \neq k \pi , k \in \mathbb{Z} $
+\item $ x \neq \frac{\pi}{4} + k \pi , k \in \mathbb{Z} $
+\item $ x \neq k \frac{\pi}{2} , k \in \mathbb{Z} $
+\item $ x \neq \frac{\pi}{3} + k \pi , k \in \mathbb{Z} $
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,9 @@
+\itemdomanda{"L'uso eccessivo di smartphone riduce la capacità di concentrazione. Infatti, negli ultimi 10 anni, il tempo medio di attenzione degli studenti è calato drasticamente". Quale fatto indebolirebbe questa tesi?}{
+    \item Gli studenti oggi leggono più libri digitali rispetto al passato
+    \item I test di attenzione sono diventati molto più difficili negli ultimi 10 anni
+    \item Molti studenti usano lo smartphone per scopi didattici
+    \item La dieta moderna influisce negativamente sulla memoria
+    \item Gli insegnanti usano sempre più spesso tablet in classe
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,10 @@
+\itemdomanda{Quale delle seguenti scomposizioni è corretta?
+}{
+\item $ a^3-b^3 = (a-b)(a^2-ab+b^2) $
+\item $ a^3+b^3 = (a+b)(a^2-ab+b^2) $
+\item $ a^3+b^3 = (a+b)^3 $
+\item $ a^3-b^3 = (a-b)^3 $
+\item $ a^3-b^3 = (a-b)(a^2+b^2) $
+}
+
+Risposta Corretta: 2

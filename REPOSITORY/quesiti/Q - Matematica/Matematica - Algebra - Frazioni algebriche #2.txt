@@ -1,0 +1,10 @@
+\itemdomanda{$ \frac{x}{x-1} - 1 = $ ...
+}{
+\item $ \frac{x-1}{x-1} $
+\item $ \frac{1}{x-1} $
+\item $ \frac{x-2}{x-1} $
+\item $ 0 $
+\item $ -1 $
+}
+
+Risposta Corretta: 2

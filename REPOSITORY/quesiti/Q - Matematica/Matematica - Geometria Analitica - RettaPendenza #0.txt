@@ -1,0 +1,10 @@
+\itemdomanda{La retta passante per $ A(1, 1) $ e $ B(3, 5) $ ha pendenza:
+}{
+\item $ 1 $
+\item $ -2 $
+\item $ 2 $
+\item $ \frac{1}{2} $
+\item $ 4 $
+}
+
+Risposta Corretta: 3

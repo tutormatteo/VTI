@@ -1,0 +1,9 @@
+\itemdomanda{La legge oraria di un moto rettilineo illustrata nel piano cartesiano Ors da un ramo di parabola con concavità verso l'alto indica:}{
+    \item un moto ad accelerazione uniformemente crescente
+    \item un moto con velocità costante
+    \item un moto con velocità positiva
+    \item un moto con spostamento positivo
+    \item un moto ad accelerazione costante
+}
+
+Risposta Corretta: 5

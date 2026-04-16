@@ -1,0 +1,9 @@
+\itemdomanda{Resistenza di un filo metallico è in proporzione:}{
+    \item Diretta resistività e lunghezza
+    \item Diretta sezione e lunghezza
+    \item Inversa resistività e sezione
+    \item Diretta resistività e sezione
+    \item Inversa resistività e lunghezza
+}
+
+Risposta Corretta: 1

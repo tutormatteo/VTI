@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ \log(x^2+1) = 0 $ ha soluzione:
+}{
+\item $ x=0 $
+\item $ x=\pm 1 $
+\item $ x=2 $
+\item $ x=\pm 2 $
+\item non ha soluzioni reali
+}
+
+Risposta Corretta: 1

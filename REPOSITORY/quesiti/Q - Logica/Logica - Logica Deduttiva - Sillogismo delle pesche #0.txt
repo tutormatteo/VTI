@@ -1,0 +1,17 @@
+\itemdomanda{Considerate le seguenti affermazioni relative a una Mostra:
+    \begin{enumerate}
+        \item Tutti i frutti di questa Mostra che non ottengono un premio sono di proprietà della commissione.
+        \item Nessuna delle mie pesche ha ottenuto un premio.
+        \item Nessuno dei frutti venduti alla sera è acerbo.
+        \item Nessuno dei frutti maturi è stato coltivato in serra.
+        \item Tutti i frutti appartenenti alla commissione vengono venduti la sera.
+    \end{enumerate}
+    Dunque:}{
+    \item Nessuna delle mie pesche è stata coltivata in serra
+    \item Tutte le mie pesche sono state coltivate in serra
+    \item I frutti della commissione sono tutti acerbi
+    \item Le pesche che ottengono un premio vengono vendute la sera
+    \item Solo i frutti maturi appartengono alla commissione
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,10 @@
+\itemdomanda{La disequazione $ e^x > 1 $ è verificata per:
+}{
+\item $ x \in \mathbb{R} $
+\item $ x < 0 $
+\item $ x > 0 $
+\item $ x > e $
+\item $ x < e $
+}
+
+Risposta Corretta: 3

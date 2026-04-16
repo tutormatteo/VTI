@@ -1,0 +1,9 @@
+\itemdomanda{L'equazione $|x + 5| = -2$ ha come soluzioni:}{
+\item Nessuna soluzione reale
+\item $x = -7$
+\item $x = -3$
+\item $x = -7 \lor x = -3$
+\item $x = 0$
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,10 @@
+\itemdomanda{$ \sqrt[8]{a \cdot b} $ esiste
+}{
+\item solo per a positivo e b negativo
+\item solo per $a < 0$ e $b > 0$
+\item solo per a e b concordi o $a = 0$ e $b = 0$
+\item solo per $a \cdot b \geq 0$
+\item sempre
+}
+
+Risposta Corretta: 4

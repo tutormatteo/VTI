@@ -1,0 +1,10 @@
+\itemdomanda{La funzione inversa di $ f(x) = \frac{x}{2} $ è:
+}{
+\item $ f^{-1}(x) = \frac{2}{x} $
+\item $ f^{-1}(x) = x+2 $
+\item $ f^{-1}(x) = 2x $
+\item $ f^{-1}(x) = x-2 $
+\item $ f^{-1}(x) = x $
+}
+
+Risposta Corretta: 3

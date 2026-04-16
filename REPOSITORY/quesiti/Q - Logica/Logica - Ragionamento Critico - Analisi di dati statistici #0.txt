@@ -1,0 +1,9 @@
+\itemdomanda{Una indagine mostra che in Italia ci sono più persone coniugate che single e più maschi che femmine. Da questi dati possiamo dedurre che una sola fra le seguenti affermazioni è sicuramente \textbf{FALSA}; quale?}{
+    \item In Italia le coppie sono più delle donne nubili
+    \item In Italia le coppie sono più dei maschi celibi
+    \item In Italia ci sono più mariti che donne nubili
+    \item In Italia i single sono più del doppio delle coppie
+    \item In Italia ci sono più maschi celibi che mariti
+}
+
+Risposta Corretta: 4

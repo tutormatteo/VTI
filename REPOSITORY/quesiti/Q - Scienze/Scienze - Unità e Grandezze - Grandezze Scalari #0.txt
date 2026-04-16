@@ -1,0 +1,9 @@
+\itemdomanda{Quale di queste quantità fisiche non è una grandezza vettoriale?}{
+    \item lavoro
+    \item campo elettrico
+    \item quantità di moto
+    \item accelerazione
+    \item forza
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,9 @@
+\itemdomanda{Su un corpo di massa $m=0.5$ kg agiscono due forze di intensità $F_1=3$ N e $F_2=4$ N tra loro perpendicolari. L'accelerazione del corpo prodotta dalle due forze risulta:}{
+    \item $a=4$ $m/s^2$
+    \item $a=1$ $m/s^2$
+    \item $a=10$ $m/s^2$
+    \item $a=25$ $m/s^2$
+    \item $a=0$ $m/s^2$
+}
+
+Risposta Corretta: 3

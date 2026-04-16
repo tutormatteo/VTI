@@ -1,0 +1,9 @@
+\itemdomanda{In un grafico che riporta la posizione (asse y) e il tempo (asse x), il moto è rappresentato da una retta orizzontale. Si può affermare che:}{
+    \item il corpo è fermo
+    \item il corpo è in movimento con velocità costante
+    \item il corpo aumenta la sua velocità
+    \item il corpo diminuisce la sua velocità
+    \item il corpo varia la sua posizione
+}
+
+Risposta Corretta: 1

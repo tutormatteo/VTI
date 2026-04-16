@@ -1,0 +1,9 @@
+\itemdomanda{3 moli di acqua dissociate elettroliticamente. Rapporto volumi Idrogeno/Ossigeno?}{
+    \item 1/2
+    \item 1/3
+    \item 3
+    \item 1
+    \item 2
+}
+
+Risposta Corretta: 5

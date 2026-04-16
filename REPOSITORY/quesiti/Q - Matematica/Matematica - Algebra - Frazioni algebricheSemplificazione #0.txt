@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ \frac{x^2+x}{x^2-1} $ per $ x \neq 1, x \neq -1 $ è uguale a:
+}{
+\item $ \frac{x}{x-1} $
+\item $ \frac{x^{2}}{x-1} $
+\item $ \frac{x+1}{x-1} $
+\item $ \frac{x}{x+1} $
+\item $ 1 $
+}
+
+Risposta Corretta: 1

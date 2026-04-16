@@ -1,0 +1,9 @@
+\itemdomanda{Un treno a 35 m/s vede delle pecore a 150 m e frena a 7.0 $m/s^2$. A quanti metri dalle pecore si ferma?}{
+    \item 62.5
+    \item 67.5
+    \item 87.5
+    \item 97.5
+    \item 175
+}
+
+Risposta Corretta: 1

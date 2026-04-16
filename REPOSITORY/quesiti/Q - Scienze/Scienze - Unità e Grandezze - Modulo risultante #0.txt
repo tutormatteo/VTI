@@ -1,0 +1,9 @@
+\itemdomanda{Due forze di 3 N e 4 N sono applicate allo stesso corpo. Quando l'angolo fra le due forze varia da $0^{\circ}$ a $90^{\circ}$, il modulo della forza risultante varia fra:}{
+    \item 1 N e 7 N
+    \item 7 N e 1 N
+    \item 5 N e 7 N
+    \item 7 N e 5 N
+    \item non varia
+}
+
+Risposta Corretta: 4

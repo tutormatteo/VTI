@@ -1,0 +1,39 @@
+\documentclass[11pt]{article}
+\PassOptionsToPackage{table}{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+% Circa 1/4 di A4 in orizzontale: mezza larghezza × mezza altezza A4 (148,5 × 105 mm)
+\usepackage[margin=5mm,papersize={148.5mm,105mm}]{geometry}
+\usepackage{amsmath,amssymb}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+%% Anteprima: niente titolo/data in testata, niente numerazione "Domanda n."
+\newcommand{\itemdomanda}[2]{%
+    \par\noindent
+    \begin{minipage}[t]{\linewidth}
+        #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{4pt}
+}
+\begin{document}
+\noindent
+{{BODY}}
+\end{document}

@@ -1,0 +1,10 @@
+\itemdomanda{Il polinomio $ P(x)=x^3-8 $ è divisibile per:
+}{
+\item $ x+2 $
+\item $ x-2 $
+\item $ x-8 $
+\item $ x $
+\item $ x+8 $
+}
+
+Risposta Corretta: 2

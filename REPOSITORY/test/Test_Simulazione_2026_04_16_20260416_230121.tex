@@ -1,0 +1,149 @@
+\documentclass[12pt]{article}
+\PassOptionsToPackage{table}{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\setlength{\parindent}{0pt}
+\definecolor{headercolor}{RGB}{220,220,220}
+\newcounter{quesito}
+\setcounter{quesito}{0}
+\newcommand{\nuovoquesito}{\stepcounter{quesito}\textbf{Domanda \arabic{quesito}.}}
+\newcommand{\itemdomanda}[2]{%
+    \par\noindent
+    \begin{minipage}[t]{\linewidth}
+        \nuovoquesito \\ #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{10pt}
+}
+\begin{document}
+\section*{Simulazione}
+\hfill Data: 16 apr 2026
+
+\itemdomanda{Se dopodomani sarà giovedì, che giorno era ieri?}{
+    \item Lunedì
+    \item Martedì
+    \item Domenica
+    \item Mercoledì
+    \item Sabato
+}
+
+\itemdomanda{Date le premesse:
+    \begin{enumerate}
+        \item Nessun cane terrier gironzola tra i segni dello zodiaco.
+        \item Tra quelli che non gironzolano tra i segni dello zodiaco, nessuno è una cometa.
+        \item Solo i cani terrier hanno la coda arricciata.
+    \end{enumerate}
+    Si può concludere che:}{
+    \item Nessuna cometa ha la coda arricciata
+    \item Qualche cometa ha la coda arricciata
+    \item Tutte le comete sono cani terrier
+    \item Chi ha la coda arricciata è una cometa
+    \item I cani terrier sono comete
+}
+
+\itemdomanda{Volendo disporre i numeri $28, 29, 36, 43, 55$ in modo che i dispari occupino una posizione dispari ed i pari occupino una posizione pari, in quanti modi diversi si può operare?}{
+    \item 3
+    \item 24
+    \item 12
+    \item 5
+    \item 6
+}
+
+\itemdomanda{Nonno Peperino non ricorda più la combinazione del suo forziere elettronico. Egli ricorda solo che: è di quattro cifre distinte fra 0 e 9; non vi compare il 4; la terza cifra è la metà della quarta; le cifre sono in ordine crescente dalla prima all'ultima. Qual è il minimo numero di tentativi che Nonno Peperino deve fare per essere sicuro di aprire il forziere?}{
+    \item 3
+    \item 4
+    \item 5
+    \item 6
+    \item 2
+}
+
+\itemdomanda{Due giocatori, Aldo e Bruno, a turno dispongono su una scacchiera $3 \times 3$, una per volta, pedine identiche tutte nere. Vince il primo giocatore che riesce a completare un terzetto in una fila orizzontale, verticale o una delle due diagonali. Quante sono le mosse con cui può iniziare la partita il primo giocatore (Aldo) in modo da potersi garantire la vittoria indipendentemente da come giocherà Bruno?}{
+    \item 8
+    \item 1
+    \item 0, nel senso che Bruno può sempre rispondere in modo opportuno e garantirsi la vittoria
+    \item 5
+    \item 9
+}
+
+\itemdomanda{Due giocatori prendono a turno dei sassolini con l'unica regola che non se ne possono prendere né 4 né 8. Vince quel giocatore che riesce a prendere l'ultimo sassolino. Se inizialmente i sassolini sono 8, quanti ne deve prendere il primo giocatore per potersi garantire la vittoria, supponendo che nelle mosse successive ogni giocatore non commetta errori?}{
+    \item Qualunque numero prenda, vincerà sempre
+    \item Qualunque numero prenda, perderà sempre
+    \item 1
+    \item 2
+    \item 3
+}
+
+\itemdomanda{Quale fra le seguenti affermazioni è falsa?}{
+    \item Chi canta è allegro. Andrea non canta, dunque Andrea è triste.
+    \item Nessun londinese è italiano; tutti i londinesi parlano inglese, ma non è vero che nessun italiano parla inglese.
+    \item Un quadrato è sempre un trapezio.
+    \item Ogni vigile ha un fischietto. Carlo non ha un fischietto, dunque Carlo non è un vigile.
+    \item "Chi canta è allegro. Andrea non canta, dunque Andrea è triste." non è vero.
+}
+
+\itemdomanda{Premesso che:
+    \begin{itemize}
+        \item chi ascolta musica rock o blues non è stonato
+        \item Agenore non è stonato
+        \item chi ascolta blues non vince al Lotto
+    \end{itemize}
+    quale tra le seguenti conclusioni \textbf{NON} si può trarre dalle precedenti premesse?}{
+    \item È impossibile che Agenore ascolti blues
+    \item Uno stonato non ascolta rock
+    \item È possibile che Agenore non vinca al Lotto
+    \item Chi vince al Lotto non ascolta blues
+    \item Non è escluso che Agenore ascolti rock
+}
+
+\itemdomanda{Dalla frase "O mangi questa minestra o ti salti dalla finestra" (interpretata come O esclusivo), si deduce che:}{
+    \item Se mangi la minestra, puoi anche saltare dalla finestra
+    \item Se non salti dalla finestra, allora devi mangiare la minestra
+    \item Puoi fare entrambe le cose contemporaneamente
+    \item Non puoi evitare entrambe le situazioni
+    \item Se non mangi la minestra, non è detto che tu debba saltare
+}
+
+\itemdomanda{Data la frase "Se piove, porto l'ombrello", quale delle seguenti è certamente vera?}{
+    \item Se porto l'ombrello, allora piove
+    \item Se non porto l'ombrello, allora non piove
+    \item Se non piove, non porto l'ombrello
+    \item Piove solo se porto l'ombrello
+    \item Porto l'ombrello se e solo se piove
+}
+
+\itemdomanda{Quale fra le seguenti affermazioni è sicuramente \textbf{falsa}?}{
+    \item Chi respira è vivo. Piero non respira, dunque Piero è morto
+    \item Nessun parigino è italiano; tutti i parigini parlano francese; ma non è vero che nessun italiano parla francese.
+    \item Un quadrato è sempre un rombo
+    \item Ciò che è scritto in A. è falso
+    \item Ogni professore ha un registro. Mario non ha registro, dunque Mario non è professore
+}
+
+\itemdomanda{In quale di queste sequenze letterarie viene mantenuta l'alternanza vocale-consonante?}{
+    \item ODERAXETUIXIDIC
+    \item ODERAXETUPAFESTXIDIC
+    \item ODERAXETZIXIDIC
+    \item ODERAXETUPAFESIXIDIC
+    \item ODORAXITUPAFASTXIDIC
+}
+
+\end{document}

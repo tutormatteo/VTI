@@ -1,0 +1,10 @@
+\itemdomanda{Il discriminante $ \Delta $ dell'equazione $ 2x^2-x+3=0 $ è:
+}{
+\item $ 23 $
+\item $ 25 $
+\item $ -23 $
+\item $ 1 $
+\item $ 0 $
+}
+
+Risposta Corretta: 3

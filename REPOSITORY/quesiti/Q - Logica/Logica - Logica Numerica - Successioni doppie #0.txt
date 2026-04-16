@@ -1,0 +1,12 @@
+\itemdomanda{Indicare quale tra le coppie di numeri indicate va inserita al posto dei puntini nella seguente sequenza:
+    \begin{center}
+    3, 43 ; 5, 27 ; 9, 19 ; \dots, \dots ; 33, 13
+    \end{center} }{
+    \item 24, 74
+    \item 19, 11
+    \item 15, 15
+    \item 17, 15
+    \item 23, 13
+}
+
+Risposta Corretta: 4

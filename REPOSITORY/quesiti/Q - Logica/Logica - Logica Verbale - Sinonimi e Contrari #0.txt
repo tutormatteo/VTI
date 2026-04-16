@@ -1,0 +1,9 @@
+\itemdomanda{Qual è il contrario del termine "Effimero"?}{
+    \item Breve
+    \item Transitorio
+    \item Duraturo
+    \item Fuggevole
+    \item inconsistente
+}
+
+Risposta Corretta: 3

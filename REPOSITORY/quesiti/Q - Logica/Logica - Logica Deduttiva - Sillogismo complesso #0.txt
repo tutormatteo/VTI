@@ -1,0 +1,9 @@
+\itemdomanda{Solo gli sportivi sono sani. Marco non è uno sportivo. Quindi:}{
+    \item Marco è sano
+    \item Marco non è sano
+    \item Marco è un pigro
+    \item Chi è sano è sportivo
+    \item Gli sportivi sono tutti malati
+}
+
+Risposta Corretta: 2

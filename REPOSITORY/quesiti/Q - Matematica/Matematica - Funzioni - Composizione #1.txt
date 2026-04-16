@@ -1,0 +1,10 @@
+\itemdomanda{Siano date le funzioni $ f(x)=x^{2} $ e $ g(x) = \sqrt{x} $. La funzione composta $ g(f(x)) $ è:
+}{
+\item $ x $
+\item $ | x | $
+\item $ x^{2} + \sqrt{x} $
+\item $ x^{2} \cdot \sqrt{x} $
+\item $ x^{2} - \sqrt{x} $
+}
+
+Risposta Corretta: 2

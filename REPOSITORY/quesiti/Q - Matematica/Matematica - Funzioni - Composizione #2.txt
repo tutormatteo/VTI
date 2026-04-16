@@ -1,0 +1,10 @@
+\itemdomanda{Se $ f(x) = x+3 $ e $ g(x) = 2x $, allora $ g(f(x)) $ è:
+}{
+\item $ 2x+3 $
+\item $ 2x+6 $
+\item $ x+6 $
+\item $ 2x^2+6x $
+\item $ x+5 $
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,9 @@
+\itemdomanda{Luce da aria a vetro. $v$ e $\lambda$ come cambiano?}{
+    \item $v$ aumenta e $\lambda$ aumenta
+    \item $v$ diminuisce e $\lambda$ aumenta
+    \item $v$ aumenta e $\lambda$ non cambia
+    \item $v$ aumenta e $\lambda$ diminuisce
+    \item $v$ diminuisce e $\lambda$ diminuisce
+}
+
+Risposta Corretta: 5

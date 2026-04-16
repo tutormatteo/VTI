@@ -1,0 +1,49 @@
+\itemdomanda{In figura ci sono tre triangoli equilateri. Qual è il rapporto tra l'area del triangolo più grande e l'area del triangolo più piccolo? \\ \begin{tikzpicture}[x=0.7cm, y=0.7cm, >=Stealth, scale=0.75, baseline=(current bounding box.center)]
+    % --- Setup ---
+    % Calcoliamo l'altezza di un triangolo equilatero di lato 1
+    \pgfmathsetmacro{\h}{sqrt(3)/2}
+    % Vertice comune nell'origine
+    \coordinate (O) at (0,0);
+
+    % --- Definizione dei Vertici ---
+    % Triangolo Grande (Lato = 4 unità)
+    \coordinate (L_base) at (4,0);
+    \coordinate (L_top) at (2, {4*\h});
+
+    % Triangolo Medio (Lato = 2 unità)
+    \coordinate (M_base) at (2,0);
+    \coordinate (M_top) at (1, {2*\h});
+
+    % Triangolo Piccolo (Lato = 1 unità)
+    \coordinate (S_base) at (1,0);
+    \coordinate (S_top) at (0.5, {\h});
+
+    % --- Disegno dei Triangoli (sovrapposti) ---
+    % Disegniamo dal più grande al più piccolo con tonalità di grigio diverse
+    \draw[thick, fill=gray!5]  (O) -- (L_base) -- (L_top) -- cycle; % Grande
+    \draw[thick, fill=gray!25] (O) -- (M_base) -- (M_top) -- cycle; % Medio
+    \draw[thick, fill=gray!50] (O) -- (S_base) -- (S_top) -- cycle; % Piccolo
+
+    % --- Riferimenti Unitari (Intuizione delle proporzioni) ---
+    
+    % 1. Tick marks sulla base comune
+    % Disegniamo un segnetto ogni unità lungo la base del triangolo grande
+    \foreach \x in {1, 2, 3, 4} {
+        \draw[thick, line cap=round] (\x, -0.1) -- (\x, 0.1);
+    }
+    % Segnetto anche all'origine per completezza
+    \draw[thick, line cap=round] (0, -0.1) -- (0, 0.1);
+
+    % 2. Linee di quota (opzionali, ma molto chiare)
+    % Quota per il lato piccolo
+    \draw[|<->|, thin] (0, -0.4) -- (1, -0.4) node[midway, below] {};
+    
+\end{tikzpicture}}{
+    \item 16
+    \item 9
+    \item 27
+    \item 8
+    \item Non si può stabilire
+}
+
+Risposta Corretta: 1

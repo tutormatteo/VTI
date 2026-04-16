@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ \frac{1}{a} + \frac{1}{b} $ per $ a \neq 0, b \neq 0 $ è uguale a:
+}{
+\item $ \frac{2}{a+b} $
+\item $ \frac{a+b}{ab} $
+\item $ \frac{1}{ab} $
+\item $ \frac{a+b}{a^2b^2} $
+\item $ \frac{1}{a+b} $
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,10 @@
+\itemdomanda{$\frac{2}{1-x} + \frac{2}{x-1}$ vale:
+}{
+\item $0$ per qualsiasi valore di $x$
+\item $0$ solo se $x \neq 1$
+\item $\frac{4}{1-x}$
+\item $x \cdot \frac{4}{1-x}$
+\item $\frac{4}{x-1}$
+}
+
+Risposta Corretta: 2

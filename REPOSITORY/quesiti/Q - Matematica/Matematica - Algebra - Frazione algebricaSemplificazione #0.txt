@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ \frac{x^2-1}{x-1} $ per $ x \neq 1 $ è uguale a:
+}{
+\item $ x $
+\item $ x+1 $
+\item $ x-1 $
+\item $ x^2 $
+\item $ 1 $
+}
+
+Risposta Corretta: 2

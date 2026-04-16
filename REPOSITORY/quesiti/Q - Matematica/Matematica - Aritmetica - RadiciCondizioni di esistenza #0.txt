@@ -1,0 +1,10 @@
+\itemdomanda{$ \sqrt[3]{a \cdot b} $ esiste
+}{
+\item solo per $a\geq 0$ e $b \leq 0$
+\item solo per $a \leq 0$ e $b \geq 0$
+\item solo per $a \cdot b$ positivo
+\item solo per $a \cdot b$ negativo
+\item sempre
+}
+
+Risposta Corretta: 5

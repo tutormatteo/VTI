@@ -1,0 +1,9 @@
+\itemdomanda{Cu ($1.7 \cdot 10^{-8}$) vs Pt ($11.7 \cdot 10^{-8}$) stessa lunghezza. Quale vera?}{
+    \item R uguale
+    \item Cu meno R sezione minore
+    \item Pt meno R sezione maggiore
+    \item Pt meno R rapporto $\rho/S$ minore
+    \item Cu meno R resistività minore
+}
+
+Risposta Corretta: 5

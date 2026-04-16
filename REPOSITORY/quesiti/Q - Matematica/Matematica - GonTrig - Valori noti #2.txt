@@ -1,0 +1,10 @@
+\itemdomanda{Se $ y = \cos(45^{\circ}) $ e $ x = \cos(-45^{\circ}) $, allora quanto vale $ y - x $ ?
+}{
+\item $0$
+\item $\sqrt{2}$
+\item $2$
+\item $\frac{\sqrt{2}}{2}$
+\item $-\frac{\sqrt{2}}{2}$
+}
+
+Risposta Corretta: 1

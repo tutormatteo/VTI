@@ -1,0 +1,9 @@
+\itemdomanda{Sfere con $q_1 = -2 \mu C$ e $q_2 = 4 \mu C$, forza 1 N. Collegate e rimosso filo. Nuova forza?}{
+    \item 0 N
+    \item 0.125 N
+    \item 0.250 N
+    \item 1 N
+    \item 1.125 N
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,9 @@
+\itemdomanda{In una reazione di ossidoriduzione (redox), la specie chimica che subisce l'ossidazione:}{
+    \item Acquista elettroni e diminuisce il numero di ossidazione
+    \item Perde elettroni e aumenta il numero di ossidazione
+    \item Agisce come agente ossidante
+    \item Mantiene costante il numero di ossidazione
+    \item Diventa un neutrone
+}
+
+Risposta Corretta: 2

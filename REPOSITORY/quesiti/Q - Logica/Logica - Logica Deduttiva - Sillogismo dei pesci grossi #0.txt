@@ -1,0 +1,18 @@
+\itemdomanda{Date le premesse:
+    \begin{enumerate}
+        \item Uno squalo non dubita mai di essere ben difeso.
+        \item Un pesce che non sappia danzare il minuetto è degno di disprezzo.
+        \item Un pesce non è sicuro di essere ben difeso se non ha tre file di denti.
+        \item Tutti i pesci, a parte gli squali, sono gentili con i bambini.
+        \item Nessun pesce grosso può danzare il minuetto.
+        \item Un pesce con tre file di denti non si può disprezzare.
+    \end{enumerate}
+    Quale conclusione se ne trae?}{
+    \item Tutti i pesci grossi sono gentili con i bambini
+    \item Gli squali sanno danzare il minuetto
+    \item Nessun pesce grosso ha tre file di denti
+    \item I pesci gentili con i bambini sono tutti squali
+    \item Chi non sa danzare il minuetto è uno squalo
+}
+
+Risposta Corretta: 1

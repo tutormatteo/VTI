@@ -1,0 +1,10 @@
+\itemdomanda{$ \log_{2}(200) = $ vale
+}{
+\item $100$
+\item $ 3 + \log_{2}(25) $
+\item $ 4 + \log_{2}(25) $
+\item $ 3 + \log_{3}(25) $
+\item $ 50 $
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,10 @@
+\itemdomanda{La retta parallela all'asse $ x $ passante per $ P(1, 5) $ ha equazione:
+}{
+\item $ x = 1 $
+\item $ y = 5 $
+\item $ y = 1 $
+\item $ x+y=6 $
+\item $ y = x+4 $
+}
+
+Risposta Corretta: 2

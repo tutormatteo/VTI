@@ -1,0 +1,9 @@
+\itemdomanda{Qual è il volume occupato da una mole di gas ideale a Condizioni Standard (STP: 0 °C e 1 atm)?}{
+    \item 11.2 litri
+    \item 22.4 litri
+    \item 24.4 litri
+    \item 1.0 litro
+    \item 44.8 litri
+}
+
+Risposta Corretta: 2

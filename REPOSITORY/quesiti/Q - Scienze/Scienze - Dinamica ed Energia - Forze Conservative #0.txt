@@ -1,0 +1,9 @@
+\itemdomanda{Quali sono le proprietà delle forze conservative?}{
+    \item Non producono alcuna variazione di energia potenziale
+    \item Non producono nessuna variazione di energia cinetica
+    \item Il loro lavoro è sempre nullo, a prescindere dalla loro traiettoria
+    \item Il lavoro compiuto è nullo quando il corpo torna al punto di partenza
+    \item Sono costanti
+}
+
+Risposta Corretta: 4

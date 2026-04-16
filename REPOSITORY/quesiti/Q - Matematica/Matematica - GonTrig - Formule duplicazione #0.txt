@@ -1,0 +1,9 @@
+\itemdomanda{L'espressione $\cos^{2}(x) - \sin^{2}(x)$ è equivalente a:}{
+\item $\cos(2x)$
+\item $1$
+\item $\sin(2x)$
+\item $0$
+\item $2\cos(x)$
+}
+
+Risposta Corretta: 1

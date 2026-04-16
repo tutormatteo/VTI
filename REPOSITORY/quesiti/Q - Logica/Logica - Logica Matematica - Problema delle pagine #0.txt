@@ -1,0 +1,9 @@
+\itemdomanda{Per numerare le pagine di un libro sono state usate in totale 3301 cifre. Le pagine del libro sono:}{
+    \item tra 1500 e 2000
+    \item tra 2000 e 3000
+    \item meno di 1000
+    \item più di 3000
+    \item tra 1000 e 1500
+}
+
+Risposta Corretta: 5

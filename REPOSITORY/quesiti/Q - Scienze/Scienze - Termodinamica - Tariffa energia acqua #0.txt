@@ -1,0 +1,9 @@
+\itemdomanda{Costo scaldare 50 L da $20^{\circ}C$ a $60^{\circ}C$ (0.20 €/kWh)?}{
+    \item circa 0.92 €
+    \item circa 0.46 €
+    \item circa 0.13 €
+    \item circa 1.92 €
+    \item circa 1.66 €
+}
+
+Risposta Corretta: 2

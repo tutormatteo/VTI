@@ -1,0 +1,24 @@
+\itemdomanda{Individuare il diagramma corretto per: \textbf{Mobili}, \textbf{Sedie}, \textbf{Tavoli}.
+\begin{center}
+\begin{tikzpicture}[scale=0.25]
+    % --- DIAGRAMMA A (Due disgiunti in uno grande) ---
+    \node[below] at (0,-2) {\textbf{A}};
+    \draw (0,0) circle (2); % Mobili
+    \draw (-0.8,0) circle (0.7); % Sedie
+    \draw (0.8,0) circle (0.7); % Tavoli
+
+    % --- DIAGRAMMA B (Concentrici) ---
+    \begin{scope}[xshift=8cm]
+    \node[below] at (0,-2) {\textbf{B}};
+    \draw (0,0) circle (2); \draw (0,0) circle (1.2); \draw (0,0) circle (0.5);
+    \end{scope}
+\end{tikzpicture}
+\end{center}}{
+    \item DIAGRAMMA B
+    \item DIAGRAMMA A
+    \item Entrambi
+    \item Nessuno dei due
+    \item Solo se aggiungiamo un quarto insieme
+}
+
+Risposta Corretta: 2

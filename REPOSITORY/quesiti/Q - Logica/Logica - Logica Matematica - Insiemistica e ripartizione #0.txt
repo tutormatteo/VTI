@@ -1,0 +1,9 @@
+\itemdomanda{Dei 120 parlamentari di Allegrandia si sa che un terzo è stato inquisito dalla magistratura e condannato definitivamente e i tre quarti sono al secondo (o comunque, non al primo) mandato parlamentare. Se ne può concludere che:}{
+    \item un quarto dei parlamentari è al primo mandato ed è stato condannato definitivamente
+    \item nessuno dei parlamentari al primo mandato è stato condannato definitivamente
+    \item scelti comunque tre parlamentari, uno almeno di essi è stato condannato definitivamente
+    \item un terzo dei parlamentari al primo mandato è stato condannato definitivamente
+    \item c'è almeno un parlamentare che è stato condannato definitivamente ed è ad un mandato successivo al primo
+}
+
+Risposta Corretta: 5

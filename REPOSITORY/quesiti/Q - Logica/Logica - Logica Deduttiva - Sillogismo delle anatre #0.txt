@@ -1,0 +1,15 @@
+\itemdomanda{Siano date le seguenti premesse:
+    \begin{enumerate}
+        \item Le anatre non ballano il walzer.
+        \item Un ufficiale non rifiuta mai di ballare il walzer.
+        \item Tutti i miei animali da cortile sono anatre.
+    \end{enumerate}
+    Dunque:}{
+    \item Nessuno dei miei animali da cortile ha il grado di ufficiale
+    \item Qualche mio animale da cortile è ufficiale
+    \item Tutti gli ufficiali sono anatre
+    \item Gli ufficiali ballano il walzer con le anatre
+    \item Chi balla il walzer è un animale da cortile
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,22 @@
+\itemdomanda{Basandosi sulle seguenti informazioni:
+    \begin{enumerate}
+        \item Gli unici animali di questa casa sono gatti.
+        \item Ogni animale che ami guardare la luna è adatto ad essere un animale domestico.
+        \item Quando detesto un animale, lo evito.
+        \item Nessun animale che non si aggiri furtivamente nella notte è carnivoro.
+        \item Non c'è gatto che non uccida i topi.
+        \item Nessun animale si affeziona a me, fatta eccezione per quelli che sono in casa.
+        \item I canguri non sono adatti ad essere animali domestici.
+        \item Solo i carnivori uccidono i topi.
+        \item Detesto gli animali che non si affezionano a me.
+        \item Gli animali che si aggirano furtivamente nella notte amano sempre guardare la luna.
+    \end{enumerate}
+    Dunque:}{
+    \item Evito i canguri
+    \item I gatti non amano guardare la luna
+    \item I canguri si affezionano a me
+    \item Tutti gli animali carnivori sono in casa
+    \item Non evito i gatti perché non sono carnivori
+}
+
+Risposta Corretta: 1

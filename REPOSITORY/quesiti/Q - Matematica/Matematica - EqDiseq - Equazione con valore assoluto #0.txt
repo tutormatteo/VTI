@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ |2x-1| = 3 $ ha soluzioni:
+}{
+\item $ x=2 $
+\item $ x=-1 $
+\item $ x=2 \lor x=-1 $
+\item $ x=1 $
+\item non ha soluzioni
+}
+
+Risposta Corretta: 3

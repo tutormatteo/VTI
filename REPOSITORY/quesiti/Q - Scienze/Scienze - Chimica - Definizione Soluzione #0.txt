@@ -1,0 +1,9 @@
+\itemdomanda{Una soluzione è definita come un sistema costituito:}{
+    \item da un numero di fasi dipendente dalla temperatura e dalla pressione
+    \item da un numero di fasi dipendente dalla pressione
+    \item da tante fasi quante sono le specie chimiche che la costituiscono
+    \item da un numero di fasi variabile con la temperatura
+    \item da una sola fase indipendentemente dal numero delle specie chimiche che la costituiscono
+}
+
+Risposta Corretta: 5

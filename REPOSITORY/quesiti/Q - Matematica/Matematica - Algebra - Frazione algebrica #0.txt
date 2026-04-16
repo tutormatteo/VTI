@@ -1,0 +1,10 @@
+\itemdomanda{La frazione algebrica $ \frac{x^2 - 4x + 4}{x^2 - 4} $ è equivalente a:
+}{
+\item $ \frac{x+2}{x-2} $
+\item $ \frac{x-2}{x+2} $
+\item $ x+2 $
+\item $ \frac{1}{x-2} $
+\item $ 1 $
+}
+
+Risposta Corretta: 2

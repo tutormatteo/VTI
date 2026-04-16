@@ -1,0 +1,9 @@
+\itemdomanda{60 L a $20^{\circ}C$ con 20 L a $60^{\circ}C$. Temperatura finale?}{
+    \item $25^{\circ}C$
+    \item $28^{\circ}C$
+    \item $40^{\circ}C$
+    \item $30^{\circ}C$
+    \item $35^{\circ}C$
+}
+
+Risposta Corretta: 4

@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ \log_{x}(1000) = 2 $ è verificata per
+}{
+\item $ x = 10 $
+\item $ x = \sqrt{10} $
+\item $ x = 10\sqrt{10} $
+\item $ x = 100\sqrt{10} $
+\item $ x = 1000\sqrt{10} $
+}
+
+Risposta Corretta: 3

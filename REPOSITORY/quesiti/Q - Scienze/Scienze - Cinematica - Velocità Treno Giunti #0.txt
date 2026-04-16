@@ -1,0 +1,9 @@
+\itemdomanda{Viaggiando in treno, un passeggero percepisce gli urti di una ruota sui giunti delle rotaie. Se egli ne conta 240 ogni due minuti e le tratte di rotaia sono lunghe 15 metri, qual è la velocità del treno, supposta costante?}{
+    \item 60 m/s
+    \item 15 m/s
+    \item 45 m/s
+    \item 80 m/s
+    \item 30 m/s
+}
+
+Risposta Corretta: 5

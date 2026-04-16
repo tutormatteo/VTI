@@ -1,0 +1,9 @@
+\itemdomanda{Nonno Peperino non ricorda più la combinazione del suo forziere elettronico. Egli ricorda solo che: è di quattro cifre distinte fra 0 e 9; non vi compare il 4; la terza cifra è la metà della quarta; le cifre sono in ordine crescente dalla prima all'ultima. Qual è il minimo numero di tentativi che Nonno Peperino deve fare per essere sicuro di aprire il forziere?}{
+    \item 3
+    \item 4
+    \item 5
+    \item 6
+    \item 2
+}
+
+Risposta Corretta: 1

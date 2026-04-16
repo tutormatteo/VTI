@@ -1,0 +1,9 @@
+\itemdomanda{Nel momento di massima distensione della corda del bungee jumping:}{
+    \item La forza totale si annulla
+    \item L'energia cinetica si annulla
+    \item L'energia cinetica è massima
+    \item L'accelerazione si annulla
+    \item Il peso si annulla
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,15 @@
+\itemdomanda{Date per vere le premesse 1), 2), 3) e 4), qual è la logica conclusione?
+    \begin{enumerate}
+        \item Tutti gli squali hanno denti aguzzi.
+        \item Nemo è un pesce e Ork è uno squalo.
+        \item Se un pesce è piccolo, si sente al sicuro solo quando incontra pesci che non hanno denti aguzzi.
+        \item Nemo è sempre contento di nuotare insieme a Ork.
+    \end{enumerate} }{
+    \item Ork ha denti aguzzi.
+    \item Nemo si sente al sicuro solo quando nuota con Ork.
+    \item Nemo è un pesce grosso.
+    \item Ork è un pesce di grossa taglia.
+    \item Nemo è un pesce piccolo.
+}
+
+Risposta Corretta: 1

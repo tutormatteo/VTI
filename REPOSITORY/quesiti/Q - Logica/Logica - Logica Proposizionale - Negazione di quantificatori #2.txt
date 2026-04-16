@@ -1,0 +1,9 @@
+\itemdomanda{In occasione delle elezioni primarie per la scelta del candidato premier di Burgundia, ciascuno dei sette candidati è sicuro di riuscire a classificarsi fra i tre più votati. Negare questa frase vuol dire affermare che:}{
+    \item c'è almeno un candidato che teme di rientrare fra i tre meno votati
+    \item c'è almeno un candidato che non è sicuro di rientrare fra i primi tre più votati
+    \item alcuni dei sette candidati sono sicuri di riuscire a classificarsi fra i tre più votati
+    \item ogni candidato è sicuro di non riuscire a classificarsi fra i tre più votati
+    \item ciascuno dei sette candidati teme di rientrare fra i tre meno votati
+}
+
+Risposta Corretta: 2

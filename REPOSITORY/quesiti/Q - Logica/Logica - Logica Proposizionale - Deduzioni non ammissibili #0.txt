@@ -1,0 +1,15 @@
+\itemdomanda{Premesso che:
+    \begin{itemize}
+        \item chi ascolta musica rock o blues non è stonato
+        \item Agenore non è stonato
+        \item chi ascolta blues non vince al Lotto
+    \end{itemize}
+    quale tra le seguenti conclusioni \textbf{NON} si può trarre dalle precedenti premesse?}{
+    \item È impossibile che Agenore ascolti blues
+    \item Uno stonato non ascolta rock
+    \item È possibile che Agenore non vinca al Lotto
+    \item Chi vince al Lotto non ascolta blues
+    \item Non è escluso che Agenore ascolti rock
+}
+
+Risposta Corretta: 1

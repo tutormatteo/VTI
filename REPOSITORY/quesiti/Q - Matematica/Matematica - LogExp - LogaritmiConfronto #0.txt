@@ -1,0 +1,10 @@
+\itemdomanda{Uno solo dei seguenti numeri è compreso tra $2$ e $3$
+}{
+\item $ \log_{2}(3) $
+\item $ \log_{2}(5) $
+\item $ \log_{2}(9) $
+\item $ \log_{2}(10) $
+\item $ \log_{2}(11) $
+}
+
+Risposta Corretta: 2

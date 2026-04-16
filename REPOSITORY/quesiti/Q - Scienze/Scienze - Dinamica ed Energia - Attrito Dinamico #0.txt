@@ -1,0 +1,9 @@
+\itemdomanda{Un corpo di massa $m=50$ kg si muove di moto rettilineo uniforme su un piano orizzontale sottoposto ad una forza orizzontale di modulo 98 N. Quanto vale allora il coefficiente di attrito dinamico $\mu_d$ tra corpo e piano?}{
+    \item $\mu_d=0.1$
+    \item $\mu_d=0.2$
+    \item $\mu_d=0.3$
+    \item $\mu_d=0.4$
+    \item $\mu_d=1$
+}
+
+Risposta Corretta: 2

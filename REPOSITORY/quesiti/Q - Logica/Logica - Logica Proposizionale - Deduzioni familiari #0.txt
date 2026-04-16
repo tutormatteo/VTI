@@ -1,0 +1,15 @@
+\itemdomanda{Di una famiglia si sa che:
+    \begin{itemize}
+        \item almeno un maschio non è celibe
+        \item tutti i laureati sono celibi
+        \item non è vero che almeno un maschio non è maggiorenne.
+    \end{itemize}
+    Solo una delle seguenti proposizioni è deducibile dalle premesse. Quale?}{
+    \item Nessun maggiorenne non è coniugato
+    \item Tutti i celibi sono laureati
+    \item Almeno un maggiorenne è coniugato
+    \item Almeno un celibe non è maggiorenne
+    \item Almeno un maggiorenne non è coniugato
+}
+
+Risposta Corretta: 3

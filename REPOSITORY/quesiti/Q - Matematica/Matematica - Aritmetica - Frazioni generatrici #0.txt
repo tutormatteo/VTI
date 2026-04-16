@@ -1,0 +1,10 @@
+\itemdomanda{La frazione generatrice del numero decimale periodico $ 0,\bar{3} $ è:
+}{
+\item $ \frac{3}{10} $
+\item $ \frac{1}{30} $
+\item $ \frac{1}{3} $
+\item $ \frac{3}{100} $
+\item $ \frac{3}{99} $
+}
+
+Risposta Corretta: 3

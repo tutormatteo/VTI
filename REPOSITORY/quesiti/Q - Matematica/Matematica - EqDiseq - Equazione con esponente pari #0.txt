@@ -1,0 +1,10 @@
+\itemdomanda{Quali sono le soluzioni dell'equazione $ x^{1010} + 1 = 0 $
+}{
+\item non esistono soluzioni reali
+\item $1$
+\item $-1$
+\item $101$
+\item $-101$
+}
+
+Risposta Corretta: 1

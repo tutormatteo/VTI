@@ -1,0 +1,9 @@
+\itemdomanda{Lampadina 10 W a 4 V per 10 s. Carica?}{
+    \item 25 C
+    \item 4 C
+    \item 100 C
+    \item 1 C
+    \item 10 C
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,9 @@
+\itemdomanda{Il calcolo $[3 \times (32 \bullet 7 + 2 \bullet 10)] 2 = 3345606 \bullet 1$ è esatto ma al posto di una determinata cifra ($0$, oppure $1, 2, \dots, 8, 9$) è stato sostituito il simbolo $\bullet$. Quale deve essere il suo valore?}{
+    \item 9
+    \item 0
+    \item 2
+    \item 8
+    \item Nessuna delle precedenti
+}
+
+Risposta Corretta: 1

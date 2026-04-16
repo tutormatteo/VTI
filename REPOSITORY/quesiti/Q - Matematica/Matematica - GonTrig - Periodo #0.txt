@@ -1,0 +1,10 @@
+\itemdomanda{Il periodo della funzione $ y = \sin(2x) $ è:
+}{
+\item $ 2\pi $
+\item $ \pi/2 $
+\item $ \pi $
+\item $ 4\pi $
+\item $ 1 $
+}
+
+Risposta Corretta: 3

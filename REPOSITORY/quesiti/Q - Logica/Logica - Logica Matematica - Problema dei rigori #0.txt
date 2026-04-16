@@ -1,0 +1,9 @@
+\itemdomanda{Al termine di una seduta di allenamento della Nazionale, Totti e Buffon fanno la seguente scommessa: Totti tirerà 12 rigori e Buffon cercherà di pararli. Per ogni rigore parato Totti darà 50 euro a Buffon mentre per ogni rigore segnato Buffon darà 40 euro a Totti. Dopo di ciò viene eseguita la serie di rigori al termine della quale Totti deve avere da Buffon 120 euro. Quanti rigori ha parato Buffon?}{
+    \item 9
+    \item 5
+    \item 6
+    \item 4
+    \item 12
+}
+
+Risposta Corretta: 4

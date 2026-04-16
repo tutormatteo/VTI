@@ -1,0 +1,9 @@
+\itemdomanda{Bilanciare la seguente reazione di combustione: $CH_{4} + O_{2} \rightarrow CO_{2} + H_{2}O$. Quali sono i coefficienti stechiometrici nell'ordine?}{
+    \item 1, 1, 1, 1
+    \item 1, 2, 1, 2
+    \item 2, 1, 2, 1
+    \item 1, 2, 2, 1
+    \item 2, 2, 1, 1
+}
+
+Risposta Corretta: 2

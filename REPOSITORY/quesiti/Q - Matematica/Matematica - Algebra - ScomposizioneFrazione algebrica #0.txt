@@ -1,0 +1,10 @@
+\itemdomanda{Scomponendo il polinomio $ x^2-5x+6 $, si ottiene:
+}{
+\item $ (x-6)(x+1) $
+\item $ (x-2)(x-3) $
+\item $ (x+2)(x+3) $
+\item $ (x-1)(x-6) $
+\item $ (x-3)(x+2) $
+}
+
+Risposta Corretta: 2

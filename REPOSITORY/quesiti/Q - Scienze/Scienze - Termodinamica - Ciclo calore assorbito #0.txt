@@ -1,0 +1,9 @@
+\itemdomanda{Macchina rendimento 75\%, lavoro 3.6 kJ. Calore assorbito?}{
+    \item 2.7 kJ
+    \item 4.8 kJ
+    \item 14.4 kJ
+    \item 0.9 kJ
+    \item 3.6 kJ
+}
+
+Risposta Corretta: 2

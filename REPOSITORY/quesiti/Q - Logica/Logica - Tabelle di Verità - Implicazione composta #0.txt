@@ -1,0 +1,9 @@
+\itemdomanda{Quale delle seguenti tabelle di verità è corretta? \\}{
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{(\lnot \mathbf{X} \land \mathbf{Y}) \rightarrow \lnot \mathbf{Y}}$ \\ \hline V & V & V \\ \hline V & F & V \\ \hline F & V & F \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{(\lnot \mathbf{X} \land \mathbf{Y}) \rightarrow \lnot \mathbf{Y}}$ \\ \hline V & V & F \\ \hline V & F & F \\ \hline F & V & V \\ \hline F & F & F \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{(\lnot \mathbf{X} \land \mathbf{Y}) \rightarrow \lnot \mathbf{Y}}$ \\ \hline V & V & V \\ \hline V & F & F \\ \hline F & V & V \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{(\lnot \mathbf{X} \land \mathbf{Y}) \rightarrow \lnot \mathbf{Y}}$ \\ \hline V & V & F \\ \hline V & F & V \\ \hline F & V & F \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{(\lnot \mathbf{X} \land \mathbf{Y}) \rightarrow \lnot \mathbf{Y}}$ \\ \hline V & V & V \\ \hline V & F & V \\ \hline F & V & V \\ \hline F & F & V \\ \hline \end{tabular}
+}
+
+Risposta Corretta: 1

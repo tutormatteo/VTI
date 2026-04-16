@@ -1,0 +1,14 @@
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Nessun avaro è altruista.
+        \item Solo gli avari tengono da conto i gusci d'uovo.
+    \end{enumerate}
+    Quale conclusione se ne può trarre?}{
+    \item Nessun altruista tiene da conto i gusci d'uovo
+    \item Chi tiene da conto i gusci d'uovo è altruista
+    \item Tutti gli altruisti sono avari
+    \item Qualche avaro è altruista
+    \item Gli altruisti tengono da conto solo i gusci d'uovo
+}
+
+Risposta Corretta: 1

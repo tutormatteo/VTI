@@ -1,0 +1,9 @@
+\itemdomanda{Carica $q = 1.6 \times 10^{-19} C$ riceve forza $1.6 \times 10^{-17} N$. Campo E?}{
+    \item 1000 N/C stesso verso
+    \item 200 N/C verso opposto
+    \item 50 N/C perpendicolare
+    \item 150 N/C verso opposto
+    \item 100 N/C stesso verso
+}
+
+Risposta Corretta: 5

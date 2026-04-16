@@ -1,0 +1,10 @@
+\itemdomanda{Il risultato di $ 9991 \cdot 10009 $ è:
+}{
+\item $99999119$
+\item $99999999$
+\item $99991119$
+\item $99999919$
+\item $91999919$
+}
+
+Risposta Corretta: 4

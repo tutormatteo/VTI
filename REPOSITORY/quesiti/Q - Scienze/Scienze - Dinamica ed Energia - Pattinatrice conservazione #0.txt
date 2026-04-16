@@ -1,0 +1,9 @@
+\itemdomanda{Una pattinatrice ruota con braccia tese, poi le stringe. Cosa rimane costante?}{
+    \item Solo 1 e 2 (Momento d'inerzia e En. cinetica)
+    \item Solo 2 e 3 (En. cinetica e Momento angolare)
+    \item Solo la 1
+    \item Solo la 2
+    \item Solo la 3 (Momento angolare)
+}
+
+Risposta Corretta: 5

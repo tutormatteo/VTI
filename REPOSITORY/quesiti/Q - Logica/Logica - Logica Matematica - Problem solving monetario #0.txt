@@ -1,0 +1,9 @@
+\itemdomanda{Franco il tabaccaio ha in cassa 195 euro e non ha monete. Un cliente gli chiede se ha da cambiare 10, 20, 50 o 100 euro, ma Franco risponde a malincuore di no a tutte le richieste. Quanti pezzi da 20 euro ha in cassa Franco?}{
+    \item 1
+    \item 4
+    \item 3
+    \item 2
+    \item 0
+}
+
+Risposta Corretta: 4

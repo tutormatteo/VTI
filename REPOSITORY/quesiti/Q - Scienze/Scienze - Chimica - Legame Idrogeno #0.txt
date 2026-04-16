@@ -1,0 +1,9 @@
+\itemdomanda{Il legame a idrogeno è un tipo di:}{
+    \item Legame intramolecolare forte
+    \item Interazione intermolecolare
+    \item Legame covalente coordinato
+    \item Legame apolare
+    \item Legame metallico
+}
+
+Risposta Corretta: 2

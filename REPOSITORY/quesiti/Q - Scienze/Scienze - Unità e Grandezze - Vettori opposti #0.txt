@@ -1,0 +1,9 @@
+\itemdomanda{Due vettori giacciono sulla stessa retta e hanno verso opposto. Le rispettive intensità sono pari a 5 e 12. Quanto vale l'intensità del vettore risultante?}{
+    \item 7
+    \item -7
+    \item 13
+    \item 14
+    \item 17
+}
+
+Risposta Corretta: 1

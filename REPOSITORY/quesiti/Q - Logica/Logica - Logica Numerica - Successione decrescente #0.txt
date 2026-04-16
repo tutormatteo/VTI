@@ -1,0 +1,9 @@
+\itemdomanda{Completare la serie: $100, 91, 83, 76, 70, \dots$}{
+    \item 65
+    \item 64
+    \item 63
+    \item 62
+    \item 66
+}
+
+Risposta Corretta: 1

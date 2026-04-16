@@ -1,0 +1,9 @@
+\itemdomanda{Determinare il $15\%$ dell' $80\%$ di $200$:}{
+\item $24$
+\item $30$
+\item $16$
+\item $48$
+\item $120$
+}
+
+Risposta Corretta: 1

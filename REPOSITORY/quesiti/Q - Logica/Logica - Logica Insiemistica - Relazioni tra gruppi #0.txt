@@ -1,0 +1,50 @@
+\itemdomanda{Fra i diagrammi proposti, individuare quello che soddisfa la relazione insiemistica esistente fra: \textbf{italiani}, \textbf{residenti in Italia}, \textbf{residenti in Francia}.
+\begin{center}
+\begin{tikzpicture}[scale=0.25]
+    % --- DIAGRAMMA 1 (Separati) ---
+    \node[below] at (0,-2) {\textbf{1}};
+    \draw (0,1.5) circle (1); 
+    \draw (-1.5,-1) circle (1);
+    \draw (2,-1) circle (1);
+
+    % --- DIAGRAMMA 2 (Risposta Corretta) ---
+    \begin{scope}[xshift=6cm]
+    \node[below] at (0,-2) {\textbf{2}};
+    \draw (0,1) circle (1.6); % A: Italiani
+    \draw (-1.2,-0.8) circle (1); % B: Residenti in Italia
+    \draw (1.2,-0.8) circle (1); % C: Residenti in Francia
+    \end{scope}
+
+    % --- DIAGRAMMA 3 (Venn standard) ---
+    \begin{scope}[xshift=12cm]
+    \node[below] at (0,-2) {\textbf{3}};
+    \draw (0,0.8) circle (1);
+    \draw (-0.8,-0.5) circle (1);
+    \draw (0.8,-0.5) circle (1);
+    \end{scope}
+
+    % --- DIAGRAMMA 4 (Inclusione parziale) ---
+    \begin{scope}[xshift=18cm]
+    \node[below] at (0,-2) {\textbf{4}};
+    \draw (0,0) circle (1.6);
+    \draw (-0.6,0) circle (0.8);
+    \draw (0.6,0) circle (0.8);
+    \end{scope}
+
+    % --- DIAGRAMMA 5 (Inclusione totale) ---
+    \begin{scope}[xshift=24cm]
+    \node[below] at (0,-2) {\textbf{5}};
+    \draw (0,0) circle (1.8);
+    \draw (0,0) circle (1.2);
+    \draw (0,0) circle (0.6);
+    \end{scope}
+\end{tikzpicture}
+\end{center}}{
+    \item DIAGRAMMA 2
+    \item DIAGRAMMA 3
+    \item DIAGRAMMA 1
+    \item DIAGRAMMA 4
+    \item DIAGRAMMA 5
+}
+
+Risposta Corretta: 1

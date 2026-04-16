@@ -1,0 +1,9 @@
+\itemdomanda{La quantità di moto di un pendolo oscillante:}{
+    \item è sempre diretta verso il punto di sospensione
+    \item è massima in modulo nel punto più basso della traiettoria
+    \item è sempre costante
+    \item si conserva nel tempo
+    \item costante in modulo, ma non in direzione
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,10 @@
+\itemdomanda{Il sistema $ \begin{cases} x+2y=1 \\ x+2y=3 \end{cases} $ è:
+}{
+\item impossibile
+\item determinato
+\item indeterminato
+\item omogeneo
+\item di secondo grado
+}
+
+Risposta Corretta: 1

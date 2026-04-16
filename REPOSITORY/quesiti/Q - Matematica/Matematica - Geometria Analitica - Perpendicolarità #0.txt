@@ -1,0 +1,9 @@
+\itemdomanda{Qual è l'equazione della retta passante per l'origine e perpendicolare alla retta $y = x$?}{
+\item $y = -x$
+\item $y = x$
+\item $y = 0$
+\item $x = 0$
+\item $y = 2x$
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,9 @@
+\itemdomanda{Serie 1 $\mu F$ e 3 $\mu F$. ddp 100 V:}{
+    \item Capacità equivalente 4 $\mu F$
+    \item Capacità equivalente 2 $\mu F$
+    \item ddp ai capi sono diverse
+    \item cariche diverse
+    \item ddp capi 100 V ciascuno
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,10 @@
+\itemdomanda{Qual è la condizione di esistenza dell'espressione $ \frac{2x}{x^2-4} $?
+}{
+\item $ x \neq 0 $
+\item $ x \neq 2 $
+\item $ x \neq 2 \land x \neq -2 $
+\item $ x \neq 4 $
+\item $ x \neq 0 \land x \neq 4 $
+}
+
+Risposta Corretta: 3

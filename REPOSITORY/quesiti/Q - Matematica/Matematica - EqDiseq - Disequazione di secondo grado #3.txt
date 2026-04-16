@@ -1,0 +1,10 @@
+\itemdomanda{La disequazione $ x^2+4x+4 \geq 0 $ è verificata per:
+}{
+\item $ x \geq -2 $
+\item $ x \leq -2 $
+\item $ \forall x \in \mathbb{R} $
+\item $ x \neq -2 $
+\item non ha soluzioni
+}
+
+Risposta Corretta: 3

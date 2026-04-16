@@ -1,0 +1,9 @@
+\itemdomanda{Completare correttamente la seguente analogia verbale: \textit{Medico : Ospedale = Avvocato : ?}}{
+    \item Procura
+    \item Studio
+    \item Tribunale
+    \item Codice
+    \item Cliente
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,9 @@
+\itemdomanda{Si considerino le misure: 1. $T_1 = (8.4 \pm 0.1) s$; 2. $T_2 = (8.4 \pm 0.2) s$; 3. $T_3 = (16.8 \pm 0.1) s$; 4. $T_4 = (16.8 \pm 0.2) s$. Quale delle seguenti affermazioni è VERA?}{
+    \item La seconda e la quarta hanno lo stesso errore relativo
+    \item La prima e la quarta hanno lo stesso errore relativo
+    \item La prima misura è la più precisa
+    \item La seconda misura è la più precisa
+    \item La prima e la terza hanno lo stesso errore relativo
+}
+
+Risposta Corretta: 2

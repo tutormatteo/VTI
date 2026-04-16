@@ -1,0 +1,9 @@
+\itemdomanda{Sapendo che l’affermazione “Se piove non utilizziamo la barca” è vera, allora è vero anche che:}{
+    \item Se non utilizzo la barca, allora piove
+    \item Non è sufficiente che piova perché non utilizziamo la barca
+    \item Se utilizziamo la barca, allora non piove
+    \item Non utilizziamo la barca solo quando piove
+    \item Se non piove allora utilizziamo la barca
+}
+
+Risposta Corretta: 3

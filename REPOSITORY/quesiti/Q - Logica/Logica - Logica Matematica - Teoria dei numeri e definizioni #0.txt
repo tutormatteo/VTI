@@ -1,0 +1,14 @@
+\itemdomanda{Il grande teorico dei numeri Valakekontojiioo, studiando i numeri interi $1, 2, 3, 4, 5, \dots$, ha trovato che tra essi potrebbero esistere i numeri \textit{cirilli}, che godono di queste due proprietà:
+    \begin{itemize}
+        \item la somma di due numeri cirilli (anche uguali) è un cirillo
+        \item il prodotto di due numeri cirilli (anche uguali) non è un cirillo
+    \end{itemize}
+    Il suo allievo Son Pyooh Foorb studiando con cura questi numeri, ha scoperto quanti sono i numeri cirilli, e precisamente ha dedotto che il numero dei cirilli è:}{
+    \item 3
+    \item 0
+    \item 1
+    \item 4
+    \item infinito
+}
+
+Risposta Corretta: 2

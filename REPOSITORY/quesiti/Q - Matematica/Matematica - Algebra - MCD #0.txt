@@ -1,0 +1,10 @@
+\itemdomanda{Il MCD tra $ 6a^2b $ e $ 9ab^3 $ è:
+}{
+\item $ 54a^3b^4 $
+\item $ 18a^2b^3 $
+\item $ 3ab $
+\item $ 6ab $
+\item $ 9a^2b^3 $
+}
+
+Risposta Corretta: 3

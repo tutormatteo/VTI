@@ -1,0 +1,10 @@
+\itemdomanda{Il grado del monomio $ -5x^2y^3z $ è:
+}{
+\item $ 2 $
+\item $ 3 $
+\item $ 6 $
+\item $ 5 $
+\item $ 1 $
+}
+
+Risposta Corretta: 3

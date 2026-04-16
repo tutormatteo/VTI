@@ -1,0 +1,9 @@
+\itemdomanda{Quale delle seguenti espressioni è una tautologia (sempre vera)?}{
+    \item $A \land \lnot A$
+    \item $A \lor \lnot A$
+    \item $A \rightarrow \lnot A$
+    \item $\lnot (A \lor B)$
+    \item $A \leftrightarrow \lnot A$
+}
+
+Risposta Corretta: 2

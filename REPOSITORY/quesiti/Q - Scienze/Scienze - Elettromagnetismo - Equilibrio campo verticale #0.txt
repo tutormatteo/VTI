@@ -1,0 +1,9 @@
+\itemdomanda{Corpo + in equilibrio peso-campo E. Spostato giù e rilasciato:}{
+    \item Torna in posizione iniziale e si ferma
+    \item Moto armonico
+    \item Cade con accelerazione costante
+    \item Sale con accelerazione costante
+    \item Resta fermo
+}
+
+Risposta Corretta: 5

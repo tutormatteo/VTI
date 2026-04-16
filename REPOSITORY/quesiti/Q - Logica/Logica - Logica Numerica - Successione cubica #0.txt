@@ -1,0 +1,9 @@
+\itemdomanda{Completare la serie: $1, 8, 27, 64, \dots$}{
+    \item 100
+    \item 81
+    \item 125
+    \item 144
+    \item 216
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,10 @@
+\itemdomanda{La disequazione $ \log_2(x) > 3 $ è verificata per:
+}{
+\item $ x > 6 $
+\item $ x > 3 $
+\item $ x > 8 $
+\item $ 0 < x < 8 $
+\item $ x < 8 $
+}
+
+Risposta Corretta: 3

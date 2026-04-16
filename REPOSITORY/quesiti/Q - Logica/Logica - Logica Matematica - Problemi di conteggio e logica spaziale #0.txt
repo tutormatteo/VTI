@@ -1,0 +1,9 @@
+\itemdomanda{In uno scaffale ci sono disposti tre volumi, ognuno di 100 fogli. Un tarlo comincia a rodere il primo foglio del primo volume e, procedendo dritto, finisce col rodere l'ultimo foglio dell'ultimo volume. Quanti fogli il tarlo ha roso?}{
+    \item 300
+    \item 102
+    \item 200
+    \item 103
+    \item 201
+}
+
+Risposta Corretta: 2

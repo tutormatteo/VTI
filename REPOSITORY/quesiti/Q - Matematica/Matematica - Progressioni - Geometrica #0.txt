@@ -1,0 +1,10 @@
+\itemdomanda{Considerando la progressione $ 2, 6, 18, 54, \dots $, individuare l'unica affermazione CORRETTA.
+}{
+\item L'elemento mancante è $152$ e la progressione è geometrica di ragione $3$
+\item L'elemento mancante è $152$ e la progressione è aritmetica di ragione $3$
+\item L'elemento mancante è $162$ e la progressione è geometrica di ragione $3$
+\item L'elemento mancante è $162$ e la progressione è aritmetica di ragione $3$
+\item L'elemento mancante è $162$ e la progressione cresce linearmente
+}
+
+Risposta Corretta: 3

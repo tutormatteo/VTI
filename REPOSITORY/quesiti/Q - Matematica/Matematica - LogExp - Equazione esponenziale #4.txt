@@ -1,0 +1,9 @@
+\itemdomanda{L'equazione $9^{x} = 27$ ha soluzione:}{
+\item $x = \frac{3}{2}$
+\item $x = 3$
+\item $x = 2$
+\item $x = \frac{2}{3}$
+\item $x = \frac{1}{3}$
+}
+
+Risposta Corretta: 1

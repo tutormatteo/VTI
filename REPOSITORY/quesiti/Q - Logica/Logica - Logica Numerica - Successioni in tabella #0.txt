@@ -1,0 +1,9 @@
+\itemdomanda{Quali dei numeri $x, y$ proposti vanno inseriti nella tabella? (Riga 1: 1, 3, 6, 10, x, 21, 28; Riga 2: 1, 2, 6, 24, 120, y, 5040)}{
+    \item $x = 14$ e $y = 720$
+    \item $x = 14$ e $y = 240$
+    \item $x = 15$ e $y = 720$
+    \item $x = 12$ e $y = 240$
+    \item $x = 15$ e $y = 240$
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,23 @@
+# .NET / VTI.Windows
+**/bin/
+**/obj/
+**/publish/
+*.user
+*.suo
+*.cache
+.vs/
+
+# macOS / Xcode
+.DS_Store
+**/xcuserdata/
+DerivedData/
+*.xcscmblueprint
+
+# Build outputs (opzionale: non versionare app già compilata)
+VTI-App_macOS/
+
+# Log e artefatti LaTeX generati in locale (opzionale)
+# REPOSITORY/test/*.aux
+# REPOSITORY/test/*.log
+# REPOSITORY/eserciziario/*.aux
+# REPOSITORY/eserciziario/*.log

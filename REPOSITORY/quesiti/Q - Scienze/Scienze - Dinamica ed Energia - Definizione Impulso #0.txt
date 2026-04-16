@@ -1,0 +1,9 @@
+\itemdomanda{L'impulso di una forza costante può essere calcolato come:}{
+    \item Il prodotto tra la forza e l'intervallo di tempo durante il quale essa agisce
+    \item Il prodotto tra la forza e lo spazio percorso
+    \item Il rapporto tra la forza e lo spazio percorso
+    \item Il prodotto della forza per la velocità
+    \item Il rapporto tra la forza e l'intervallo di tempo durante il quale essa agisce
+}
+
+Risposta Corretta: 1

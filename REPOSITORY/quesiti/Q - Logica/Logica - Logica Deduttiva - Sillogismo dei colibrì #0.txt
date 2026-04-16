@@ -1,0 +1,15 @@
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Tutti i colibrì hanno un piumaggio coloratissimo.
+        \item Nessun uccello grosso si nutre di miele.
+        \item Gli uccelli che non si nutrono di miele hanno colori smorti.
+    \end{enumerate}
+    Ne consegue che:}{
+    \item I colibrì sono uccelli piccoli
+    \item I colibrì sono uccelli grossi
+    \item Gli uccelli con colori smorti sono colibrì
+    \item Nessun uccello piccolo si nutre di miele
+    \item Tutti gli uccelli grossi hanno il piumaggio colorato
+}
+
+Risposta Corretta: 1

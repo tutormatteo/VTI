@@ -1,0 +1,9 @@
+\itemdomanda{Qual è la somma dei primi 100 numeri interi positivi ($1+2+3+...+100$)?}{
+\item $5050$
+\item $5000$
+\item $5100$
+\item $10100$
+\item $4950$
+}
+
+Risposta Corretta: 1

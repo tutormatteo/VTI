@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ 3x^2-6x=0 $ ha soluzioni:
+}{
+\item $ x=0, x=-2 $
+\item $ x=0, x=2 $
+\item $ x=0, x=6 $
+\item $ x=3, x=6 $
+\item $ x=3, x=2 $
+}
+
+Risposta Corretta: 2

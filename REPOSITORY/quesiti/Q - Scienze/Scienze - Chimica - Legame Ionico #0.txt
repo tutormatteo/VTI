@@ -1,0 +1,9 @@
+\itemdomanda{Quale legame chimico si forma tra due atomi con una differenza di elettronegatività superiore a 1.9?}{
+    \item Legame covalente puro
+    \item Legame covalente polare
+    \item Legame ionico
+    \item Legame metallico
+    \item Legame a idrogeno
+}
+
+Risposta Corretta: 3

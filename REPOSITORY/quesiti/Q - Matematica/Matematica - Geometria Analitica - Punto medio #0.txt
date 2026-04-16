@@ -1,0 +1,9 @@
+\itemdomanda{Il punto medio del segmento di estremi $A(0, 0)$ e $B(4, 6)$ ha coordinate:}{
+\item $(2, 3)$
+\item $(4, 6)$
+\item $(2, 2)$
+\item $(1, 1.5)$
+\item $(3, 2)$
+}
+
+Risposta Corretta: 1

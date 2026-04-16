@@ -1,0 +1,1679 @@
+\documentclass[20pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage[table]{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{siunitx}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{tasks}
+\usepackage{fancyhdr}
+\geometry{
+    a4paper,
+    left=20mm,
+    right=20mm,
+    top=20mm,
+    bottom=20mm,
+}
+\definecolor{headercolor}{RGB}{200,200,200}
+\newcounter{quesito}
+\setcounter{quesito}{0}
+\newcommand{\nuovoquesito}{\stepcounter{quesito}\textbf{Domanda \arabic{quesito}.}}
+\newcommand{\itemdomanda}[2]{%
+    \item \begin{minipage}[t]{\linewidth}
+        \nuovoquesito \\ #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{10pt}
+}
+\pagestyle{fancy}
+\fancyhead[L]{Eserciziario}
+\fancyhead[R]{\thepage}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\Huge \textbf{Eserciziario TOLC-I} \par}
+    \vspace{1cm}
+    {\Large \textbf{Volume Logica} \par}
+    \vspace{4cm}
+    {\Large A.A. 2025 -- 2026 \par}
+    \vspace{4cm}
+    \vfill
+    {\large \copyright \ Scritto da Tutor \textbf{Matteo Zambito} \\
+    per il progetto \textit{"Verso il Test di Ingegneria"} \par}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Logica}
+\begin{enumerate}[leftmargin=*]
+\itemdomanda{Se dopodomani sarà giovedì, che giorno era ieri?}{
+    \item Lunedì
+    \item Martedì
+    \item Domenica
+    \item Mercoledì
+    \item Sabato
+}
+
+\itemdomanda{Un mattone pesa un chilo più mezzo mattone. Quanto pesa un mattone?}{
+    \item \SI{1.5}{kg}
+    \item \SI{2}{kg}
+    \item \SI{2.5}{kg}
+    \item \SI{3}{kg}
+    \item \SI{1}{kg}
+}
+
+\itemdomanda{Cinque amici sono in fila: Anna è davanti a Luca, Sara è dietro a Luca ma davanti a Paolo. Se Marco è il primo della fila, chi è l'ultimo?}{
+    \item Anna
+    \item Luca
+    \item Sara
+    \item Paolo
+    \item Marco
+}
+
+\itemdomanda{Ci sono cinque persone con diverse situazioni patrimoniali. Oronzo è più ricco di Rocco, le cui ricchezze sono più modeste di quelle di Silvio, e quest'ultimo a sua volta è più danaroso di Piero. Quirino è meno benestante di Piero, ma più agiato di Oronzo. Chi è il terzo in ordine di ricchezza?}{
+    \item Piero
+    \item Rocco
+    \item Oronzo
+    \item Silvio
+    \item Quirino
+}
+
+\itemdomanda{Il figlio di mio padre è il padre di mio figlio. Chi sono io?}{
+    \item Mio nonno
+    \item Mio zio
+    \item Mio padre
+    \item Io stesso
+    \item Mio figlio
+}
+
+\itemdomanda{Tutte le rose sono fiori. Alcuni fiori appassiscono presto. Quindi:}{
+    \item Tutte le rose appassiscono presto
+    \item Alcune rose appassiscono presto
+    \item Nessuna rosa appassisce presto
+    \item È possibile che alcune rose appassiscano presto
+    \item I fiori che appassiscono sono solo rose
+}
+
+\itemdomanda{Nessun ladro è onesto. Qualche cittadino è ladro. Quindi:}{
+    \item Qualche cittadino non è onesto
+    \item Tutti i cittadini sono onesti
+    \item Nessun cittadino è onesto
+    \item I ladri sono cittadini onesti
+    \item Chi è onesto è un ladro
+}
+
+\itemdomanda{Se A è più alto di B e B è più alto di C, allora:}{
+    \item C è più alto di A
+    \item A è più basso di C
+    \item A è più alto di C
+    \item B è il più alto di tutti
+    \item Non si può stabilire nulla
+}
+
+\itemdomanda{Tutti i filosofi sono saggi. Aristotele è un filosofo. Quindi:}{
+    \item Aristotele non è saggio
+    \item Tutti i saggi sono filosofi
+    \item Aristotele è saggio
+    \item Qualche saggio non è filosofo
+    \item I filosofi non sono mai ignoranti
+}
+
+\itemdomanda{Solo gli sportivi sono sani. Marco non è uno sportivo. Quindi:}{
+    \item Marco è sano
+    \item Marco non è sano
+    \item Marco è un pigro
+    \item Chi è sano è sportivo
+    \item Gli sportivi sono tutti malati
+}
+
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Nessun avaro è altruista.
+        \item Solo gli avari tengono da conto i gusci d'uovo.
+    \end{enumerate}
+    Quale conclusione se ne può trarre?}{
+    \item Nessun altruista tiene da conto i gusci d'uovo
+    \item Chi tiene da conto i gusci d'uovo è altruista
+    \item Tutti gli altruisti sono avari
+    \item Qualche avaro è altruista
+    \item Gli altruisti tengono da conto solo i gusci d'uovo
+}
+
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Tutti i canarini ben nutriti cantano a squarciagola.
+        \item Nessun canarino che canti a squarciagola è malinconico.
+    \end{enumerate}
+    Quale conclusione è logicamente corretta?}{
+    \item Nessun canarino ben nutrito è malinconico
+    \item Qualche canarino ben nutrito è malinconico
+    \item Tutti i canarini malinconici sono ben nutriti
+    \item I canarini che non cantano sono sicuramente ben nutriti
+    \item Chi canta a squarciagola è malinconico
+}
+
+\itemdomanda{Basandosi sulle seguenti informazioni:
+    \begin{enumerate}
+        \item Gli unici animali di questa casa sono gatti.
+        \item Ogni animale che ami guardare la luna è adatto ad essere un animale domestico.
+        \item Quando detesto un animale, lo evito.
+        \item Nessun animale che non si aggiri furtivamente nella notte è carnivoro.
+        \item Non c'è gatto che non uccida i topi.
+        \item Nessun animale si affeziona a me, fatta eccezione per quelli che sono in casa.
+        \item I canguri non sono adatti ad essere animali domestici.
+        \item Solo i carnivori uccidono i topi.
+        \item Detesto gli animali che non si affezionano a me.
+        \item Gli animali che si aggirano furtivamente nella notte amano sempre guardare la luna.
+    \end{enumerate}
+    Dunque:}{
+    \item Evito i canguri
+    \item I gatti non amano guardare la luna
+    \item I canguri si affezionano a me
+    \item Tutti gli animali carnivori sono in casa
+    \item Non evito i gatti perché non sono carnivori
+}
+
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Tutti i colibrì hanno un piumaggio coloratissimo.
+        \item Nessun uccello grosso si nutre di miele.
+        \item Gli uccelli che non si nutrono di miele hanno colori smorti.
+    \end{enumerate}
+    Ne consegue che:}{
+    \item I colibrì sono uccelli piccoli
+    \item I colibrì sono uccelli grossi
+    \item Gli uccelli con colori smorti sono colibrì
+    \item Nessun uccello piccolo si nutre di miele
+    \item Tutti gli uccelli grossi hanno il piumaggio colorato
+}
+
+\itemdomanda{Date le premesse:
+    \begin{enumerate}
+        \item I lattanti sono illogici.
+        \item Chi sa tenere a bada un coccodrillo non è mai disprezzato.
+        \item Le persone illogiche sono disprezzate.
+    \end{enumerate}
+    Se ne deduce che:}{
+    \item I lattanti non sanno tenere a bada un coccodrillo
+    \item Chi è disprezzato sa tenere a bada un coccodrillo
+    \item Tutti i lattanti sanno gestire i coccodrilli
+    \item Le persone logiche sono sempre disprezzate
+    \item I coccodrilli sono animali illogici
+}
+
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Gli unici libri di questa biblioteca che non consiglio hanno un tono immorale.
+        \item I libri rilegati sono tutti ben scritti.
+        \item Tutte le storie d'amore hanno un tono sano.
+        \item Non ti consiglio di leggere i libri non rilegati.
+    \end{enumerate}
+    Qual è la conclusione corretta?}{
+    \item Tutte le storie d’amore di questa biblioteca sono ben scritte
+    \item Nessun libro ben scritto è una storia d'amore
+    \item I libri non rilegati hanno tutti un tono sano
+    \item Tutti i libri che consiglio sono storie d'amore
+    \item Solo i libri immorali sono ben scritti
+}
+
+\itemdomanda{Date le premesse:
+    \begin{enumerate}
+        \item Uno squalo non dubita mai di essere ben difeso.
+        \item Un pesce che non sappia danzare il minuetto è degno di disprezzo.
+        \item Un pesce non è sicuro di essere ben difeso se non ha tre file di denti.
+        \item Tutti i pesci, a parte gli squali, sono gentili con i bambini.
+        \item Nessun pesce grosso può danzare il minuetto.
+        \item Un pesce con tre file di denti non si può disprezzare.
+    \end{enumerate}
+    Quale conclusione se ne trae?}{
+    \item Tutti i pesci grossi sono gentili con i bambini
+    \item Gli squali sanno danzare il minuetto
+    \item Nessun pesce grosso ha tre file di denti
+    \item I pesci gentili con i bambini sono tutti squali
+    \item Chi non sa danzare il minuetto è uno squalo
+}
+
+\itemdomanda{Siano date le seguenti premesse:
+    \begin{enumerate}
+        \item Le anatre non ballano il walzer.
+        \item Un ufficiale non rifiuta mai di ballare il walzer.
+        \item Tutti i miei animali da cortile sono anatre.
+    \end{enumerate}
+    Dunque:}{
+    \item Nessuno dei miei animali da cortile ha il grado di ufficiale
+    \item Qualche mio animale da cortile è ufficiale
+    \item Tutti gli ufficiali sono anatre
+    \item Gli ufficiali ballano il walzer con le anatre
+    \item Chi balla il walzer è un animale da cortile
+}
+
+\itemdomanda{Date le premesse:
+    \begin{enumerate}
+        \item Nessun cane terrier gironzola tra i segni dello zodiaco.
+        \item Tra quelli che non gironzolano tra i segni dello zodiaco, nessuno è una cometa.
+        \item Solo i cani terrier hanno la coda arricciata.
+    \end{enumerate}
+    Si può concludere che:}{
+    \item Nessuna cometa ha la coda arricciata
+    \item Qualche cometa ha la coda arricciata
+    \item Tutte le comete sono cani terrier
+    \item Chi ha la coda arricciata è una cometa
+    \item I cani terrier sono comete
+}
+
+\itemdomanda{Basandosi sulle seguenti affermazioni:
+    \begin{enumerate}
+        \item Tutti i frutti acerbi fanno male.
+        \item Tutte queste mele fanno bene.
+        \item La frutta cresciuta in ombra non è matura.
+    \end{enumerate}
+    Quale delle seguenti è vera?}{
+    \item Tutte queste mele non sono cresciute in ombra
+    \item Queste mele sono acerbe ma fanno bene
+    \item La frutta cresciuta in ombra fa sempre bene
+    \item Qualche mela tra queste è cresciuta in ombra
+    \item Tutti i frutti maturi sono cresciuti in ombra
+}
+
+\itemdomanda{Considerate le seguenti premesse:
+    \begin{enumerate}
+        \item Nessun fossile può avere un amore contrastato.
+        \item Un'ostrica può avere un amore contrastato.
+    \end{enumerate}
+    Dunque:}{
+    \item Un'ostrica non è un fossile
+    \item Tutte le ostriche sono fossili
+    \item Qualche fossile è un'ostrica
+    \item Chi non ha un amore contrastato è sicuramente un'ostrica
+    \item Nessun'ostrica ha un amore contrastato
+}
+
+\itemdomanda{Considerate le seguenti affermazioni relative a una Mostra:
+    \begin{enumerate}
+        \item Tutti i frutti di questa Mostra che non ottengono un premio sono di proprietà della commissione.
+        \item Nessuna delle mie pesche ha ottenuto un premio.
+        \item Nessuno dei frutti venduti alla sera è acerbo.
+        \item Nessuno dei frutti maturi è stato coltivato in serra.
+        \item Tutti i frutti appartenenti alla commissione vengono venduti la sera.
+    \end{enumerate}
+    Dunque:}{
+    \item Nessuna delle mie pesche è stata coltivata in serra
+    \item Tutte le mie pesche sono state coltivate in serra
+    \item I frutti della commissione sono tutti acerbi
+    \item Le pesche che ottengono un premio vengono vendute la sera
+    \item Solo i frutti maturi appartengono alla commissione
+}
+
+\itemdomanda{Premesso che:
+    \begin{enumerate}
+        \item Nessuna delle cose che si incontrano in mare e passano inosservate è una sirena.
+        \item Le cose avvistate in mare e registrate nel giornale di bordo sono degne di essere ricordate.
+        \item Non ho mai incontrato nulla che fosse degno di nota viaggiando per mare.
+        \item Le cose che si incontrano in mare e vengono notate, vengono registrate nel giornale di bordo.
+    \end{enumerate}
+    Si può dedurre che:}{
+    \item In mare non ho mai incontrato una sirena
+    \item Tutte le sirene passano inosservate
+    \item Ho incontrato una sirena ma non l'ho registrata
+    \item Il giornale di bordo contiene avvistamenti di sirene
+    \item Tutto ciò che ho incontrato in mare era degno di nota
+}
+
+\itemdomanda{Basandosi sulle seguenti regole:
+    \begin{enumerate}
+        \item Gli unici cibi che il mio medico mi concede sono quelli leggeri.
+        \item Nessuno dei cibi che mi giovano è inadatto per la cena.
+        \item Le torte nuziali sono sempre molto sostanziose.
+        \item Il mio medico mi concede ogni cibo adatto per la cena.
+    \end{enumerate}
+    Quale affermazione è corretta?}{
+    \item Le torte nuziali non mi giovano
+    \item Le torte nuziali sono adatte per la cena
+    \item Il mio medico mi concede le torte nuziali
+    \item I cibi sostanziosi mi giovano sempre
+    \item Tutti i cibi leggeri sono inadatti per la cena
+}
+
+\itemdomanda{Nessun rettile ha le ali. Tutti i serpenti sono rettili. Quindi:}{
+    \item Qualche serpente ha le ali
+    \item Nessun serpente ha le ali
+    \item Tutti i serpenti volano
+    \item I rettili volano senza ali
+    \item I serpenti non sono rettili
+}
+
+\itemdomanda{Individuare il diagramma corretto per: \textbf{Mobili}, \textbf{Sedie}, \textbf{Tavoli}.
+\begin{center}
+\begin{tikzpicture}[scale=0.25]
+    % --- DIAGRAMMA A (Due disgiunti in uno grande) ---
+    \node[below] at (0,-2) {\textbf{A}};
+    \draw (0,0) circle (2); % Mobili
+    \draw (-0.8,0) circle (0.7); % Sedie
+    \draw (0.8,0) circle (0.7); % Tavoli
+
+    % --- DIAGRAMMA B (Concentrici) ---
+    \begin{scope}[xshift=8cm]
+    \node[below] at (0,-2) {\textbf{B}};
+    \draw (0,0) circle (2); \draw (0,0) circle (1.2); \draw (0,0) circle (0.5);
+    \end{scope}
+\end{tikzpicture}
+\end{center}}{
+    \item DIAGRAMMA B
+    \item DIAGRAMMA A
+    \item Entrambi
+    \item Nessuno dei due
+    \item Solo se aggiungiamo un quarto insieme
+}
+
+\itemdomanda{Individuare il diagramma che rappresenta correttamente la relazione tra: \textbf{Animali}, \textbf{Mammiferi}, \textbf{Balene}.
+\begin{center}
+\begin{tikzpicture}[scale=0.25]
+    % --- DIAGRAMMA 1 (Concentrici) ---
+    \node[below] at (0,-2) {\textbf{1}};
+    \draw (0,0) circle (2.2); % Animali
+    \draw (0,0) circle (1.4); % Mammiferi
+    \draw (0,0) circle (0.7); % Balene
+    
+    % --- DIAGRAMMA 2 (Intersecati) ---
+    \begin{scope}[xshift=8cm]
+    \node[below] at (0,-2) {\textbf{2}};
+    \draw (0,0.8) circle (1.3); \draw (-0.8,-0.5) circle (1.3); \draw (0.8,-0.5) circle (1.3);
+    \end{scope}
+
+    % --- DIAGRAMMA 3 (Disgiunti in uno) ---
+    \begin{scope}[xshift=16cm]
+    \node[below] at (0,-2) {\textbf{3}};
+    \draw (0,0) circle (1.8); \draw (-0.6,0) circle (0.8); \draw (0.6,0) circle (0.8);
+    \end{scope}
+\end{tikzpicture}
+\end{center}}{
+    \item DIAGRAMMA 2
+    \item DIAGRAMMA 1
+    \item DIAGRAMMA 3
+    \item Nessuno dei precedenti
+    \item Tutti i diagrammi sono corretti
+}
+
+\itemdomanda{Quale diagramma soddisfa la relazione tra: \textbf{Studenti}, \textbf{Sportivi}, \textbf{Musicisti}?}{
+    \item Un diagramma con tre cerchi concentrici
+    \item Un diagramma con tre cerchi che si intersecano tutti tra loro creando un'area centrale comune
+    \item Tre cerchi completamente separati (disgiunti)
+    \item Due cerchi piccoli chiusi dentro uno grande ma separati tra loro
+    \item Un cerchio che ne contiene altri due che si intersecano solo tra loro
+}
+
+\itemdomanda{Individuare il diagramma per: \textbf{Europei}, \textbf{Francesi}, \textbf{Parigini}.}{
+    \item Tre cerchi disgiunti
+    \item Tre cerchi concentrici (Parigini $\subset$ Francesi $\subset$ Europei)
+    \item Due cerchi intersecati dentro un terzo
+    \item Un cerchio grande che ne contiene due disgiunti
+    \item Tre cerchi che si intersecano solo a catena
+}
+
+\itemdomanda{Fra i diagrammi proposti, individuare quello che soddisfa la relazione insiemistica esistente fra: \textbf{italiani}, \textbf{residenti in Italia}, \textbf{residenti in Francia}.
+\begin{center}
+\begin{tikzpicture}[scale=0.25]
+    % --- DIAGRAMMA 1 (Separati) ---
+    \node[below] at (0,-2) {\textbf{1}};
+    \draw (0,1.5) circle (1); 
+    \draw (-1.5,-1) circle (1);
+    \draw (2,-1) circle (1);
+
+    % --- DIAGRAMMA 2 (Risposta Corretta) ---
+    \begin{scope}[xshift=6cm]
+    \node[below] at (0,-2) {\textbf{2}};
+    \draw (0,1) circle (1.6); % A: Italiani
+    \draw (-1.2,-0.8) circle (1); % B: Residenti in Italia
+    \draw (1.2,-0.8) circle (1); % C: Residenti in Francia
+    \end{scope}
+
+    % --- DIAGRAMMA 3 (Venn standard) ---
+    \begin{scope}[xshift=12cm]
+    \node[below] at (0,-2) {\textbf{3}};
+    \draw (0,0.8) circle (1);
+    \draw (-0.8,-0.5) circle (1);
+    \draw (0.8,-0.5) circle (1);
+    \end{scope}
+
+    % --- DIAGRAMMA 4 (Inclusione parziale) ---
+    \begin{scope}[xshift=18cm]
+    \node[below] at (0,-2) {\textbf{4}};
+    \draw (0,0) circle (1.6);
+    \draw (-0.6,0) circle (0.8);
+    \draw (0.6,0) circle (0.8);
+    \end{scope}
+
+    % --- DIAGRAMMA 5 (Inclusione totale) ---
+    \begin{scope}[xshift=24cm]
+    \node[below] at (0,-2) {\textbf{5}};
+    \draw (0,0) circle (1.8);
+    \draw (0,0) circle (1.2);
+    \draw (0,0) circle (0.6);
+    \end{scope}
+\end{tikzpicture}
+\end{center}}{
+    \item DIAGRAMMA 2
+    \item DIAGRAMMA 3
+    \item DIAGRAMMA 1
+    \item DIAGRAMMA 4
+    \item DIAGRAMMA 5
+}
+
+\itemdomanda{Volendo disporre i numeri $28, 29, 36, 43, 55$ in modo che i dispari occupino una posizione dispari ed i pari occupino una posizione pari, in quanti modi diversi si può operare?}{
+    \item 3
+    \item 24
+    \item 12
+    \item 5
+    \item 6
+}
+
+\itemdomanda{Nonno Peperino non ricorda più la combinazione del suo forziere elettronico. Egli ricorda solo che: è di quattro cifre distinte fra 0 e 9; non vi compare il 4; la terza cifra è la metà della quarta; le cifre sono in ordine crescente dalla prima all'ultima. Qual è il minimo numero di tentativi che Nonno Peperino deve fare per essere sicuro di aprire il forziere?}{
+    \item 3
+    \item 4
+    \item 5
+    \item 6
+    \item 2
+}
+
+\itemdomanda{Gli archeobatteri sono organismi unicellulari che vivono in stagni e si riproducono per scissione (cioè ogni batterio si divide in due e forma due altri batteri uguali). Se si immette un archeobatterio in un certo stagno, esso ogni giorno si riproduce per scissione una sola volta, e dopo 30 giorni la superficie dello stagno è completamente ricoperta dai batteri. Quanti giorni ci vorranno affinché la superficie dello stesso stagno sia completamente ricoperta, se inizialmente vi si immettono due archeobatteri?}{
+    \item 30 giorni
+    \item 28 giorni
+    \item 29 giorni
+    \item dipende dalla superficie dello stagno
+    \item 15 giorni
+}
+
+\itemdomanda{Il calcolo $[3 \times (32 \bullet 7 + 2 \bullet 10)] 2 = 3345606 \bullet 1$ è esatto ma al posto di una determinata cifra ($0$, oppure $1, 2, \dots, 8, 9$) è stato sostituito il simbolo $\bullet$. Quale deve essere il suo valore?}{
+    \item 9
+    \item 0
+    \item 2
+    \item 8
+    \item Nessuna delle precedenti
+}
+
+\itemdomanda{Se il perimetro di un quadrato raddoppia, di quante volte aumenta la sua area?}{
+    \item 2
+    \item 4
+    \item 8
+    \item 16
+    \item Resta invariata
+}
+
+\itemdomanda{Un’indagine svolta tra tutti i 1000 abitanti della cittadina di Sparagna al di sopra dei 55 anni, mostra che il 40\% di loro possiede un frigorifero, che il 25\% possiede un televisore, e che il 15\% li possiede entrambi. Dunque, nella cittadina di Sparagna:}{
+    \item al di sotto dei 55 anni meno del 40\% della popolazione possiede un frigorifero
+    \item meno del 45\% della popolazione al di sopra dei 55 anni possiede televisore o frigorifero
+    \item il 50\% della popolazione al di sopra dei 55 anni non possiede né televisore né frigorifero
+    \item al di sotto dei 55 anni più del 25\% della popolazione possiede un televisore
+    \item più del 50\% della popolazione al di sopra dei 55 anni ha televisore o frigorifero
+}
+
+\itemdomanda{Dei 120 parlamentari di Allegrandia si sa che un terzo è stato inquisito dalla magistratura e condannato definitivamente e i tre quarti sono al secondo (o comunque, non al primo) mandato parlamentare. Se ne può concludere che:}{
+    \item un quarto dei parlamentari è al primo mandato ed è stato condannato definitivamente
+    \item nessuno dei parlamentari al primo mandato è stato condannato definitivamente
+    \item scelti comunque tre parlamentari, uno almeno di essi è stato condannato definitivamente
+    \item un terzo dei parlamentari al primo mandato è stato condannato definitivamente
+    \item c'è almeno un parlamentare che è stato condannato definitivamente ed è ad un mandato successivo al primo
+}
+
+\itemdomanda{Se 4 operai impiegano 6 ore per dipingere una staccionata, quanto tempo impiegherebbero 8 operai per fare lo stesso lavoro?}{
+    \item 12 ore
+    \item 4 ore
+    \item 3 ore
+    \item 2 ore
+    \item 5 ore
+}
+
+\itemdomanda{Considero una tabella quadrata formata da 4 numeri diversi e disposti in 2 righe ciascuna composta da 2 numeri: $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$. Siano:
+    \begin{itemize}
+        \item $r_1$ il più piccolo dei numeri della prima riga
+        \item $r_2$ il più piccolo dei numeri della seconda riga
+        \item $R$ il maggiore tra $r_1$ ed $r_2$
+        \item $K_1$ il più grande dei numeri della prima colonna
+        \item $K_2$ il più grande dei numeri della seconda colonna
+        \item $k$ il minore tra $K_1$ e $K_2$
+    \end{itemize}
+    Allora possiamo concludere che:}{
+    \item $R < k$
+    \item $R = k$
+    \item $R > k$
+    \item $R \geq k$
+    \item $R \leq k$
+}
+
+\itemdomanda{Un’urna contenente 50 palline numerate da 1 a 50, viene estratta una pallina, ad occhi bendati. Tutti le palline hanno la stessa probabilità di venire estratte, dunque quale è la probabilità che la pallina estratta sia numerata con un numero divisibile per cinque?}{
+    \item 1/8
+    \item 1/15
+    \item 1/4
+    \item 1/3
+    \item 1/5
+}
+
+\itemdomanda{Franco il tabaccaio ha in cassa 195 euro e non ha monete. Un cliente gli chiede se ha da cambiare 10, 20, 50 o 100 euro, ma Franco risponde a malincuore di no a tutte le richieste. Quanti pezzi da 20 euro ha in cassa Franco?}{
+    \item 1
+    \item 4
+    \item 3
+    \item 2
+    \item 0
+}
+
+\itemdomanda{Al termine di una seduta di allenamento della Nazionale, Totti e Buffon fanno la seguente scommessa: Totti tirerà 12 rigori e Buffon cercherà di pararli. Per ogni rigore parato Totti darà 50 euro a Buffon mentre per ogni rigore segnato Buffon darà 40 euro a Totti. Dopo di ciò viene eseguita la serie di rigori al termine della quale Totti deve avere da Buffon 120 euro. Quanti rigori ha parato Buffon?}{
+    \item 9
+    \item 5
+    \item 6
+    \item 4
+    \item 12
+}
+
+\itemdomanda{Per numerare le pagine di un libro sono state usate in totale 3301 cifre. Le pagine del libro sono:}{
+    \item tra 1500 e 2000
+    \item tra 2000 e 3000
+    \item meno di 1000
+    \item più di 3000
+    \item tra 1000 e 1500
+}
+
+\itemdomanda{In uno scaffale ci sono disposti tre volumi, ognuno di 100 fogli. Un tarlo comincia a rodere il primo foglio del primo volume e, procedendo dritto, finisce col rodere l'ultimo foglio dell'ultimo volume. Quanti fogli il tarlo ha roso?}{
+    \item 300
+    \item 102
+    \item 200
+    \item 103
+    \item 201
+}
+
+\itemdomanda{In figura ci sono tre triangoli equilateri. Qual è il rapporto tra l'area del triangolo più grande e l'area del triangolo più piccolo? \\ \begin{tikzpicture}[x=0.7cm, y=0.7cm, >=Stealth, scale=0.75, baseline=(current bounding box.center)]
+    % --- Setup ---
+    % Calcoliamo l'altezza di un triangolo equilatero di lato 1
+    \pgfmathsetmacro{\h}{sqrt(3)/2}
+    % Vertice comune nell'origine
+    \coordinate (O) at (0,0);
+
+    % --- Definizione dei Vertici ---
+    % Triangolo Grande (Lato = 4 unità)
+    \coordinate (L_base) at (4,0);
+    \coordinate (L_top) at (2, {4*\h});
+
+    % Triangolo Medio (Lato = 2 unità)
+    \coordinate (M_base) at (2,0);
+    \coordinate (M_top) at (1, {2*\h});
+
+    % Triangolo Piccolo (Lato = 1 unità)
+    \coordinate (S_base) at (1,0);
+    \coordinate (S_top) at (0.5, {\h});
+
+    % --- Disegno dei Triangoli (sovrapposti) ---
+    % Disegniamo dal più grande al più piccolo con tonalità di grigio diverse
+    \draw[thick, fill=gray!5]  (O) -- (L_base) -- (L_top) -- cycle; % Grande
+    \draw[thick, fill=gray!25] (O) -- (M_base) -- (M_top) -- cycle; % Medio
+    \draw[thick, fill=gray!50] (O) -- (S_base) -- (S_top) -- cycle; % Piccolo
+
+    % --- Riferimenti Unitari (Intuizione delle proporzioni) ---
+    
+    % 1. Tick marks sulla base comune
+    % Disegniamo un segnetto ogni unità lungo la base del triangolo grande
+    \foreach \x in {1, 2, 3, 4} {
+        \draw[thick, line cap=round] (\x, -0.1) -- (\x, 0.1);
+    }
+    % Segnetto anche all'origine per completezza
+    \draw[thick, line cap=round] (0, -0.1) -- (0, 0.1);
+
+    % 2. Linee di quota (opzionali, ma molto chiare)
+    % Quota per il lato piccolo
+    \draw[|<->|, thin] (0, -0.4) -- (1, -0.4) node[midway, below] {};
+    
+\end{tikzpicture}}{
+    \item 16
+    \item 9
+    \item 27
+    \item 8
+    \item Non si può stabilire
+}
+
+\itemdomanda{Indicare quanti numeri diversi si possono ottenere da somme algebriche di questo tipo: \[\pm 1 \pm 2 \pm 3 \pm 4 \pm 5\] utilizzando tutte le cifre da 1 a 5 e al variare di tutte le possibili scelte dei segni $+$ o $-$ (ad esempio: $-1-2+3+4+5, 1+2-3+4+5, \dots$).}{
+    \item 20
+    \item 24
+    \item 31
+    \item 16
+    \item 32
+}
+
+\itemdomanda{Due giocatori, Aldo e Bruno, a turno dispongono su una scacchiera $3 \times 3$, una per volta, pedine identiche tutte nere. Vince il primo giocatore che riesce a completare un terzetto in una fila orizzontale, verticale o una delle due diagonali. Quante sono le mosse con cui può iniziare la partita il primo giocatore (Aldo) in modo da potersi garantire la vittoria indipendentemente da come giocherà Bruno?}{
+    \item 8
+    \item 1
+    \item 0, nel senso che Bruno può sempre rispondere in modo opportuno e garantirsi la vittoria
+    \item 5
+    \item 9
+}
+
+\itemdomanda{Due giocatori prendono a turno dei sassolini con l'unica regola che non se ne possono prendere né 4 né 8. Vince quel giocatore che riesce a prendere l'ultimo sassolino. Se inizialmente i sassolini sono 8, quanti ne deve prendere il primo giocatore per potersi garantire la vittoria, supponendo che nelle mosse successive ogni giocatore non commetta errori?}{
+    \item Qualunque numero prenda, vincerà sempre
+    \item Qualunque numero prenda, perderà sempre
+    \item 1
+    \item 2
+    \item 3
+}
+
+\itemdomanda{Il grande teorico dei numeri Valakekontojiioo, studiando i numeri interi $1, 2, 3, 4, 5, \dots$, ha trovato che tra essi potrebbero esistere i numeri \textit{cirilli}, che godono di queste due proprietà:
+    \begin{itemize}
+        \item la somma di due numeri cirilli (anche uguali) è un cirillo
+        \item il prodotto di due numeri cirilli (anche uguali) non è un cirillo
+    \end{itemize}
+    Il suo allievo Son Pyooh Foorb studiando con cura questi numeri, ha scoperto quanti sono i numeri cirilli, e precisamente ha dedotto che il numero dei cirilli è:}{
+    \item 3
+    \item 0
+    \item 1
+    \item 4
+    \item infinito
+}
+
+\itemdomanda{Un treno viaggia a una velocità costante di \SI{120}{km/h}. Quanto tempo impiega per percorrere \SI{30}{km}?}{
+    \item 15 minuti
+    \item 20 minuti
+    \item 25 minuti
+    \item 30 minuti
+    \item 12 minuti
+}
+
+\itemdomanda{Quale numero va inserito al centro?
+\begin{center}
+\begin{tikzpicture}[scale=0.5]
+    \draw (0,0) grid (3,1);
+    \node at (0.5,0.5) {14};
+    \node at (1.5,0.5) {?};
+    \node at (2.5,0.5) {28};
+    \node[below] at (1.5,0) {\small (Relazione: $x = (A+B)/2$)};
+\end{tikzpicture}
+\end{center}}{
+    \item 21
+    \item 20
+    \item 19
+    \item 22
+    \item 42
+}
+
+\itemdomanda{Quale coppia completa la serie? $(2, 12); (3, 8); (4, 6); (6, \dots)$}{
+    \item 2
+    \item 3
+    \item 4
+    \item 5
+    \item 1
+}
+
+\itemdomanda{Quale numero completa la serie? $10, 5, 12, 7, 14, 9, \dots$}{
+    \item 16
+    \item 11
+    \item 18
+    \item 10
+    \item 15
+}
+
+\itemdomanda{Completare la serie: $1, 8, 27, 64, \dots$}{
+    \item 100
+    \item 81
+    \item 125
+    \item 144
+    \item 216
+}
+
+\itemdomanda{Completare la serie: $100, 91, 83, 76, 70, \dots$}{
+    \item 65
+    \item 64
+    \item 63
+    \item 62
+    \item 66
+}
+
+\itemdomanda{Completare la serie: $1/2, 1, 2, 4, 8, \dots$}{
+    \item 12
+    \item 10
+    \item 16
+    \item 24
+    \item 32
+}
+
+\itemdomanda{Completare la serie: $2, 6, 12, 20, 30, \dots$}{
+    \item 36
+    \item 40
+    \item 42
+    \item 50
+    \item 44
+}
+
+\itemdomanda{Con quale coppia di numeri continuereste la seguente successione di interi? $1, 2; 2, 4; 5, 8; 10, 14; 17, 22; 26, 32; \dots$}{
+    \item 40, 80
+    \item 46, 64
+    \item 40, 67
+    \item 37, 44
+    \item 44, 16
+}
+
+\itemdomanda{Indicare quale tra le coppie di numeri indicate va inserita al posto dei puntini nella seguente sequenza:
+    \begin{center}
+    3, 43 ; 5, 27 ; 9, 19 ; \dots, \dots ; 33, 13
+    \end{center} }{
+    \item 24, 74
+    \item 19, 11
+    \item 15, 15
+    \item 17, 15
+    \item 23, 13
+}
+
+\itemdomanda{Quali dei numeri $x, y$ proposti vanno inseriti nella tabella? (Riga 1: 1, 3, 6, 10, x, 21, 28; Riga 2: 1, 2, 6, 24, 120, y, 5040)}{
+    \item $x = 14$ e $y = 720$
+    \item $x = 14$ e $y = 240$
+    \item $x = 15$ e $y = 720$
+    \item $x = 12$ e $y = 240$
+    \item $x = 15$ e $y = 240$
+}
+
+\itemdomanda{Quale fra le seguenti affermazioni è falsa?}{
+    \item Chi canta è allegro. Andrea non canta, dunque Andrea è triste.
+    \item Nessun londinese è italiano; tutti i londinesi parlano inglese, ma non è vero che nessun italiano parla inglese.
+    \item Un quadrato è sempre un trapezio.
+    \item Ogni vigile ha un fischietto. Carlo non ha un fischietto, dunque Carlo non è un vigile.
+    \item "Chi canta è allegro. Andrea non canta, dunque Andrea è triste." non è vero.
+}
+
+\itemdomanda{L'affermazione "Solo se mangi, cresci" equivale a dire che:}{
+    \item Se mangi, allora cresci sicuramente
+    \item Se cresci, allora significa che hai mangiato
+    \item Se non cresci, significa che non hai mangiato
+    \item Mangiare è condizione sufficiente per crescere
+    \item Crescere è condizione necessaria per mangiare
+}
+
+\itemdomanda{Un chimico, studiando una soluzione che si era tinta di arancione, constatò che in essa era presente del sodio o del potassio (o entrambi); osservò che, se \textbf{NON} c'era sodio, c'era ferro, e che, se c'era potassio, c'era anche jodio. Quale di queste situazioni si può verificare?}{
+    \item La soluzione contiene solo potassio e ferro
+    \item La soluzione contiene solo ferro e jodio
+    \item la soluzione contiene sodio e potassio, e non contiene jodio
+    \item La soluzione non contiene né sodio né jodio
+    \item La soluzione contiene solo sodio
+}
+
+\itemdomanda{Il ministro dell'economia di Matlandia afferma: \textit{"Se il bilancio non sarà tagliato, allora nel prossimo anno 2006 i prezzi rimarranno stabili se e soltanto se aumenteremo tutte le tasse"}. Ammessa l'assoluta verità di questa affermazione e fondandosi solo su di essa, che cosa può essere accaduto a Matlandia nel 2006?}{
+    \item Il bilancio non fu tagliato; tutte le tasse furono aumentate e i prezzi rimasero stabili
+    \item Il bilancio non fu tagliato; tutte le tasse furono aumentate e i prezzi crebbero
+    \item Il bilancio non fu tagliato; le tasse non furono aumentate e i prezzi rimasero stabili
+    \item Il bilancio non fu tagliato; furono aumentate le tasse solo sugli stipendi degli impiegati dello Stato e i prezzi rimasero stabili
+    \item Il bilancio non fu tagliato, e i prezzi crebbero comunque
+}
+
+\itemdomanda{Sapendo che l’affermazione “Se piove non utilizziamo la barca” è vera, allora è vero anche che:}{
+    \item Se non utilizzo la barca, allora piove
+    \item Non è sufficiente che piova perché non utilizziamo la barca
+    \item Se utilizziamo la barca, allora non piove
+    \item Non utilizziamo la barca solo quando piove
+    \item Se non piove allora utilizziamo la barca
+}
+
+\itemdomanda{Il cuoco Giovanni osserva che cucinando l'arrosto se non si usa il forno a gas la carne o è cruda all'interno o è bruciata all'esterno o entrambe le cose. Quindi se ne deduce che:}{
+    \item se l'arrosto ha l'interno ben cotto è stato cotto nel forno a gas
+    \item se l'arrosto ha l'interno ben cotto o non è bruciato all'esterno è stato cotto nel forno a gas
+    \item se l'arrosto ha l'interno ben cotto e non è bruciato all'esterno è stato cotto nel forno a gas
+    \item se l'arrosto è crudo all'interno non è stato cotto nel forno a gas
+    \item se l'arrosto è stato cotto nel forno elettrico la carne è cruda all'interno e bruciata all'esterno
+}
+
+\itemdomanda{Il Re non rispettò il consiglio del Gran Ciambellano di opporsi alla celebrazione del matrimonio della Principessa dal Collo di Cigno con il rospo che amava, qualora i giovani insistessero per celebrare il rito nella Basilica di Superga. Le principesse, almeno quelle delle favole, seguono la volontà paterna. Che cosa ne deducete?}{
+    \item La principessa ed il rospo potranno sposarsi, se lo desidereranno, nella Basilica di Superga
+    \item La principessa ed il rospo non si sposeranno
+    \item La principessa ed il rospo potranno sposarsi, ma non nella Basilica di Superga
+    \item I dati del problema non autorizzano a concludere la veridicità di alcuna delle interpretazioni proposte
+    \item La principessa ed il rospo si sposeranno necessariamente nella Basilica di Superga
+}
+
+\itemdomanda{Il tenente Piccione, nel corso delle sue indagini su un assassinio, ha appurato questi due fatti: 1) se X ha accoltellato la vittima, allora X è mancino; 2) se Y ha accoltellato la vittima, allora Y è l’assassino. Quale di queste deduzioni è corretta?}{
+    \item Il commissario Piccione accerta che il signor Bianchi non è mancino e ne deduce che non è l'assassino
+    \item L'assassino ha accoltellato la vittima
+    \item Il commissario Piccione accerta che il signor Rossi è mancino e ne deduce che è l'assassino
+    \item Il commissario Piccione accerta che il signor Bianchi non è mancino e ne deduce che non ha accoltellato la vittima
+    \item Il commissario Piccione accerta che il signor Rossi è mancino e ne deduce che ha accoltellato la vittima
+}
+
+\itemdomanda{Di una famiglia si sa che:
+    \begin{itemize}
+        \item almeno un maschio non è celibe
+        \item tutti i laureati sono celibi
+        \item non è vero che almeno un maschio non è maggiorenne.
+    \end{itemize}
+    Solo una delle seguenti proposizioni è deducibile dalle premesse. Quale?}{
+    \item Nessun maggiorenne non è coniugato
+    \item Tutti i celibi sono laureati
+    \item Almeno un maggiorenne è coniugato
+    \item Almeno un celibe non è maggiorenne
+    \item Almeno un maggiorenne non è coniugato
+}
+
+\itemdomanda{Premesso che:
+    \begin{itemize}
+        \item chi ascolta musica rock o blues non è stonato
+        \item Agenore non è stonato
+        \item chi ascolta blues non vince al Lotto
+    \end{itemize}
+    quale tra le seguenti conclusioni \textbf{NON} si può trarre dalle precedenti premesse?}{
+    \item È impossibile che Agenore ascolti blues
+    \item Uno stonato non ascolta rock
+    \item È possibile che Agenore non vinca al Lotto
+    \item Chi vince al Lotto non ascolta blues
+    \item Non è escluso che Agenore ascolti rock
+}
+
+\itemdomanda{Negare che "Nessun partecipante non ha superato il test" equivale a dire che:}{
+    \item Tutti hanno superato il test
+    \item Qualcuno non ha superato il test
+    \item Nessuno ha superato il test
+    \item Almeno un partecipante non ha superato il test
+    \item Qualche partecipante ha fallito il test
+}
+
+\itemdomanda{La frase "Non tutti i mali vengono per nuocere" è logicamente equivalente a:}{
+    \item Tutti i mali fanno bene
+    \item Qualche male non viene per nuocere
+    \item Nessun male viene per nuocere
+    \item I mali non nuociono mai
+    \item Se è un male, allora nuoce
+}
+
+\itemdomanda{Dalla frase "O mangi questa minestra o ti salti dalla finestra" (interpretata come O esclusivo), si deduce che:}{
+    \item Se mangi la minestra, puoi anche saltare dalla finestra
+    \item Se non salti dalla finestra, allora devi mangiare la minestra
+    \item Puoi fare entrambe le cose contemporaneamente
+    \item Non puoi evitare entrambe le situazioni
+    \item Se non mangi la minestra, non è detto che tu debba saltare
+}
+
+\itemdomanda{Data la frase "Se piove, porto l'ombrello", quale delle seguenti è certamente vera?}{
+    \item Se porto l'ombrello, allora piove
+    \item Se non porto l'ombrello, allora non piove
+    \item Se non piove, non porto l'ombrello
+    \item Piove solo se porto l'ombrello
+    \item Porto l'ombrello se e solo se piove
+}
+
+\itemdomanda{La frase "Sul tavolo ci sono due bicchieri" implica che sul tavolo:}{
+    \item ci sono due bicchieri e una bottiglia
+    \item non ci sono bottiglie
+    \item ci sono due bicchieri e due tazzine da caffè
+    \item c'è un bicchiere
+    \item non ci sono tre bicchieri
+}
+
+\itemdomanda{Un accogliente cartello all'ingresso del ristorante \textit{L'Oca Giuliva} recita:
+    \begin{center}
+    \textit{Se si è in pochi, si mangia bene} \\
+    \textit{Se si è in tanti, si spende poco}
+    \end{center}
+    Il Signor Aquilotto, con la sua mente acuta, ne deduce logicamente che:}{
+    \item se si è pochi, si spende tanto
+    \item per mangiar bene è necessario andarci in pochi
+    \item se si mangia male non si è in pochi
+    \item per spendere poco bisogna essere in tanti
+    \item se si è in tanti, si mangia male
+}
+
+\itemdomanda{Un Marziolano, osservando che:
+    \begin{itemize}
+        \item metà di tutti i Tondolini sono remissivi
+        \item metà di tutti i Marziolani sono testardi
+        \item metà di tutti i Marziolani sono remissivi
+    \end{itemize}
+    e tenendo presente che non si può essere insieme remissivi e testardi, deduce che una e una sola delle seguenti affermazioni \textbf{NON} può essere vera. Quale?}{
+    \item Metà di tutti i Tondolini sono testardi
+    \item Tutti i Tondolini sono Marziolani
+    \item Tutti i Marziolani sono Tondolini e nessun Tondolino è testardo
+    \item Non esistono Tondolini che siano anche Marziolani
+    \item Tondolini e Marziolani sono lo stesso insieme di persone
+}
+
+\itemdomanda{Qual è la negazione logica della frase: "Se studi, allora verrai promosso"?}{
+    \item Se non studi, verrai bocciato
+    \item Studi e non verrai promosso
+    \item Non studi oppure verrai promosso
+    \item Verrai promosso solo se studi
+    \item Se non verrai promosso, allora non hai studiato
+}
+
+\itemdomanda{Nella Repubblica di Arraffa NON è vero che "Ogni parlamentare è persona onesta e competente". Dunque, nella Repubblica di Arraffa:}{
+    \item qualche parlamentare non è onesto oppure non è competente
+    \item ogni parlamentare o è onesto, ma non competente, oppure è competente, ma non onesto
+    \item qualche parlamentare è onesto e competente
+    \item le persone oneste e competenti non diventano mai parlamentari
+    \item nessun parlamentare è onesto e competente
+}
+
+\itemdomanda{Una famosa congettura afferma che vi sono infinite coppie $(p, q)$ di numeri primi tali che $p = q + 2$. Confutare questa affermazione equivale a mostrare che:}{
+    \item per ogni intero positivo $n$ e per ogni numero primo $q$ con $q > n$ il numero $q + 2$ non è primo
+    \item esistono un intero positivo $n$ e un numero primo $q$ con $q > n$ tali che il numero $q + 2$ non è primo
+    \item per ogni intero positivo $n$ esiste un numero primo $q$ con $q > n$ tale che il numero $q + 2$ non è primo
+    \item esiste un intero positivo $n$ tale che, qualunque sia il numero primo $q$ con $q > n$, il numero $q + 2$ non è primo
+    \item esiste un intero positivo $n$ tale che, per ogni numero (primo e non primo) $m$ con $m > n$, il numero $m + 2$ non è primo
+}
+
+\itemdomanda{In occasione delle elezioni primarie per la scelta del candidato premier di Burgundia, ciascuno dei sette candidati è sicuro di riuscire a classificarsi fra i tre più votati. Negare questa frase vuol dire affermare che:}{
+    \item c'è almeno un candidato che teme di rientrare fra i tre meno votati
+    \item c'è almeno un candidato che non è sicuro di rientrare fra i primi tre più votati
+    \item alcuni dei sette candidati sono sicuri di riuscire a classificarsi fra i tre più votati
+    \item ogni candidato è sicuro di non riuscire a classificarsi fra i tre più votati
+    \item ciascuno dei sette candidati teme di rientrare fra i tre meno votati
+}
+
+\itemdomanda{Negare l’affermazione “ogni cane ha almeno un padrone” è come dire:}{
+    \item esistono cani senza padrone
+    \item tutti i cani non hanno un padrone
+    \item tutti sono padroni di ogni cane
+    \item ogni cane non ha un padrone
+    \item nessun cane ha un padrone
+}
+
+\itemdomanda{Il grande teorico dei numeri Kontakirikonta ha scoperto i numeri Incredibili; egli non sa ancora se essi siano in numero finito, però ha fatto la seguente congettura: "se sono infiniti, almeno uno di essi deve avere 8 fattori primi distinti". Il suo allievo Rikontoijo dimostra che la congettura di Kontakirikonta è falsa. Dunque Rikontoijo ha provato che:}{
+    \item se i numeri Incredibili sono una quantità finita, nessuno di essi ha 8 fattori primi distinti
+    \item se i numeri Incredibili sono una quantità finita, tutti hanno 8 fattori primi distinti
+    \item i numeri Incredibili sono infiniti
+    \item i numeri Incredibili sono infiniti e nessuno di essi ha 8 fattori primi distinti
+    \item i numeri Incredibili sono infiniti e hanno tutti 8 fattori primi distinti
+}
+
+\itemdomanda{In una discussione tra amici, Antonio dice: "A tutti noi piace il caffè, tranne che a Paola, a cui non piace". Fabio osserva che Antonio ha torto. Ne consegue che:}{
+    \item a tutti gli amici piace il caffè
+    \item a Paola piace il caffè
+    \item a uno degli amici, che non è Paola, non piace il caffè
+    \item o a Paola piace il caffè, oppure c'è qualcuno tra gli amici, oltre Paola, a cui il caffè non piace
+    \item non è possibile che il caffè dispiaccia a uno solo tra gli amici
+}
+
+\itemdomanda{Indicare qual è la negazione dell'affermazione: \textit{"Umberto ha almeno un figlio biondo"}}{
+    \item Almeno un figlio di Umberto non è biondo
+    \item Umberto non ha figli oppure ha soltanto figli non biondi
+    \item Tutti i figli di Umberto sono bruni
+    \item Non tutti i figli di Umberto sono biondi
+    \item Umberto ha tutti i figli rossi di capelli
+}
+
+\itemdomanda{Qual è la negazione della frase: "Tutti gli svedesi sono alti"?}{
+    \item Nessun svedese è alto
+    \item Tutti gli svedesi sono bassi
+    \item Almeno uno svedese non è alto
+    \item Qualche svedese è basso, ma non tutti
+    \item Gli svedesi sono tutti di media statura
+}
+
+\itemdomanda{Date per vere le premesse 1), 2) e 3), qual è la logica conclusione?
+    \begin{enumerate}
+        \item Nessun bradipo naviga in barca a vela.
+        \item Tra quelli che non navigano in barca a vela, nessuno è un cammello.
+        \item Solo i bradipi hanno lunghi artigli.
+    \end{enumerate} }{
+    \item Alcuni cammelli navigano in barca a vela.
+    \item Alcuni cammelli con lunghi artigli non navigano in barca a vela.
+    \item Nessun cammello ha lunghi artigli.
+    \item Alcuni cammelli hanno lunghi artigli.
+    \item Alcuni cammelli non hanno lunghi artigli.
+}
+
+\itemdomanda{Date per vere le premesse 1) e 2), qual è la logica conclusione?
+    \begin{enumerate}
+        \item Nessun gatto è acquatico.
+        \item Ogni gatto è un mammifero.
+    \end{enumerate} }{
+    \item Tutti i mammiferi sono acquatici.
+    \item Alcuni mammiferi non sono acquatici.
+    \item Nessun mammifero è acquatico.
+    \item Tutti i mammiferi sono gatti.
+    \item Tutti i mammiferi non sono acquatici.
+}
+
+\itemdomanda{Individuare il corretto completamento del seguente sillogismo:
+    \begin{itemize}
+        \item[I.] Nessun ingenuo è cattivo
+        \item[II.] Qualche cattivo è adulto
+        \item[III.] Dunque ............ non è ingenuo
+    \end{itemize} }{
+    \item ogni cattivo
+    \item ogni adulto
+    \item qualche ingenuo
+    \item qualche cattivo
+    \item qualche adulto
+}
+
+\itemdomanda{Quale fra le seguenti affermazioni è sicuramente \textbf{falsa}?}{
+    \item Chi respira è vivo. Piero non respira, dunque Piero è morto
+    \item Nessun parigino è italiano; tutti i parigini parlano francese; ma non è vero che nessun italiano parla francese.
+    \item Un quadrato è sempre un rombo
+    \item Ciò che è scritto in A. è falso
+    \item Ogni professore ha un registro. Mario non ha registro, dunque Mario non è professore
+}
+
+\itemdomanda{In quale di queste sequenze letterarie viene mantenuta l'alternanza vocale-consonante?}{
+    \item ODERAXETUIXIDIC
+    \item ODERAXETUPAFESTXIDIC
+    \item ODERAXETZIXIDIC
+    \item ODERAXETUPAFESIXIDIC
+    \item ODORAXITUPAFASTXIDIC
+}
+
+\itemdomanda{Completare correttamente la seguente analogia verbale: \textit{Medico : Ospedale = Avvocato : ?}}{
+    \item Procura
+    \item Studio
+    \item Tribunale
+    \item Codice
+    \item Cliente
+}
+
+\itemdomanda{Se oggi è lunedì, quale è il giorno dopo al giorno prima del giorno che precede domani?}{
+    \item Sabato
+    \item Domenica
+    \item Lunedì
+    \item Martedì
+    \item Mercoledì
+}
+
+\itemdomanda{Individuare il termine che NON appartiene allo stesso gruppo semantico degli altri:}{
+    \item Platano
+    \item Girasole
+    \item Margherita
+    \item Rosa
+    \item Viola
+}
+
+\itemdomanda{Qual è il contrario del termine "Effimero"?}{
+    \item Breve
+    \item Transitorio
+    \item Duraturo
+    \item Fuggevole
+    \item inconsistente
+}
+
+\itemdomanda{Dobbiamo colorare le 11 regioni delimitate dai 4 cerchi della figura in modo che due regioni che hanno un arco in comune non siano dello stesso colore. Quanti colori dobbiamo usare come minimo per soddisfare questa richiesta?
+\begin{center}
+\begin{tikzpicture}[scale=0.7]
+    % Quattro cerchi intrecciati
+    \draw[thick] (0,0) circle (1.2);
+    \draw[thick] (1,0.7) circle (1.2);
+    \draw[thick] (1,-0.7) circle (1.2);
+    \draw[thick] (2,0) circle (1.2);
+\end{tikzpicture}
+\end{center}}{
+    \item 4
+    \item 6
+    \item 2
+    \item 5
+    \item 3
+}
+
+\itemdomanda{Quanti triangoli sapete individuare nella figura seguente?
+\begin{center}
+\begin{tikzpicture}[scale=2]
+    % Rettangolo esterno
+    \draw[thick] (0,0) rectangle (1,1.2);
+    % Diagonali
+    \draw[thick] (0,0) -- (1,1.2);
+    \draw[thick] (0,1.2) -- (1,0);
+    % Linea mediana verticale
+    \draw[thick] (0.5,0) -- (0.5,1.2);
+\end{tikzpicture}
+\end{center}
+}{
+    \item 6
+    \item 12
+    \item 10
+    \item 8
+    \item 16
+}
+
+\itemdomanda{Dire quante stelle sono comprese sia nel triangolo, sia nel cerchio ma non nel quadrato e neppure nel rettangolo.
+\begin{center}
+\begin{tikzpicture}[scale=0.35]
+    % Forme geometriche (approssimate dal disegno originale)
+    \draw[thick] (0,5) circle (4); % Cerchio
+    \draw[thick] (-1,8) -- (12,12) -- (12,1) -- cycle; % Triangolo grande
+    \draw[thick] (2,3) rectangle (10,11); % Rettangolo orizzontale
+    \draw[thick] (4,0) rectangle (7,7); % Quadrato/Rettangolo verticale
+
+    % Stelle (posizionate strategicamente per il conteggio richiesto)
+    % Area target: Intersezione Cerchio e Triangolo, fuori dagli altri due
+    \node at (-0.5,6) {$\star$};
+    \node at (0.5,4.5) {$\star$};
+    \node at (-1,4) {$\star$};
+    
+    % Altre stelle sparse per riempire il disegno come l'originale
+    \node at (-2,5) {$\star$}; \node at (5,9) {$\star$}; \node at (8,4) {$\star$};
+    \node at (10,10) {$\star$}; \node at (1,1) {$\star$}; \node at (11,6) {$\star$};
+    \node at (3,6) {$\star$}; \node at (6,2) {$\star$}; \node at (9,8) {$\star$};
+    \node at (4,10) {$\star$}; \node at (1,8) {$\star$}; \node at (5,5) {$\star$};
+\end{tikzpicture}
+\end{center}
+}{
+    \item 2
+    \item 3
+    \item 4
+    \item 5
+    \item 6
+}
+
+\itemdomanda{Quale dei quadrati numerati da 1 a 5 sostituisce correttamente il riquadro contenente il punto interrogativo?
+\begin{center}
+\begin{tikzpicture}[scale=0.48] % Scala aumentata per la sequenza principale
+    % --- SEQUENZA PRINCIPALE ---
+    % Quadrato 1: 4x4 con il numero 9
+    \draw[thick] (0,0) rectangle (3.5,3.5);
+    \foreach \i in {1,...,4} \foreach \j in {1,...,4} 
+        \node[draw, scale=0.5, inner sep=1pt] at (\i*3.5/5, \j*3.5/5) {9};
+        
+    % Quadrato 2: 3x3 con il numero 16
+    \draw[thick] (4.2,0) rectangle (7.7,3.5);
+    \foreach \i in {1,...,3} \foreach \j in {1,...,3} 
+        \node[draw, scale=0.6, inner sep=1pt] at (4.2+\i*3.5/4, \j*3.5/4) {16};
+        
+    % Quadrato 3: 2x2 con il numero 36
+    \draw[thick] (8.4,0) rectangle (11.9,3.5);
+    \foreach \i in {1,...,2} \foreach \j in {1,...,2} 
+        \node[draw, scale=0.9, inner sep=2pt] at (8.4+\i*3.5/3, \j*3.5/3) {\textbf{36}};
+        
+    % Quadrato con punto interrogativo
+    \draw[thick] (12.6,0) rectangle (16.1,3.5);
+    \node at (14.35,1.75) {\huge \textbf{?}};
+\end{tikzpicture}
+
+\vspace{12pt}
+
+\begin{tikzpicture}[scale=0.42] % Scala ottimizzata per far stare 5 opzioni in una colonna
+    % --- OPZIONI DI RISPOSTA (1-5) ---
+    % Opzione 1: 6x6 con 4
+    \draw (0,0) rectangle (3.5,3.5); \node[below=4pt] at (1.75,0) {\small \textbf{1}};
+    \foreach \i in {1,...,6} \foreach \j in {1,...,6} 
+        \node[draw, fill=gray!20, scale=0.52, inner sep=0.1pt, font=\small] at (\i*3.5/7, \j*3.5/7) {4};
+        
+    % Opzione 2: 3x3 con 16
+    \draw (4.3,0) rectangle (7.8,3.5); \node[below=4pt] at (6.05,0) {\small \textbf{2}};
+    \foreach \i in {1,...,3} \foreach \j in {1,...,3} 
+        \node[draw, fill=gray!20, scale=0.7, inner sep=1pt] at (4.3+\i*3.5/4, \j*3.5/4) {16};
+        
+    % Opzione 3: 1x1 con 64
+    \draw (8.6,0) rectangle (12.1,3.5); \node[below=4pt] at (10.35,0) {\small \textbf{3}};
+    \node[draw, fill=gray!20, minimum size=0.9cm, font=\small\bfseries] at (10.35, 1.75) {64};
+    
+    % Opzione 4: 1x1 con 144 (Risposta Corretta)
+    \draw (12.9,0) rectangle (16.4,3.5); \node[below=4pt] at (14.65,0) {\small \textbf{4}};
+    \node[draw, fill=gray!20, minimum size=1.35cm, font=\small\bfseries] at (14.65, 1.75) {144};
+    
+    % Opzione 5: 1x1 con 100
+    \draw (17.2,0) rectangle (20.7,3.5); \node[below=4pt] at (18.95,0) {\small \textbf{5}};
+    \node[draw, fill=gray!20, minimum size=1.1cm, font=\small\bfseries] at (18.95, 1.75) {100};
+\end{tikzpicture}
+\end{center}
+}{
+    \item Il quadrato 5
+    \item Il quadrato 3
+    \item Il quadrato 1
+    \item Il quadrato 2
+    \item Il quadrato 4
+}
+
+\itemdomanda{Quale delle figure numerate da 1 a 5 sostituisce correttamente il riquadro contenente il punto interrogativo?
+\begin{center}
+\begin{tikzpicture}[scale=0.32] % Scala per la sequenza principale
+    % --- SEQUENZA ---
+    % 1. Triangolo
+    \draw (0,0) rectangle (5,5);
+    \draw[thick] (1,1) -- (4,1) -- (2.5,4) -- cycle;
+    \node[scale=0.6] at (2.5,4.4) {15}; % V. Top
+    \node[scale=0.6] at (0.6,0.6) {6};   % V. BL
+    \node[scale=0.6] at (4.4,0.6) {3};   % V. BR
+    \node[scale=0.6, font=\bfseries] at (1.4,2.8) {9}; % L. Left
+    \node[scale=0.6, font=\bfseries] at (3.6,2.8) {6}; % L. Right
+    \node[scale=0.6, font=\bfseries] at (2.5,0.7) {3}; % L. Bottom
+
+    % 2. Quadrato
+    \begin{scope}[xshift=5.5cm]
+    \draw (0,0) rectangle (5,5);
+    \draw[thick, fill=gray!10] (1,1) rectangle (4,4);
+    \node[scale=0.6] at (0.6,4.4) {28}; % V. TL
+    \node[scale=0.6] at (4.4,4.4) {4};  % V. TR
+    \node[scale=0.6] at (4.4,0.6) {4};  % V. BR
+    \node[scale=0.6] at (0.6,0.6) {20}; % V. BL
+    \node[scale=0.6, font=\bfseries] at (2.5,4.3) {12}; % L. Top
+    \node[scale=0.6, font=\bfseries] at (4.3,2.5) {8};  % L. Right
+    \node[scale=0.6, font=\bfseries] at (2.5,0.7) {4};  % L. Bottom
+    \node[scale=0.6, font=\bfseries] at (0.7,2.5) {16}; % L. Left
+    \end{scope}
+
+    % 3. Triangolo
+    \begin{scope}[xshift=11cm]
+    \draw (0,0) rectangle (5,5);
+    \draw[thick] (1,1) -- (4,1) -- (2.5,4) -- cycle;
+    \node[scale=0.6] at (2.5,4.4) {3};
+    \node[scale=0.6] at (0.6,0.6) {6};
+    \node[scale=0.6] at (4.4,0.6) {9};
+    \node[scale=0.6, font=\bfseries] at (1.4,2.8) {9};
+    \node[scale=0.6, font=\bfseries] at (3.6,2.8) {6};
+    \node[scale=0.6, font=\bfseries] at (2.5,0.7) {3};
+    \end{scope}
+
+    % 4. ?
+    \begin{scope}[xshift=16.5cm]
+    \draw (0,0) rectangle (5,5);
+    \node at (2.5,2.5) {\huge ?};
+    \end{scope}
+\end{tikzpicture}
+
+\vspace{8pt}
+
+\begin{tikzpicture}[scale=0.28] % Scala ridotta per far stare 5 opzioni in riga
+    % --- OPZIONI ---
+    % Fig 1
+    \draw (0,0) rectangle (5,5); \node[below=2pt] at (2.5,0) {\textbf{1}};
+    \draw[thick] (1,1) rectangle (4,4);
+    \node[scale=0.5] at (0.6,4.4) {24}; \node[scale=0.5] at (4.4,4.4) {4};
+    \node[scale=0.5] at (4.4,0.6) {4}; \node[scale=0.5] at (0.6,0.6) {80};
+    \node[scale=0.5, font=\bfseries] at (2.5,4.3) {64}; \node[scale=0.5, font=\bfseries] at (4.3,2.5) {4};
+    \node[scale=0.5, font=\bfseries] at (2.5,0.7) {4}; \node[scale=0.5] at (1.6,2.5) {144}; \node[scale=0.5] at (3.5,2.5) {16};
+
+    % Fig 2
+    \begin{scope}[xshift=5.5cm]
+    \draw (0,0) rectangle (5,5); \node[below=2pt] at (2.5,0) {\textbf{2}};
+    \draw[thick, fill=gray!10] (1,1) rectangle (4,4);
+    \node[scale=0.5] at (0.6,4.4) {4}; \node[scale=0.5] at (4.4,4.4) {4};
+    \node[scale=0.5] at (4.4,0.6) {4}; \node[scale=0.5] at (0.6,0.6) {12};
+    \node[scale=0.5, font=\bfseries] at (2.5,4.3) {12}; \node[scale=0.5, font=\bfseries] at (4.3,2.5) {8};
+    \node[scale=0.5, font=\bfseries] at (2.5,0.7) {4}; \node[scale=0.5, font=\bfseries] at (0.7,2.5) {16};
+    \end{scope}
+
+    % Fig 3 (Esagono)
+    \begin{scope}[xshift=11cm]
+    \draw (0,0) rectangle (5,5); \node[below=2pt] at (2.5,0) {\textbf{3}};
+    \draw[thick, fill=gray!10] (2.5,1) -- (4,1.8) -- (4,3.2) -- (2.5,4) -- (1,3.2) -- (1,1.8) -- cycle;
+    \node[scale=0.4] at (2.5,0.7) {6}; \node[scale=0.4] at (2.5,4.3) {42};
+    \end{scope}
+
+    % Fig 4 (Corretta)
+    \begin{scope}[xshift=16.5cm]
+    \draw (0,0) rectangle (5,5); \node[below=2pt] at (2.5,0) {\textbf{4}};
+    \draw[thick, fill=gray!10] (1,1) rectangle (4,4);
+    \node[scale=0.5] at (0.6,4.4) {4}; \node[scale=0.5] at (4.4,4.4) {4};
+    \node[scale=0.5] at (4.4,0.6) {4}; \node[scale=0.5] at (0.6,0.6) {12};
+    \node[scale=0.5, font=\bfseries] at (2.5,4.3) {12}; \node[scale=0.5, font=\bfseries] at (4.3,2.5) {8};
+    \node[scale=0.5, font=\bfseries] at (2.5,0.7) {4}; \node[scale=0.5, font=\bfseries] at (0.7,2.5) {16};
+    \end{scope}
+
+    % Fig 5 (Esagono)
+    \begin{scope}[xshift=22cm]
+    \draw (0,0) rectangle (5,5); \node[below=2pt] at (2.5,0) {\textbf{5}};
+    \draw[thick, fill=gray!10] (2.5,1) -- (4,1.8) -- (4,3.2) -- (2.5,4) -- (1,3.2) -- (1,1.8) -- cycle;
+    \foreach \a in {0,60,...,300} { \node[scale=0.5] at ({2.5+2*cos(\a)},{2.5+2*sin(\a)}) {6}; }
+    \end{scope}
+\end{tikzpicture}
+\end{center}
+}{
+    \item La figura 2
+    \item La figura 3
+    \item La figura 4
+    \item La figura 5
+    \item La figura 1
+}
+
+\itemdomanda{Nell'atrio di ingresso di un condominio è appeso un cartello con il seguente avviso: "È permesso giocare a calcio in cortile, tranne che dalle ore 13.00 alle ore 16.00 e di domenica". Se ne può dedurre che in quel condominio:}{
+    \item non è vietato giocare a calcio in cortile alle ore 12.00, purché non sia domenica
+    \item non è vietato giocare a calcio in cortile la domenica dalle ore 16.00 in poi
+    \item nei giorni diversi da domenica è vietato non giocare a calcio in cortile prima delle 13.00 e dopo le 16.00
+    \item non è vietato giocare a calcio in cortile alle ore 14.00, purché non sia domenica
+    \item non è vietato giocare a calcio in cortile alle ore 14.00, purché sia domenica
+}
+
+\itemdomanda{Tre società: A, B e C, di cui almeno due sono italiane. Sapendo che se A è italiana lo è anche B, e che se C è italiana lo è anche A, e che tra B e C almeno una non è italiana, possiamo dedurre che:}{
+    \item C non è italiana e B è italiana
+    \item A non è italiana e B è italiana
+    \item A, B e C sono italiane
+    \item A e C sono italiane
+    \item C è italiana e B non è italiana
+}
+
+\itemdomanda{Una indagine mostra che in Italia ci sono più persone coniugate che single e più maschi che femmine. Da questi dati possiamo dedurre che una sola fra le seguenti affermazioni è sicuramente \textbf{FALSA}; quale?}{
+    \item In Italia le coppie sono più delle donne nubili
+    \item In Italia le coppie sono più dei maschi celibi
+    \item In Italia ci sono più mariti che donne nubili
+    \item In Italia i single sono più del doppio delle coppie
+    \item In Italia ci sono più maschi celibi che mariti
+}
+
+\itemdomanda{Luigina afferma: 1) il martedì, se faccio il bagno poi vado al mercato. L’altro ieri era martedì, e ho fatto il bagno; 2) ieri non ho fatto il bagno e sono andata al mercato; 3) oggi andrò al mercato e forse mi farò anche il bagno. Ne consegue necessariamente che:}{
+    \item tutte le volte che Luigina va al mercato, non si fa il bagno
+    \item il martedì Luigina fa sempre il bagno
+    \item se Luigina fa il bagno di mercoledì, poi non va al mercato
+    \item l’altro ieri Luigina non è andata al mercato
+    \item a volte Luigina va al mercato senza essersi fatta il bagno
+}
+
+\itemdomanda{"Nessun cittadino che non abbia pagato le tasse può votare. Marco ha votato". Ne consegue che:}{
+    \item Marco è un bravo cittadino
+    \item Marco ha pagato le tasse
+    \item Marco non ha pagato le tasse
+    \item Solo Marco ha pagato le tasse
+    \item Chi vota paga sempre le tasse
+}
+
+\itemdomanda{"Il signor Rossi ha comprato un'auto elettrica, quindi ha a cuore l'ambiente". Quale assunzione è necessaria per sostenere questa conclusione?}{
+    \item Tutte le auto elettriche sono costose
+    \item Chiunque compri un'auto elettrica lo fa esclusivamente per motivi ecologici
+    \item Le auto elettriche inquinano meno di quelle a benzina
+    \item Il signor Rossi non ha altre auto
+    \item Il signor Rossi vive in una zona con molte colonnine di ricarica
+}
+
+\itemdomanda{Un negozio di alimentari ha consegnato a domicilio la spesa che Luca ha ordinato. Luca deve pagare chi, con un furgone, ha svolto l'incarico. La mattina che Luca ha ricevuto la spesa erano in negozio e disponibili per la consegna solo Marco, Carlo e Daniele. Sapendo che Daniele non svolge incarichi, se non li svolge anche Marco e che Carlo non sa guidare, allora:}{
+    \item Sarà pagato Marco.
+    \item Solo Carlo sarà pagato.
+    \item Né Marco, né Carlo saranno pagati.
+    \item Marco non sarà pagato, Carlo sì.
+    \item Daniele sarà pagato, Aldo no.
+}
+
+\itemdomanda{"Se la squadra vince il torneo, i giocatori riceveranno un premio. La squadra non ha vinto il torneo". Cosa si può concludere?}{
+    \item I giocatori non riceveranno il premio
+    \item I giocatori riceveranno il premio lo stesso
+    \item Alcuni giocatori riceveranno il premio, altri no
+    \item Non si può concludere nulla riguardo al premio
+    \item La squadra ha giocato male
+}
+
+\itemdomanda{Date per vere le premesse 1), 2), 3) e 4), qual è la logica conclusione?
+    \begin{enumerate}
+        \item Tutti gli squali hanno denti aguzzi.
+        \item Nemo è un pesce e Ork è uno squalo.
+        \item Se un pesce è piccolo, si sente al sicuro solo quando incontra pesci che non hanno denti aguzzi.
+        \item Nemo è sempre contento di nuotare insieme a Ork.
+    \end{enumerate} }{
+    \item Ork ha denti aguzzi.
+    \item Nemo si sente al sicuro solo quando nuota con Ork.
+    \item Nemo è un pesce grosso.
+    \item Ork è un pesce di grossa taglia.
+    \item Nemo è un pesce piccolo.
+}
+
+\itemdomanda{La signora $QKX$ è stata strangolata nel proprio salotto. Il commissario $ZYW$ non crede che l'imputato di omicidio (il quale si difende vibratamente dichiarando la propria innocenza) non si sia recato a casa della vittima nell'intervallo di tempo nel quale la stessa ha perso la vita. Si può dedurre che:}{
+    \item sicuramente l'imputato non è colpevole
+    \item il commissario $ZYW$ è convinto che l'imputato non si sia recato a casa della vittima nell'intervallo di tempo nel quale la stessa ha perso la vita
+    \item per il commissario $ZYW$ l'imputato certamente non è colpevole
+    \item sicuramente l'imputato è colpevole
+    \item il commissario $ZYW$ non esclude che l'imputato abbia strangolato la signora $QKX$
+}
+
+\itemdomanda{"L'uso eccessivo di smartphone riduce la capacità di concentrazione. Infatti, negli ultimi 10 anni, il tempo medio di attenzione degli studenti è calato drasticamente". Quale fatto indebolirebbe questa tesi?}{
+    \item Gli studenti oggi leggono più libri digitali rispetto al passato
+    \item I test di attenzione sono diventati molto più difficili negli ultimi 10 anni
+    \item Molti studenti usano lo smartphone per scopi didattici
+    \item La dieta moderna influisce negativamente sulla memoria
+    \item Gli insegnanti usano sempre più spesso tablet in classe
+}
+
+\itemdomanda{Si legge sull'autobus: ``I passeggeri sono tenuti a pagare un ulteriore biglietto per ogni bagaglio che superi le seguenti dimensioni: \SI{50}{cm} $\times$ \SI{30}{cm} $\times$ \SI{25}{cm}''. Chi legge comprende che, in base a questa norma, si debba pagare un ulteriore biglietto per un oggetto di qualunque forma che occupi uno spazio il cui volume è superiore a quello occupato dal bagaglio sopra descritto. Egli deduce quindi che:}{
+    \item si deve pagare un biglietto per un pallone del diametro di \SI{20}{cm}
+    \item si deve pagare un biglietto per un bastone lungo \SI{90}{cm} e con il diametro di \SI{2}{cm} se tenuto orizzontalmente
+    \item si deve pagare un biglietto per un bastone lungo \SI{90}{cm} e con il diametro di \SI{2}{cm}
+    \item si deve pagare un biglietto per un oggetto che supera \SI{50}{cm} di lunghezza oppure \SI{30}{cm} di altezza oppure \SI{25}{cm} di spessore
+    \item si deve pagare un biglietto per un oggetto che supera \SI{50}{cm} di lunghezza e \SI{30}{cm} di altezza e \SI{25}{cm} di spessore
+}
+
+\itemdomanda{Tre amiche, Maria, Carla e Daniela, vanno spesso a teatro. Si sa che se Daniela va a teatro, ci va anche Maria; Maria e Carla non ci vanno mai tutte e due insieme; può anche succedere che Daniela o Carla vadano a teatro da sole; però, se Carla va a teatro, allora ci va anche Daniela. Supponendo vere tali premesse, chi è andata al cinema in coppia?}{
+    \item Maria e Carla
+    \item Nessuna delle tre
+    \item Maria e Daniela
+    \item Carla e Daniela
+    \item Ciascuna di loro
+}
+
+\itemdomanda{Giocando a Risiko Giulio Cesare ha vinto più di suo nipote Augusto, ma non di Napoleone. Alessandro Magno ha vinto meno di Carlo Magno, ma più di Napoleone. Chi ha vinto di meno?}{
+    \item Carlo Magno
+    \item Alessandro Magno
+    \item Napoleone
+    \item Augusto
+    \item Giulio Cesare
+}
+
+\itemdomanda{In una maratona Sergio è stato più veloce di Giorgio e Daniele ha battuto Giovanni, ma ha perso rispetto a Giorgio, Giovanni ha sopravanzato Alex. Quale partecipante è arrivato ultimo alla maratona?}{
+    \item Sergio
+    \item Giorgio
+    \item Daniele
+    \item Giovanni
+    \item Alex
+}
+
+\itemdomanda{Quale delle seguenti tabelle di verità è corretta? \\}{
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\mathbf{X} \land (\mathbf{Y} \rightarrow \lnot \mathbf{X})}$ \\ \hline V & V & F \\ \hline V & F & V \\ \hline F & V & F \\ \hline F & F & F \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\mathbf{X} \land (\mathbf{Y} \rightarrow \lnot \mathbf{X})}$ \\ \hline V & V & V \\ \hline V & F & F \\ \hline F & V & V \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\mathbf{X} \land (\mathbf{Y} \rightarrow \lnot \mathbf{X})}$ \\ \hline V & V & F \\ \hline V & F & F \\ \hline F & V & F \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\mathbf{X} \land (\mathbf{Y} \rightarrow \lnot \mathbf{X})}$ \\ \hline V & V & V \\ \hline V & F & V \\ \hline F & V & V \\ \hline F & F & F \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\mathbf{X} \land (\mathbf{Y} \rightarrow \lnot \mathbf{X})}$ \\ \hline V & V & F \\ \hline V & F & V \\ \hline F & V & V \\ \hline F & F & F \\ \hline \end{tabular}
+}
+
+\itemdomanda{L'espressione $\lnot (A \rightarrow A)$ è:}{
+    \item Una tautologia
+    \item Una contraddizione (sempre falsa)
+    \item Una contingenza
+    \item Vera se A è falsa
+    \item Indeterminata
+}
+
+\itemdomanda{Considerando l'operatore "o esclusivo" ($\dot{\lor}$), quale delle seguenti affermazioni sull'uguaglianza $A \dot{\lor} B = \lnot [(A \land B) \lor (\lnot A \land \lnot B)]$ è corretta?}{
+    \item L'uguaglianza è sempre vera (tautologia)
+    \item L'uguaglianza è sempre falsa
+    \item L'uguaglianza è vera solo se $A$ e $B$ sono entrambe vere
+    \item L'uguaglianza è vera solo se $A$ e $B$ sono entrambe false
+    \item Non è possibile stabilire un'equivalenza tra queste espressioni
+}
+
+\itemdomanda{Quale delle seguenti tabelle di verità è corretta? \\}{
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{(\lnot \mathbf{X} \land \mathbf{Y}) \rightarrow \lnot \mathbf{Y}}$ \\ \hline V & V & V \\ \hline V & F & V \\ \hline F & V & F \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{(\lnot \mathbf{X} \land \mathbf{Y}) \rightarrow \lnot \mathbf{Y}}$ \\ \hline V & V & F \\ \hline V & F & F \\ \hline F & V & V \\ \hline F & F & F \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{(\lnot \mathbf{X} \land \mathbf{Y}) \rightarrow \lnot \mathbf{Y}}$ \\ \hline V & V & V \\ \hline V & F & F \\ \hline F & V & V \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{(\lnot \mathbf{X} \land \mathbf{Y}) \rightarrow \lnot \mathbf{Y}}$ \\ \hline V & V & F \\ \hline V & F & V \\ \hline F & V & F \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{(\lnot \mathbf{X} \land \mathbf{Y}) \rightarrow \lnot \mathbf{Y}}$ \\ \hline V & V & V \\ \hline V & F & V \\ \hline F & V & V \\ \hline F & F & V \\ \hline \end{tabular}
+}
+
+\itemdomanda{Siano date le proposizioni: $A =$ "Parigi è capoluogo della Toscana"; $B =$ "15 è divisibile per 3". Qual è il valore di verità dell'implicazione $A \rightarrow B$?}{
+    \item Vera
+    \item Falsa
+    \item Possibile
+    \item Vera solo se Parigi fosse in Toscana
+    \item Falsa perché l'antecedente è falso
+}
+
+\itemdomanda{Quale delle seguenti tabelle di verità è corretta? \\}{
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\lnot [(\mathbf{X} \land \mathbf{Y}) \lor (\lnot \mathbf{X} \land \lnot \mathbf{Y})]}$ \\ \hline V & V & F \\ \hline V & F & V \\ \hline F & V & V \\ \hline F & F & F \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\lnot [(\mathbf{X} \land \mathbf{Y}) \lor (\lnot \mathbf{X} \land \lnot \mathbf{Y})]}$ \\ \hline V & V & V \\ \hline V & F & F \\ \hline F & V & F \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\lnot [(\mathbf{X} \land \mathbf{Y}) \lor (\lnot \mathbf{X} \land \lnot \mathbf{Y})]}$ \\ \hline V & V & F \\ \hline V & F & F \\ \hline F & V & F \\ \hline F & F & F \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\lnot [(\mathbf{X} \land \mathbf{Y}) \lor (\lnot \mathbf{X} \land \lnot \mathbf{Y})]}$ \\ \hline V & V & V \\ \hline V & F & V \\ \hline F & V & V \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\lnot [(\mathbf{X} \land \mathbf{Y}) \lor (\lnot \mathbf{X} \land \lnot \mathbf{Y})]}$ \\ \hline V & V & F \\ \hline V & F & V \\ \hline F & V & F \\ \hline F & F & V \\ \hline \end{tabular}
+}
+
+\itemdomanda{Quale delle seguenti espressioni è una tautologia (sempre vera)?}{
+    \item $A \land \lnot A$
+    \item $A \lor \lnot A$
+    \item $A \rightarrow \lnot A$
+    \item $\lnot (A \lor B)$
+    \item $A \leftrightarrow \lnot A$
+}
+
+\itemdomanda{Se la proposizione $P$ è vera e la proposizione $Q$ è falsa, qual è il valore di verità dell'espressione logica $\lnot (P \leftrightarrow Q)$?}{
+    \item Vera
+    \item Falsa
+    \item Indeterminata
+    \item Vera solo se $P$ fosse falsa
+    \item Falsa perché l'operatore $\leftrightarrow$ richiede che entrambi siano falsi
+}
+
+\itemdomanda{Siano date le seguenti proposizioni: $A =$ "15 è divisibile per 3"; $B =$ "-2 è un numero irrazionale"; $C =$ "un cerchio ha 4 lati". Qual è il valore di verità dell'espressione $A \dot{\lor} (B \land C)$?}{
+    \item Vera
+    \item Falsa
+    \item Indeterminata
+    \item Vera solo se $B$ è vera
+    \item Falsa perché $A$ è falsa
+}
+
+\itemdomanda{Quale delle seguenti tabelle di verità è corretta? \\}{
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\mathbf{X} \dot{\lor} \mathbf{Y}}$ \\ \hline V & V & F \\ \hline V & F & V \\ \hline F & V & V \\ \hline F & F & F \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\mathbf{X} \dot{\lor} \mathbf{Y}}$ \\ \hline V & V & V \\ \hline V & F & F \\ \hline F & V & F \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\mathbf{X} \dot{\lor} \mathbf{Y}}$ \\ \hline V & V & V \\ \hline V & F & V \\ \hline F & V & V \\ \hline F & F & V \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\mathbf{X} \dot{\lor} \mathbf{Y}}$ \\ \hline V & V & F \\ \hline V & F & F \\ \hline F & V & F \\ \hline F & F & F \\ \hline \end{tabular}
+    \item \begin{tabular}{|c|c|c|} \hline \textbf{X} & \textbf{Y} & $\boldsymbol{\mathbf{X} \dot{\lor} \mathbf{Y}}$ \\ \hline V & V & V \\ \hline V & F & F \\ \hline F & V & V \\ \hline F & F & F \\ \hline \end{tabular}
+}
+\end{enumerate}
+
+\newpage
+\section*{Soluzioni Logica}
+\begin{itemize}[leftmargin=*]
+\item [Logica] Domanda 1: 1
+\item [Logica] Domanda 2: 2
+\item [Logica] Domanda 3: 4
+\item [Logica] Domanda 4: 5
+\item [Logica] Domanda 5: 4
+\item [Logica] Domanda 6: 4
+\item [Logica] Domanda 7: 1
+\item [Logica] Domanda 8: 3
+\item [Logica] Domanda 9: 3
+\item [Logica] Domanda 10: 2
+\item [Logica] Domanda 11: 1
+\item [Logica] Domanda 12: 1
+\item [Logica] Domanda 13: 1
+\item [Logica] Domanda 14: 1
+\item [Logica] Domanda 15: 1
+\item [Logica] Domanda 16: 1
+\item [Logica] Domanda 17: 1
+\item [Logica] Domanda 18: 1
+\item [Logica] Domanda 19: 1
+\item [Logica] Domanda 20: 1
+\item [Logica] Domanda 21: 1
+\item [Logica] Domanda 22: 1
+\item [Logica] Domanda 23: 1
+\item [Logica] Domanda 24: 1
+\item [Logica] Domanda 25: 2
+\item [Logica] Domanda 26: 2
+\item [Logica] Domanda 27: 2
+\item [Logica] Domanda 28: 2
+\item [Logica] Domanda 29: 2
+\item [Logica] Domanda 30: 1
+\item [Logica] Domanda 31: 3
+\item [Logica] Domanda 32: 1
+\item [Logica] Domanda 33: 3
+\item [Logica] Domanda 34: 1
+\item [Logica] Domanda 35: 2
+\item [Logica] Domanda 36: 3
+\item [Logica] Domanda 37: 5
+\item [Logica] Domanda 38: 3
+\item [Logica] Domanda 39: 5
+\item [Logica] Domanda 40: 5
+\item [Logica] Domanda 41: 4
+\item [Logica] Domanda 42: 4
+\item [Logica] Domanda 43: 5
+\item [Logica] Domanda 44: 2
+\item [Logica] Domanda 45: 1
+\item [Logica] Domanda 46: 4
+\item [Logica] Domanda 47: 3
+\item [Logica] Domanda 48: 2
+\item [Logica] Domanda 49: 2
+\item [Logica] Domanda 50: 1
+\item [Logica] Domanda 51: 1
+\item [Logica] Domanda 52: 3
+\item [Logica] Domanda 53: 1
+\item [Logica] Domanda 54: 3
+\item [Logica] Domanda 55: 1
+\item [Logica] Domanda 56: 3
+\item [Logica] Domanda 57: 3
+\item [Logica] Domanda 58: 4
+\item [Logica] Domanda 59: 4
+\item [Logica] Domanda 60: 3
+\item [Logica] Domanda 61: 1
+\item [Logica] Domanda 62: 2
+\item [Logica] Domanda 63: 5
+\item [Logica] Domanda 64: 1
+\item [Logica] Domanda 65: 3
+\item [Logica] Domanda 66: 3
+\item [Logica] Domanda 67: 4
+\item [Logica] Domanda 68: 4
+\item [Logica] Domanda 69: 3
+\item [Logica] Domanda 70: 1
+\item [Logica] Domanda 71: 4
+\item [Logica] Domanda 72: 2
+\item [Logica] Domanda 73: 2
+\item [Logica] Domanda 74: 2
+\item [Logica] Domanda 75: 4
+\item [Logica] Domanda 76: 3
+\item [Logica] Domanda 77: 3
+\item [Logica] Domanda 78: 2
+\item [Logica] Domanda 79: 1
+\item [Logica] Domanda 80: 4
+\item [Logica] Domanda 81: 2
+\item [Logica] Domanda 82: 1
+\item [Logica] Domanda 83: 4
+\item [Logica] Domanda 84: 4
+\item [Logica] Domanda 85: 2
+\item [Logica] Domanda 86: 3
+\item [Logica] Domanda 87: 3
+\item [Logica] Domanda 88: 2
+\item [Logica] Domanda 89: 5
+\item [Logica] Domanda 90: 4
+\item [Logica] Domanda 91: 4
+\item [Logica] Domanda 92: 3
+\item [Logica] Domanda 93: 3
+\item [Logica] Domanda 94: 1
+\item [Logica] Domanda 95: 3
+\item [Logica] Domanda 96: 3
+\item [Logica] Domanda 97: 2
+\item [Logica] Domanda 98: 2
+\item [Logica] Domanda 99: 5
+\item [Logica] Domanda 100: 3
+\item [Logica] Domanda 101: 1
+\item [Logica] Domanda 102: 1
+\item [Logica] Domanda 103: 4
+\item [Logica] Domanda 104: 5
+\item [Logica] Domanda 105: 2
+\item [Logica] Domanda 106: 2
+\item [Logica] Domanda 107: 1
+\item [Logica] Domanda 108: 4
+\item [Logica] Domanda 109: 1
+\item [Logica] Domanda 110: 5
+\item [Logica] Domanda 111: 2
+\item [Logica] Domanda 112: 4
+\item [Logica] Domanda 113: 3
+\item [Logica] Domanda 114: 4
+\item [Logica] Domanda 115: 5
+\item [Logica] Domanda 116: 1
+\item [Logica] Domanda 117: 2
+\item [Logica] Domanda 118: 1
+\item [Logica] Domanda 119: 1
+\item [Logica] Domanda 120: 1
+\item [Logica] Domanda 121: 1
+\item [Logica] Domanda 122: 2
+\item [Logica] Domanda 123: 1
+\item [Logica] Domanda 124: 1
+\item [Logica] Domanda 125: 1
+\end{itemize}
+
+\end{document}

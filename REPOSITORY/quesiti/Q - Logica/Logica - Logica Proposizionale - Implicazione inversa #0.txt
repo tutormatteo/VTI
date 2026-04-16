@@ -1,0 +1,9 @@
+\itemdomanda{Data la frase "Se piove, porto l'ombrello", quale delle seguenti è certamente vera?}{
+    \item Se porto l'ombrello, allora piove
+    \item Se non porto l'ombrello, allora non piove
+    \item Se non piove, non porto l'ombrello
+    \item Piove solo se porto l'ombrello
+    \item Porto l'ombrello se e solo se piove
+}
+
+Risposta Corretta: 2

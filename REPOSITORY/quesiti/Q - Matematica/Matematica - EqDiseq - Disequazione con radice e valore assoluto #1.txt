@@ -1,0 +1,10 @@
+\itemdomanda{La disequazione $ \sqrt{|x|} > 0 $ è verificata per
+}{
+\item $ x > 0 $
+\item $ x > 1 $
+\item $ 0 < x < 1 $
+\item $ x < 0 \lor x > 1 $
+\item $ x \neq 0 $
+}
+
+Risposta Corretta: 5

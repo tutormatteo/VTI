@@ -1,0 +1,9 @@
+\itemdomanda{Il periodo di un pendolo di massa $m$ legata a un filo inestensibile di lunghezza $l$:}{
+    \item non varia con massa o lunghezza
+    \item diminuisce con la massa
+    \item aumenta con la massa
+    \item diminuisce accorciando il filo
+    \item aumenta accorciando il filo
+}
+
+Risposta Corretta: 4

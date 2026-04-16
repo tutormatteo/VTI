@@ -1,0 +1,9 @@
+\itemdomanda{In una progressione geometrica $2, -4, 8, -16, \dots$, la ragione $q$ è:}{
+\item $-2$
+\item $2$
+\item $-6$
+\item $4$
+\item $1/2$
+}
+
+Risposta Corretta: 1

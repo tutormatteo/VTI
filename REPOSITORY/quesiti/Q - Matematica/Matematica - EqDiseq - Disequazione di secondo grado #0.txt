@@ -1,0 +1,10 @@
+\itemdomanda{La disequazione $ (x^{2} + 1 ) ( x^{2} - 4 ) > 0 $
+}{
+\item $ x > 4 $
+\item $ x > -1 $
+\item $ 1 < x \lor x < -1$
+\item $ -2 < x < 2 $
+\item $ x > 2 \lor x < - 2 $
+}
+
+Risposta Corretta: 5

@@ -1,0 +1,10 @@
+\itemdomanda{Si può affermare che $ \sqrt{x} \cdot \sqrt{y} > 0 $
+}{
+\item per $ x > 0 \land y < 0 $
+\item per $ x < 0 \land y < 0 $
+\item per qualsiasi valore di $x$ e $y$
+\item per $ x > 0 \land y > 0 $
+\item non ha soluzioni reali
+}
+
+Risposta Corretta: 4

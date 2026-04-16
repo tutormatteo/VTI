@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ \tan(\pi/3) $ vale:
+}{
+\item $ 1 $
+\item $ \frac{\sqrt{3}}{3} $
+\item $ \sqrt{3} $
+\item $ \frac{1}{2} $
+\item $ 0 $
+}
+
+Risposta Corretta: 3

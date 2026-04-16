@@ -1,0 +1,10 @@
+\itemdomanda{Quale dei seguenti binomi divide il polinomio $ P(x)=x^3-x^2-x+1 $?
+}{
+\item $ x-1 $
+\item $ x+2 $
+\item $ x+1 $
+\item $ x-2 $
+\item $ x $
+}
+
+Risposta Corretta: 1

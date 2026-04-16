@@ -1,0 +1,9 @@
+\itemdomanda{Un chimico, studiando una soluzione che si era tinta di arancione, constatò che in essa era presente del sodio o del potassio (o entrambi); osservò che, se \textbf{NON} c'era sodio, c'era ferro, e che, se c'era potassio, c'era anche jodio. Quale di queste situazioni si può verificare?}{
+    \item La soluzione contiene solo potassio e ferro
+    \item La soluzione contiene solo ferro e jodio
+    \item la soluzione contiene sodio e potassio, e non contiene jodio
+    \item La soluzione non contiene né sodio né jodio
+    \item La soluzione contiene solo sodio
+}
+
+Risposta Corretta: 5

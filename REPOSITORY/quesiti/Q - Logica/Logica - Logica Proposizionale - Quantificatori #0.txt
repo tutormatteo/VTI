@@ -1,0 +1,9 @@
+\itemdomanda{Qual è la negazione della frase: "Tutti gli svedesi sono alti"?}{
+    \item Nessun svedese è alto
+    \item Tutti gli svedesi sono bassi
+    \item Almeno uno svedese non è alto
+    \item Qualche svedese è basso, ma non tutti
+    \item Gli svedesi sono tutti di media statura
+}
+
+Risposta Corretta: 3

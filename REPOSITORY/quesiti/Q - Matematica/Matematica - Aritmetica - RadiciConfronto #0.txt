@@ -1,0 +1,10 @@
+\itemdomanda{Dati i radicali $ \sqrt[4]{100} ; \sqrt[3]{1000} ; \sqrt{11} $ si ha
+}{
+\item $ \sqrt[4]{100} < \sqrt[3]{1000} < \sqrt{11} $
+\item $ \sqrt[3]{1000} < \sqrt{11} < \sqrt[4]{100} $
+\item $ \sqrt{11} < \sqrt[4]{100} < \sqrt[3]{1000} $
+\item $ \sqrt[4]{100} < \sqrt[3]{1000} < \sqrt{11} < \sqrt[3]{1000} $
+\item $ \sqrt[4]{100} < \sqrt{11} < \sqrt[3]{1000} $
+}
+
+Risposta Corretta: 5

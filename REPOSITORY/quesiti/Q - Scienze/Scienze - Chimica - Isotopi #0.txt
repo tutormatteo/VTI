@@ -1,0 +1,9 @@
+\itemdomanda{Due atomi di uno stesso elemento che differiscono esclusivamente per il numero di neutroni sono definiti:}{
+    \item Ioni
+    \item Isotopi
+    \item Isomeri
+    \item Allotropi
+    \item Isobare
+}
+
+Risposta Corretta: 2

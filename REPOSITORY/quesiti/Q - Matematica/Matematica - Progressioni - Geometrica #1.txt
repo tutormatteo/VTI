@@ -1,0 +1,10 @@
+\itemdomanda{Il quinto termine di una progressione geometrica che inizia con $ 3, 6, 12, \dots $ è:
+}{
+\item $ 30 $
+\item $ 24 $
+\item $ 48 $
+\item $ 36 $
+\item $ 96 $
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,9 @@
+\itemdomanda{Giocando a Risiko Giulio Cesare ha vinto più di suo nipote Augusto, ma non di Napoleone. Alessandro Magno ha vinto meno di Carlo Magno, ma più di Napoleone. Chi ha vinto di meno?}{
+    \item Carlo Magno
+    \item Alessandro Magno
+    \item Napoleone
+    \item Augusto
+    \item Giulio Cesare
+}
+
+Risposta Corretta: 4

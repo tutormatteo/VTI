@@ -1,0 +1,9 @@
+\itemdomanda{La signora $QKX$ è stata strangolata nel proprio salotto. Il commissario $ZYW$ non crede che l'imputato di omicidio (il quale si difende vibratamente dichiarando la propria innocenza) non si sia recato a casa della vittima nell'intervallo di tempo nel quale la stessa ha perso la vita. Si può dedurre che:}{
+    \item sicuramente l'imputato non è colpevole
+    \item il commissario $ZYW$ è convinto che l'imputato non si sia recato a casa della vittima nell'intervallo di tempo nel quale la stessa ha perso la vita
+    \item per il commissario $ZYW$ l'imputato certamente non è colpevole
+    \item sicuramente l'imputato è colpevole
+    \item il commissario $ZYW$ non esclude che l'imputato abbia strangolato la signora $QKX$
+}
+
+Risposta Corretta: 5

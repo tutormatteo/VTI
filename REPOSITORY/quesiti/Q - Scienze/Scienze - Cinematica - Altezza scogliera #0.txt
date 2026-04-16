@@ -1,0 +1,9 @@
+\itemdomanda{Dalla cima di una scogliera viene lanciata orizzontalmente una sferetta a 15 m/s. Se tocca il mare dopo circa 2 secondi, quanto è alta la scogliera?}{
+    \item 20 m
+    \item 30 m
+    \item 35 m
+    \item 40 m
+    \item 80 m
+}
+
+Risposta Corretta: 1

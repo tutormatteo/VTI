@@ -1,0 +1,5 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Matematica}{2}{}%
+\contentsline {section}{\numberline {2}Logica}{35}{}%
+\contentsline {section}{\numberline {3}Scienze}{63}{}%

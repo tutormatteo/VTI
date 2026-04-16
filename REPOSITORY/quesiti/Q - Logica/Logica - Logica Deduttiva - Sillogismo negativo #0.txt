@@ -1,0 +1,9 @@
+\itemdomanda{Nessun rettile ha le ali. Tutti i serpenti sono rettili. Quindi:}{
+    \item Qualche serpente ha le ali
+    \item Nessun serpente ha le ali
+    \item Tutti i serpenti volano
+    \item I rettili volano senza ali
+    \item I serpenti non sono rettili
+}
+
+Risposta Corretta: 2

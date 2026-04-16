@@ -1,0 +1,10 @@
+\itemdomanda{Se $ \log_3(x) = 2 $, allora $ x $ vale:
+}{
+\item $ 6 $
+\item $ 2 $
+\item $ 9 $
+\item $ \frac{2}{3} $
+\item $ \sqrt{3} $
+}
+
+Risposta Corretta: 3

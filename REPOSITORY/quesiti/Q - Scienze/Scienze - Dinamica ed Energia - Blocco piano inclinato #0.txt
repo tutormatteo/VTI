@@ -1,0 +1,45 @@
+\itemdomanda{Un blocco di 3 kg è su piano inclinato di $30^{\circ}$ senza attrito. Dopo 2 s, forza parallela (F) e distanza (d) sono circa: \\ \begin{tikzpicture}[scale=0.75, >={Stealth[scale=1.2]}]
+    % Angolo del piano
+    \def\ang{30}
+    \coordinate (O) at (0,0);
+    \coordinate (A) at (6,0);
+    \coordinate (B) at (6, {6*tan(\ang)});
+
+    % Piano
+    \draw[fill=gray!30, draw=none] (O) -- (A) -- (B) -- cycle;
+    \draw[thick] (O) -- (B);
+    % Arco angolo alpha
+    \draw (1,0) arc (0:\ang:1) node[midway, right, xshift=2pt] {$\alpha$};
+
+    % --- Inizio ambiente ruotato ---
+    % Tutto qui dentro è ruotato di \ang gradi
+    \begin{scope}[rotate=\ang]
+        % Coordinate relative sulla superficie del piano
+        \coordinate (BlockStart) at (2,0);
+        \coordinate (BlockEnd) at (4.5,0);
+        \def\blockW{1.2}
+        \def\blockH{0.7}
+
+        % Blocco m (pieno)
+        \draw[fill=gray!80, thick] (BlockStart) rectangle ++(\blockW,\blockH) node[midway, white] {$m$};
+
+        % Forza F
+        \draw[->, thick] ($(BlockStart) + (0,\blockH/2)$) -- ++(-1.2,0) node[above] {$\vec{F}$};
+
+        % Posizione finale (tratteggiata)
+        \draw[dashed, thick] (BlockEnd) rectangle ++(\blockW,\blockH);
+
+        % Linea di quota d
+        % Disegna una linea sotto il piano
+        \draw[|<->|] ($(BlockStart)+(0,-0.3)$) -- ($(BlockEnd)+(0,-0.3)$) node[midway, below] {$d$};
+    \end{scope}
+    % --- Fine ambiente ruotato ---
+\end{tikzpicture}}{
+    \item 30 N ; 10 m
+    \item 15 N ; 5.0 m
+    \item 26 N ; 2.5 m
+    \item 26 N ; 5.0 m
+    \item 30 N ; 5.0 m
+}
+
+Risposta Corretta: 1

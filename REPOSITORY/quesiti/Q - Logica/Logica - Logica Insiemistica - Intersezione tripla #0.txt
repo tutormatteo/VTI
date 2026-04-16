@@ -1,0 +1,9 @@
+\itemdomanda{Quale diagramma soddisfa la relazione tra: \textbf{Studenti}, \textbf{Sportivi}, \textbf{Musicisti}?}{
+    \item Un diagramma con tre cerchi concentrici
+    \item Un diagramma con tre cerchi che si intersecano tutti tra loro creando un'area centrale comune
+    \item Tre cerchi completamente separati (disgiunti)
+    \item Due cerchi piccoli chiusi dentro uno grande ma separati tra loro
+    \item Un cerchio che ne contiene altri due che si intersecano solo tra loro
+}
+
+Risposta Corretta: 2

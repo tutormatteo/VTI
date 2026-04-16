@@ -1,0 +1,9 @@
+\itemdomanda{Su un corpo sono applicate solo forze $F_1$ e $F_2$ uguali in intensità e opposte in verso. Il corpo:}{
+    \item è certamente in quiete
+    \item si muove certamente di moto rettilineo uniforme
+    \item è in quiete o si muove certamente di moto rettilineo uniforme
+    \item si muove di moto uniformemente accelerato
+    \item si muove di moto armonico
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,10 @@
+\itemdomanda{$\frac{4c^{3}-4a^{2}c}{c-a} = $ ...
+}{
+\item $4c(c-a)$
+\item $4c^{2}(c+a)$
+\item $4c(c+a^{2})$
+\item $4c(c^{2}+a^{2})$
+\item $4c(c+a)$
+}
+
+Risposta Corretta: 5

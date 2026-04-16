@@ -1,0 +1,9 @@
+\itemdomanda{Mezzo kg d'acqua a $25^{\circ}C$ riceve 5000 J. Temperatura finale?}{
+    \item circa $25.6^{\circ}C$
+    \item circa $27.4^{\circ}C$
+    \item temperatura costante
+    \item circa $23.8^{\circ}C$
+    \item circa $256.2^{\circ}C$
+}
+
+Risposta Corretta: 2

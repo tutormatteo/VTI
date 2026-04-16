@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ x^2+9=0 $ ha soluzioni reali?
+}{
+\item Sì, $ x=3 $ e $ x=-3 $
+\item Sì, solo $ x=3 $
+\item No
+\item Sì, solo $ x=0 $
+\item Sì, $ x=\pm \sqrt{3} $
+}
+
+Risposta Corretta: 3

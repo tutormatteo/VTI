@@ -1,0 +1,10 @@
+\itemdomanda{La funzione inversa di $ f(x) = 2x + 1 $ è:
+}{
+\item $ f^{-1}(x) = \frac{x + 1}{2} $
+\item $ f^{-1}(x) = \frac{x - 1}{2} $
+\item $ f^{-1}(x) = x + 2 $
+\item $ f^{-1}(x) = x - 2 $
+\item $ f^{-1}(x) = 2x - 1 $
+}
+
+Risposta Corretta: 2

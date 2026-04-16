@@ -1,0 +1,9 @@
+\itemdomanda{Cinque vagoni fermi sono urtati da un sesto vagone a velocità $v$. Si agganciano tutti. La velocità finale è:}{
+    \item $v$
+    \item $5v/6$
+    \item $v/\sqrt{6}$
+    \item $v/6$
+    \item $v/5$
+}
+
+Risposta Corretta: 4

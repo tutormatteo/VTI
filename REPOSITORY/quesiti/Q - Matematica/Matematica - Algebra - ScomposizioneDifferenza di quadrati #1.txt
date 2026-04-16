@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ x^4-16 $ si scompone in:
+}{
+\item $ (x^2-4)^2 $
+\item $ (x^2+4)(x-2)(x+2) $
+\item $ (x-2)^4 $
+\item $ (x^2-4)(x^2+4) $
+\item $ (x-4)(x+4) $
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $\sqrt[11]{-x^{11}} = 121$
+}{
+\item ha come soluzioni $+11$ e $-11$
+\item ha come soluzione $+11$
+\item ha come soluzione $-11$
+\item ha come soluzione $+121$
+\item ha come soluzione $-121$
+}
+
+Risposta Corretta: 5

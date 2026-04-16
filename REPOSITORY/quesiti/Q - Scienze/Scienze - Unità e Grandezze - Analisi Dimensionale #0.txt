@@ -1,0 +1,9 @@
+\itemdomanda{Le dimensioni dei coefficienti $a$ e $b$ della formula $l=at+bt^2$, sapendo che $l$ è una lunghezza [L] e $t$ un tempo [T], sono rispettivamente:}{
+    \item $[L^{-1}T]$ e $[L^{-2}T]$
+    \item $[LT^{-1}]$ e $[LT^{-2}]$
+    \item $[L^{-1}T^{-1}]$ e $[L^{-1}T^{-2}]$
+    \item $[L^{0}T^{-1}]$ e $[L^{-1}T^{0}]$
+    \item nessuna delle alternative
+}
+
+Risposta Corretta: 2

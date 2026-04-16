@@ -1,0 +1,10 @@
+\itemdomanda{Nel campo dei numeri reali, il numero degli zeri del polinomio $P(x) = x^{2} + a^{2}$ con $a \in \mathbb{R}$ è
+}{
+\item dipende da $a$ se $a \neq 0 $
+\item pari a $2$ se $a = -1$
+\item pari a $2$ se $a = 1$
+\item pari a $2$ se $a$ è un quadrato perfetto
+\item sempre pari a zero se $a \neq 0$
+}
+
+Risposta Corretta: 5

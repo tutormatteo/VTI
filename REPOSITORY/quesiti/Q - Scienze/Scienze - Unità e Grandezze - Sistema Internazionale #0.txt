@@ -1,0 +1,9 @@
+\itemdomanda{Quale, tra le grandezze proposte, appartiene al Sistema Internazionale (SI)?}{
+    \item La carica elettrica
+    \item La massa
+    \item La forza
+    \item La velocità
+    \item L'accelerazione
+}
+
+Risposta Corretta: 2

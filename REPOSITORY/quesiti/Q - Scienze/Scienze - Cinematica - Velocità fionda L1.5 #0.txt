@@ -1,0 +1,9 @@
+\itemdomanda{Una fionda fa 3 giri al secondo lungo raggio $L=1.5$ m. Quando il sasso si stacca, la sua velocità è:}{
+    \item di 4.5 m/s
+    \item di 3 m/s
+    \item di circa 28 m/s
+    \item pari alla velocità del suono
+    \item diversa per sassi di massa diversa
+}
+
+Risposta Corretta: 3

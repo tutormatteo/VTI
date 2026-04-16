@@ -1,0 +1,9 @@
+\itemdomanda{Pila 5.5 V, 0.90 A. Carica in 30 secondi?}{
+    \item 12 C
+    \item 15 C
+    \item 21 C
+    \item 27 C
+    \item 31 C
+}
+
+Risposta Corretta: 4

@@ -1,0 +1,136 @@
+\documentclass[12pt]{article}
+\PassOptionsToPackage{table}{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\setlength{\parindent}{0pt}
+\definecolor{headercolor}{RGB}{220,220,220}
+\newcounter{quesito}
+\setcounter{quesito}{0}
+\newcommand{\nuovoquesito}{\stepcounter{quesito}\textbf{Domanda \arabic{quesito}.}}
+\newcommand{\itemdomanda}[2]{%
+    \par\noindent
+    \begin{minipage}[t]{\linewidth}
+        \nuovoquesito \\ #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{10pt}
+}
+\begin{document}
+\section*{Logica}
+\hfill Data: 16 apr 2026
+
+\itemdomanda{Basandosi sulle seguenti informazioni:
+    \begin{enumerate}
+        \item Gli unici animali di questa casa sono gatti.
+        \item Ogni animale che ami guardare la luna è adatto ad essere un animale domestico.
+        \item Quando detesto un animale, lo evito.
+        \item Nessun animale che non si aggiri furtivamente nella notte è carnivoro.
+        \item Non c'è gatto che non uccida i topi.
+        \item Nessun animale si affeziona a me, fatta eccezione per quelli che sono in casa.
+        \item I canguri non sono adatti ad essere animali domestici.
+        \item Solo i carnivori uccidono i topi.
+        \item Detesto gli animali che non si affezionano a me.
+        \item Gli animali che si aggirano furtivamente nella notte amano sempre guardare la luna.
+    \end{enumerate}
+    Dunque:}{
+    \item Evito i canguri
+    \item I gatti non amano guardare la luna
+    \item I canguri si affezionano a me
+    \item Tutti gli animali carnivori sono in casa
+    \item Non evito i gatti perché non sono carnivori
+}
+
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Tutti i colibrì hanno un piumaggio coloratissimo.
+        \item Nessun uccello grosso si nutre di miele.
+        \item Gli uccelli che non si nutrono di miele hanno colori smorti.
+    \end{enumerate}
+    Ne consegue che:}{
+    \item I colibrì sono uccelli piccoli
+    \item I colibrì sono uccelli grossi
+    \item Gli uccelli con colori smorti sono colibrì
+    \item Nessun uccello piccolo si nutre di miele
+    \item Tutti gli uccelli grossi hanno il piumaggio colorato
+}
+
+\itemdomanda{Basandosi sulle seguenti regole:
+    \begin{enumerate}
+        \item Gli unici cibi che il mio medico mi concede sono quelli leggeri.
+        \item Nessuno dei cibi che mi giovano è inadatto per la cena.
+        \item Le torte nuziali sono sempre molto sostanziose.
+        \item Il mio medico mi concede ogni cibo adatto per la cena.
+    \end{enumerate}
+    Quale affermazione è corretta?}{
+    \item Le torte nuziali non mi giovano
+    \item Le torte nuziali sono adatte per la cena
+    \item Il mio medico mi concede le torte nuziali
+    \item I cibi sostanziosi mi giovano sempre
+    \item Tutti i cibi leggeri sono inadatti per la cena
+}
+
+\itemdomanda{Individuare il diagramma che rappresenta correttamente la relazione tra: \textbf{Animali}, \textbf{Mammiferi}, \textbf{Balene}.
+\begin{center}
+\begin{tikzpicture}[scale=0.25]
+    % --- DIAGRAMMA 1 (Concentrici) ---
+    \node[below] at (0,-2) {\textbf{1}};
+    \draw (0,0) circle (2.2); % Animali
+    \draw (0,0) circle (1.4); % Mammiferi
+    \draw (0,0) circle (0.7); % Balene
+    
+    % --- DIAGRAMMA 2 (Intersecati) ---
+    \begin{scope}[xshift=8cm]
+    \node[below] at (0,-2) {\textbf{2}};
+    \draw (0,0.8) circle (1.3); \draw (-0.8,-0.5) circle (1.3); \draw (0.8,-0.5) circle (1.3);
+    \end{scope}
+
+    % --- DIAGRAMMA 3 (Disgiunti in uno) ---
+    \begin{scope}[xshift=16cm]
+    \node[below] at (0,-2) {\textbf{3}};
+    \draw (0,0) circle (1.8); \draw (-0.6,0) circle (0.8); \draw (0.6,0) circle (0.8);
+    \end{scope}
+\end{tikzpicture}
+\end{center}}{
+    \item DIAGRAMMA 2
+    \item DIAGRAMMA 1
+    \item DIAGRAMMA 3
+    \item Nessuno dei precedenti
+    \item Tutti i diagrammi sono corretti
+}
+
+\itemdomanda{Tre società: A, B e C, di cui almeno due sono italiane. Sapendo che se A è italiana lo è anche B, e che se C è italiana lo è anche A, e che tra B e C almeno una non è italiana, possiamo dedurre che:}{
+    \item C non è italiana e B è italiana
+    \item A non è italiana e B è italiana
+    \item A, B e C sono italiane
+    \item A e C sono italiane
+    \item C è italiana e B non è italiana
+}
+
+\itemdomanda{Tre amiche, Maria, Carla e Daniela, vanno spesso a teatro. Si sa che se Daniela va a teatro, ci va anche Maria; Maria e Carla non ci vanno mai tutte e due insieme; può anche succedere che Daniela o Carla vadano a teatro da sole; però, se Carla va a teatro, allora ci va anche Daniela. Supponendo vere tali premesse, chi è andata al cinema in coppia?}{
+    \item Maria e Carla
+    \item Nessuna delle tre
+    \item Maria e Daniela
+    \item Carla e Daniela
+    \item Ciascuna di loro
+}
+
+\end{document}

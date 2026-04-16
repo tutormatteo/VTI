@@ -1,0 +1,9 @@
+\itemdomanda{Su un corpo che accelera a 5.0 $m/s^2$ agisce un'unica forza di 100 N. Si può affermare che:}{
+    \item il corpo non ha massa
+    \item il corpo ha massa di 500 kg
+    \item il corpo ha massa di 95 kg
+    \item il corpo ha massa di 20 kg
+    \item il corpo ha massa di 10 kg
+}
+
+Risposta Corretta: 4

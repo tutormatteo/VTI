@@ -1,0 +1,10 @@
+\itemdomanda{La disequazione $ \sqrt{x} \cdot \sqrt{-x} \cdot \sqrt{|x|} < 1 $ è soddisfatta per
+}{
+\item $ x < 1 $
+\item $ 0 < x < 1 $
+\item $ - 1 < x < 0 $
+\item $ - 1 < x < 1 $
+\item $ x = 0 $
+}
+
+Risposta Corretta: 5

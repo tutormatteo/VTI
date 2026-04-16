@@ -1,0 +1,9 @@
+\itemdomanda{Un corpo di 2 kg va a Est a 40 m/s. Una forza di 10 N verso Nord agisce per 6 s. Velocità finale?}{
+    \item 30 m/s
+    \item 45 m/s
+    \item 50 m/s
+    \item 55 m/s
+    \item 70 m/s
+}
+
+Risposta Corretta: 3

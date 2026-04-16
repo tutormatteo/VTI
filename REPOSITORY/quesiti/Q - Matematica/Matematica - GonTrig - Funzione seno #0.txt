@@ -1,0 +1,10 @@
+\itemdomanda{La funzione $ y = \sin(x) $ è :
+}{
+\item illimitata superiormente
+\item periodica di periodo $ \pi $
+\item periodica di periodo $ \frac{\pi}{2} $
+\item crescente per $ 0 < x < \frac{\pi}{2} $
+\item decrescente per $ 0 < x < \frac{\pi}{2} $
+}
+
+Risposta Corretta: 4

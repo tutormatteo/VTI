@@ -1,0 +1,10 @@
+\itemdomanda{La disequazione $ \cos(x) > 1 $ è verificata per:
+}{
+\item $ x \in \mathbb{R} $
+\item $ x > 0 $
+\item Nessun $ x \in \mathbb{R} $
+\item $ 0 < x < 2\pi $
+\item $ x = 2k\pi, k \in \mathbb{Z} $
+}
+
+Risposta Corretta: 3

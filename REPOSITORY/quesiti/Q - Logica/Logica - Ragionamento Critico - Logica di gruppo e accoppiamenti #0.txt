@@ -1,0 +1,9 @@
+\itemdomanda{Tre amiche, Maria, Carla e Daniela, vanno spesso a teatro. Si sa che se Daniela va a teatro, ci va anche Maria; Maria e Carla non ci vanno mai tutte e due insieme; può anche succedere che Daniela o Carla vadano a teatro da sole; però, se Carla va a teatro, allora ci va anche Daniela. Supponendo vere tali premesse, chi è andata al cinema in coppia?}{
+    \item Maria e Carla
+    \item Nessuna delle tre
+    \item Maria e Daniela
+    \item Carla e Daniela
+    \item Ciascuna di loro
+}
+
+Risposta Corretta: 3

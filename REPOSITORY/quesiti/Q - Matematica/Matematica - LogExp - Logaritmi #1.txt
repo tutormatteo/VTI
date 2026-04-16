@@ -1,0 +1,10 @@
+\itemdomanda{Il logaritmo $ \log_{10}(1000) $ vale:
+}{
+\item $ 2 $
+\item $ 3 $
+\item $ 10 $
+\item $ 100 $
+\item $ 0 $
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,10 @@
+\itemdomanda{Il resto della divisione di $ P(x)=x^2+x-2 $ per $ x+1 $ è:
+}{
+\item $ 0 $
+\item $ 1 $
+\item $ -2 $
+\item $ 2 $
+\item $ -1 $
+}
+
+Risposta Corretta: 3

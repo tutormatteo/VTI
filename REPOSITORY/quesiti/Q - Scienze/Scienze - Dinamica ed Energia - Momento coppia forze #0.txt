@@ -1,0 +1,9 @@
+\itemdomanda{Due forze da 5.50 N parallele e discordi agiscono agli estremi di un asse di 3.00 m. Momento?}{
+    \item 8.80 Nm
+    \item 12.5 Nm
+    \item 16.5 Nm
+    \item 20.5 Nm
+    \item 22.5 Nm
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ \frac{1}{\sqrt{3} - 1} $ razionalizzata è:
+}{
+\item $ \frac{\sqrt{3}+1}{4} $
+\item $ \frac{\sqrt{3}+1}{2} $
+\item $ \frac{\sqrt{3}-1}{2} $
+\item $ \sqrt{3}+1 $
+\item $ \sqrt{3}-1 $
+}
+
+Risposta Corretta: 2

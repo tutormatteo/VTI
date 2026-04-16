@@ -1,0 +1,10 @@
+\itemdomanda{Siano $ f(x) = x^{2} $ e $ g(x) = 2x $ due funzioni. La funzione composta $ f(g(x)) $ è:
+}{
+\item $ 2x^{2} $
+\item $ 4x^{2} $
+\item $ (4x)^{2} $
+\item $ x^{2x} $
+\item $ x^{2} + 2x $
+}
+
+Risposta Corretta: 2

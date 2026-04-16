@@ -1,0 +1,9 @@
+\itemdomanda{La funzione inversa di $y = e^{x}$ è:}{
+\item $y = \ln(x)$
+\item $y = e^{-x}$
+\item $y = \frac{1}{e^{x}}$
+\item $y = x^{e}$
+\item $y = \log_{10}(x)$
+}
+
+Risposta Corretta: 1

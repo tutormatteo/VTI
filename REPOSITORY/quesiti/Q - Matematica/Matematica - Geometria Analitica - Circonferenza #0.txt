@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione della circonferenza con centro nell'origine e raggio $ r=4 $ è:
+}{
+\item $ x^2+y^2=2 $
+\item $ x^2+y^2=4 $
+\item $ x^2+y^2=16 $
+\item $ (x-4)^2+y^2=16 $
+\item $ x^2+y^2=8 $
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,9 @@
+\itemdomanda{Qual è il valore di $x$ nell'equazione $\log_{2}(x) + \log_{2}(x - 2) = 3$?}{
+\item $4$
+\item $2$
+\item $-2$
+\item $8$
+\item $6$
+}
+
+Risposta Corretta: 1

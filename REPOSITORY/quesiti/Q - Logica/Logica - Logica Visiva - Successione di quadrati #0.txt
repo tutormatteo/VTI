@@ -1,0 +1,60 @@
+\itemdomanda{Quale dei quadrati numerati da 1 a 5 sostituisce correttamente il riquadro contenente il punto interrogativo?
+\begin{center}
+\begin{tikzpicture}[scale=0.48] % Scala aumentata per la sequenza principale
+    % --- SEQUENZA PRINCIPALE ---
+    % Quadrato 1: 4x4 con il numero 9
+    \draw[thick] (0,0) rectangle (3.5,3.5);
+    \foreach \i in {1,...,4} \foreach \j in {1,...,4} 
+        \node[draw, scale=0.5, inner sep=1pt] at (\i*3.5/5, \j*3.5/5) {9};
+        
+    % Quadrato 2: 3x3 con il numero 16
+    \draw[thick] (4.2,0) rectangle (7.7,3.5);
+    \foreach \i in {1,...,3} \foreach \j in {1,...,3} 
+        \node[draw, scale=0.6, inner sep=1pt] at (4.2+\i*3.5/4, \j*3.5/4) {16};
+        
+    % Quadrato 3: 2x2 con il numero 36
+    \draw[thick] (8.4,0) rectangle (11.9,3.5);
+    \foreach \i in {1,...,2} \foreach \j in {1,...,2} 
+        \node[draw, scale=0.9, inner sep=2pt] at (8.4+\i*3.5/3, \j*3.5/3) {\textbf{36}};
+        
+    % Quadrato con punto interrogativo
+    \draw[thick] (12.6,0) rectangle (16.1,3.5);
+    \node at (14.35,1.75) {\huge \textbf{?}};
+\end{tikzpicture}
+
+\vspace{12pt}
+
+\begin{tikzpicture}[scale=0.42] % Scala ottimizzata per far stare 5 opzioni in una colonna
+    % --- OPZIONI DI RISPOSTA (1-5) ---
+    % Opzione 1: 6x6 con 4
+    \draw (0,0) rectangle (3.5,3.5); \node[below=4pt] at (1.75,0) {\small \textbf{1}};
+    \foreach \i in {1,...,6} \foreach \j in {1,...,6} 
+        \node[draw, fill=gray!20, scale=0.52, inner sep=0.1pt, font=\small] at (\i*3.5/7, \j*3.5/7) {4};
+        
+    % Opzione 2: 3x3 con 16
+    \draw (4.3,0) rectangle (7.8,3.5); \node[below=4pt] at (6.05,0) {\small \textbf{2}};
+    \foreach \i in {1,...,3} \foreach \j in {1,...,3} 
+        \node[draw, fill=gray!20, scale=0.7, inner sep=1pt] at (4.3+\i*3.5/4, \j*3.5/4) {16};
+        
+    % Opzione 3: 1x1 con 64
+    \draw (8.6,0) rectangle (12.1,3.5); \node[below=4pt] at (10.35,0) {\small \textbf{3}};
+    \node[draw, fill=gray!20, minimum size=0.9cm, font=\small\bfseries] at (10.35, 1.75) {64};
+    
+    % Opzione 4: 1x1 con 144 (Risposta Corretta)
+    \draw (12.9,0) rectangle (16.4,3.5); \node[below=4pt] at (14.65,0) {\small \textbf{4}};
+    \node[draw, fill=gray!20, minimum size=1.35cm, font=\small\bfseries] at (14.65, 1.75) {144};
+    
+    % Opzione 5: 1x1 con 100
+    \draw (17.2,0) rectangle (20.7,3.5); \node[below=4pt] at (18.95,0) {\small \textbf{5}};
+    \node[draw, fill=gray!20, minimum size=1.1cm, font=\small\bfseries] at (18.95, 1.75) {100};
+\end{tikzpicture}
+\end{center}
+}{
+    \item Il quadrato 5
+    \item Il quadrato 3
+    \item Il quadrato 1
+    \item Il quadrato 2
+    \item Il quadrato 4
+}
+
+Risposta Corretta: 5

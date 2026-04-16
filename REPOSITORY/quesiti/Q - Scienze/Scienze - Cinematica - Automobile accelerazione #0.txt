@@ -1,0 +1,9 @@
+\itemdomanda{Un'automobile, che sta viaggiando a 15 m/s, accelera per 5 s, portando la sua velocità a 25 m/s. Quanto spazio percorre durante questa fase se l'accelerazione è costante?}{
+    \item 50 m
+    \item 75 m
+    \item 100 m
+    \item 125 m
+    \item 200 m
+}
+
+Risposta Corretta: 3

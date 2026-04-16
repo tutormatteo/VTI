@@ -1,0 +1,9 @@
+\itemdomanda{Un corpo di 12 kg accelera di 2.0 $m/s^2$. Determinare l'unica affermazione sicuramente VERA.}{
+    \item Agisce un'unica forza di 24 N
+    \item Agiscono forze la cui risultante è di 24 N
+    \item Non agisce alcuna forza opposta
+    \item Agiscono almeno due forze
+    \item Non agisce alcuna forza
+}
+
+Risposta Corretta: 2

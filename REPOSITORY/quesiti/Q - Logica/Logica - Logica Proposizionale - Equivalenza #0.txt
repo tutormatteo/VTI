@@ -1,0 +1,9 @@
+\itemdomanda{La frase "Non tutti i mali vengono per nuocere" è logicamente equivalente a:}{
+    \item Tutti i mali fanno bene
+    \item Qualche male non viene per nuocere
+    \item Nessun male viene per nuocere
+    \item I mali non nuociono mai
+    \item Se è un male, allora nuoce
+}
+
+Risposta Corretta: 2

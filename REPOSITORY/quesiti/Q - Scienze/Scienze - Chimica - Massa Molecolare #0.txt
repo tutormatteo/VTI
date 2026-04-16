@@ -1,0 +1,9 @@
+\itemdomanda{Qual è la massa molecolare dell'acqua ($H_{2}O$) sapendo che le masse atomiche approssimate sono $H=1$ e $O=16$?}{
+    \item 17 u.m.a.
+    \item 18 u.m.a.
+    \item 33 u.m.a.
+    \item 16 u.m.a.
+    \item 20 u.m.a.
+}
+
+Risposta Corretta: 2

@@ -1,0 +1,9 @@
+\itemdomanda{Un’indagine svolta tra tutti i 1000 abitanti della cittadina di Sparagna al di sopra dei 55 anni, mostra che il 40\% di loro possiede un frigorifero, che il 25\% possiede un televisore, e che il 15\% li possiede entrambi. Dunque, nella cittadina di Sparagna:}{
+    \item al di sotto dei 55 anni meno del 40\% della popolazione possiede un frigorifero
+    \item meno del 45\% della popolazione al di sopra dei 55 anni possiede televisore o frigorifero
+    \item il 50\% della popolazione al di sopra dei 55 anni non possiede né televisore né frigorifero
+    \item al di sotto dei 55 anni più del 25\% della popolazione possiede un televisore
+    \item più del 50\% della popolazione al di sopra dei 55 anni ha televisore o frigorifero
+}
+
+Risposta Corretta: 3

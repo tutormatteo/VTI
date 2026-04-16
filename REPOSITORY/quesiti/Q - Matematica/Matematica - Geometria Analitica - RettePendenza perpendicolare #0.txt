@@ -1,0 +1,10 @@
+\itemdomanda{Una retta perpendicolare a $ y = \frac{3}{4}x+1 $ ha pendenza $ m $ uguale a:
+}{
+\item $ \frac{3}{4} $
+\item $ -\frac{4}{3} $
+\item $ \frac{4}{3} $
+\item $ -\frac{3}{4} $
+\item $ 1 $
+}
+
+Risposta Corretta: 2

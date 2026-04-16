@@ -1,0 +1,10 @@
+\itemdomanda{La funzione $ f(x) = \frac{x}{x+1} $ è:
+}{
+\item pari
+\item periodica
+\item dispari
+\item né pari né dispari
+\item con dominio coincidente con tutto $\mathbb{R}$
+}
+
+Risposta Corretta: 4

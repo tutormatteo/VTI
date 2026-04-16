@@ -1,0 +1,9 @@
+\itemdomanda{Quanti elettroni di valenza possiede un atomo di Carbonio ($Z=6$)?}{
+    \item 2
+    \item 4
+    \item 6
+    \item 8
+    \item 1
+}
+
+Risposta Corretta: 2

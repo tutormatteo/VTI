@@ -1,0 +1,9 @@
+\itemdomanda{Tutti i filosofi sono saggi. Aristotele è un filosofo. Quindi:}{
+    \item Aristotele non è saggio
+    \item Tutti i saggi sono filosofi
+    \item Aristotele è saggio
+    \item Qualche saggio non è filosofo
+    \item I filosofi non sono mai ignoranti
+}
+
+Risposta Corretta: 3

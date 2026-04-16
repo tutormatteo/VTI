@@ -1,0 +1,10 @@
+\itemdomanda{Quale funzione è dispari?
+}{
+\item $ f(x) = x^2 $
+\item $ f(x) = |x| $
+\item $ f(x) = x^3 $
+\item $ f(x) = \cos(x) $
+\item $ f(x) = x^2+1 $
+}
+
+Risposta Corretta: 3

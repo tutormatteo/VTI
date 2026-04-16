@@ -1,0 +1,10 @@
+\itemdomanda{Il numero $ 0,000000125 $ in notazione scientifica è:
+}{
+\item $ 12,5 \cdot 10^{-8} $
+\item $ 1,25 \cdot 10^{-7} $
+\item $ 1,25 \cdot 10^{7} $
+\item $ 12,5 \cdot 10^{-9} $
+\item $ 1,25 \cdot 10^{-8} $
+}
+
+Risposta Corretta: 2

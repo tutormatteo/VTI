@@ -1,0 +1,9 @@
+\itemdomanda{Dati due vettori $\vec{A}$ e $\vec{B}$ di modulo rispettivamente pari a 2 e 3, il vettore $\vec{c}$, somma dei due, ha modulo:}{
+    \item $\sqrt{13}$
+    \item indeterminabile
+    \item 5
+    \item 13
+    \item 6
+}
+
+Risposta Corretta: 2

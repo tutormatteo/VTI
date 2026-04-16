@@ -1,0 +1,9 @@
+\itemdomanda{L'equazione $x^{2} - 7x + 10 = 0$ ha come soluzioni:}{
+\item $x=2, x=5$
+\item $x=-2, x=-5$
+\item $x=1, x=10$
+\item $x=2, x=-5$
+\item $x=3, x=4$
+}
+
+Risposta Corretta: 1

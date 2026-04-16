@@ -1,0 +1,10 @@
+\itemdomanda{Quale equazione di secondo grado ha soluzioni $ x_1 = 1 $ e $ x_2 = -2 $?
+}{
+\item $ x^2+x-2=0 $
+\item $ x^2+x-1=0 $
+\item $ x^2-x-2=0 $
+\item $ x^2-3x+2=0 $
+\item $ x^2+3x+2=0 $
+}
+
+Risposta Corretta: 1

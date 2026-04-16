@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ 2^3 + 2^4 $ è uguale a:
+}{
+\item $ 2^7 $
+\item $ 24 $
+\item $ 2^{12} $
+\item $ 32 $
+\item $ 16 $
+}
+
+Risposta Corretta: 2

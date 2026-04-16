@@ -1,0 +1,9 @@
+\itemdomanda{Il passaggio di stato diretto da solido a gassoso è definito:}{
+    \item Condensazione
+    \item Evaporazione
+    \item Sublimazione
+    \item Brinamento
+    \item Fusione
+}
+
+Risposta Corretta: 3

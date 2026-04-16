@@ -1,0 +1,9 @@
+\itemdomanda{La forza per mettere in moto un oggetto su base orizzontale è 23 N. Attrito statico 0.23. Massa?}{
+    \item 9 kg
+    \item 10 kg
+    \item 11 kg
+    \item 100 kg
+    \item 110 kg
+}
+
+Risposta Corretta: 2

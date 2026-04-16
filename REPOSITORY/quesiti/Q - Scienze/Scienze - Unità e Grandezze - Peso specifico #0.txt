@@ -1,0 +1,9 @@
+\itemdomanda{Il rapporto tra peso specifico e densità di un corpo sulla Terra è:}{
+    \item inversamente proporzionale al volume
+    \item direttamente proporzionale alla massa
+    \item uguale per tutti i corpi
+    \item un numero puro
+    \item diverso per ogni corpo
+}
+
+Risposta Corretta: 3

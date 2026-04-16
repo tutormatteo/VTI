@@ -1,0 +1,9 @@
+\itemdomanda{Quale coppia completa la serie? $(2, 12); (3, 8); (4, 6); (6, \dots)$}{
+    \item 2
+    \item 3
+    \item 4
+    \item 5
+    \item 1
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,9 @@
+\itemdomanda{Nell'atrio di ingresso di un condominio è appeso un cartello con il seguente avviso: "È permesso giocare a calcio in cortile, tranne che dalle ore 13.00 alle ore 16.00 e di domenica". Se ne può dedurre che in quel condominio:}{
+    \item non è vietato giocare a calcio in cortile alle ore 12.00, purché non sia domenica
+    \item non è vietato giocare a calcio in cortile la domenica dalle ore 16.00 in poi
+    \item nei giorni diversi da domenica è vietato non giocare a calcio in cortile prima delle 13.00 e dopo le 16.00
+    \item non è vietato giocare a calcio in cortile alle ore 14.00, purché non sia domenica
+    \item non è vietato giocare a calcio in cortile alle ore 14.00, purché sia domenica
+}
+
+Risposta Corretta: 1

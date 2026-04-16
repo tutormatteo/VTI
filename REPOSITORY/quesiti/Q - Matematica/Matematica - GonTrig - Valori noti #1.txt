@@ -1,0 +1,10 @@
+\itemdomanda{Se $ y = \sin(45^{\circ}) $ e $ x = \sin(-45^{\circ}) $, allora quanto vale $ y - x $ ?
+}{
+\item $\sqrt{2}$
+\item $0$
+\item $2$
+\item $\frac{\sqrt{2}}{2}$
+\item $-\frac{\sqrt{2}}{2}$
+}
+
+Risposta Corretta: 1

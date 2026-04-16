@@ -1,0 +1,9 @@
+\itemdomanda{In quale di queste sequenze letterarie viene mantenuta l'alternanza vocale-consonante?}{
+    \item ODERAXETUIXIDIC
+    \item ODERAXETUPAFESTXIDIC
+    \item ODERAXETZIXIDIC
+    \item ODERAXETUPAFESIXIDIC
+    \item ODORAXITUPAFASTXIDIC
+}
+
+Risposta Corretta: 4

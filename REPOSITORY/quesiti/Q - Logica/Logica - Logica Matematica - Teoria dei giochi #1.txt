@@ -1,0 +1,9 @@
+\itemdomanda{Due giocatori prendono a turno dei sassolini con l'unica regola che non se ne possono prendere né 4 né 8. Vince quel giocatore che riesce a prendere l'ultimo sassolino. Se inizialmente i sassolini sono 8, quanti ne deve prendere il primo giocatore per potersi garantire la vittoria, supponendo che nelle mosse successive ogni giocatore non commetta errori?}{
+    \item Qualunque numero prenda, vincerà sempre
+    \item Qualunque numero prenda, perderà sempre
+    \item 1
+    \item 2
+    \item 3
+}
+
+Risposta Corretta: 2

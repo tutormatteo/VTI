@@ -1,0 +1,9 @@
+\itemdomanda{Un corpo viene sparato orizzontalmente da 10 m con velocità di 5.0 m/s. Si può affermare che:}{
+    \item percorre orizzontalmente circa 5 metri
+    \item percorre orizzontalmente circa 7 metri
+    \item percorre orizzontalmente circa 9 metri
+    \item percorre orizzontalmente circa 11 metri
+    \item percorre orizzontalmente circa 13 metri
+}
+
+Risposta Corretta: 2

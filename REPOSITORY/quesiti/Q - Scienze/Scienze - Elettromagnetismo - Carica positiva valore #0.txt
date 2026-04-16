@@ -1,0 +1,9 @@
+\itemdomanda{Valore accettabile per carica positiva:}{
+    \item $4 \times 10^{-19} C$
+    \item $2.33 \times 10^{-19} C$
+    \item $1.9023 \times 10^{-19} C$
+    \item $4.8063 \times 10^{-19} C$
+    \item $1 \times 10^{-19} C$
+}
+
+Risposta Corretta: 4

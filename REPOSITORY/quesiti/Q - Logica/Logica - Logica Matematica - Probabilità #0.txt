@@ -1,0 +1,9 @@
+\itemdomanda{Un’urna contenente 50 palline numerate da 1 a 50, viene estratta una pallina, ad occhi bendati. Tutte le palline hanno la stessa probabilità di venire estratte, dunque quale è la probabilità che la pallina estratta sia numerata con un numero divisibile per cinque?}{
+    \item 1/8
+    \item 1/15
+    \item 1/4
+    \item 1/3
+    \item 1/5
+}
+
+Risposta Corretta: 5

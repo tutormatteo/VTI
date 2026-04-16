@@ -1,0 +1,9 @@
+\itemdomanda{Qual è il pH di una soluzione acquosa di $HCl$ (acido forte) con concentrazione $0.001 M$?}{
+    \item 1
+    \item 2
+    \item 3
+    \item 11
+    \item 7
+}
+
+Risposta Corretta: 3

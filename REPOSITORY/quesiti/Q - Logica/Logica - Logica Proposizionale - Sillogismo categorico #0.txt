@@ -1,0 +1,14 @@
+\itemdomanda{Individuare il corretto completamento del seguente sillogismo:
+    \begin{itemize}
+        \item[I.] Nessun ingenuo è cattivo
+        \item[II.] Qualche cattivo è adulto
+        \item[III.] Dunque ............ non è ingenuo
+    \end{itemize} }{
+    \item ogni cattivo
+    \item ogni adulto
+    \item qualche ingenuo
+    \item qualche cattivo
+    \item qualche adulto
+}
+
+Risposta Corretta: 5

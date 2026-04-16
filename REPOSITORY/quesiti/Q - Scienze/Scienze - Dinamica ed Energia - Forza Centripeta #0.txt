@@ -1,0 +1,9 @@
+\itemdomanda{Una particella si muove di moto circolare uniforme sotto l'azione di una forza centripeta. Volendo raddoppiare il raggio della traiettoria senza modificare il modulo della velocità occorre moltiplicare la forza per un fattore:}{
+    \item 1
+    \item 1/2
+    \item 3
+    \item 1/3
+    \item 2
+}
+
+Risposta Corretta: 2

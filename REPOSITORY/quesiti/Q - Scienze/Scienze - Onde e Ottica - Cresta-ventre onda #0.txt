@@ -1,0 +1,9 @@
+\itemdomanda{Distanza tra cresta e ventre successivo di un'onda sul lago:}{
+    \item $4\lambda$
+    \item $\lambda$
+    \item $2\lambda$
+    \item $\lambda/4$
+    \item $\lambda/2$
+}
+
+Risposta Corretta: 5

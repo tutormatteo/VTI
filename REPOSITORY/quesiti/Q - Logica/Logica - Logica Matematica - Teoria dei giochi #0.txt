@@ -1,0 +1,9 @@
+\itemdomanda{Due giocatori, Aldo e Bruno, a turno dispongono su una scacchiera $3 \times 3$, una per volta, pedine identiche tutte nere. Vince il primo giocatore che riesce a completare un terzetto in una fila orizzontale, verticale o una delle due diagonali. Quante sono le mosse con cui può iniziare la partita il primo giocatore (Aldo) in modo da potersi garantire la vittoria indipendentemente da come giocherà Bruno?}{
+    \item 8
+    \item 1
+    \item 0, perché con gioco perfetto nessuno dei due può forzare la vittoria (la partita può terminare in patta)
+    \item 5
+    \item 9
+}
+
+Risposta Corretta: 3

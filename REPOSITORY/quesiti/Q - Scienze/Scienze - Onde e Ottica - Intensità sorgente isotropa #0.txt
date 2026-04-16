@@ -1,0 +1,9 @@
+\itemdomanda{Intensità $I$ a distanza $d$. A distanza $2d$ vale:}{
+    \item $2I$
+    \item $I$
+    \item $I/4$
+    \item $I/2$
+    \item $I/16$
+}
+
+Risposta Corretta: 3

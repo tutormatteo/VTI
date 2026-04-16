@@ -1,0 +1,10 @@
+\itemdomanda{La somma di $ 4, 7, 10, 13, 16, 19, 22, 25, 28, 31 $ è:
+}{
+\item $350$
+\item $300$
+\item $175$
+\item $150$
+\item $125$
+}
+
+Risposta Corretta: 3

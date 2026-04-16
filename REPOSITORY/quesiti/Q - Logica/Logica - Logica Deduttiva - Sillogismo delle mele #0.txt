@@ -1,0 +1,15 @@
+\itemdomanda{Basandosi sulle seguenti affermazioni:
+    \begin{enumerate}
+        \item Tutti i frutti acerbi fanno male.
+        \item Tutte queste mele fanno bene.
+        \item La frutta cresciuta in ombra non è matura.
+    \end{enumerate}
+    Quale delle seguenti è vera?}{
+    \item Tutte queste mele non sono cresciute in ombra
+    \item Queste mele sono acerbe ma fanno bene
+    \item La frutta cresciuta in ombra fa sempre bene
+    \item Qualche mela tra queste è cresciuta in ombra
+    \item Tutti i frutti maturi sono cresciuti in ombra
+}
+
+Risposta Corretta: 1

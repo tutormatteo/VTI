@@ -1,0 +1,9 @@
+\itemdomanda{Un'auto di 800 kg che viaggia a 30 m/s frena e si arresta in 50 m. L'intensità della forza frenante è:}{
+    \item 9 N
+    \item 240 N
+    \item 7200 N
+    \item 14400 N
+    \item 28800 N
+}
+
+Risposta Corretta: 3

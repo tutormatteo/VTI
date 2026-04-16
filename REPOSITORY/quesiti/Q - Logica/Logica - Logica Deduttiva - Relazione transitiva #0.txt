@@ -1,0 +1,9 @@
+\itemdomanda{Se A è più alto di B e B è più alto di C, allora:}{
+    \item C è più alto di A
+    \item A è più basso di C
+    \item A è più alto di C
+    \item B è il più alto di tutti
+    \item Non si può stabilire nulla
+}
+
+Risposta Corretta: 3

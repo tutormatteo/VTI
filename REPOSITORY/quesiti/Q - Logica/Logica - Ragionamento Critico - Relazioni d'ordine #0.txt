@@ -1,0 +1,9 @@
+\itemdomanda{In una maratona Sergio è stato più veloce di Giorgio e Daniele ha battuto Giovanni, ma ha perso rispetto a Giorgio, Giovanni ha sopravanzato Alex. Quale partecipante è arrivato ultimo alla maratona?}{
+    \item Sergio
+    \item Giorgio
+    \item Daniele
+    \item Giovanni
+    \item Alex
+}
+
+Risposta Corretta: 5

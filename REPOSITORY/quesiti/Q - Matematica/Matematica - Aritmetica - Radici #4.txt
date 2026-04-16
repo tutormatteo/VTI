@@ -1,0 +1,10 @@
+\itemdomanda{Il valore di $ \sqrt[3]{\frac{8}{27}} $ è:
+}{
+\item $ \frac{4}{9} $
+\item $ \frac{2}{3} $
+\item $ \frac{8}{3} $
+\item $ \frac{2}{9} $
+\item $ \frac{4}{3} $
+}
+
+Risposta Corretta: 2

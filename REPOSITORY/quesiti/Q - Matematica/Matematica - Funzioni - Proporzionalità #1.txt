@@ -1,0 +1,10 @@
+\itemdomanda{Se $ y $ è direttamente proporzionale a $ x $ e $ y=6 $ quando $ x=2 $, quale è la costante di proporzionalità?
+}{
+\item $ 2 $
+\item $ 6 $
+\item $ 3 $
+\item $ 12 $
+\item $ \frac{1}{3} $
+}
+
+Risposta Corretta: 3

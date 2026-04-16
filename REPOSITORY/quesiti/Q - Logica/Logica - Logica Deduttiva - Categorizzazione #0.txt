@@ -1,0 +1,9 @@
+\itemdomanda{Tutte le rose sono fiori. Alcuni fiori appassiscono presto. Quindi:}{
+    \item Tutte le rose appassiscono presto
+    \item Alcune rose appassiscono presto
+    \item Nessuna rosa appassisce presto
+    \item È possibile che alcune rose appassiscano presto
+    \item I fiori che appassiscono sono solo rose
+}
+
+Risposta Corretta: 4

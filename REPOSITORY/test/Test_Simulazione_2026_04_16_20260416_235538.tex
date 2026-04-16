@@ -1,0 +1,76 @@
+\documentclass[12pt]{article}
+\PassOptionsToPackage{table}{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\setlength{\parindent}{0pt}
+\definecolor{headercolor}{RGB}{220,220,220}
+\newcounter{quesito}
+\setcounter{quesito}{0}
+\newcommand{\nuovoquesito}{\stepcounter{quesito}\textbf{Domanda \arabic{quesito}.}}
+\newcommand{\itemdomanda}[2]{%
+    \par\noindent
+    \begin{minipage}[t]{\linewidth}
+        \nuovoquesito \\ #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{10pt}
+}
+\begin{document}
+\section*{Simulazione}
+\hfill Data: 16 apr 2026
+
+\itemdomanda{Se $ \frac{A}{B} = 0 $, allora:
+}{
+\item $ A=0 \land B=0 $
+\item $ B=0 $
+\item $ A=0 \land B \neq 0 $
+\item $ A \neq 0 \land B=0 $
+\item $ A \neq 0 $
+}
+
+\itemdomanda{Qual è il grado complessivo del polinomio $P(x,y) = 5x^{4}y^{2} - 2x^{3}y^{5} + x^{6}$?}{
+\item $8$
+\item $6$
+\item $15$
+\item $4$
+\item $7$
+}
+
+\itemdomanda{Scomponi $ 4x^2 - 9 $.
+}{
+\item $ (2x+3)^2 $
+\item $ (2x-3)(2x+3) $
+\item $ (4x-9)(4x+9) $
+\item $ (2x-3)^2 $
+\item $ (4x-3)(x+3) $
+}
+
+\itemdomanda{L'espressione $ \frac{3^5 \cdot 9^2}{3^3} $ è uguale a:
+}{
+\item $ 3^4 $
+\item $ 3^{10} $
+\item $ 3^6 $
+\item $ 9^2 $
+\item $ 3^5 $
+}
+
+\end{document}

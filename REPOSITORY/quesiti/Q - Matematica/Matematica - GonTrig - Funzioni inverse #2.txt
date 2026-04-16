@@ -1,0 +1,10 @@
+\itemdomanda{Quanto vale $ \arcsin(\sin(\frac{\pi}{6})) $:
+}{
+\item Non esiste
+\item $ \frac{\pi}{3} $
+\item $ \frac{\pi}{6} $
+\item $ \pi $
+\item $1$
+}
+
+Risposta Corretta: 3

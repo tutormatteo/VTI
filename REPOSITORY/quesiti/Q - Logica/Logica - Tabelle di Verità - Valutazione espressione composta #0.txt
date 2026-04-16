@@ -1,0 +1,9 @@
+\itemdomanda{Siano date le seguenti proposizioni: $A =$ "15 è divisibile per 3"; $B =$ "-2 è un numero irrazionale"; $C =$ "un cerchio ha 4 lati". Qual è il valore di verità dell'espressione $A \dot{\lor} (B \land C)$?}{
+    \item Vera
+    \item Falsa
+    \item Indeterminata
+    \item Vera solo se $B$ è vera
+    \item Falsa perché $A$ è falsa
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,10 @@
+\itemdomanda{Il risultato di $ (x+2)^3 $ è:
+}{
+\item $ x^3+8 $
+\item $ x^3+6x^2+12x+6 $
+\item $ x^3+6x^2+12x+8 $
+\item $ x^3+4x^2+4x+8 $
+\item $ x^3+6x^2+8 $
+}
+
+Risposta Corretta: 3

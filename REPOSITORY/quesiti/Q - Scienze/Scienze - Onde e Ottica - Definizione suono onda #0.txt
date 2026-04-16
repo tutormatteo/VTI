@@ -1,0 +1,9 @@
+\itemdomanda{Il suono è:}{
+    \item onda in mezzo elastico con velocità dipendente dal mezzo
+    \item onda elastica nel vuoto a 340 m/s
+    \item onda in mezzo elastico a 300.000 m/s
+    \item onda elastica nel vuoto a 300.000 km/s
+    \item onda nel vuoto e mezzi a 340 m/s
+}
+
+Risposta Corretta: 1

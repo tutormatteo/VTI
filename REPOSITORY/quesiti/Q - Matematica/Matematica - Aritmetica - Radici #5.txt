@@ -1,0 +1,10 @@
+\itemdomanda{Qual è il risultato di $ \sqrt{100 - 64} $?
+}{
+\item $ 6 $
+\item $ 18 $
+\item $ 64 $
+\item $ 36 $
+\item $ 8 $
+}
+
+Risposta Corretta: 1

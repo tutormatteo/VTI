@@ -1,0 +1,9 @@
+\itemdomanda{Indice rifrazione acqua 1.33. Velocità luce in acqua?}{
+    \item $3.00 \times 10^8$ m/s
+    \item $1.98 \times 10^8$ m/s
+    \item $2.05 \times 10^8$ m/s
+    \item $2.26 \times 10^8$ m/s
+    \item $4.52 \times 10^8$ m/s
+}
+
+Risposta Corretta: 4

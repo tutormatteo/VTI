@@ -1,0 +1,9 @@
+\itemdomanda{Un treno viaggia a una velocità costante di \SI{120}{km/h}. Quanto tempo impiega per percorrere \SI{30}{km}?}{
+    \item 15 minuti
+    \item 20 minuti
+    \item 25 minuti
+    \item 30 minuti
+    \item 12 minuti
+}
+
+Risposta Corretta: 1

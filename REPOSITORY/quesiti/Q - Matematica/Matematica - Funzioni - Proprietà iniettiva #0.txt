@@ -1,0 +1,10 @@
+\itemdomanda{Quale tra le seguenti funzioni gode della seguente proprietà: ``esistono due numeri $A$ e $B$ diversi e tali che $ f(A) = f(B) $ '' ?
+}{
+\item $ f(x) = x $
+\item $ f(x) = x + 1$
+\item $ f(x) = x^{3} $
+\item $ f(x) = \frac{1}{x} $
+\item $ f(x) = \frac{1}{x^{2}} $
+}
+
+Risposta Corretta: 5

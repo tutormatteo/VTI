@@ -1,0 +1,68 @@
+\itemdomanda{Tubo sezione costante ad U aperto un ramo e chiuso tappo T altro. Forza acqua sul tappo? \\ \begin{tikzpicture}[>=Stealth, thick, scale=0.6, transform shape, baseline=(current bounding box.center)]
+
+    % --- DEFINIZIONE PARMETRI ---
+    \def\tubeW{1.0}    % Larghezza del tubo
+    \def\innerR{1.0}   % Raggio della curva interna
+    % Il raggio esterno è calcolato automaticamente
+    \pgfmathsetmacro{\outerR}{\innerR + \tubeW}
+    
+    \def\liqH{5.0}     % Altezza liquido a sinistra (H) dai centri dei cerchi
+    \def\liqh{3.0}     % Altezza liquido a destra (h) dai centri dei cerchi
+    \def\blockH{1.2}   % Altezza del blocco T
+    
+    % Coordinate di base: Il centro dei semicerchi inferiori è (0,0)
+
+    % --- 1. LIQUIDO (Riempimento) ---
+    % Disegniamo il contorno del liquido e lo riempiamo
+    \fill[gray!40] 
+        (-\outerR, \liqH) -- (-\outerR, 0)          % Giù a sinistra esterno
+        arc[start angle=180, end angle=360, radius=\outerR] % Curva esterna
+        -- (\outerR, \liqh)                         % Su a destra esterno
+        -- (\innerR, \liqh)                         % Attraverso superficie dx
+        -- (\innerR, 0)                             % Giù a destra interno
+        arc[start angle=0, end angle=-180, radius=\innerR]  % Curva interna
+        -- (-\innerR, \liqH)                        % Su a sinistra interno
+        -- cycle;                                   % Chiude superficie sx
+
+    % --- 2. TUBO (Contorni) ---
+    % Contorno esterno
+    \draw[thick] (-\outerR, \liqH + 0.8) -- (-\outerR, 0) 
+        arc[start angle=180, end angle=360, radius=\outerR] 
+        -- (\outerR, \liqh + \blockH + 0.5);
+        
+    % Contorno interno
+    \draw[thick] (-\innerR, \liqH + 0.8) -- (-\innerR, 0) 
+        arc[start angle=180, end angle=360, radius=\innerR] % Corretto: ora segue il fondo
+        -- (\innerR, \liqh + \blockH + 0.8);
+
+    % --- 3. OGGETTO T ---
+    \fill[black] (\innerR, \liqh) rectangle (\outerR, \liqh + \blockH);
+    \node[white, font=\bfseries\large] at ($(\innerR, \liqh) + 0.5*(\tubeW, \blockH)$) {T};
+
+    % --- 4. LIVELLI E QUOTE ---
+    % Linea di riferimento inferiore (il punto più basso del tubo)
+    \coordinate (BottomPoint) at (0, -\outerR);
+    \draw[thin] (-\outerR - 1.2, -\outerR) -- (\outerR + 1.2, -\outerR);
+
+    % Livello 1 (Sinistra)
+    \draw[thin] (-\outerR, \liqH) -- (\outerR + 2.0, \liqH) node[right, font=\small] {livello 1};
+    % Quota H
+    \draw[<->, thin] (-\outerR - 0.8, -\outerR) -- (-\outerR - 0.8, \liqH) node[midway, fill=white, font=\small] {$H$};
+
+    % Livello 2 (Destra)
+    \draw[thin] (\outerR, \liqh) -- (-\outerR - 2.0, \liqh) node[left, font=\small] {livello 2};
+    % Quota h
+    \draw[<->, thin] (\outerR + 0.8, -\outerR) -- (\outerR + 0.8, \liqh) node[midway, fill=white, font=\small] {$h$};
+
+    % --- 5. ELEMENTO S ---
+    \node[circle, draw, thin, inner sep=1.5pt, font=\itshape\small, fill=white] at (0, -\outerR + \tubeW/2) {S};
+
+\end{tikzpicture} \\ }{
+    \item $\rho g (H-h)$ verso il basso
+    \item $\rho g h$ verso l'alto
+    \item $\rho g H S$ verso l'alto
+    \item $\rho g (H+h)$ verso il basso
+    \item $\rho g (H-h) S$ verso l'alto
+}
+
+Risposta Corretta: 5

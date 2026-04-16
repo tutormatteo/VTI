@@ -1,0 +1,9 @@
+\itemdomanda{Il figlio di mio padre è il padre di mio figlio. Chi sono io?}{
+    \item Mio nonno
+    \item Mio zio
+    \item Mio padre
+    \item Io stesso
+    \item Mio figlio
+}
+
+Risposta Corretta: 4

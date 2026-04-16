@@ -1,0 +1,9 @@
+\itemdomanda{Palmo mano vs punta dito a parità di forza. La pressione sarebbe:}{
+    \item minore
+    \item stessa
+    \item maggiore
+    \item forza minore
+    \item forza maggiore
+}
+
+Risposta Corretta: 3

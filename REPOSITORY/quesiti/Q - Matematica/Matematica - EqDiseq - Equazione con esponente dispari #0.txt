@@ -1,0 +1,10 @@
+\itemdomanda{Quali sono le soluzioni di $ x^{101} + 1 = 0$
+}{
+\item $\not\exists$ soluzioni reali
+\item $1$
+\item $-1$
+\item $101$
+\item $-101$
+}
+
+Risposta Corretta: 3

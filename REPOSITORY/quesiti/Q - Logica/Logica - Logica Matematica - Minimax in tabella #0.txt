@@ -1,0 +1,18 @@
+\itemdomanda{Considero una tabella quadrata formata da 4 numeri diversi e disposti in 2 righe ciascuna composta da 2 numeri: $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$. Siano:
+    \begin{itemize}
+        \item $r_1$ il più piccolo dei numeri della prima riga
+        \item $r_2$ il più piccolo dei numeri della seconda riga
+        \item $R$ il maggiore tra $r_1$ ed $r_2$
+        \item $K_1$ il più grande dei numeri della prima colonna
+        \item $K_2$ il più grande dei numeri della seconda colonna
+        \item $k$ il minore tra $K_1$ e $K_2$
+    \end{itemize}
+    Allora possiamo concludere che:}{
+    \item $R < k$
+    \item $R = k$
+    \item $R > k$
+    \item $R \geq k$
+    \item $R \leq k$
+}
+
+Risposta Corretta: 5

@@ -1,0 +1,9 @@
+\itemdomanda{Completare la serie: $1/2, 1, 2, 4, 8, \dots$}{
+    \item 12
+    \item 10
+    \item 16
+    \item 24
+    \item 32
+}
+
+Risposta Corretta: 3

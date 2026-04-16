@@ -1,0 +1,9 @@
+\itemdomanda{Contenitore rigido aria a $27^{\circ}C$. Pressione raddoppia. Temperatura?}{
+    \item $216^{\circ}C$
+    \item $54^{\circ}C$
+    \item $573^{\circ}C$
+    \item $327^{\circ}C$
+    \item impossibile senza volume
+}
+
+Risposta Corretta: 4

@@ -1,0 +1,16 @@
+\itemdomanda{Premesso che:
+    \begin{enumerate}
+        \item Nessuna delle cose che si incontrano in mare e passano inosservate è una sirena.
+        \item Le cose avvistate in mare e registrate nel giornale di bordo sono degne di essere ricordate.
+        \item Non ho mai incontrato nulla che fosse degno di nota viaggiando per mare.
+        \item Le cose che si incontrano in mare e vengono notate, vengono registrate nel giornale di bordo.
+    \end{enumerate}
+    Si può dedurre che:}{
+    \item In mare non ho mai incontrato una sirena
+    \item Tutte le sirene passano inosservate
+    \item Ho incontrato una sirena ma non l'ho registrata
+    \item Il giornale di bordo contiene avvistamenti di sirene
+    \item Tutto ciò che ho incontrato in mare era degno di nota
+}
+
+Risposta Corretta: 1

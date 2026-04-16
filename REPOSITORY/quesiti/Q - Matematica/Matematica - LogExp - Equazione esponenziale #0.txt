@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ 2^{-x} = - 4 $ ha soluzione
+}{
+\item $ x = 2 $
+\item $ x = -2 $
+\item $ x = \frac{1}{2} $
+\item $ x = - \frac{1}{2} $
+\item non ha soluzioni reali
+}
+
+Risposta Corretta: 5

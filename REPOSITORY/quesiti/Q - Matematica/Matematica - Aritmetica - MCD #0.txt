@@ -1,0 +1,10 @@
+\itemdomanda{Il MCD (Massimo Comune Divisore) tra $ 12, 18, 30 $ è:
+}{
+\item $ 60 $
+\item $ 12 $
+\item $ 6 $
+\item $ 2 $
+\item $ 3 $
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,10 @@
+\itemdomanda{La funzione $ y= \cos(x) $ è pari o dispari?
+}{
+\item Dispari
+\item Pari
+\item Né pari né dispari
+\item Simmetrica rispetto all'origine
+\item Dipende dall'intervallo
+}
+
+Risposta Corretta: 2

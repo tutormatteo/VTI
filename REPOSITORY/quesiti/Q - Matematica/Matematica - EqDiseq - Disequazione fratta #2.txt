@@ -1,0 +1,9 @@
+\itemdomanda{Per quali valori di $x$ è verificata la disequazione $\frac{1}{x} < 1$?}{
+\item $x < 0 \lor x > 1$
+\item $x > 1$
+\item $0 < x < 1$
+\item $x \neq 0$
+\item $x < 1$
+}
+
+Risposta Corretta: 1

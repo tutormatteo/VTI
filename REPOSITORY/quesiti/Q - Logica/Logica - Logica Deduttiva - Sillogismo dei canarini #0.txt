@@ -1,0 +1,14 @@
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Tutti i canarini ben nutriti cantano a squarciagola.
+        \item Nessun canarino che canti a squarciagola è malinconico.
+    \end{enumerate}
+    Quale conclusione è logicamente corretta?}{
+    \item Nessun canarino ben nutrito è malinconico
+    \item Qualche canarino ben nutrito è malinconico
+    \item Tutti i canarini malinconici sono ben nutriti
+    \item I canarini che non cantano sono sicuramente ben nutriti
+    \item Chi canta a squarciagola è malinconico
+}
+
+Risposta Corretta: 1

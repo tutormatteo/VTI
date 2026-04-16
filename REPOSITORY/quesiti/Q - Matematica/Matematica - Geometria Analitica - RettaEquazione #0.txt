@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione della retta passante per $ P(1, 2) $ e con pendenza $ m=3 $ è:
+}{
+\item $ y = 3x+2 $
+\item $ y = 3x-1 $
+\item $ y = 3x+5 $
+\item $ y = 2x+3 $
+\item $ y = 3x+1 $
+}
+
+Risposta Corretta: 2

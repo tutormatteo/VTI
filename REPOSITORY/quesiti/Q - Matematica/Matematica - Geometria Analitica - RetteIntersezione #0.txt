@@ -1,0 +1,10 @@
+\itemdomanda{Il punto di intersezione delle rette $ y=x $ e $ y=2x-1 $ è:
+}{
+\item $ (0, 0) $
+\item $ (1, 2) $
+\item $ (1, 1) $
+\item $ (2, 2) $
+\item $ (2, 1) $
+}
+
+Risposta Corretta: 3

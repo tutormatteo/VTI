@@ -1,0 +1,9 @@
+\itemdomanda{Strisce colorate macchie olio pozzanghere dovute a:}{
+    \item interferenza e diffrazione
+    \item riflettività acqua/olio
+    \item cielo diffonde colori
+    \item interferenza strato sottile olio
+    \item diffrazione luce
+}
+
+Risposta Corretta: 4

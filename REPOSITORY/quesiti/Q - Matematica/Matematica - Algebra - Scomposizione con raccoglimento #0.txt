@@ -1,0 +1,9 @@
+\itemdomanda{La scomposizione del polinomio $x^{2} - y^{2} + x - y$ è:}{
+\item $(x-y)(x+y+1)$
+\item $(x+y)(x-y+1)$
+\item $(x-y)^{2}$
+\item $(x-y)(x+y-1)$
+\item $(x+y)(x+y+1)$
+}
+
+Risposta Corretta: 1

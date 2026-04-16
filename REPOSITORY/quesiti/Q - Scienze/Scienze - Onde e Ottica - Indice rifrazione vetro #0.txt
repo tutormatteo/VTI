@@ -1,0 +1,9 @@
+\itemdomanda{Velocità luce nel vetro $1.97 \times 10^8$ m/s. Indice rifrazione?}{
+    \item 0.88
+    \item 1.34
+    \item 1.52
+    \item 1.66
+    \item 1.88
+}
+
+Risposta Corretta: 3

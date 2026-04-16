@@ -1,0 +1,9 @@
+\itemdomanda{Dalla frase "O mangi questa minestra o ti salti dalla finestra" (interpretata come O esclusivo), si deduce che:}{
+    \item Se mangi la minestra, puoi anche saltare dalla finestra
+    \item Se non salti dalla finestra, allora devi mangiare la minestra
+    \item Puoi fare entrambe le cose contemporaneamente
+    \item Non puoi evitare entrambe le situazioni
+    \item Se non mangi la minestra, non è detto che tu debba saltare
+}
+
+Risposta Corretta: 2

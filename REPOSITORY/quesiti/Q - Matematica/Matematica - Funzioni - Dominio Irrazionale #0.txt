@@ -1,0 +1,10 @@
+\itemdomanda{Il dominio della funzione $ f(x) = \sqrt{\frac{x-3}{x}} $ è:
+}{
+\item $ x < 0 \lor x \geq 3 $
+\item $ x \geq 3 $
+\item $ x \leq 0 $
+\item $ 0 < x \leq 3 $
+\item $ x \in \mathbb{R} $
+}
+
+Risposta Corretta: 1

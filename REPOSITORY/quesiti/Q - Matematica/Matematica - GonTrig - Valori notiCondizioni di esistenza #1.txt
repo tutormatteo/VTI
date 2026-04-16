@@ -1,0 +1,10 @@
+\itemdomanda{Quanto vale $ \cos ( 180^{\circ} )^{\sin( 30^{\circ})} $:
+}{
+\item $1$
+\item $\sqrt{2}$
+\item $\frac{1}{2}$
+\item Non è un numero reale
+\item $-1$
+}
+
+Risposta Corretta: 4

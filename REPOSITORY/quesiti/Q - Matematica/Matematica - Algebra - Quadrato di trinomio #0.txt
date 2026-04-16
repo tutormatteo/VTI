@@ -1,0 +1,10 @@
+\itemdomanda{Il risultato di $ (a+b+c)^2 $ è:
+}{
+\item $ a^2+b^2+c^2+2ab+2ac+2bc $
+\item $ a^2+b^2+c^2 $
+\item $ a^2+b^2+c^2+ab+ac+bc $
+\item $ a^2+b^2+c^2+2abc $
+\item $ a^2+b^2+c^2+4ab+4ac+4bc $
+}
+
+Risposta Corretta: 1

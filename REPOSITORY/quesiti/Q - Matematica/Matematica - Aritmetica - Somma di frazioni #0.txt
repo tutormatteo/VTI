@@ -1,0 +1,9 @@
+\itemdomanda{Qual è il risultato della somma $\frac{1}{4} + \frac{1}{5} + \frac{1}{20}$?}{
+\item $\frac{1}{2}$
+\item $\frac{3}{29}$
+\item $\frac{1}{9}$
+\item $1$
+\item $\frac{7}{20}$
+}
+
+Risposta Corretta: 1

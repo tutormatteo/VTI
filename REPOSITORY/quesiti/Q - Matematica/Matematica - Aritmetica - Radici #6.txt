@@ -1,0 +1,10 @@
+\itemdomanda{$ \sqrt{72} $ può essere scritto come:
+}{
+\item $ 8\sqrt{9} $
+\item $ 9\sqrt{8} $
+\item $ 6\sqrt{2} $
+\item $ 2\sqrt{6} $
+\item $ 3\sqrt{8} $
+}
+
+Risposta Corretta: 3

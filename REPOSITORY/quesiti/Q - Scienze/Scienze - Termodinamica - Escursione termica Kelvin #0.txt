@@ -1,0 +1,9 @@
+\itemdomanda{Escursione termica tra $25^{\circ}C$ e $16^{\circ}C$ espressa in Kelvin:}{
+    \item 282 K
+    \item 264 K
+    \item 9 K
+    \item 90 K
+    \item 273 K
+}
+
+Risposta Corretta: 3

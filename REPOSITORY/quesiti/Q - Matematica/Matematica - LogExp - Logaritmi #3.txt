@@ -1,0 +1,10 @@
+\itemdomanda{$ \log_{10}(0.01) $ vale:
+}{
+\item $ 2 $
+\item $ 1 $
+\item $ -2 $
+\item $ -1 $
+\item $ 0.1 $
+}
+
+Risposta Corretta: 3

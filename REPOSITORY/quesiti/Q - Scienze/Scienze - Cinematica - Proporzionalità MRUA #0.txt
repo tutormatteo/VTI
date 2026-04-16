@@ -1,0 +1,9 @@
+\itemdomanda{Un corpo si muove di moto rettilineo uniformemente accelerato. Partendo da fermo, esso percorre 8 metri in 3 secondi. Che distanza percorrerà in 6 secondi?}{
+    \item 24 m
+    \item 12 m
+    \item 48 m
+    \item 16 m
+    \item 32 m
+}
+
+Risposta Corretta: 5

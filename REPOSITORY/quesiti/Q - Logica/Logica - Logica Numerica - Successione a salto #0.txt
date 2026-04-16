@@ -1,0 +1,9 @@
+\itemdomanda{Quale numero completa la serie? $10, 5, 12, 7, 14, 9, \dots$}{
+    \item 16
+    \item 11
+    \item 18
+    \item 10
+    \item 15
+}
+
+Risposta Corretta: 1

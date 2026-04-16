@@ -1,0 +1,9 @@
+\itemdomanda{In una discussione tra amici, Antonio dice: "A tutti noi piace il caffè, tranne che a Paola, a cui non piace". Fabio osserva che Antonio ha torto. Ne consegue che:}{
+    \item a tutti gli amici piace il caffè
+    \item a Paola piace il caffè
+    \item a uno degli amici, che non è Paola, non piace il caffè
+    \item o a Paola piace il caffè, oppure c'è qualcuno tra gli amici, oltre Paola, a cui il caffè non piace
+    \item non è possibile che il caffè dispiaccia a uno solo tra gli amici
+}
+
+Risposta Corretta: 4

@@ -1,0 +1,9 @@
+\itemdomanda{C 100 $\mu F$ a 2 kV vs L 25 H a 4 A. Quale vera?}{
+    \item En. condensatore > En. induttore
+    \item Non confrontabili senza geometria
+    \item Non confrontabili natura diversa
+    \item Energie sono uguali
+    \item En. induttore > En. condensatore
+}
+
+Risposta Corretta: 4

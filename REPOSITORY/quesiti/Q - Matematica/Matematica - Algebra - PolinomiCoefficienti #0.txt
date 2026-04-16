@@ -1,0 +1,10 @@
+\itemdomanda{Il coefficiente di $ x^2 $ nel polinomio $ (x^2+2x+1)(x-3) $ è:
+}{
+\item $ 2 $
+\item $ 1 $
+\item $ -1 $
+\item $ -3 $
+\item $ 0 $
+}
+
+Risposta Corretta: 3

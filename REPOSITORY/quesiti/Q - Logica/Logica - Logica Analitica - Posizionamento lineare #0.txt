@@ -1,0 +1,9 @@
+\itemdomanda{Cinque amici sono in fila: Anna è davanti a Luca, Sara è dietro a Luca ma davanti a Paolo. Se Marco è il primo della fila, chi è l'ultimo?}{
+    \item Anna
+    \item Luca
+    \item Sara
+    \item Paolo
+    \item Marco
+}
+
+Risposta Corretta: 4

@@ -1,0 +1,9 @@
+\itemdomanda{Quale serie di simboli è identica se letta in uno specchio piano?}{
+    \item 69
+    \item OTTO AMA
+    \item PROCCHIO
+    \item 88OTTO88
+    \item 88AMAOTTO88
+}
+
+Risposta Corretta: 4

@@ -1,0 +1,9 @@
+\itemdomanda{Cosa accade alla solubilità di un gas in un liquido se la pressione parziale del gas sopra il liquido aumenta (Legge di Henry)?}{
+    \item Aumenta
+    \item Diminuisce
+    \item Resta invariata
+    \item Dipende solo dal volume
+    \item Si annulla
+}
+
+Risposta Corretta: 1

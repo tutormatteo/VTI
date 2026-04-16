@@ -1,0 +1,319 @@
+<Window x:Class="VTI.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:VTI.App.ViewModels"
+        xmlns:conv="clr-namespace:VTI.App.Converters"
+        xmlns:controls="clr-namespace:VTI.App.Controls"
+        mc:Ignorable="d"
+        Title="VTI"
+        Width="1200"
+        Height="800"
+        MinWidth="1180"
+        MinHeight="760"
+        d:DataContext="{d:DesignInstance vm:MainViewModel}">
+    <Window.Resources>
+        <conv:SidebarSectionToIndexConverter x:Key="SecIdx" />
+        <conv:NullToVisibilityConverter x:Key="NullToVis" />
+        <BooleanToVisibilityConverter x:Key="BoolVis" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Border Padding="12" Margin="8,8,8,0" CornerRadius="10" Background="#220000FF"
+                Visibility="{Binding StatusMessage, Converter={StaticResource NullToVis}}">
+            <TextBlock Text="{Binding StatusMessage.Text}" TextWrapping="Wrap" />
+        </Border>
+
+        <TabControl Grid.Row="1" Margin="8"
+                    SelectedIndex="{Binding SelectedSection, Mode=TwoWay, Converter={StaticResource SecIdx}}">
+            <TabItem Header="Home">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="12" MaxWidth="720" HorizontalAlignment="Left">
+                        <TextBlock Text="Panoramica" FontSize="18" FontWeight="SemiBold" />
+                        <TextBlock TextWrapping="Wrap" Margin="0,6,0,12" Foreground="Gray"
+                                   Text="Banca dati quesiti, test ed eserciziari in LaTeX e PDF (richiede pdflatex / MiKTeX o TeX Live)." />
+                        <TextBlock Text="Repository locale" FontWeight="SemiBold" />
+                        <TextBlock Text="{Binding RepositoryPath}" TextWrapping="Wrap" Margin="0,4,0,8"
+                                   FontSize="11" Foreground="Gray" />
+                        <Button Content="Scegli cartella repository" Command="{Binding ChooseRepositoryCommand}" Padding="12,6" HorizontalAlignment="Left" />
+                        <TextBlock Text="Struttura: quesiti/, test/, eserciziario/" FontSize="10" Foreground="#888" Margin="0,6,0,12" />
+                        <TextBlock Text="Nuova materia" FontWeight="SemiBold" />
+                        <StackPanel Orientation="Horizontal" Margin="0,6,0,0">
+                            <TextBox Width="220" Text="{Binding NewMateriaName, UpdateSourceTrigger=PropertyChanged}" />
+                            <Button Content="Aggiungi" Margin="8,0,0,0" Command="{Binding AddMateriaCommand}" />
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem Header="Repository quesiti">
+                <Grid Margin="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" MinWidth="280" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" MinWidth="320" />
+                    </Grid.ColumnDefinitions>
+                    <DataGrid Grid.Column="0" ItemsSource="{Binding Quesiti}"
+                              SelectedItem="{Binding SelectedRepositoryQuesito, Mode=TwoWay}"
+                              AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Materia" Binding="{Binding Materia.RawValue}" Width="*" />
+                            <DataGridTextColumn Header="Argomento" Binding="{Binding Argomento}" Width="*" />
+                            <DataGridTextColumn Header="File" Binding="{Binding FileName}" Width="2*" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <GridSplitter Grid.Column="1" Width="6" HorizontalAlignment="Center" />
+                    <StackPanel Grid.Column="2" Margin="12,0,0,0">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                            <Button Content="Ricarica" Command="{Binding ReloadQuesitiCommand}" Margin="0,0,8,0" />
+                            <Button Content="Apri file" Command="{Binding OpenPathCommand}" CommandParameter="{Binding SelectedRepositoryQuesito.UrlFile}" />
+                            <Button Content="Mostra in Esplora" Margin="8,0,0,0"
+                                    Command="{Binding ShowInExplorerCommand}" CommandParameter="{Binding SelectedRepositoryQuesito.UrlFile}" />
+                        </StackPanel>
+                        <TextBlock Text="Anteprima PDF" FontWeight="Bold" Margin="0,8,0,4" />
+                        <controls:PdfPreviewControl SourcePdf="{Binding PreviewPdfPath}" MinHeight="260" />
+                        <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+                            <Button Content="Aggiorna" Command="{Binding RefreshRepositoryPreviewCommand}" />
+                            <Button Content="Esporta PNG…" Margin="8,0,0,0" Command="{Binding ExportPreviewPngCommand}" />
+                        </StackPanel>
+                        <TextBlock Text="{Binding PreviewError}" Foreground="DarkRed" TextWrapping="Wrap" Margin="0,8,0,0" />
+                        <ProgressBar Height="4" Margin="0,8,0,0" IsIndeterminate="True"
+                                     Visibility="{Binding PreviewLoading, Converter={StaticResource BoolVis}}" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Quesiti+">
+                <Grid Margin="8">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                        <Button Content="Azzera" Command="{Binding ClearQuesitiPlusCommand}" />
+                        <RadioButton Content="Crea quesito" GroupName="Qim" Margin="12,0,0,0"
+                                     IsChecked="{Binding IsCreateQuesitiMode, Mode=TwoWay}" />
+                        <RadioButton Content="Importa TXT" GroupName="Qim" Margin="12,0,0,0"
+                                     IsChecked="{Binding IsImportQuesitiMode, Mode=TwoWay}" />
+                    </StackPanel>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Auto"
+                                      Visibility="{Binding IsCreateQuesitiMode, Converter={StaticResource BoolVis}}">
+                            <StackPanel Margin="0,0,12,0">
+                                <TextBlock Text="Dati quesito" FontWeight="Bold" />
+                                <ComboBox Margin="0,8,0,0" ItemsSource="{Binding MaterieOrdered}"
+                                          SelectedItem="{Binding Draft.Materia, Mode=TwoWay}" DisplayMemberPath="RawValue" />
+                                <TextBlock Text="Argomento" Margin="0,8,0,0" />
+                                <TextBox Text="{Binding Draft.Argomento, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBlock Text="Titolo" Margin="0,8,0,0" />
+                                <TextBox Text="{Binding Draft.Titolo, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBlock Text="Testo domanda (LaTeX)" Margin="0,8,0,0" />
+                                <TextBox Text="{Binding Draft.TestoDomanda, UpdateSourceTrigger=PropertyChanged}" AcceptsReturn="True" Height="80" TextWrapping="Wrap" />
+                                <TextBlock Text="Opzioni (5)" FontWeight="Bold" Margin="0,12,0,4" />
+                                <ItemsControl ItemsSource="{Binding Draft.Opzioni}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBox Margin="0,4,0,0"
+                                                     Text="{Binding Path=., Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                                <TextBlock Text="Risposta corretta (1-5)" Margin="0,8,0,0" />
+                                <ComboBox Width="80" Margin="0,4,0,0" ItemsSource="{Binding AnswerChoices}"
+                                          SelectedItem="{Binding Draft.RispostaCorretta, Mode=TwoWay}" />
+                            </StackPanel>
+                        </ScrollViewer>
+                        <GridSplitter Grid.Column="1" Width="6" HorizontalAlignment="Center"
+                                      Visibility="{Binding IsCreateQuesitiMode, Converter={StaticResource BoolVis}}" />
+                        <StackPanel Grid.Column="2" Margin="12,0,0,0"
+                                    Visibility="{Binding IsCreateQuesitiMode, Converter={StaticResource BoolVis}}">
+                            <TextBlock Text="Anteprima PDF" FontWeight="Bold" />
+                            <controls:PdfPreviewControl SourcePdf="{Binding PreviewPdfPath}" MinHeight="220" Margin="0,8,0,0" />
+                            <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+                                <Button Content="Aggiorna" Command="{Binding RunDraftPreviewNowCommand}" />
+                                <Button Content="Esporta PNG…" Margin="8,0,0,0" Command="{Binding ExportPreviewPngCommand}" />
+                            </StackPanel>
+                            <TextBlock Text="{Binding PreviewError}" Foreground="DarkRed" TextWrapping="Wrap" Margin="0,8,0,0" />
+                            <ProgressBar Height="4" Margin="0,8,0,0" IsIndeterminate="True"
+                                         Visibility="{Binding PreviewLoading, Converter={StaticResource BoolVis}}" />
+                            <Button Content="Salva quesito" Margin="0,12,0,0" Command="{Binding SaveDraftCommand}" Padding="12,6" HorizontalAlignment="Left" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="0" Grid.ColumnSpan="3" VerticalAlignment="Top"
+                                    Visibility="{Binding IsImportQuesitiMode, Converter={StaticResource BoolVis}}">
+                            <TextBlock Text="Importa file TXT" FontWeight="Bold" />
+                            <TextBlock Text="{Binding ImportFilePath}" TextWrapping="Wrap" Foreground="Gray" Margin="0,8,0,0" />
+                            <Button Content="Scegli file TXT" Margin="0,8,0,0" HorizontalAlignment="Left" Command="{Binding PickImportTxtCommand}" />
+                            <ComboBox Margin="0,12,0,0" Width="200" ItemsSource="{Binding MaterieOrdered}"
+                                      SelectedItem="{Binding ImportMateria, Mode=TwoWay}" DisplayMemberPath="RawValue" />
+                            <TextBlock Text="Argomento" Margin="0,8,0,0" />
+                            <TextBox Text="{Binding ImportArgomento, UpdateSourceTrigger=PropertyChanged}" />
+                            <TextBlock Text="Titolo" Margin="0,8,0,0" />
+                            <TextBox Text="{Binding ImportTitolo, UpdateSourceTrigger=PropertyChanged}" />
+                            <Button Content="Importa file" Margin="0,12,0,0" Command="{Binding ImportTxtCommand}" Padding="12,6" HorizontalAlignment="Left" />
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Test">
+                <Grid Margin="8">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                        <TextBox Width="200" Text="{Binding TitoloTest, UpdateSourceTrigger=PropertyChanged}" />
+                        <DatePicker SelectedDate="{Binding DataTest}" Margin="8,0,0,0" Width="160" />
+                        <RadioButton Content="Random" GroupName="Tm" Margin="12,0,0,0"
+                                     IsChecked="{Binding IsTestRandomMode, Mode=TwoWay}" />
+                        <RadioButton Content="Manuale" GroupName="Tm" Margin="8,0,0,0"
+                                     IsChecked="{Binding IsTestManualMode, Mode=TwoWay}" />
+                        <TextBlock Margin="16,0,0,0" VerticalAlignment="Center" Text="{Binding TestPreviewCount, StringFormat=Nel test: {0}}" />
+                        <Button Content="Azzera" Margin="12,0,0,0" Command="{Binding ClearTestFormCommand}" />
+                        <Button Content="Genera test" Margin="12,0,0,0" Command="{Binding GenerateTestCommand}" Padding="12,6" />
+                    </StackPanel>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                          Visibility="{Binding IsTestRandomMode, Converter={StaticResource BoolVis}}">
+                                <StackPanel>
+                                    <CheckBox Content="Non ripetere quesiti già usati in test con PDF" IsChecked="{Binding ExcludeUsedFromRandomExtractions, Mode=TwoWay}" />
+                                    <TextBlock Margin="0,8,0,0" Foreground="Gray" TextWrapping="Wrap"
+                                               Text="Storico utilizzi (file). Svuota storico per resettare l'esclusione." />
+                                    <TextBlock Margin="0,4,0,8" Text="{Binding TestUsageCount, StringFormat=Storico: {0} file}" />
+                                    <Button Content="Svuota storico" HorizontalAlignment="Left" Command="{Binding ClearTestUsageHistoryCommand}" />
+                                    <Button Content="Estrai di nuovo" Margin="0,8,0,0" HorizontalAlignment="Left" Command="{Binding EstraiRandomCommand}" />
+                                    <ItemsControl ItemsSource="{Binding RandomQtyRows}" Margin="0,12,0,0">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <Grid Margin="0,6,0,0">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*" />
+                                                        <ColumnDefinition Width="Auto" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <StackPanel>
+                                                        <TextBlock Text="{Binding Argomento}" FontWeight="SemiBold" />
+                                                        <TextBlock Foreground="Gray" FontSize="11">
+                                                            <Run Text="{Binding Materia.RawValue, Mode=OneWay}" />
+                                                            <Run Text=" — disponibili: " />
+                                                            <Run Text="{Binding Eligible, Mode=OneWay}" />
+                                                        </TextBlock>
+                                                    </StackPanel>
+                                                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                                        <Button Content="-" Width="28"
+                                                                Command="{Binding DataContext.DecrementRandomRowCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                                                CommandParameter="{Binding Key}" />
+                                                        <TextBlock Width="32" TextAlignment="Center" VerticalAlignment="Center" Text="{Binding Requested}" />
+                                                        <Button Content="+" Width="28"
+                                                                Command="{Binding DataContext.IncrementRandomRowCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                                                CommandParameter="{Binding Key}" />
+                                                    </StackPanel>
+                                                </Grid>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </StackPanel>
+                            </ScrollViewer>
+                            <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                          Visibility="{Binding IsTestManualMode, Converter={StaticResource BoolVis}}">
+                                <ItemsControl ItemsSource="{Binding Quesiti}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Button Margin="0,4,0,0" HorizontalContentAlignment="Left"
+                                                    Command="{Binding DataContext.ToggleManualQuesitoCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                                    CommandParameter="{Binding}"
+                                                    Content="{Binding FileName}" />
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ScrollViewer>
+                        </Grid>
+                        <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto">
+                            <StackPanel>
+                                <TextBlock Text="Nel test" FontWeight="Bold" />
+                                <ItemsControl ItemsSource="{Binding RightTestPreview}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Margin="0,4,0,0" Text="{Binding FileName}" TextWrapping="Wrap" />
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel>
+                        </ScrollViewer>
+                    </Grid>
+                    <Expander Grid.Row="2" Header="Ultimo output" IsExpanded="True" Margin="0,8,0,0"
+                              Visibility="{Binding LastTestDocument, Converter={StaticResource NullToVis}}">
+                        <StackPanel>
+                            <TextBlock Text="{Binding LastTestDocument.TexPath, TargetNullValue=''}" TextWrapping="Wrap" />
+                            <TextBlock Text="{Binding LastTestDocument.PdfPath, TargetNullValue=''}" TextWrapping="Wrap" />
+                            <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+                                <Button Content="Apri TEX" Command="{Binding OpenPathCommand}" CommandParameter="{Binding LastTestDocument.TexPath}" />
+                                <Button Content="Apri PDF" Margin="8,0,0,0" Command="{Binding OpenPathCommand}" CommandParameter="{Binding LastTestDocument.PdfPath}" />
+                            </StackPanel>
+                            <TextBlock Text="Log" FontWeight="Bold" Margin="0,8,0,0" />
+                            <TextBox Text="{Binding LastTestDocument.Log, Mode=OneWay}" Height="120" IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" FontFamily="Consolas" FontSize="10" />
+                        </StackPanel>
+                    </Expander>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Eserciziario">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="8">
+                    <StackPanel MaxWidth="720" HorizontalAlignment="Left">
+                        <TextBlock TextWrapping="Wrap" Foreground="Gray" Margin="0,0,0,12"
+                                   Text="Volume completo o per materia; genera TEX e PDF nella cartella eserciziario/." />
+                        <RadioButton Content="Completo" GroupName="Es" IsChecked="{Binding IsEserciziarioCompleto, Mode=TwoWay}" />
+                        <RadioButton Content="Materia singola" GroupName="Es" Margin="0,4,0,0" IsChecked="{Binding IsEserciziarioMateriaSingola, Mode=TwoWay}" />
+                        <ComboBox Margin="0,12,0,0" Width="220" ItemsSource="{Binding MaterieOrdered}"
+                                  SelectedItem="{Binding EserciziarioMateria, Mode=TwoWay}" DisplayMemberPath="RawValue"
+                                  Visibility="{Binding IsEserciziarioMateriaSingola, Converter={StaticResource BoolVis}}" />
+                        <TextBlock Margin="0,12,0,0" Text="{Binding Quesiti.Count, StringFormat={}{0} quesiti nel repository}" />
+                        <Button Content="Genera eserciziario" Margin="0,12,0,0" Command="{Binding GenerateEserciziarioCommand}" Padding="12,6" HorizontalAlignment="Left" />
+                        <TextBlock Text="Nuova materia" FontWeight="SemiBold" Margin="0,16,0,0" />
+                        <StackPanel Orientation="Horizontal" Margin="0,6,0,0">
+                            <TextBox Width="220" Text="{Binding NewMateriaName, UpdateSourceTrigger=PropertyChanged}" />
+                            <Button Content="Aggiungi" Margin="8,0,0,0" Command="{Binding AddMateriaCommand}" />
+                        </StackPanel>
+                        <Expander Header="Ultimo output" Margin="0,16,0,0" IsExpanded="True"
+                                  Visibility="{Binding LastEserciziarioDocument, Converter={StaticResource NullToVis}}">
+                            <StackPanel>
+                                <TextBlock Text="{Binding LastEserciziarioDocument.TexPath, TargetNullValue=''}" TextWrapping="Wrap" />
+                                <TextBlock Text="{Binding LastEserciziarioDocument.PdfPath, TargetNullValue=''}" TextWrapping="Wrap" />
+                                <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+                                    <Button Content="Apri TEX" Command="{Binding OpenPathCommand}" CommandParameter="{Binding LastEserciziarioDocument.TexPath}" />
+                                    <Button Content="Apri PDF" Margin="8,0,0,0" Command="{Binding OpenPathCommand}" CommandParameter="{Binding LastEserciziarioDocument.PdfPath}" />
+                                </StackPanel>
+                                <TextBox Margin="0,8,0,0" Text="{Binding LastEserciziarioDocument.Log, Mode=OneWay}" Height="100" IsReadOnly="True" TextWrapping="Wrap" FontFamily="Consolas" FontSize="10" />
+                            </StackPanel>
+                        </Expander>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+
+        <Border Grid.RowSpan="2" Background="#66000000" Panel.ZIndex="10"
+                Visibility="{Binding IsBusyOverlay, Converter={StaticResource BoolVis}}">
+            <Border Padding="24" Background="#F0FFFFFF" CornerRadius="12" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <StackPanel>
+                    <ProgressBar Width="200" IsIndeterminate="True" />
+                    <TextBlock Margin="0,12,0,0" HorizontalAlignment="Center" Text="Operazione in corso…" />
+                </StackPanel>
+            </Border>
+        </Border>
+    </Grid>
+</Window>

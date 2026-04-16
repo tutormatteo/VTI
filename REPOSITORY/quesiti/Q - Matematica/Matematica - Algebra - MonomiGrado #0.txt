@@ -1,0 +1,10 @@
+\itemdomanda{Il monomio $4abc^{3}$ è di:
+}{
+\item $1^{\circ}$ grado
+\item $2^{\circ}$ grado
+\item $3^{\circ}$ grado
+\item $4^{\circ}$ grado
+\item $5^{\circ}$ grado
+}
+
+Risposta Corretta: 5

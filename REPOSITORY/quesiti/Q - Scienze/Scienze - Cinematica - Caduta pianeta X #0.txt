@@ -1,0 +1,9 @@
+\itemdomanda{Un oggetto cade sulla Terra in 1.4 s. Su un pianeta X con $g_X = 1/9 g_{Terra}$, quanto tempo impiega a cadere dalla stessa altezza?}{
+    \item 0.2 s
+    \item 1.4 s
+    \item 2.1 s
+    \item 2.9 s
+    \item 4.2 s
+}
+
+Risposta Corretta: 5

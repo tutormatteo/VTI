@@ -1,0 +1,9 @@
+\itemdomanda{Un sasso di 2.60 kg lanciato a 5.00 m/s raggiunge quota 1.00 m. Energia persa per attrito?}{
+    \item 2.0 J
+    \item 4.0 J
+    \item 5.0 J
+    \item 7.0 J
+    \item 9.0 J
+}
+
+Risposta Corretta: 4

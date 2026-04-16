@@ -1,0 +1,10 @@
+\itemdomanda{Scomponi $ 4x^2 - 9 $.
+}{
+\item $ (2x+3)^2 $
+\item $ (2x-3)(2x+3) $
+\item $ (4x-9)(4x+9) $
+\item $ (2x-3)^2 $
+\item $ (4x-3)(x+3) $
+}
+
+Risposta Corretta: 2

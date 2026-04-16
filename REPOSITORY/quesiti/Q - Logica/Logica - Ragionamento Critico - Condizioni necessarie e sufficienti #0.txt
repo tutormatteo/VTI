@@ -1,0 +1,9 @@
+\itemdomanda{Un negozio di alimentari ha consegnato a domicilio la spesa che Luca ha ordinato. Luca deve pagare chi, con un furgone, ha svolto l'incarico. La mattina che Luca ha ricevuto la spesa erano in negozio e disponibili per la consegna solo Marco, Carlo e Daniele. Sapendo che Daniele non svolge incarichi, se non li svolge anche Marco e che Carlo non sa guidare, allora:}{
+    \item Sarà pagato Marco.
+    \item Solo Carlo sarà pagato.
+    \item Né Marco, né Carlo saranno pagati.
+    \item Marco non sarà pagato, Carlo sì.
+    \item Daniele sarà pagato, Aldo no.
+}
+
+Risposta Corretta: 1

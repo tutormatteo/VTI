@@ -1,0 +1,34 @@
+\itemdomanda{Se $s$ indica la posizione di un oggetto al tempo $t$, quale di questi grafici rappresenta meglio il caso in cui l'oggetto ha una velocità che aumenta il modulo nel tempo?}{
+    \item \begin{tikzpicture}[x=0.5cm, y=0.5cm, >=Stealth, baseline=(current bounding box.center)]
+    \draw[->] (0,0) -- (2.5,0) node[below] {\scalebox{0.7}{$t$}};
+    \draw[->] (0,0) -- (0,2.5) node[left] {\scalebox{0.7}{$s$}};
+    \node[below left, scale=0.6] at (0,0) {0};
+    \draw[thick] (0,0) -- (2,2);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[x=0.5cm, y=0.5cm, >=Stealth, baseline=(current bounding box.center)]
+    \draw[->] (0,0) -- (2.5,0) node[below] {\scalebox{0.7}{$t$}};
+    \draw[->] (0,0) -- (0,2.5) node[left] {\scalebox{0.7}{$s$}};
+    \node[below left, scale=0.6] at (0,0) {0};
+    \draw[thick] (0,2) -- (2,0);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[x=0.5cm, y=0.5cm, >=Stealth, baseline=(current bounding box.center)]
+    \draw[->] (0,0) -- (2.5,0) node[below] {\scalebox{0.7}{$t$}};
+    \draw[->] (0,0) -- (0,2.5) node[left] {\scalebox{0.7}{$s$}};
+    \node[below left, scale=0.6] at (0,0) {0};
+    \draw[thick] (0,2) to[out=0, in=105] (2,0);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[x=0.5cm, y=0.5cm, >=Stealth, baseline=(current bounding box.center)]
+    \draw[->] (0,0) -- (2.5,0) node[below] {\scalebox{0.7}{$t$}};
+    \draw[->] (0,0) -- (0,2.5) node[left] {\scalebox{0.7}{$s$}};
+    \node[below left, scale=0.6] at (0,0) {0};
+    \draw[thick] (0,2) to[out=-80, in=175] (2,0.3);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[x=0.5cm, y=0.5cm, >=Stealth, baseline=(current bounding box.center)]
+    \draw[->] (0,0) -- (2.5,0) node[below] {\scalebox{0.7}{$t$}};
+    \draw[->] (0,0) -- (0,2.5) node[left] {\scalebox{0.7}{$s$}};
+    \node[below left, scale=0.6] at (0,0) {0};
+    \draw[thick] (0,0) to[out=75, in=195] (2,1.8);
+\end{tikzpicture}
+}
+
+Risposta Corretta: 3

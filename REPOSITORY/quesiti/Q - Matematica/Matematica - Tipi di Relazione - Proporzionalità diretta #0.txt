@@ -1,0 +1,17 @@
+\itemdomanda{Considerando i dati in tabella l'unica relazione possibile tra le grandezze $x$ e $y$ è di:
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|>{\columncolor{headercolor}}c|c|c|c|c|c|c|}
+\hline
+$x$ & 2 & 4 & 6 & 8 & 10 & 12 \\ \hline
+$y$ & 101 & 202 & 303 & 404 & 505 & 606 \\ \hline
+\end{tabular}
+
+}{
+\item proporzionalità quadratica
+\item proporzionalità inversa
+\item proporzionalità diretta
+\item crescita lineare
+\item proporzionalità cubica
+}
+
+Risposta Corretta: 3

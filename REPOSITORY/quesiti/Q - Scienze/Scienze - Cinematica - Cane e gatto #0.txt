@@ -1,0 +1,9 @@
+\itemdomanda{Un cane (10 km/h) e un gatto (8 km/h) si muovono l'uno verso l'altro da 135 km di distanza. Qual è la distanza percorsa dal cane prima dell'incontro?}{
+    \item 62.5 km
+    \item 70 km
+    \item 75 km
+    \item 78 km
+    \item 80 km
+}
+
+Risposta Corretta: 3

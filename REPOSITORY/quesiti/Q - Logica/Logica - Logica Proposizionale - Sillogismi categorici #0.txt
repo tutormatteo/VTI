@@ -1,0 +1,14 @@
+\itemdomanda{Date per vere le premesse 1), 2) e 3), qual è la logica conclusione?
+    \begin{enumerate}
+        \item Nessun bradipo naviga in barca a vela.
+        \item Tra quelli che non navigano in barca a vela, nessuno è un cammello.
+        \item Solo i bradipi hanno lunghi artigli.
+    \end{enumerate} }{
+    \item Alcuni cammelli navigano in barca a vela.
+    \item Alcuni cammelli con lunghi artigli non navigano in barca a vela.
+    \item Nessun cammello ha lunghi artigli.
+    \item Alcuni cammelli hanno lunghi artigli.
+    \item Alcuni cammelli non hanno lunghi artigli.
+}
+
+Risposta Corretta: 3

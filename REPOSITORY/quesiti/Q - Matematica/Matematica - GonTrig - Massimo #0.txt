@@ -1,0 +1,10 @@
+\itemdomanda{Il valore massimo della funzione $ y = 3\sin(x) $ è:
+}{
+\item $ 1 $
+\item $ 2 $
+\item $ 3 $
+\item $ \pi $
+\item $ 3\pi $
+}
+
+Risposta Corretta: 3

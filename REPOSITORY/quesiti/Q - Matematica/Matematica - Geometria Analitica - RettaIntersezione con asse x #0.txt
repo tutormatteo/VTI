@@ -1,0 +1,10 @@
+\itemdomanda{La retta $ y=3x-5 $ interseca l'asse $ x $ nel punto di ascissa:
+}{
+\item $ x=5 $
+\item $ x=-5 $
+\item $ x=\frac{5}{3} $
+\item $ x=3 $
+\item $ x=-\frac{5}{3} $
+}
+
+Risposta Corretta: 3

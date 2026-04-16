@@ -1,0 +1,10 @@
+\itemdomanda{La radice quadrata del quadrato della radice quadrata del quadrato di $-4$:
+}{
+\item non esiste
+\item è $-4$
+\item è $4$
+\item è $2$
+\item è $16$
+}
+
+Risposta Corretta: 3

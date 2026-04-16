@@ -1,0 +1,9 @@
+\itemdomanda{Un corpo viene sparato orizzontalmente da 10 m con velocità di 5.0 m/s. Si può affermare che:}{
+    \item tocca terra dopo 1.4 s
+    \item tocca terra dopo 2.4 s
+    \item tocca terra dopo 3.4 s
+    \item tocca terra dopo 4.4 s
+    \item tocca terra dopo 5.4 s
+}
+
+Risposta Corretta: 1

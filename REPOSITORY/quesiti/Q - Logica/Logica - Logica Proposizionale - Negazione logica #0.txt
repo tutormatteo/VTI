@@ -1,0 +1,9 @@
+\itemdomanda{Indicare qual è la negazione dell'affermazione: \textit{"Umberto ha almeno un figlio biondo"}}{
+    \item Almeno un figlio di Umberto non è biondo
+    \item Umberto non ha figli oppure ha soltanto figli non biondi
+    \item Tutti i figli di Umberto sono bruni
+    \item Non tutti i figli di Umberto sono biondi
+    \item Umberto ha tutti i figli rossi di capelli
+}
+
+Risposta Corretta: 2

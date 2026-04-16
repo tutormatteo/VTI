@@ -1,0 +1,9 @@
+\itemdomanda{Velocità, impulso, potenza, intensità luminosa. Quante, tra queste, sono le grandezze fondamentali?}{
+    \item 1
+    \item 2
+    \item 3
+    \item 4
+    \item nessuna
+}
+
+Risposta Corretta: 1

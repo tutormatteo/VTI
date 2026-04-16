@@ -1,0 +1,9 @@
+\itemdomanda{Reazione $CaO + H_2O = Ca(OH)_2$ esotermica. Significa:}{
+    \item sviluppa calore e acqua evapora
+    \item assorbe calore e si raffredda
+    \item nessuna variazione temperatura
+    \item sviluppa calore e sistema si riscalda
+    \item assorbe calore e sistema ghiaccia
+}
+
+Risposta Corretta: 4

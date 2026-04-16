@@ -1,0 +1,9 @@
+\itemdomanda{Marco corre incontro ad Anna alla velocità costante di 4.2 m/s. Anna corre verso di lui ad una velocità pari alla metà di quella di Marco. Sapendo che la distanza che li separa è di 63 metri, dopo quanto tempo si abbracceranno?}{
+    \item 100 secondi
+    \item 1 secondo
+    \item 10 secondi
+    \item 36 secondi
+    \item 60 secondi
+}
+
+Risposta Corretta: 3

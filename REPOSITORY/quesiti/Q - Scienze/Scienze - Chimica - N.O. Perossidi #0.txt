@@ -1,0 +1,9 @@
+\itemdomanda{Il numero di ossidazione dell'ossigeno nei perossidi (come $H_{2}O_{2}$) è:}{
+    \item -2
+    \item -1
+    \item +2
+    \item 0
+    \item +1
+}
+
+Risposta Corretta: 2

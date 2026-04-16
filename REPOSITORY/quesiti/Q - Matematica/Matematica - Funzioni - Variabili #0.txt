@@ -1,0 +1,10 @@
+\itemdomanda{Nella funzione $y=\sin(x)$ la $y$ rappresenta:
+}{
+\item la funzione
+\item la variabile indipendente
+\item la variabile dipendente
+\item il codominio
+\item il dominio
+}
+
+Risposta Corretta: 3

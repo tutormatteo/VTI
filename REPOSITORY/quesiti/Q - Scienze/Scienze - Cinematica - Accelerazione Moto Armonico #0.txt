@@ -1,0 +1,9 @@
+\itemdomanda{Una particella si muove di moto armonico semplice su un segmento con periodo $T=5$ s. L'accelerazione $a_x$ della particella nella posizione $x=-5$ m, vale?}{
+    \item $a_x=-5.6$ $m/s^2$
+    \item $a_x=5.6$ $m/s^2$
+    \item $a_x=15$ $m/s^2$
+    \item $a_x \approx 7{,}9$ $m/s^2$
+    \item $a_x=-15$ $m/s^2$
+}
+
+Risposta Corretta: 4

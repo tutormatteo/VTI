@@ -1,0 +1,9 @@
+\itemdomanda{Quale dei seguenti composti organici appartiene alla famiglia degli alcoli?}{
+    \item $CH_{3}CHO$
+    \item $CH_{3}COCH_{3}$
+    \item $CH_{3}CH_{2}OH$
+    \item $CH_{3}COOH$
+    \item $CH_{4}$
+}
+
+Risposta Corretta: 3

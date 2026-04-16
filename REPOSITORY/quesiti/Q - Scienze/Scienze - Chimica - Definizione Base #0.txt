@@ -1,0 +1,9 @@
+\itemdomanda{Secondo la teoria di Brønsted-Lowry, una base è una sostanza capace di:}{
+    \item Cedere protoni $H^{+}$
+    \item Accettare protoni $H^{+}$
+    \item Cedere una coppia di elettroni
+    \item Liberare ioni $OH^{-}$ in acqua
+    \item Neutralizzare solo acidi forti
+}
+
+Risposta Corretta: 2

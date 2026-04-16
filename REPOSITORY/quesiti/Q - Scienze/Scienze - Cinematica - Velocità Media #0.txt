@@ -1,0 +1,9 @@
+\itemdomanda{Una particella percorre una distanza $s_1=3.5$ km in 10 minuti e una distanza $s_2=800$ m in 4 minuti, dunque la sua velocità media $v$ vale?}{
+    \item $v \approx 5{,}1$ m/s
+    \item $v=15$ m/s
+    \item $v=4.94$ km/s
+    \item $v=19.88$ m/s
+    \item $v=0$ m/s
+}
+
+Risposta Corretta: 1

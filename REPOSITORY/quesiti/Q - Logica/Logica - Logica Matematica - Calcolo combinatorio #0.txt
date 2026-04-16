@@ -1,0 +1,9 @@
+\itemdomanda{Volendo disporre i numeri $28, 29, 36, 43, 55$ in modo che i dispari occupino una posizione dispari ed i pari occupino una posizione pari, in quanti modi diversi si può operare?}{
+    \item 3
+    \item 24
+    \item 12
+    \item 5
+    \item 6
+}
+
+Risposta Corretta: 3

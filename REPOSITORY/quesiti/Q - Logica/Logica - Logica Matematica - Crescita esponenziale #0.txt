@@ -1,0 +1,9 @@
+\itemdomanda{Gli archeobatteri sono organismi unicellulari che vivono in stagni e si riproducono per scissione (cioè ogni batterio si divide in due e forma due altri batteri uguali). Se si immette un archeobatterio in un certo stagno, esso ogni giorno si riproduce per scissione una sola volta, e dopo 30 giorni la superficie dello stagno è completamente ricoperta dai batteri. Quanti giorni ci vorranno affinché la superficie dello stesso stagno sia completamente ricoperta, se inizialmente vi si immettono due archeobatteri?}{
+    \item 30 giorni
+    \item 28 giorni
+    \item 29 giorni
+    \item dipende dalla superficie dello stagno
+    \item 15 giorni
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,9 @@
+\itemdomanda{Un ciclista si muove a velocità costante perché:}{
+    \item non sta applicando nessuna forza
+    \item la forza sui pedali è controbilanciata dagli attriti
+    \item l'attrito è nullo
+    \item la forza è diretta verso il manubrio
+    \item la forza è il doppio della gravitazionale
+}
+
+Risposta Corretta: 2

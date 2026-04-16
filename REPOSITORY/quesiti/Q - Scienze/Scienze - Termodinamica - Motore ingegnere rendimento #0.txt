@@ -1,0 +1,9 @@
+\itemdomanda{Motore tra $200^{\circ}C$ e $50^{\circ}C$ con rendimento 0.35:}{
+    \item eccellente
+    \item scarso
+    \item non esiste (sotto 1° principio)
+    \item non esiste (sopra rendimento Carnot)
+    \item valore fisso
+}
+
+Risposta Corretta: 4

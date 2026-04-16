@@ -1,0 +1,10 @@
+\itemdomanda{Il dominio della funzione $ f(x) = \sqrt{\log_2(x-1)} $ è:
+}{
+\item $ x > 1 $
+\item $ x \geq 2 $
+\item $ x > 2 $
+\item $ x > 0 $
+\item $ x \geq 1 $
+}
+
+Risposta Corretta: 2

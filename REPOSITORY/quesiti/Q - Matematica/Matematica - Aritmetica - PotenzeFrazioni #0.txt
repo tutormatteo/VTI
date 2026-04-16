@@ -1,0 +1,10 @@
+\itemdomanda{$ [(\frac{1}{2} + \frac{1}{2})^{-1} \,-\,1 ]^{100} $ equivale a:
+}{
+\item $ 0 $
+\item $ 1 $
+\item $ -1 $
+\item $ 100 $
+\item $ -100 $
+}
+
+Risposta Corretta: 1

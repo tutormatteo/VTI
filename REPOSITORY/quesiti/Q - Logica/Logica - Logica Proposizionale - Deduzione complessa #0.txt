@@ -1,0 +1,9 @@
+\itemdomanda{Il Re non rispettò il consiglio del Gran Ciambellano di opporsi alla celebrazione del matrimonio della Principessa dal Collo di Cigno con il rospo che amava, qualora i giovani insistessero per celebrare il rito nella Basilica di Superga. Le principesse, almeno quelle delle favole, seguono la volontà paterna. Che cosa ne deducete?}{
+    \item La principessa ed il rospo potranno sposarsi, se lo desidereranno, nella Basilica di Superga
+    \item La principessa ed il rospo non si sposeranno
+    \item La principessa ed il rospo potranno sposarsi, ma non nella Basilica di Superga
+    \item I dati del problema non autorizzano a concludere la veridicità di alcuna delle interpretazioni proposte
+    \item La principessa ed il rospo si sposeranno necessariamente nella Basilica di Superga
+}
+
+Risposta Corretta: 4

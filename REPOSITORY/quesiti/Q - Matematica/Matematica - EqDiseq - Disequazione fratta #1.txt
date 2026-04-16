@@ -1,0 +1,10 @@
+\itemdomanda{La disequazione $ \frac{1}{x} > 0 $ è verificata per:
+}{
+\item $ x \neq 0 $
+\item $ x < 0 $
+\item $ x > 0 $
+\item $ \forall x \in \mathbb{R} $
+\item $ x \geq 1 $
+}
+
+Risposta Corretta: 3

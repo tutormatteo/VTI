@@ -1,0 +1,9 @@
+\itemdomanda{Nella Repubblica di Arraffa NON è vero che "Ogni parlamentare è persona onesta e competente". Dunque, nella Repubblica di Arraffa:}{
+    \item qualche parlamentare non è onesto oppure non è competente
+    \item ogni parlamentare o è onesto, ma non competente, oppure è competente, ma non onesto
+    \item qualche parlamentare è onesto e competente
+    \item le persone oneste e competenti non diventano mai parlamentari
+    \item nessun parlamentare è onesto e competente
+}
+
+Risposta Corretta: 1

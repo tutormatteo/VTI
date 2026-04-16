@@ -1,0 +1,9 @@
+\itemdomanda{Due vettori perpendicolari hanno intensità rispettivamente pari a 5 e 12. Quanto vale l'intensità del vettore risultante?}{
+    \item 7
+    \item 12
+    \item 13
+    \item 14
+    \item 17
+}
+
+Risposta Corretta: 3

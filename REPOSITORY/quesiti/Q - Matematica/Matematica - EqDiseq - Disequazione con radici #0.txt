@@ -1,0 +1,10 @@
+\itemdomanda{$ \sqrt{x} > \sqrt{y} $ è verificata
+}{
+\item per $ x > y $
+\item per $ x > y $ solo se $ x > 1 $ e $ y \ge 1 $
+\item per $ x > y $ solo se $ x > 0 $ e $ y \ge 0 $
+\item mai
+\item sempre
+}
+
+Risposta Corretta: 3

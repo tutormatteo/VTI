@@ -1,0 +1,9 @@
+\itemdomanda{Calcolare il periodo di un pendolo di lunghezza 10 m sulla Terra ($g = 9.81 m/s^2$):}{
+    \item 4.3 s
+    \item 5.3 s
+    \item 6.3 s
+    \item 7.3 s
+    \item 8.3 s
+}
+
+Risposta Corretta: 3

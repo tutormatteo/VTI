@@ -1,0 +1,10 @@
+\itemdomanda{Quanto vale $ \cos(\pi) + \cos(2\pi) + \cos(3\pi) + \cos(4\pi) + \cos(5\pi) + \cos(6\pi) + \cos(7\pi) + \cos(8\pi) + \cos(9\pi) $:
+}{
+\item $-1$
+\item $0$
+\item $1$
+\item $2$
+\item $10$
+}
+
+Risposta Corretta: 1

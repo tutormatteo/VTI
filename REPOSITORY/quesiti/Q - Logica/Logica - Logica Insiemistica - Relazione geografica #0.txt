@@ -1,0 +1,9 @@
+\itemdomanda{Individuare il diagramma per: \textbf{Europei}, \textbf{Francesi}, \textbf{Parigini}.}{
+    \item Tre cerchi disgiunti
+    \item Tre cerchi concentrici (Parigini $\subset$ Francesi $\subset$ Europei)
+    \item Due cerchi intersecati dentro un terzo
+    \item Un cerchio grande che ne contiene due disgiunti
+    \item Tre cerchi che si intersecano solo a catena
+}
+
+Risposta Corretta: 2

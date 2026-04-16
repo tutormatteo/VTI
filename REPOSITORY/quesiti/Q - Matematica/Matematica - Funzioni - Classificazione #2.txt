@@ -1,0 +1,10 @@
+\itemdomanda{$y= \frac{x ^{ 2}+1}{x}$ è :
+}{
+\item una funzione algebrica, razionale, fratta
+\item una funzione algebrica, irrazionale
+\item una funzione algebrica, razionale, intera
+\item una funzione trascendente
+\item non è una funzione
+}
+
+Risposta Corretta: 1

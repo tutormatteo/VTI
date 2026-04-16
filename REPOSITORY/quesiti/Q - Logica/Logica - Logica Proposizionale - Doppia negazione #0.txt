@@ -1,0 +1,9 @@
+\itemdomanda{Negare che "Nessun partecipante non ha superato il test" equivale a dire che:}{
+    \item Tutti hanno superato il test
+    \item Qualcuno non ha superato il test
+    \item Nessuno ha superato il test
+    \item Almeno un partecipante non ha superato il test
+    \item Qualche partecipante ha fallito il test
+}
+
+Risposta Corretta: 4

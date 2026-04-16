@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ \frac{1}{2} \cdot 4^{-1} $ è uguale a:
+}{
+\item $ 2 $
+\item $ \frac{1}{8} $
+\item $ 8 $
+\item $ \frac{1}{2} $
+\item $ \frac{1}{4} $
+}
+
+Risposta Corretta: 2

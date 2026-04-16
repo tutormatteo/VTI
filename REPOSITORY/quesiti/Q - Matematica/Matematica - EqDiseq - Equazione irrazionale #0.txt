@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ \sqrt{x+1} = 2 $ ha soluzione:
+}{
+\item $ x=1 $
+\item $ x=2 $
+\item $ x=3 $
+\item $ x=-1 $
+\item $ x=0 $
+}
+
+Risposta Corretta: 3

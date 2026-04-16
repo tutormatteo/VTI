@@ -1,0 +1,9 @@
+\itemdomanda{La funzione $f(x) = x \cdot \sin(x)$ è:}{
+\item Pari
+\item Dispari
+\item Né pari né dispari
+\item Periodica di periodo $\pi$
+\item Costante
+}
+
+Risposta Corretta: 1

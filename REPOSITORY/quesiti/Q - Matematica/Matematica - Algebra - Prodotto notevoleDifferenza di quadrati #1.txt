@@ -1,0 +1,10 @@
+\itemdomanda{$ (x+1)^2 - (x-1)^2 = $ ...
+}{
+\item $ 0 $
+\item $ 2 $
+\item $ 4x $
+\item $ 2x^2+2 $
+\item $ -4x $
+}
+
+Risposta Corretta: 3

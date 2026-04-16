@@ -1,0 +1,9 @@
+\itemdomanda{Quanto vale $\tan(45^{\circ}) + \cot(45^{\circ})$?}{
+\item $2$
+\item $1$
+\item $\sqrt{2}$
+\item $0$
+\item Non esiste
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,10 @@
+\itemdomanda{Il quoziente della divisione tra $ P(x)=x^3+x^2+x+1 $ e $ D(x)=x+1 $ è:
+}{
+\item $ x^2+1 $
+\item $ x^2+2 $
+\item $ x^2+x $
+\item $ x^2+2x+1 $
+\item $ x^2-1 $
+}
+
+Risposta Corretta: 1

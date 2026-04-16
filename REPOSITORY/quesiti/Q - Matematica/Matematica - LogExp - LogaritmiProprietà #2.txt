@@ -1,0 +1,10 @@
+\itemdomanda{$ \log_{a}(\frac{x}{y}) = $ ... , per $ a>0, a \neq 1, x>0, y>0 $ è:
+}{
+\item $ \frac{\log_a(x)}{\log_a(y)} $
+\item $ \log_a(x) \cdot \log_a(y) $
+\item $ \log_a(x) - \log_a(y) $
+\item $ \log_a(x-y) $
+\item $ \log_{a^2}(x/y) $
+}
+
+Risposta Corretta: 3

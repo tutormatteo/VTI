@@ -1,0 +1,9 @@
+\itemdomanda{Una famosa congettura afferma che vi sono infinite coppie $(p, q)$ di numeri primi tali che $p = q + 2$. Confutare questa affermazione equivale a mostrare che:}{
+    \item per ogni intero positivo $n$ e per ogni numero primo $q$ con $q > n$ il numero $q + 2$ non è primo
+    \item esistono un intero positivo $n$ e un numero primo $q$ con $q > n$ tali che il numero $q + 2$ non è primo
+    \item per ogni intero positivo $n$ esiste un numero primo $q$ con $q > n$ tale che il numero $q + 2$ non è primo
+    \item esiste un intero positivo $n$ tale che, qualunque sia il numero primo $q$ con $q > n$, il numero $q + 2$ non è primo
+    \item esiste un intero positivo $n$ tale che, per ogni numero (primo e non primo) $m$ con $m > n$, il numero $m + 2$ non è primo
+}
+
+Risposta Corretta: 4

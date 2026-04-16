@@ -1,0 +1,9 @@
+\itemdomanda{Un motore da 23.0 kW percorre 22 km in 125 minuti. La forza esercitata è:}{
+    \item 444 N
+    \item 567 N
+    \item 678 N
+    \item $7{,}84 \cdot 10^3$ N
+    \item 891 N
+}
+
+Risposta Corretta: 4

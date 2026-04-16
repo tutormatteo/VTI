@@ -1,0 +1,18 @@
+\itemdomanda{Dobbiamo colorare le 11 regioni delimitate dai 4 cerchi della figura in modo che due regioni che hanno un arco in comune non siano dello stesso colore. Quanti colori dobbiamo usare come minimo per soddisfare questa richiesta?
+\begin{center}
+\begin{tikzpicture}[scale=0.7]
+    % Quattro cerchi intrecciati
+    \draw[thick] (0,0) circle (1.2);
+    \draw[thick] (1,0.7) circle (1.2);
+    \draw[thick] (1,-0.7) circle (1.2);
+    \draw[thick] (2,0) circle (1.2);
+\end{tikzpicture}
+\end{center}}{
+    \item 4
+    \item 6
+    \item 2
+    \item 5
+    \item 3
+}
+
+Risposta Corretta: 3

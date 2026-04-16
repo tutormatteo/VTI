@@ -1,0 +1,10 @@
+\itemdomanda{Il valore di $ \left( \sqrt{5} - \sqrt{3} \right) \left( \sqrt{5} + \sqrt{3} \right) $ è:
+}{
+\item $ 8 $
+\item $ 2 $
+\item $ 5 - 3\sqrt{15} $
+\item $ \sqrt{2} $
+\item $ 8 - 2\sqrt{15} $
+}
+
+Risposta Corretta: 2

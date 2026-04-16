@@ -1,0 +1,9 @@
+\itemdomanda{Sulla superficie terrestre $g \approx 9.81 m/s^2$. Tale valore:}{
+    \item dipende da massa e raggio della Terra
+    \item dipende solo dalla massa
+    \item dipende solo dal raggio
+    \item è costante nel sistema solare
+    \item si dimezza sulla Luna
+}
+
+Risposta Corretta: 1

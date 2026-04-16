@@ -1,0 +1,10 @@
+\itemdomanda{Qual è il risultato dell'operazione: $ \left( 3^{-2} \right) \cdot \left( \frac{2}{3} \right)^{2} : \left( \frac{2}{3} \right)^{-2} $
+}{
+\item $ {\frac{2^{4}}{3^{6}}} $
+\item $ {\frac{2^{4}}{3^{4}}} $
+\item $ {\frac{2^{2}}{3^{4}}} $
+\item $ {\frac{2}{3^{4}}} $
+\item $ {\frac{2^{3}}{3^{4}}} $
+}
+
+Risposta Corretta: 1

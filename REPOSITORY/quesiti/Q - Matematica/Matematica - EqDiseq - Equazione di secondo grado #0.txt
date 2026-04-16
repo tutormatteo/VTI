@@ -1,0 +1,10 @@
+\itemdomanda{L'equazione $ x^2-5x+6=0 $ ha soluzioni:
+}{
+\item $ x=1, x=6 $
+\item $ x=-2, x=3 $
+\item $ x=2, x=3 $
+\item $ x=2, x=-3 $
+\item non ha soluzioni reali
+}
+
+Risposta Corretta: 3

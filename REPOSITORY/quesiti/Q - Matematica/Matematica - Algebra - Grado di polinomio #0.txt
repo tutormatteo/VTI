@@ -1,0 +1,9 @@
+\itemdomanda{Qual è il grado complessivo del polinomio $P(x,y) = 5x^{4}y^{2} - 2x^{3}y^{5} + x^{6}$?}{
+\item $8$
+\item $6$
+\item $15$
+\item $4$
+\item $7$
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,9 @@
+\itemdomanda{Se la proposizione $P$ è vera e la proposizione $Q$ è falsa, qual è il valore di verità dell'espressione logica $\lnot (P \leftrightarrow Q)$?}{
+    \item Vera
+    \item Falsa
+    \item Indeterminata
+    \item Vera solo se $P$ fosse falsa
+    \item Falsa perché l'operatore $\leftrightarrow$ richiede che entrambi siano falsi
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,9 @@
+\itemdomanda{"Nessun cittadino che non abbia pagato le tasse pu? votare. Marco ha votato". Ne consegue che:}{
+    \item Marco ? un bravo cittadino
+    \item Marco ha pagato le tasse
+    \item Marco non ha pagato le tasse
+    \item Solo Marco ha pagato le tasse
+    \item Chi vota paga sempre le tasse
+}
+
+Risposta Corretta: 2

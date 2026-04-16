@@ -1,0 +1,9 @@
+\itemdomanda{Qual è il valore dell'espressione $25^{\frac{1}{2}} \cdot 8^{\frac{1}{3}}$?}{
+\item $10$
+\item $13$
+\item $20$
+\item $40$
+\item $5$
+}
+
+Risposta Corretta: 1

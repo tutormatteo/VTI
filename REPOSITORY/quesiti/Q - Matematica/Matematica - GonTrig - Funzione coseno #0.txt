@@ -1,0 +1,10 @@
+\itemdomanda{La funzione $ y = \cos(x) $ :
+}{
+\item ha un grafico che non interseca mai il grafico della funzione $ y = \frac{4}{5} $
+\item è periodica di periodo $ \pi $
+\item è periodica di periodo $ \frac{\pi}{2} $
+\item è crescente per $ 0 < x < \frac{\pi}{2} $
+\item è decrescente per $ 0 < x < \pi $
+}
+
+Risposta Corretta: 5

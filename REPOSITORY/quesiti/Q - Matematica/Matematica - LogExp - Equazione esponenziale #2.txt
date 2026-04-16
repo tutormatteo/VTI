@@ -1,0 +1,10 @@
+\itemdomanda{$ 2^{x+1} = 16 $ ha soluzione:
+}{
+\item $ x=3 $
+\item $ x=8 $
+\item $ x=4 $
+\item $ x=15 $
+\item $ x=-1 $
+}
+
+Risposta Corretta: 1

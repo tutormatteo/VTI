@@ -1,0 +1,9 @@
+\itemdomanda{Luigina afferma: 1) il martedì, se faccio il bagno poi vado al mercato. L’altro ieri era martedì, e ho fatto il bagno; 2) ieri non ho fatto il bagno e sono andata al mercato; 3) oggi andrò al mercato e forse mi farò anche il bagno. Ne consegue necessariamente che:}{
+    \item tutte le volte che Luigina va al mercato, non si fa il bagno
+    \item il martedì Luigina fa sempre il bagno
+    \item se Luigina fa il bagno di mercoledì, poi non va al mercato
+    \item l’altro ieri Luigina non è andata al mercato
+    \item a volte Luigina va al mercato senza essersi fatta il bagno
+}
+
+Risposta Corretta: 5

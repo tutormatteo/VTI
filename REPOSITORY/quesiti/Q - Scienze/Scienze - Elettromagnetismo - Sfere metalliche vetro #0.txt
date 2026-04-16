@@ -1,0 +1,9 @@
+\itemdomanda{Sfera A attratta da bacchetta +, B respinta. Possiamo concludere:}{
+    \item A e B possono avere carica nulla
+    \item B è carica positivamente, A può essere negativa o nulla
+    \item A e B cariche negativamente
+    \item A negativa, B negativa o nulla
+    \item A negativa e B positiva
+}
+
+Risposta Corretta: 2

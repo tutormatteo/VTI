@@ -1,0 +1,10 @@
+\itemdomanda{Il dominio della funzione $ f(x) = \frac{1}{x^2-1} $ è:
+}{
+\item $ x \neq 1 $
+\item $ x \neq -1 $
+\item $ x \neq 1 \land x \neq -1 $
+\item $ x \in \mathbb{R} $
+\item $ x > 1 $
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,9 @@
+\itemdomanda{Quale fra le seguenti affermazioni è falsa?}{
+    \item Chi canta è allegro. Andrea non canta, dunque Andrea è triste.
+    \item Nessun londinese è italiano; tutti i londinesi parlano inglese, ma non è vero che nessun italiano parla inglese.
+    \item Un quadrato è sempre un trapezio.
+    \item Ogni vigile ha un fischietto. Carlo non ha un fischietto, dunque Carlo non è un vigile.
+    \item "Chi canta è allegro. Andrea non canta, dunque Andrea è triste." non è vero.
+}
+
+Risposta Corretta: 1

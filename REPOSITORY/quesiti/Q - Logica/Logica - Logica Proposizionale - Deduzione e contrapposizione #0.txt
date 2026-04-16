@@ -1,0 +1,9 @@
+\itemdomanda{Il tenente Piccione, nel corso delle sue indagini su un assassinio, ha appurato questi due fatti: 1) se X ha accoltellato la vittima, allora X è mancino; 2) se Y ha accoltellato la vittima, allora Y è l’assassino. Quale di queste deduzioni è corretta?}{
+    \item Il commissario Piccione accerta che il signor Bianchi non è mancino e ne deduce che non è l'assassino
+    \item L'assassino ha accoltellato la vittima
+    \item Il commissario Piccione accerta che il signor Rossi è mancino e ne deduce che è l'assassino
+    \item Il commissario Piccione accerta che il signor Bianchi non è mancino e ne deduce che non ha accoltellato la vittima
+    \item Il commissario Piccione accerta che il signor Rossi è mancino e ne deduce che ha accoltellato la vittima
+}
+
+Risposta Corretta: 4

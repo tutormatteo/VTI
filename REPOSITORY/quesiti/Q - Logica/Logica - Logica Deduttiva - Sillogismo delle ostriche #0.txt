@@ -1,0 +1,14 @@
+\itemdomanda{Considerate le seguenti premesse:
+    \begin{enumerate}
+        \item Nessun fossile può avere un amore contrastato.
+        \item Un'ostrica può avere un amore contrastato.
+    \end{enumerate}
+    Dunque:}{
+    \item Un'ostrica non è un fossile
+    \item Tutte le ostriche sono fossili
+    \item Qualche fossile è un'ostrica
+    \item Chi non ha un amore contrastato è sicuramente un'ostrica
+    \item Nessun'ostrica ha un amore contrastato
+}
+
+Risposta Corretta: 1

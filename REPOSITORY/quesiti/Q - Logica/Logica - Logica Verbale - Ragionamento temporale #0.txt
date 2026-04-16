@@ -1,0 +1,9 @@
+\itemdomanda{Se oggi è lunedì, quale è il giorno dopo al giorno prima del giorno che precede domani?}{
+    \item Sabato
+    \item Domenica
+    \item Lunedì
+    \item Martedì
+    \item Mercoledì
+}
+
+Risposta Corretta: 3

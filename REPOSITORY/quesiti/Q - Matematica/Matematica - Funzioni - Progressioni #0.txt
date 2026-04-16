@@ -1,0 +1,10 @@
+\itemdomanda{La successione $ S_{n} = n^{2} + 1 , n \in \mathbb{N} $ è:
+}{
+\item crescente
+\item decrescente
+\item costante
+\item né crescente né decrescente
+\item decrescente in senso lato
+}
+
+Risposta Corretta: 1

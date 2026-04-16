@@ -1,0 +1,10 @@
+\itemdomanda{Semplifica $ \frac{a^3b^2+a^2b^3}{a^2b^2} $ per $ a \neq 0, b \neq 0 $.
+}{
+\item $ ab $
+\item $ a^2+b^2 $
+\item $ a+b $
+\item $ a^3+b^3 $
+\item $ \frac{1}{ab} $
+}
+
+Risposta Corretta: 3

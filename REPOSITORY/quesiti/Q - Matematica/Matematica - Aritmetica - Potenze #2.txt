@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ \frac{3^5 \cdot 9^2}{3^3} $ è uguale a:
+}{
+\item $ 3^4 $
+\item $ 3^{10} $
+\item $ 3^6 $
+\item $ 9^2 $
+\item $ 3^5 $
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,9 @@
+\itemdomanda{Un sasso di 3.20 kg lanciato a 11.0 m/s arriva a 5.20 m. Quanta energia meccanica ha perso per attrito?}{
+    \item 1.0 J
+    \item 10 J
+    \item 31 J
+    \item 43 J
+    \item 55 J
+}
+
+Risposta Corretta: 3

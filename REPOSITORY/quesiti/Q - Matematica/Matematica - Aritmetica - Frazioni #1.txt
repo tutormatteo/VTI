@@ -1,0 +1,10 @@
+\itemdomanda{$ \frac{2}{5} $ del numero $ 50 $ è:
+}{
+\item $ 10 $
+\item $ 5 $
+\item $ 20 $
+\item $ 25 $
+\item $ 40 $
+}
+
+Risposta Corretta: 3

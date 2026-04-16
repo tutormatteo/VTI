@@ -1,0 +1,9 @@
+\itemdomanda{La forza per mettere in moto un oggetto di 3.2 kg è di 18.4 N. Il coefficiente di attrito statico è:}{
+    \item 0.59 N
+    \item 0.59
+    \item 0.34 N
+    \item 0.34
+    \item 0.34 N/m
+}
+
+Risposta Corretta: 2

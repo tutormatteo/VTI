@@ -1,0 +1,10 @@
+\itemdomanda{Quanto vale $\cot(120^\circ) $:
+}{
+\item $\sqrt{3}$
+\item $ \frac{1}{\sqrt{3}} $
+\item $ - \frac{\sqrt{3}}{3} $
+\item $ -\sqrt{3} $
+\item Non esiste
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,14 @@
+\itemdomanda{Le variabili $x , y$ e $z$ sono variabili positive, legate l'una alle altre nel seguente modo:
+	\begin{itemize}
+	\item $x$ è direttamente proporzionale al cubo di $z$
+	\item $y$ è direttamente proporzionale alla quarta potenza di $z$
+	\end{itemize}
+}{
+\item Il cubo di $y$ è direttamente proporzionale alla quarta potenza di $x$
+\item Il quadrato di $y$ è direttamente proporzionale alla quarta potenza di $x$
+\item Il cubo di $y$ è direttamente proporzionale al cubo di $x$
+\item Il cubo di $y$ è direttamente proporzionale al quadrato di $x$
+\item Il quadrato di $y$ è direttamente proporzionale al quadrato di $x$
+}
+
+Risposta Corretta: 1

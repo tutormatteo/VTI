@@ -1,0 +1,10 @@
+\itemdomanda{Nell'insieme dei numeri reali l'equazione $ \sqrt{\sqrt{|-x|}} = 1 $ è verificata per
+}{
+\item $ x = 1 $
+\item $ x = 1 \lor x = -1 $
+\item $ x = 0 \lor x = -1 \lor x = 1 $
+\item nessun valore reale di $x$
+\item $ \not\exists \, x \in \mathbb{R} $
+}
+
+Risposta Corretta: 2

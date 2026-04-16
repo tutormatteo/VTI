@@ -1,0 +1,9 @@
+\itemdomanda{Spinta di Archimede su cubo lato 10 cm immerso in acqua ($\rho = 1000 kg/m^3$):}{
+    \item 0.089 N
+    \item 0.98 N
+    \item 9.8 N
+    \item 98 N
+    \item Ignota senza densità cubo
+}
+
+Risposta Corretta: 3

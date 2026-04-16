@@ -1,0 +1,97 @@
+\documentclass[12pt]{article}
+\PassOptionsToPackage{table}{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\setlength{\parindent}{0pt}
+\definecolor{headercolor}{RGB}{220,220,220}
+\newcounter{quesito}
+\setcounter{quesito}{0}
+\newcommand{\nuovoquesito}{\stepcounter{quesito}\textbf{Domanda \arabic{quesito}.}}
+\newcommand{\itemdomanda}[2]{%
+    \par\noindent
+    \begin{minipage}[t]{\linewidth}
+        \nuovoquesito \\ #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{10pt}
+}
+\begin{document}
+\section*{Simulazione}
+\hfill Data: 16 apr 2026
+
+\itemdomanda{Tutte le rose sono fiori. Alcuni fiori appassiscono presto. Quindi:}{
+    \item Tutte le rose appassiscono presto
+    \item Alcune rose appassiscono presto
+    \item Nessuna rosa appassisce presto
+    \item È possibile che alcune rose appassiscano presto
+    \item I fiori che appassiscono sono solo rose
+}
+
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Tutti i canarini ben nutriti cantano a squarciagola.
+        \item Nessun canarino che canti a squarciagola è malinconico.
+    \end{enumerate}
+    Quale conclusione è logicamente corretta?}{
+    \item Nessun canarino ben nutrito è malinconico
+    \item Qualche canarino ben nutrito è malinconico
+    \item Tutti i canarini malinconici sono ben nutriti
+    \item I canarini che non cantano sono sicuramente ben nutriti
+    \item Chi canta a squarciagola è malinconico
+}
+
+\itemdomanda{La condizione di esistenza di $x^{-1} + y^{-1}$ è
+}{
+\item $ x \neq 1 \lor y \neq 1 $
+\item $ x \neq -1 \lor y \neq -1 $
+\item tutti i reali
+\item $ x \neq y $
+\item $ x \neq 0 \land y \neq 0 $
+}
+
+\itemdomanda{Qual è il resto della divisione del polinomio $P(x) = x^{3} - 4x + 1$ per $(x - 2)$?}{
+\item $1$
+\item $0$
+\item $-1$
+\item $17$
+\item $3$
+}
+
+\itemdomanda{Se $ 4^{x-1} = 1 $, allora $ x $ vale:
+}{
+\item $ 4 $
+\item $ 0 $
+\item $ 1 $
+\item $ 2 $
+\item $ -1 $
+}
+
+\itemdomanda{$ \log_{10}(0.01) $ vale:
+}{
+\item $ 2 $
+\item $ 1 $
+\item $ -2 $
+\item $ -1 $
+\item $ 0.1 $
+}
+
+\end{document}

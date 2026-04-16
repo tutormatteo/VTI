@@ -1,0 +1,9 @@
+\itemdomanda{Gli idrocarburi che presentano almeno un doppio legame tra atomi di carbonio sono detti:}{
+    \item Alcani
+    \item Alcheni
+    \item Alchini
+    \item Aromatici
+    \item Cicloalcani
+}
+
+Risposta Corretta: 2

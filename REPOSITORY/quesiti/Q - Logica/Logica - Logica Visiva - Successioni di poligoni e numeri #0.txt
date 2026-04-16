@@ -1,0 +1,103 @@
+\itemdomanda{Quale delle figure numerate da 1 a 5 sostituisce correttamente il riquadro contenente il punto interrogativo?
+\begin{center}
+\begin{tikzpicture}[scale=0.32] % Scala per la sequenza principale
+    % --- SEQUENZA ---
+    % 1. Triangolo
+    \draw (0,0) rectangle (5,5);
+    \draw[thick] (1,1) -- (4,1) -- (2.5,4) -- cycle;
+    \node[scale=0.6] at (2.5,4.4) {15}; % V. Top
+    \node[scale=0.6] at (0.6,0.6) {6};   % V. BL
+    \node[scale=0.6] at (4.4,0.6) {3};   % V. BR
+    \node[scale=0.6, font=\bfseries] at (1.4,2.8) {9}; % L. Left
+    \node[scale=0.6, font=\bfseries] at (3.6,2.8) {6}; % L. Right
+    \node[scale=0.6, font=\bfseries] at (2.5,0.7) {3}; % L. Bottom
+
+    % 2. Quadrato
+    \begin{scope}[xshift=5.5cm]
+    \draw (0,0) rectangle (5,5);
+    \draw[thick, fill=gray!10] (1,1) rectangle (4,4);
+    \node[scale=0.6] at (0.6,4.4) {28}; % V. TL
+    \node[scale=0.6] at (4.4,4.4) {4};  % V. TR
+    \node[scale=0.6] at (4.4,0.6) {4};  % V. BR
+    \node[scale=0.6] at (0.6,0.6) {20}; % V. BL
+    \node[scale=0.6, font=\bfseries] at (2.5,4.3) {12}; % L. Top
+    \node[scale=0.6, font=\bfseries] at (4.3,2.5) {8};  % L. Right
+    \node[scale=0.6, font=\bfseries] at (2.5,0.7) {4};  % L. Bottom
+    \node[scale=0.6, font=\bfseries] at (0.7,2.5) {16}; % L. Left
+    \end{scope}
+
+    % 3. Triangolo
+    \begin{scope}[xshift=11cm]
+    \draw (0,0) rectangle (5,5);
+    \draw[thick] (1,1) -- (4,1) -- (2.5,4) -- cycle;
+    \node[scale=0.6] at (2.5,4.4) {3};
+    \node[scale=0.6] at (0.6,0.6) {6};
+    \node[scale=0.6] at (4.4,0.6) {9};
+    \node[scale=0.6, font=\bfseries] at (1.4,2.8) {9};
+    \node[scale=0.6, font=\bfseries] at (3.6,2.8) {6};
+    \node[scale=0.6, font=\bfseries] at (2.5,0.7) {3};
+    \end{scope}
+
+    % 4. ?
+    \begin{scope}[xshift=16.5cm]
+    \draw (0,0) rectangle (5,5);
+    \node at (2.5,2.5) {\huge ?};
+    \end{scope}
+\end{tikzpicture}
+
+\vspace{8pt}
+
+\begin{tikzpicture}[scale=0.28] % Scala ridotta per far stare 5 opzioni in riga
+    % --- OPZIONI ---
+    % Fig 1
+    \draw (0,0) rectangle (5,5); \node[below=2pt] at (2.5,0) {\textbf{1}};
+    \draw[thick] (1,1) rectangle (4,4);
+    \node[scale=0.5] at (0.6,4.4) {24}; \node[scale=0.5] at (4.4,4.4) {4};
+    \node[scale=0.5] at (4.4,0.6) {4}; \node[scale=0.5] at (0.6,0.6) {80};
+    \node[scale=0.5, font=\bfseries] at (2.5,4.3) {64}; \node[scale=0.5, font=\bfseries] at (4.3,2.5) {4};
+    \node[scale=0.5, font=\bfseries] at (2.5,0.7) {4}; \node[scale=0.5] at (1.6,2.5) {144}; \node[scale=0.5] at (3.5,2.5) {16};
+
+    % Fig 2
+    \begin{scope}[xshift=5.5cm]
+    \draw (0,0) rectangle (5,5); \node[below=2pt] at (2.5,0) {\textbf{2}};
+    \draw[thick, fill=gray!10] (1,1) rectangle (4,4);
+    \node[scale=0.5] at (0.6,4.4) {4}; \node[scale=0.5] at (4.4,4.4) {4};
+    \node[scale=0.5] at (4.4,0.6) {4}; \node[scale=0.5] at (0.6,0.6) {12};
+    \node[scale=0.5, font=\bfseries] at (2.5,4.3) {12}; \node[scale=0.5, font=\bfseries] at (4.3,2.5) {8};
+    \node[scale=0.5, font=\bfseries] at (2.5,0.7) {4}; \node[scale=0.5, font=\bfseries] at (0.7,2.5) {16};
+    \end{scope}
+
+    % Fig 3 (Esagono)
+    \begin{scope}[xshift=11cm]
+    \draw (0,0) rectangle (5,5); \node[below=2pt] at (2.5,0) {\textbf{3}};
+    \draw[thick, fill=gray!10] (2.5,1) -- (4,1.8) -- (4,3.2) -- (2.5,4) -- (1,3.2) -- (1,1.8) -- cycle;
+    \node[scale=0.4] at (2.5,0.7) {6}; \node[scale=0.4] at (2.5,4.3) {42};
+    \end{scope}
+
+    % Fig 4 (Corretta)
+    \begin{scope}[xshift=16.5cm]
+    \draw (0,0) rectangle (5,5); \node[below=2pt] at (2.5,0) {\textbf{4}};
+    \draw[thick, fill=gray!10] (1,1) rectangle (4,4);
+    \node[scale=0.5] at (0.6,4.4) {4}; \node[scale=0.5] at (4.4,4.4) {4};
+    \node[scale=0.5] at (4.4,0.6) {4}; \node[scale=0.5] at (0.6,0.6) {12};
+    \node[scale=0.5, font=\bfseries] at (2.5,4.3) {12}; \node[scale=0.5, font=\bfseries] at (4.3,2.5) {8};
+    \node[scale=0.5, font=\bfseries] at (2.5,0.7) {4}; \node[scale=0.5, font=\bfseries] at (0.7,2.5) {16};
+    \end{scope}
+
+    % Fig 5 (Esagono)
+    \begin{scope}[xshift=22cm]
+    \draw (0,0) rectangle (5,5); \node[below=2pt] at (2.5,0) {\textbf{5}};
+    \draw[thick, fill=gray!10] (2.5,1) -- (4,1.8) -- (4,3.2) -- (2.5,4) -- (1,3.2) -- (1,1.8) -- cycle;
+    \foreach \a in {0,60,...,300} { \node[scale=0.5] at ({2.5+2*cos(\a)},{2.5+2*sin(\a)}) {6}; }
+    \end{scope}
+\end{tikzpicture}
+\end{center}
+}{
+    \item La figura 2
+    \item La figura 3
+    \item La figura 4
+    \item La figura 5
+    \item La figura 1
+}
+
+Risposta Corretta: 3

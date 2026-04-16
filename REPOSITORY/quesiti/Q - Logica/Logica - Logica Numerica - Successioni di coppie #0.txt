@@ -1,0 +1,9 @@
+\itemdomanda{Con quale coppia di numeri continuereste la seguente successione di interi? $1, 2; 2, 4; 5, 8; 10, 14; 17, 22; 26, 32; \dots$}{
+    \item 40, 80
+    \item 46, 64
+    \item 40, 67
+    \item 37, 44
+    \item 44, 16
+}
+
+Risposta Corretta: 4

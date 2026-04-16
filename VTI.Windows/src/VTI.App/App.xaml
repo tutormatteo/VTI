@@ -1,0 +1,11 @@
+<Application x:Class="VTI.App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BannerInfo" Color="#220000FF"/>
+        <SolidColorBrush x:Key="BannerOk" Color="#22008000"/>
+        <SolidColorBrush x:Key="BannerWarn" Color="#22FF8800"/>
+        <SolidColorBrush x:Key="BannerErr" Color="#22CC0000"/>
+    </Application.Resources>
+</Application>

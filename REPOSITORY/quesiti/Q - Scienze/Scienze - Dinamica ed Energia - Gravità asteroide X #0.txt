@@ -1,0 +1,9 @@
+\itemdomanda{Un astronauta pesa 500 N sulla Terra e 25 N su un asteroide X. La gravità dell'asteroide è circa:}{
+    \item 0.05 $m/s^2$
+    \item 0.2 $m/s^2$
+    \item 0.5 $m/s^2$
+    \item 1 $m/s^2$
+    \item 2 $m/s^2$
+}
+
+Risposta Corretta: 3

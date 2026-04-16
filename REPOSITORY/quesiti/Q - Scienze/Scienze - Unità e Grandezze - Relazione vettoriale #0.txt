@@ -1,0 +1,9 @@
+\itemdomanda{Siano $|\vec{a}| \neq 0$ e $\vec{a} + 2\vec{b} = 0$. Si può concludere che:}{
+    \item $|\vec{b}| = -|\vec{a}|/2$
+    \item $\vec{b} = -2$
+    \item $\vec{b} = |\vec{a}|/2$
+    \item $|\vec{b}| = |\vec{a}|/2$
+    \item $\vec{a} = - \vec{b}$
+}
+
+Risposta Corretta: 4

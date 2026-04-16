@@ -1,0 +1,10 @@
+\itemdomanda{L'espressione $ \sin(\pi/4) $ vale:
+}{
+\item $ 1 $
+\item $ \frac{\sqrt{2}}{2} $
+\item $ \frac{1}{2} $
+\item $ \frac{\sqrt{3}}{2} $
+\item $ 0 $
+}
+
+Risposta Corretta: 2

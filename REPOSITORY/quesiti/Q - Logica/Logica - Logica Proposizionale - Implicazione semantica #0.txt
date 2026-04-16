@@ -1,0 +1,9 @@
+\itemdomanda{La frase "Sul tavolo ci sono due bicchieri" implica che sul tavolo:}{
+    \item ci sono due bicchieri e una bottiglia
+    \item non ci sono bottiglie
+    \item ci sono due bicchieri e due tazzine da caffè
+    \item c'è un bicchiere
+    \item non ci sono tre bicchieri
+}
+
+Risposta Corretta: 4

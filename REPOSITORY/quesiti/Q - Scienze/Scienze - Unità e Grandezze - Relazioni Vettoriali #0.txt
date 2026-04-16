@@ -1,0 +1,9 @@
+\itemdomanda{Un vettore $\vec{v}=3\vec{\omega}$ è:}{
+    \item ortogonale a $\vec{\omega}$ con modulo $v=3\omega$
+    \item ortogonale a $\vec{\omega}$ con modulo $v=\frac{1}{3}\omega$
+    \item parallelo e con lo stesso verso di $\vec{\omega}$ con modulo $v=3\omega$
+    \item parallelo ma con verso opposto a $\vec{\omega}$ con modulo $v=3\omega$
+    \item nessuna delle alternative
+}
+
+Risposta Corretta: 3

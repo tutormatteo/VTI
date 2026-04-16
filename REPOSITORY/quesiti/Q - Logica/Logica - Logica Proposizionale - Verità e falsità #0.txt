@@ -1,0 +1,9 @@
+\itemdomanda{Quale fra le seguenti affermazioni è sicuramente \textbf{falsa}?}{
+    \item Chi respira è vivo. Piero non respira, dunque Piero è morto
+    \item Nessun parigino è italiano; tutti i parigini parlano francese; ma non è vero che nessun italiano parla francese.
+    \item Un quadrato è sempre un rombo
+    \item Ciò che è scritto in A. è falso
+    \item Ogni professore ha un registro. Mario non ha registro, dunque Mario non è professore
+}
+
+Risposta Corretta: 4

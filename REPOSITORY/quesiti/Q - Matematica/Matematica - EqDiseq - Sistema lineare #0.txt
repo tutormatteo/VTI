@@ -1,0 +1,9 @@
+\itemdomanda{Il sistema di equazioni $\begin{cases} x + y = 10 \\ 2x - y = 2 \end{cases}$ ha come soluzione:}{
+\item $x=4, y=6$
+\item $x=6, y=4$
+\item $x=2, y=8$
+\item $x=5, y=5$
+\item $x=3, y=7$
+}
+
+Risposta Corretta: 1

@@ -1,0 +1,9 @@
+\itemdomanda{Una pietra viene lanciata verticalmente verso l'alto con velocità $v_0$ dalla superficie lunare. Raggiunge altezza $h$ e torna dopo tempo $t$. Raddoppiando $v_0$, i nuovi valori $t'$ e $h'$ sono:}{
+    \item $t, 4h$
+    \item $2t, h$
+    \item $2t, 2h$
+    \item $2t, 4h$
+    \item $4t, 4h$
+}
+
+Risposta Corretta: 4

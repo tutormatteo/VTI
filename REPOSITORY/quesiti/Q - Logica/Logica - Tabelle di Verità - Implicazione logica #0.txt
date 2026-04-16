@@ -1,0 +1,9 @@
+\itemdomanda{Siano date le proposizioni: $A =$ "Parigi è capoluogo della Toscana"; $B =$ "15 è divisibile per 3". Qual è il valore di verità dell'implicazione $A \rightarrow B$?}{
+    \item Vera
+    \item Falsa
+    \item Possibile
+    \item Vera solo se Parigi fosse in Toscana
+    \item Falsa perché l'antecedente è falso
+}
+
+Risposta Corretta: 1

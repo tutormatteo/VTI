@@ -1,0 +1,15 @@
+\itemdomanda{Un Marziolano, osservando che:
+    \begin{itemize}
+        \item metà di tutti i Tondolini sono remissivi
+        \item metà di tutti i Marziolani sono testardi
+        \item metà di tutti i Marziolani sono remissivi
+    \end{itemize}
+    e tenendo presente che non si può essere insieme remissivi e testardi, deduce che una e una sola delle seguenti affermazioni \textbf{NON} può essere vera. Quale?}{
+    \item Metà di tutti i Tondolini sono testardi
+    \item Tutti i Tondolini sono Marziolani
+    \item Tutti i Marziolani sono Tondolini e nessun Tondolino è testardo
+    \item Non esistono Tondolini che siano anche Marziolani
+    \item Tondolini e Marziolani sono lo stesso insieme di persone
+}
+
+Risposta Corretta: 3

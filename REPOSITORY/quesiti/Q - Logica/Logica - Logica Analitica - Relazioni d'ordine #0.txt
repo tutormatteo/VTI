@@ -1,0 +1,9 @@
+\itemdomanda{Ci sono cinque persone con diverse situazioni patrimoniali. Oronzo è più ricco di Rocco, le cui ricchezze sono più modeste di quelle di Silvio, e quest'ultimo a sua volta è più danaroso di Piero. Quirino è meno benestante di Piero, ma più agiato di Oronzo. Chi è il terzo in ordine di ricchezza?}{
+    \item Piero
+    \item Rocco
+    \item Oronzo
+    \item Silvio
+    \item Quirino
+}
+
+Risposta Corretta: 5

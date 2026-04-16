@@ -1,0 +1,9 @@
+\itemdomanda{In una giostra a velocità angolare costante, un cavallino bianco è a distanza doppia dal centro rispetto a uno nero. Si può affermare che:}{
+    \item La frequenza del bianco è metà del nero
+    \item La frequenza del bianco è il doppio del nero
+    \item La frequenza del bianco è uguale al nero
+    \item La frequenza del bianco è un quarto del nero
+    \item La frequenza del bianco è quattro volte il nero
+}
+
+Risposta Corretta: 3

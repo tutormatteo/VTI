@@ -1,0 +1,14 @@
+\itemdomanda{Un accogliente cartello all'ingresso del ristorante \textit{L'Oca Giuliva} recita:
+    \begin{center}
+    \textit{Se si è in pochi, si mangia bene} \\
+    \textit{Se si è in tanti, si spende poco}
+    \end{center}
+    Il Signor Aquilotto, con la sua mente acuta, ne deduce logicamente che:}{
+    \item se si è pochi, si spende tanto
+    \item per mangiar bene è necessario andarci in pochi
+    \item se si mangia male non si è in pochi
+    \item per spendere poco bisogna essere in tanti
+    \item se si è in tanti, si mangia male
+}
+
+Risposta Corretta: 3

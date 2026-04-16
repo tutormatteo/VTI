@@ -1,0 +1,9 @@
+\itemdomanda{In un grafico posizione-tempo, il moto è rappresentato da una retta passante per l'origine. Si può affermare che:}{
+    \item il corpo è fermo
+    \item il corpo si muove a velocità costante partendo dall'origine
+    \item il corpo aumenta la sua velocità
+    \item velocità costante ma non partito dall'origine
+    \item il corpo non è partito dall'origine
+}
+
+Risposta Corretta: 2

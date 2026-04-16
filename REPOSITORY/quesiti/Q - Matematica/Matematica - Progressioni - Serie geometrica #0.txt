@@ -1,0 +1,10 @@
+\itemdomanda{La somma di $ 2, 6, 18, 54, 162, 486, 1458, 4374, 13122, 39366 $ è:
+}{
+\item $59048$
+\item $58048$
+\item $59028$
+\item $58038$
+\item $56048$
+}
+
+Risposta Corretta: 1

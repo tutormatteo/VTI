@@ -1,0 +1,10 @@
+\itemdomanda{$ \sqrt[4]{16} $ è uguale a:
+}{
+\item $ 4 $
+\item $ 8 $
+\item $ 2 $
+\item $ 1 $
+\item $ \frac{1}{4} $
+}
+
+Risposta Corretta: 3

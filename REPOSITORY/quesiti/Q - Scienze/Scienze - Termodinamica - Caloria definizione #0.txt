@@ -1,0 +1,9 @@
+\itemdomanda{La caloria è l'energia per alzare 1 g d'acqua distillata da $14.5^{\circ}C$ a $15.5^{\circ}C$:}{
+    \item senza altre specifiche
+    \item alla pressione atmosferica normale
+    \item per 1 kg d'acqua
+    \item alzandola di $1^{\circ}C$
+    \item per 1 kg d'acqua di $1^{\circ}C$
+}
+
+Risposta Corretta: 2

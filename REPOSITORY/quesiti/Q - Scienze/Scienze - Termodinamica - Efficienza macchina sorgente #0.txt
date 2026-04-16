@@ -1,0 +1,9 @@
+\itemdomanda{Sorgente fredda riceve 3 volte il lavoro compiuto. Efficienza?}{
+    \item 0.9
+    \item 1.33
+    \item 0.33
+    \item 0.67
+    \item 0.25
+}
+
+Risposta Corretta: 5

@@ -1,0 +1,9 @@
+\itemdomanda{Forza risultante 5.0 N per 10 s. Potenza sviluppata 30 W. Spostamento?}{
+    \item 50 m
+    \item 60 m
+    \item 70 m
+    \item 80 m
+    \item 90 m
+}
+
+Risposta Corretta: 2

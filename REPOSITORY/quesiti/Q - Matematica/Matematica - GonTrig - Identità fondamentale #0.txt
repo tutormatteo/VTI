@@ -1,0 +1,10 @@
+\itemdomanda{$ \sin^2(x) + \cos^2(x) = $ ...
+}{
+\item $ \sin(2x) $
+\item $ 1 $
+\item $ \cos(2x) $
+\item $ 0 $
+\item $ 2 $
+}
+
+Risposta Corretta: 2

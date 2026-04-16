@@ -1,0 +1,9 @@
+\itemdomanda{Il grande teorico dei numeri Kontakirikonta ha scoperto i numeri Incredibili; egli non sa ancora se essi siano in numero finito, però ha fatto la seguente congettura: "se sono infiniti, almeno uno di essi deve avere 8 fattori primi distinti". Il suo allievo Rikontoijo dimostra che la congettura di Kontakirikonta è falsa. Dunque Rikontoijo ha provato che:}{
+    \item se i numeri Incredibili sono una quantità finita, nessuno di essi ha 8 fattori primi distinti
+    \item se i numeri Incredibili sono una quantità finita, tutti hanno 8 fattori primi distinti
+    \item i numeri Incredibili sono infiniti
+    \item i numeri Incredibili sono infiniti e nessuno di essi ha 8 fattori primi distinti
+    \item i numeri Incredibili sono infiniti e hanno tutti 8 fattori primi distinti
+}
+
+Risposta Corretta: 4

@@ -1,0 +1,10 @@
+\itemdomanda{Quale di questi numeri: 1) $ \log_{2}(3) $ ; 2) $ - \log_{3}(3) $ e 3) $ \log_{3}(-3) $ è privo di significato:
+}{
+\item solo 1) e 2)
+\item solo l'1)
+\item solo il 2)
+\item solo il 3)
+\item tutti
+}
+
+Risposta Corretta: 4

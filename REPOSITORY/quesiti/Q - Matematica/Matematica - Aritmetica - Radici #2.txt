@@ -1,0 +1,10 @@
+\itemdomanda{$ \sqrt{\sqrt{3}} = $ ...
+}{
+\item $ \sqrt{3} $
+\item $ \sqrt{6} $
+\item $ \sqrt[4]{3} $
+\item $ \sqrt[4]{6} $
+\item $ \sqrt[3]{3} $
+}
+
+Risposta Corretta: 3

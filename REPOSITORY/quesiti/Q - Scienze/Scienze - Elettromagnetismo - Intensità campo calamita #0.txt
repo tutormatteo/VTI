@@ -1,0 +1,67 @@
+\itemdomanda{Analizzando la figura, in quale dei punti A, B e C il campo magnetico è più intenso? \\ \begin{tikzpicture}[scale=0.4, transform shape, >=Stealth]
+
+% --- Parametri Magnete ---
+\def\magW{2.5}  % Semilunghezza
+\def\magH{0.4}  % Semialtezza
+
+% --- Disegno Magnete ---
+\begin{scope}
+    % Nord (Grigio scuro)
+    \fill[gray!80] (-\magW, -\magH) rectangle (0, \magH);
+    % Sud (Grigio chiaro)
+    \fill[gray!20] (0, -\magH) rectangle (\magW, \magH);
+    % Contorno
+    \draw[thick] (-\magW, -\magH) rectangle (\magW, \magH);
+    \draw[thick] (0, -\magH) -- (0, \magH);
+    % Testi
+    \node[white, font=\sffamily\bfseries] at (-\magW/2, 0) {N};
+    \node[black, font=\sffamily\bfseries] at (\magW/2, 0) {S};
+\end{scope}
+
+% --- Linee di Campo ---
+\tikzset{fieldline/.style={gray!80, line width=0.6pt, postaction={decorate, decoration={markings, mark=at position 0.55 with {\arrow{>}}}}}}
+% Nota: Uso arrows.meta classico per semplicità di rendering
+\tikzset{linea/.style={draw=gray!70, thick, >={Stealth[length=5pt]}}}
+
+% 1. Loop chiusi (N -> S) sopra e sotto
+% Disegniamo archi che escono dalla faccia laterale e superiore del polo N
+\foreach \h in {0.5, 1.2, 2.2, 3.5} {
+    % Sopra
+    \draw[linea, ->] (-\magW+0.2, \magH) .. controls (-\magW-1.5, \magH+\h*1.5) and (\magW+1.5, \magH+\h*1.5) .. (\magW-0.2, \magH);
+    % Sotto
+    \draw[linea, ->] (-\magW+0.2, -\magH) .. controls (-\magW-1.5, -\magH-\h*1.5) and (\magW+1.5, -\magH-\h*1.5) .. (\magW-0.2, -\magH);
+}
+
+% 2. Linee che escono dal Polo Nord (Sinistra)
+\foreach \ang/\dist in {160/4, 180/5, 200/4} {
+    \draw[linea, ->] (-\magW, 0) -- ++(\ang:\dist);
+}
+% Curve angolate Nord
+\draw[linea, ->] (-\magW, \magH-0.1) .. controls (-\magW-2, \magH+1) .. (-5, 4);
+\draw[linea, ->] (-\magW, -\magH+0.1) .. controls (-\magW-2, -\magH-1) .. (-5, -4);
+
+% 3. Linee che entrano nel Polo Sud (Destra)
+\foreach \ang/\dist in {20/4, 0/5, -20/4} {
+    \draw[linea, <-] (\magW, 0) -- ++(\ang:\dist);
+}
+% Curve angolate Sud
+\draw[linea, <-] (\magW, \magH-0.1) .. controls (\magW+2, \magH+1) .. (5, 4);
+\draw[linea, <-] (\magW, -\magH+0.1) .. controls (\magW+2, -\magH-1) .. (5, -4);
+
+% --- Punti A, B, C ---
+\fill (0, -2) circle (1.5pt) node[below right] {A};
+\fill (-3.5, 1.5) circle (1.5pt) node[above left] {B};
+\fill (4.5, 3.5) circle (1.5pt) node[right] {C};
+
+% Clip per pulizia bordi
+\path (-6,-5) rectangle (6,5);
+
+\end{tikzpicture}}{
+    \item In A
+    \item In B
+    \item In C
+    \item In B e C
+    \item Campo omogeneo
+}
+
+Risposta Corretta: 2

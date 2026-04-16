@@ -1,0 +1,9 @@
+\itemdomanda{"Il signor Rossi ha comprato un'auto elettrica, quindi ha a cuore l'ambiente". Quale assunzione è necessaria per sostenere questa conclusione?}{
+    \item Tutte le auto elettriche sono costose
+    \item Chiunque compri un'auto elettrica lo fa esclusivamente per motivi ecologici
+    \item Le auto elettriche inquinano meno di quelle a benzina
+    \item Il signor Rossi non ha altre auto
+    \item Il signor Rossi vive in una zona con molte colonnine di ricarica
+}
+
+Risposta Corretta: 2

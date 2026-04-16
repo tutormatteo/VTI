@@ -1,0 +1,9 @@
+\itemdomanda{Due bacinelle rigide di uguale volume sono completamente riempite rispettivamente di ceci (sfere di diametro $d_c = 8$ mm) e piselli (sfere di diametro $d_p = 6$ mm). Qual è approssimativamente il rapporto $N_c / N_p$ fra il numero di ceci e del numero dei piselli in esse contenuti?}{
+    \item circa 1.8
+    \item circa 2.4
+    \item circa 0.56
+    \item circa 0.75
+    \item circa 0.42
+}
+
+Risposta Corretta: 5

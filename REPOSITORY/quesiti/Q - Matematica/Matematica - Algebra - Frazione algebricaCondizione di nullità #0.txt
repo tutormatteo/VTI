@@ -1,0 +1,10 @@
+\itemdomanda{Se $ \frac{A}{B} = 0 $, allora:
+}{
+\item $ A=0 \land B=0 $
+\item $ B=0 $
+\item $ A=0 \land B \neq 0 $
+\item $ A \neq 0 \land B=0 $
+\item $ A \neq 0 $
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,10 @@
+\itemdomanda{Semplificando $ \sqrt{\frac{1}{2}} $, si ottiene:
+}{
+\item $ \frac{1}{2} $
+\item $ \frac{\sqrt{2}}{4} $
+\item $ \frac{\sqrt{2}}{2} $
+\item $ 2\sqrt{2} $
+\item $ \sqrt{2} $
+}
+
+Risposta Corretta: 3

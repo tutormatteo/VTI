@@ -1,0 +1,9 @@
+\itemdomanda{Fenomeno ondulatorio NON evidenziabile con onde sonore:}{
+    \item Rifrazione
+    \item Interferenza
+    \item Polarizzazione
+    \item Riflessione
+    \item Diffrazione
+}
+
+Risposta Corretta: 3

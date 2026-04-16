@@ -1,0 +1,9 @@
+\itemdomanda{L'espressione $\lnot (A \rightarrow A)$ è:}{
+    \item Una tautologia
+    \item Una contraddizione (sempre falsa)
+    \item Una contingenza
+    \item Vera se A è falsa
+    \item Indeterminata
+}
+
+Risposta Corretta: 2

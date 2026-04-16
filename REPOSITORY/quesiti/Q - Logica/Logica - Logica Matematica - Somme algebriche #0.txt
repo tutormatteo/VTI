@@ -1,0 +1,9 @@
+\itemdomanda{Indicare quanti numeri diversi si possono ottenere da somme algebriche di questo tipo: \[\pm 1 \pm 2 \pm 3 \pm 4 \pm 5\] utilizzando tutte le cifre da 1 a 5 e al variare di tutte le possibili scelte dei segni $+$ o $-$ (ad esempio: $-1-2+3+4+5, 1+2-3+4+5, \dots$).}{
+    \item 20
+    \item 24
+    \item 31
+    \item 16
+    \item 32
+}
+
+Risposta Corretta: 4

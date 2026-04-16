@@ -1,0 +1,10 @@
+\itemdomanda{Il reciproco di $ 1,2 $ è:
+}{
+\item $ -1,2 $
+\item $ \frac{12}{10} $
+\item $ \frac{5}{6} $
+\item $ \frac{6}{5} $
+\item $ 0,8 $
+}
+
+Risposta Corretta: 3

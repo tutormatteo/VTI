@@ -1,0 +1,10 @@
+\itemdomanda{Quale delle seguenti è una funzione trascendente?
+}{
+\item $ y = x^2+1 $
+\item $ y = \sqrt{x} $
+\item $ y = e^x $
+\item $ y = \frac{x}{x-1} $
+\item $ y = \frac{1}{x} $
+}
+
+Risposta Corretta: 3

@@ -1,0 +1,1771 @@
+\documentclass[20pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage[table]{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{siunitx}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{tasks}
+\usepackage{fancyhdr}
+\geometry{
+    a4paper,
+    left=20mm,
+    right=20mm,
+    top=20mm,
+    bottom=20mm,
+}
+\definecolor{headercolor}{RGB}{200,200,200}
+\newcounter{quesito}
+\setcounter{quesito}{0}
+\newcommand{\nuovoquesito}{\stepcounter{quesito}\textbf{Domanda \arabic{quesito}.}}
+\newcommand{\itemdomanda}[2]{%
+    \item \begin{minipage}[t]{\linewidth}
+        \nuovoquesito \\ #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{10pt}
+}
+\pagestyle{fancy}
+\fancyhead[L]{Eserciziario}
+\fancyhead[R]{\thepage}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\Huge \textbf{Eserciziario TOLC-I} \par}
+    \vspace{1cm}
+    {\Large \textbf{Volume Scienze} \par}
+    \vspace{4cm}
+    {\Large A.A. 2025 -- 2026 \par}
+    \vspace{4cm}
+    \vfill
+    {\large \copyright \ Scritto da Tutor \textbf{Matteo Zambito} \\
+    per il progetto \textit{"Verso il Test di Ingegneria"} \par}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Scienze}
+\begin{enumerate}[leftmargin=*]
+\itemdomanda{Gli idrocarburi che presentano almeno un doppio legame tra atomi di carbonio sono detti:}{
+    \item Alcani
+    \item Alcheni
+    \item Alchini
+    \item Aromatici
+    \item Cicloalcani
+}
+
+\itemdomanda{Bilanciare la seguente reazione di combustione: $CH_{4} + O_{2} \rightarrow CO_{2} + H_{2}O$. Quali sono i coefficienti stechiometrici nell'ordine?}{
+    \item 1, 1, 1, 1
+    \item 1, 2, 1, 2
+    \item 2, 1, 2, 1
+    \item 1, 2, 2, 1
+    \item 2, 2, 1, 1
+}
+
+\itemdomanda{Qual è il pH di una soluzione acquosa di $HCl$ (acido forte) con concentrazione $0.001 M$?}{
+    \item 1
+    \item 2
+    \item 3
+    \item 11
+    \item 7
+}
+
+\itemdomanda{Un catalizzatore aumenta la velocità di una reazione chimica perché:}{
+    \item Aumenta l'energia cinetica dei reagenti
+    \item Abbassa l'energia di attivazione
+    \item Aumenta la variazione di entalpia $\Delta H$
+    \item Sposta l'equilibrio verso i prodotti
+    \item Elimina i reagenti
+}
+
+\itemdomanda{Secondo la teoria di Brønsted-Lowry, una base è una sostanza capace di:}{
+    \item Cedere protoni $H^{+}$
+    \item Accettare protoni $H^{+}$
+    \item Cedere una coppia di elettroni
+    \item Liberare ioni $OH^{-}$ in acqua
+    \item Neutralizzare solo acidi forti
+}
+
+\itemdomanda{Una soluzione è definita come un sistema costituito:}{
+    \item da un numero di fasi dipendente dalla temperatura e dalla pressione
+    \item da un numero di fasi dipendente dalla pressione
+    \item da tante fasi quante sono le specie chimiche che la costituiscono
+    \item da un numero di fasi variabile con la temperatura
+    \item da una sola fase indipendentemente dal numero delle specie chimiche che la costituiscono
+}
+
+\itemdomanda{3 moli di acqua dissociate elettroliticamente. Rapporto volumi Idrogeno/Ossigeno?}{
+    \item 1/2
+    \item 1/3
+    \item 3
+    \item 1
+    \item 2
+}
+
+\itemdomanda{Quanti elettroni di valenza possiede un atomo di Carbonio ($Z=6$)?}{
+    \item 2
+    \item 4
+    \item 6
+    \item 8
+    \item 1
+}
+
+\itemdomanda{Quale delle seguenti particelle atomiche determina l'identità chimica di un elemento (ovvero il suo numero atomico)?}{
+    \item I protoni
+    \item I neutroni
+    \item Gli elettroni
+    \item I positroni
+    \item I mesoni
+}
+
+\itemdomanda{Due atomi di uno stesso elemento che differiscono esclusivamente per il numero di neutroni sono definiti:}{
+    \item Ioni
+    \item Isotopi
+    \item Isomeri
+    \item Allotropi
+    \item Isobare
+}
+
+\itemdomanda{Il legame a idrogeno è un tipo di:}{
+    \item Legame intramolecolare forte
+    \item Interazione intermolecolare
+    \item Legame covalente coordinato
+    \item Legame apolare
+    \item Legame metallico
+}
+
+\itemdomanda{Quale legame chimico si forma tra due atomi con una differenza di elettronegatività superiore a 1.9?}{
+    \item Legame covalente puro
+    \item Legame covalente polare
+    \item Legame ionico
+    \item Legame metallico
+    \item Legame a idrogeno
+}
+
+\itemdomanda{Cosa accade alla solubilità di un gas in un liquido se la pressione parziale del gas sopra il liquido aumenta (Legge di Henry)?}{
+    \item Aumenta
+    \item Diminuisce
+    \item Resta invariata
+    \item Dipende solo dal volume
+    \item Si annulla
+}
+
+\itemdomanda{Qual è la massa molecolare dell'acqua ($H_{2}O$) sapendo che le masse atomiche approssimate sono $H=1$ e $O=16$?}{
+    \item 17 u.m.a.
+    \item 18 u.m.a.
+    \item 33 u.m.a.
+    \item 16 u.m.a.
+    \item 20 u.m.a.
+}
+
+\itemdomanda{Il numero di ossidazione dell'ossigeno nei perossidi (come $H_{2}O_{2}$) è:}{
+    \item -2
+    \item -1
+    \item +2
+    \item 0
+    \item +1
+}
+
+\itemdomanda{In una reazione di ossidoriduzione (redox), la specie chimica che subisce l'ossidazione:}{
+    \item Acquista elettroni e diminuisce il numero di ossidazione
+    \item Perde elettroni e aumenta il numero di ossidazione
+    \item Agisce come agente ossidante
+    \item Mantiene costante il numero di ossidazione
+    \item Diventa un neutrone
+}
+
+\itemdomanda{Il passaggio di stato diretto da solido a gassoso è definito:}{
+    \item Condensazione
+    \item Evaporazione
+    \item Sublimazione
+    \item Brinamento
+    \item Fusione
+}
+
+\itemdomanda{Reazione $CaO + H_2O = Ca(OH)_2$ esotermica. Significa:}{
+    \item sviluppa calore e acqua evapora
+    \item assorbe calore e si raffredda
+    \item nessuna variazione temperatura
+    \item sviluppa calore e sistema si riscalda
+    \item assorbe calore e sistema ghiaccia
+}
+
+\itemdomanda{Quale dei seguenti composti organici appartiene alla famiglia degli alcoli?}{
+    \item $CH_{3}CHO$
+    \item $CH_{3}COCH_{3}$
+    \item $CH_{3}CH_{2}OH$
+    \item $CH_{3}COOH$
+    \item $CH_{4}$
+}
+
+\itemdomanda{Qual è il volume occupato da una mole di gas ideale a Condizioni Standard (STP: 0 °C e 1 atm)?}{
+    \item 11.2 litri
+    \item 22.4 litri
+    \item 24.4 litri
+    \item 1.0 litro
+    \item 44.8 litri
+}
+
+\itemdomanda{Una particella si muove di moto armonico semplice su un segmento con periodo $T=5$ s. L'accelerazione $a_x$ della particella nella posizione $x=-5$ m, vale?}{
+    \item $a_x=-5.6$ $m/s^2$
+    \item $a_x=5.6$ $m/s^2$
+    \item $a_x=15$ $m/s^2$
+    \item $a_x=7.98\cdot 10^{-2}$ $m/s^2$
+    \item $a_x=-15$ $m/s^2$
+}
+
+\itemdomanda{Dalla cima di una scogliera viene lanciata orizzontalmente una sferetta a 15 m/s. Se tocca il mare dopo circa 2 secondi, quanto è alta la scogliera?}{
+    \item 20 m
+    \item 30 m
+    \item 35 m
+    \item 40 m
+    \item 80 m
+}
+
+\itemdomanda{Un'automobile, che sta viaggiando a 15 m/s, accelera per 5 s, portando la sua velocità a 25 m/s. Quanto spazio percorre durante questa fase se l'accelerazione è costante?}{
+    \item 50 m
+    \item 75 m
+    \item 100 m
+    \item 125 m
+    \item 200 m
+}
+
+\itemdomanda{In presenza di attrito, lasciamo cadere dalla stessa altezza due corpi di uguale volume ma massa differente. Si può affermare che:}{
+    \item toccano il suolo contemporaneamente
+    \item arriva a terra per primo quello di massa minore
+    \item arriva a terra per primo quello di massa maggiore
+    \item la velocità del maggiore è minore del minore
+    \item le velocità di impatto sono identiche
+}
+
+\itemdomanda{Un oggetto cade sulla Terra in 1.4 s. Su un pianeta X con $g_X = 1/9 g_{Terra}$, quanto tempo impiega a cadere dalla stessa altezza?}{
+    \item 0.2 s
+    \item 1.4 s
+    \item 2.1 s
+    \item 2.9 s
+    \item 4.2 s
+}
+
+\itemdomanda{Un cane (10 km/h) e un gatto (8 km/h) si muovono l'uno verso l'altro da 135 km di distanza. Qual è la distanza percorsa dal cane prima dell'incontro?}{
+    \item 62.5 km
+    \item 70 km
+    \item 75 km
+    \item 78 km
+    \item 80 km
+}
+
+\itemdomanda{Un tram sta viaggiando lungo dei binari dritti e orizzontali a una velocità di 12 m/s quando vengono attivati i freni. Decelera con un tasso costante di 1.50 $m/s^{2}$ fino a fermarsi. Qual è la distanza percorsa?}{
+    \item 48.0 m
+    \item 18.0 m
+    \item 96.0 m
+    \item 108.0 m
+    \item 216.0 m
+}
+
+\itemdomanda{In una giostra a velocità angolare costante, un cavallino bianco è a distanza doppia dal centro rispetto a uno nero. Si può affermare che:}{
+    \item La frequenza del bianco è metà del nero
+    \item La frequenza del bianco è il doppio del nero
+    \item La frequenza del bianco è uguale al nero
+    \item La frequenza del bianco è un quarto del nero
+    \item La frequenza del bianco è quattro volte il nero
+}
+
+\itemdomanda{Un treno viaggia a 144 km/h. Se le ruote hanno diametro $d = 80$ cm, il numero di giri al secondo è circa:}{
+    \item 8
+    \item 57
+    \item 32
+    \item 115
+    \item 16
+}
+
+\itemdomanda{Se $s$ indica la posizione di un oggetto al tempo $t$, quale di questi grafici rappresenta meglio il caso in cui l'oggetto ha una velocità che aumenta il modulo nel tempo?}{
+    \item \begin{tikzpicture}[x=0.5cm, y=0.5cm, >=Stealth, baseline=(current bounding box.center)]
+    \draw[->] (0,0) -- (2.5,0) node[below] {\scalebox{0.7}{$t$}};
+    \draw[->] (0,0) -- (0,2.5) node[left] {\scalebox{0.7}{$s$}};
+    \node[below left, scale=0.6] at (0,0) {0};
+    \draw[thick] (0,0) -- (2,2);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[x=0.5cm, y=0.5cm, >=Stealth, baseline=(current bounding box.center)]
+    \draw[->] (0,0) -- (2.5,0) node[below] {\scalebox{0.7}{$t$}};
+    \draw[->] (0,0) -- (0,2.5) node[left] {\scalebox{0.7}{$s$}};
+    \node[below left, scale=0.6] at (0,0) {0};
+    \draw[thick] (0,2) -- (2,0);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[x=0.5cm, y=0.5cm, >=Stealth, baseline=(current bounding box.center)]
+    \draw[->] (0,0) -- (2.5,0) node[below] {\scalebox{0.7}{$t$}};
+    \draw[->] (0,0) -- (0,2.5) node[left] {\scalebox{0.7}{$s$}};
+    \node[below left, scale=0.6] at (0,0) {0};
+    \draw[thick] (0,2) to[out=0, in=105] (2,0);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[x=0.5cm, y=0.5cm, >=Stealth, baseline=(current bounding box.center)]
+    \draw[->] (0,0) -- (2.5,0) node[below] {\scalebox{0.7}{$t$}};
+    \draw[->] (0,0) -- (0,2.5) node[left] {\scalebox{0.7}{$s$}};
+    \node[below left, scale=0.6] at (0,0) {0};
+    \draw[thick] (0,2) to[out=-80, in=175] (2,0.3);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[x=0.5cm, y=0.5cm, >=Stealth, baseline=(current bounding box.center)]
+    \draw[->] (0,0) -- (2.5,0) node[below] {\scalebox{0.7}{$t$}};
+    \draw[->] (0,0) -- (0,2.5) node[left] {\scalebox{0.7}{$s$}};
+    \node[below left, scale=0.6] at (0,0) {0};
+    \draw[thick] (0,0) to[out=75, in=195] (2,1.8);
+\end{tikzpicture}
+}
+
+\itemdomanda{In un grafico che riporta la posizione (asse y) e il tempo (asse x), il moto è rappresentato da una retta orizzontale. Si può affermare che:}{
+    \item il corpo è fermo
+    \item il corpo è in movimento con velocità costante
+    \item il corpo aumenta la sua velocità
+    \item il corpo diminuisce la sua velocità
+    \item il corpo varia la sua posizione
+}
+
+\itemdomanda{Marco corre incontro ad Anna alla velocità costante di 4.2 m/s. Anna corre verso di lui ad una velocità pari alla metà di quella di Marco. Sapendo che la distanza che li separa è di 63 metri, dopo quanto tempo si abbracceranno?}{
+    \item 100 secondi
+    \item 1 secondo
+    \item 10 secondi
+    \item 36 secondi
+    \item 60 secondi
+}
+
+\itemdomanda{Un'automobile, inizialmente ferma, parte con un'accelerazione costante di 2 $m/s^2$. Nel medesimo istante, viene sorpassata da una bicicletta che viaggia alla velocità costante di 8 m/s. A quale distanza l'auto raggiungerà la bicicletta?}{
+    \item 64 m
+    \item 32 m
+    \item 6 m
+    \item 128 m
+    \item 16 m
+}
+
+\itemdomanda{La legge oraria di un moto rettilineo illustrata nel piano cartesiano Ors da un ramo di parabola con concavità verso l'alto indica:}{
+    \item un moto ad accelerazione uniformemente crescente
+    \item un moto con velocità costante
+    \item un moto con velocità positiva
+    \item un moto con spostamento positivo
+    \item un moto ad accelerazione costante
+}
+
+\itemdomanda{Un treno a 35 m/s vede delle pecore a 150 m e frena a 7.0 $m/s^2$. A quanti metri dalle pecore si ferma?}{
+    \item 62.5
+    \item 67.5
+    \item 87.5
+    \item 97.5
+    \item 175
+}
+
+\itemdomanda{Per far sì che un pendolo sulla Terra abbia lo stesso periodo di uno sulla Luna:}{
+    \item il pendolo sulla Terra deve avere lunghezza maggiore
+    \item il pendolo sulla Terra deve avere lunghezza minore
+    \item il pendolo sulla Terra deve avere massa maggiore
+    \item il pendolo sulla Terra deve avere massa minore
+    \item è impossibile
+}
+
+\itemdomanda{Calcolare il periodo di un pendolo di lunghezza 10 m sulla Terra ($g = 9.81 m/s^2$):}{
+    \item 4.3 s
+    \item 5.3 s
+    \item 6.3 s
+    \item 7.3 s
+    \item 8.3 s
+}
+
+\itemdomanda{Una pietra viene lanciata verticalmente verso l'alto con velocità $v_0$ dalla superficie lunare. Raggiunge altezza $h$ e torna dopo tempo $t$. Raddoppiando $v_0$, i nuovi valori $t'$ e $h'$ sono:}{
+    \item $t, 4h$
+    \item $2t, h$
+    \item $2t, 2h$
+    \item $2t, 4h$
+    \item $4t, 4h$
+}
+
+\itemdomanda{Un corpo si muove di moto rettilineo uniformemente accelerato. Partendo da fermo, esso percorre 8 metri in 3 secondi. Che distanza percorrerà in 6 secondi?}{
+    \item 24 m
+    \item 12 m
+    \item 48 m
+    \item 16 m
+    \item 32 m
+}
+
+\itemdomanda{Il periodo di un pendolo di massa $m$ legata a un filo inestensibile di lunghezza $l$:}{
+    \item non varia con massa o lunghezza
+    \item diminuisce con la massa
+    \item aumenta con la massa
+    \item diminuisce accorciando il filo
+    \item aumenta accorciando il filo
+}
+
+\itemdomanda{In un grafico posizione-tempo, il moto è rappresentato da una retta passante per l'origine. Si può affermare che:}{
+    \item il corpo è fermo
+    \item il corpo si muove a velocità costante partendo dall'origine
+    \item il corpo aumenta la sua velocità
+    \item velocità costante ma non partito dall'origine
+    \item il corpo non è partito dall'origine
+}
+
+\itemdomanda{Un corpo viene sparato orizzontalmente da 10 m con velocità di 5.0 m/s. Si può affermare che:}{
+    \item percorre orizzontalmente circa 5 metri
+    \item percorre orizzontalmente circa 7 metri
+    \item percorre orizzontalmente circa 9 metri
+    \item percorre orizzontalmente circa 11 metri
+    \item percorre orizzontalmente circa 13 metri
+}
+
+\itemdomanda{Se lascio cadere un sasso da un'altezza di 100 m. Quanto vale il tempo di caduta $t$?}{
+    \item $t=3.4$ s
+    \item $t=9.8$ s
+    \item $t=4.5$ s
+    \item $t=98$ s
+    \item $t=45$ s
+}
+
+\itemdomanda{Un corpo viene sparato orizzontalmente da 10 m con velocità di 5.0 m/s. Si può affermare che:}{
+    \item tocca terra dopo 1.4 s
+    \item tocca terra dopo 2.4 s
+    \item tocca terra dopo 3.4 s
+    \item tocca terra dopo 4.4 s
+    \item tocca terra dopo 5.4 s
+}
+
+\itemdomanda{In una traiettoria rettilinea, un corpo che parte da fermo varia la sua velocità di 2.50 m/s ogni secondo. Quanto vale la sua velocità dopo 72.0 secondi?}{
+    \item 180 km/h
+    \item 180 m/s
+    \item 210 m/s
+    \item 210 km/h
+    \item 150 m/s
+}
+
+\itemdomanda{Un corpo parte a 30 m/s e accelera a 4.0 $m/s^2$. Quanto vale la sua velocità dopo 10 secondi?}{
+    \item 210 m/s
+    \item 140 m/s
+    \item 70 m/s
+    \item 35 m/s
+    \item 15 m/s
+}
+
+\itemdomanda{Una fionda fa 5 giri al secondo lungo raggio $L=1$ m. Quando il sasso si stacca, la sua velocità è:}{
+    \item diversa per sassi di massa diversa
+    \item di 5 m/s
+    \item di circa 30 m/s
+    \item di circa 300 m/s
+    \item pari alla velocità del suono
+}
+
+\itemdomanda{Una fionda fa 3 giri al secondo lungo raggio $L=1.5$ m. Quando il sasso si stacca, la sua velocità è:}{
+    \item di 4.5 m/s
+    \item di 3 m/s
+    \item di circa 28 m/s
+    \item pari alla velocità del suono
+    \item diversa per sassi di massa diversa
+}
+
+\itemdomanda{In una giostra a velocità angolare costante, un cavallino bianco è a distanza doppia dal centro rispetto a uno nero. Si può affermare che:}{
+    \item velocità bianco è metà del nero
+    \item velocità bianco è il doppio del nero
+    \item velocità bianco è uguale al nero
+    \item velocità bianco è un quarto del nero
+    \item velocità bianco è quattro volte il nero
+}
+
+\itemdomanda{Una particella percorre una distanza $s_1=3.5$ km in 10 minuti e una distanza $s_2=800$ m in 4 minuti, dunque la sua velocità media $v$ vale?}{
+    \item $v=4.9$ m/s
+    \item $v=15$ m/s
+    \item $v=4.94$ km/s
+    \item $v=19.88$ m/s
+    \item $v=0$ m/s
+}
+
+\itemdomanda{Viaggiando in treno, un passeggero percepisce gli urti di una ruota sui giunti delle rotaie. Se egli ne conta 240 ogni due minuti e le tratte di rotaia sono lunghe 15 metri, qual è la velocità del treno, supposta costante?}{
+    \item 60 m/s
+    \item 15 m/s
+    \item 45 m/s
+    \item 80 m/s
+    \item 30 m/s
+}
+
+\itemdomanda{Un corpo di massa $m=50$ kg si muove di moto rettilineo uniforme su un piano orizzontale sottoposto ad una forza orizzontale di modulo 98 N. Quanto vale allora il coefficiente di attrito dinamico $\mu_d$ tra corpo e piano?}{
+    \item $\mu_d=0.1$
+    \item $\mu_d=0.2$
+    \item $\mu_d=0.3$
+    \item $\mu_d=0.4$
+    \item $\mu_d=1$
+}
+
+\itemdomanda{La forza per mettere in moto un oggetto di 3.2 kg è di 18.4 N. Il coefficiente di attrito statico è:}{
+    \item 0.59 N
+    \item 0.59
+    \item 0.34 N
+    \item 0.34
+    \item 0.34 N/m
+}
+
+\itemdomanda{Un blocco di 3 kg è su piano inclinato di $30^{\circ}$ senza attrito. Dopo 2 s, forza parallela (F) e distanza (d) sono circa: \\ \begin{tikzpicture}[scale=0.75, >={Stealth[scale=1.2]}]
+    % Angolo del piano
+    \def\ang{30}
+    \coordinate (O) at (0,0);
+    \coordinate (A) at (6,0);
+    \coordinate (B) at (6, {6*tan(\ang)});
+
+    % Piano
+    \draw[fill=gray!30, draw=none] (O) -- (A) -- (B) -- cycle;
+    \draw[thick] (O) -- (B);
+    % Arco angolo alpha
+    \draw (1,0) arc (0:\ang:1) node[midway, right, xshift=2pt] {$\alpha$};
+
+    % --- Inizio ambiente ruotato ---
+    % Tutto qui dentro è ruotato di \ang gradi
+    \begin{scope}[rotate=\ang]
+        % Coordinate relative sulla superficie del piano
+        \coordinate (BlockStart) at (2,0);
+        \coordinate (BlockEnd) at (4.5,0);
+        \def\blockW{1.2}
+        \def\blockH{0.7}
+
+        % Blocco m (pieno)
+        \draw[fill=gray!80, thick] (BlockStart) rectangle ++(\blockW,\blockH) node[midway, white] {$m$};
+
+        % Forza F
+        \draw[->, thick] ($(BlockStart) + (0,\blockH/2)$) -- ++(-1.2,0) node[above] {$\vec{F}$};
+
+        % Posizione finale (tratteggiata)
+        \draw[dashed, thick] (BlockEnd) rectangle ++(\blockW,\blockH);
+
+        % Linea di quota d
+        % Disegna una linea sotto il piano
+        \draw[|<->|] ($(BlockStart)+(0,-0.3)$) -- ($(BlockEnd)+(0,-0.3)$) node[midway, below] {$d$};
+    \end{scope}
+    % --- Fine ambiente ruotato ---
+\end{tikzpicture}}{
+    \item 15 N ; 10 m
+    \item 15 N ; 5.0 m
+    \item 26 N ; 2.5 m
+    \item 26 N ; 5.0 m
+    \item 30 N ; 5.0 m
+}
+
+\itemdomanda{Nel momento di massima distensione della corda del bungee jumping:}{
+    \item La forza totale si annulla
+    \item L'energia cinetica si annulla
+    \item L'energia cinetica è massima
+    \item L'accelerazione si annulla
+    \item Il peso si annulla
+}
+
+\itemdomanda{Un ciclista si muove a velocità costante perché:}{
+    \item non sta applicando nessuna forza
+    \item la forza sui pedali è controbilanciata dagli attriti
+    \item l'attrito è nullo
+    \item la forza è diretta verso il manubrio
+    \item la forza è il doppio della gravitazionale
+}
+
+\itemdomanda{L'impulso di una forza costante può essere calcolato come:}{
+    \item Il prodotto tra la forza e l'intervallo di tempo durante il quale essa agisce
+    \item Il prodotto tra la forza e lo spazio percorso
+    \item Il rapporto tra la forza e lo spazio percorso
+    \item Il prodotto della forza per la velocità
+    \item Il rapporto tra la forza e l'intervallo di tempo durante il quale essa agisce
+}
+
+\itemdomanda{Un corpo di peso P cade da fermo senza aria. L'energia cinetica dopo tempo $t$ è:}{
+    \item $1/2 Pgt$
+    \item $1/2 Pgt^2$
+    \item $2Pgt$
+    \item $2Pgt^2$
+    \item $1/2 Pg^2t^2$
+}
+
+\itemdomanda{Un sasso di 3.20 kg lanciato a 11.0 m/s arriva a 5.20 m. Quanta energia meccanica ha perso per attrito?}{
+    \item 1.0 J
+    \item 10 J
+    \item 31 J
+    \item 43 J
+    \item 55 J
+}
+
+\itemdomanda{Un sasso di 2.60 kg lanciato a 5.00 m/s raggiunge quota 1.00 m. Energia persa per attrito?}{
+    \item 2.0 J
+    \item 4.0 J
+    \item 5.0 J
+    \item 7.0 J
+    \item 9.0 J
+}
+
+\itemdomanda{Un motore da 23.0 kW percorre 22 km in 125 minuti. La forza esercitata è:}{
+    \item 444 N
+    \item 567 N
+    \item 678 N
+    \item 784 N
+    \item 891 N
+}
+
+\itemdomanda{Una particella si muove di moto circolare uniforme sotto l'azione di una forza centripeta. Volendo raddoppiare il raggio della traiettoria senza modificare il modulo della velocità occorre moltiplicare la forza per un fattore:}{
+    \item 1
+    \item 1/2
+    \item 3
+    \item 1/3
+    \item 2
+}
+
+\itemdomanda{Un'auto di 800 kg che viaggia a 30 m/s frena e si arresta in 50 m. L'intensità della forza frenante è:}{
+    \item 9 N
+    \item 240 N
+    \item 7200 N
+    \item 14400 N
+    \item 28800 N
+}
+
+\itemdomanda{Quali sono le proprietà delle forze conservative?}{
+    \item Non producono alcuna variazione di energia potenziale
+    \item Non producono nessuna variazione di energia cinetica
+    \item Il loro lavoro è sempre nullo, a prescindere dalla loro traiettoria
+    \item Il lavoro compiuto è nullo quando il corpo torna al punto di partenza
+    \item Sono costanti
+}
+
+\itemdomanda{Su un corpo sono applicate solo forze $F_1$ e $F_2$ uguali in intensità e opposte in verso. Il corpo:}{
+    \item è certamente in quiete
+    \item si muove certamente di moto rettilineo uniforme
+    \item è in quiete o si muove certamente di moto rettilineo uniforme
+    \item si muove di moto uniformemente accelerato
+    \item si muove di moto armonico
+}
+
+\itemdomanda{Un astronauta pesa 500 N sulla Terra e 25 N su un asteroide X. La gravità dell'asteroide è circa:}{
+    \item 0.05 $m/s^2$
+    \item 0.2 $m/s^2$
+    \item 0.5 $m/s^2$
+    \item 1 $m/s^2$
+    \item 2 $m/s^2$
+}
+
+\itemdomanda{Due buste di plastica di massa trascurabile contengono ciascuna 15 mele e sono poste su di un tavolo ad una certa distanza. Se 10 mele vengono trasferite da una busta all'altra, la forza di attrazione gravitazionale tra le due buste:}{
+    \item aumenta, divenendo i 5/3 di quella prima del trasferimento
+    \item si riduce ai 5/9 di quella prima del trasferimento
+    \item rimane invariata
+    \item aumenta, divenendo i 3/2 di quella prima del trasferimento
+    \item si riduce ai 2/5 di quella prima del trasferimento
+}
+
+\itemdomanda{Su un corpo che accelera a 5.0 $m/s^2$ agisce un'unica forza di 100 N. Si può affermare che:}{
+    \item il corpo non ha massa
+    \item il corpo ha massa di 500 kg
+    \item il corpo ha massa di 95 kg
+    \item il corpo ha massa di 20 kg
+    \item il corpo ha massa di 10 kg
+}
+
+\itemdomanda{La forza per mettere in moto un oggetto su base orizzontale è 23 N. Attrito statico 0.23. Massa?}{
+    \item 9 kg
+    \item 10 kg
+    \item 11 kg
+    \item 100 kg
+    \item 110 kg
+}
+
+\itemdomanda{Un pianeta X ha raggio $2.4 \times 10^6$ m e $g = 11.5 m/s^2$. La massa è:}{
+    \item $9.9 \times 10^5$ kg
+    \item $9.9 \times 10^{11}$ kg
+    \item $9.9 \times 10^{23}$ kg
+    \item $9.9 \times 10^{33}$ kg
+    \item $9.9 \times 10^{43}$ kg
+}
+
+\itemdomanda{Due forze da 5.50 N parallele e discordi agiscono agli estremi di un asse di 3.00 m. Momento?}{
+    \item 8.80 Nm
+    \item 12.5 Nm
+    \item 16.5 Nm
+    \item 20.5 Nm
+    \item 22.5 Nm
+}
+
+\itemdomanda{Una porta si apre con momento 3.0 Nm spingendo perpendicolarmente a 1.5 m. La forza è:}{
+    \item 1.0 N
+    \item 1.5 N
+    \item 2.0 N
+    \item 2.5 N
+    \item 3.0 N
+}
+
+\itemdomanda{Su un corpo di massa $m=0.5$ kg agiscono due forze di intensità $F_1=3$ N e $F_2=4$ N tra loro perpendicolari. L'accelerazione del corpo prodotta dalle due forze risulta:}{
+    \item $a=4$ $m/s^2$
+    \item $a=1$ $m/s^2$
+    \item $a=10$ $m/s^2$
+    \item $a=25$ $m/s^2$
+    \item $a=0$ $m/s^2$
+}
+
+\itemdomanda{Una pattinatrice ruota con braccia tese, poi le stringe. Cosa rimane costante?}{
+    \item Solo 1 e 2 (Momento d'inerzia e En. cinetica)
+    \item Solo 2 e 3 (En. cinetica e Momento angolare)
+    \item Solo la 1
+    \item Solo la 2
+    \item Solo la 3 (Momento angolare)
+}
+
+\itemdomanda{L'accelerazione di gravità sulla Terra è circa $6 \times$ quella sulla Luna. Significa che:}{
+    \item La massa sulla Luna è 5/6 della Terra
+    \item Il peso sulla Luna è 1/6 della Terra
+    \item La massa sulla Luna è 1/6 della Terra
+    \item Sia massa che peso sono 1/6
+    \item Il peso sulla Luna è i 5/6
+}
+
+\itemdomanda{La quantità di moto di un pendolo oscillante:}{
+    \item è sempre diretta verso il punto di sospensione
+    \item è massima in modulo nel punto più basso della traiettoria
+    \item è sempre costante
+    \item si conserva nel tempo
+    \item costante in modulo, ma non in direzione
+}
+
+\itemdomanda{Un corpo di 12 kg accelera di 2.0 $m/s^2$. Determinare l'unica affermazione sicuramente VERA.}{
+    \item Agisce un'unica forza di 24 N
+    \item Agiscono forze la cui risultante è di 24 N
+    \item Non agisce alcuna forza opposta
+    \item Agiscono almeno due forze
+    \item Non agisce alcuna forza
+}
+
+\itemdomanda{Un tuffatore, durante un tuffo, vuole ruotare velocemente. Dovrà:}{
+    \item gettarsi a candela
+    \item tuffarsi di testa
+    \item raccogliere il corpo il più possibile
+    \item muovere velocemente le gambe
+    \item mettere le gambe a squadra
+}
+
+\itemdomanda{Due satelliti identici X e Y orbitano la Terra. Raggio X è il doppio di Y. Affermazioni corrette:}{
+    \item La 1, 2 e 3
+    \item La 1 e la 2 (En. potenziale X > Y e En. cinetica X < Y)
+    \item La 2 e la 3
+    \item Solo la 1
+    \item Solo la 3
+}
+
+\itemdomanda{Forza risultante 5.0 N per 10 s. Potenza sviluppata 30 W. Spostamento?}{
+    \item 50 m
+    \item 60 m
+    \item 70 m
+    \item 80 m
+    \item 90 m
+}
+
+\itemdomanda{Due scatole (5 kg e 7 kg) sono collegate da filo che resiste a 15 N. Qual è il valore massimo di F? \\ \begin{tikzpicture}[scale=0.75, >={Stealth[scale=1.2]}]
+    % Suolo
+    \draw[fill=gray!20, draw=none] (-1,-0.2) rectangle (8,0);
+    \draw[thick, gray] (-1,0) -- (8,0);
+
+    % Blocco 1 (5 kg)
+    \draw[fill=gray!40, thick] (0,0) rectangle (1.5,1) node[midway] {$5$ kg};
+
+    % Blocco 2 (7 kg)
+    \draw[fill=gray!40, thick] (3,0) rectangle (5,1.2) node[midway] {$7$ kg};
+
+    % Filo
+    \draw[thick] (1.5, 0.5) -- (3, 0.5);
+
+    % Forza F
+    \draw[->, thick] (5, 0.6) -- (7, 0.6) node[above] {$\vec{F}$};
+\end{tikzpicture}}{
+    \item 15 N
+    \item 26 N
+    \item 30 N
+    \item 36 N
+    \item 72 N
+}
+
+\itemdomanda{Cinque vagoni fermi sono urtati da un sesto vagone a velocità $v$. Si agganciano tutti. La velocità finale è:}{
+    \item $v$
+    \item $5v/6$
+    \item $v/\sqrt{6}$
+    \item $v/6$
+    \item $v/5$
+}
+
+\itemdomanda{Sulla superficie terrestre $g \approx 9.81 m/s^2$. Tale valore:}{
+    \item dipende da massa e raggio della Terra
+    \item dipende solo dalla massa
+    \item dipende solo dal raggio
+    \item è costante nel sistema solare
+    \item si dimezza sulla Luna
+}
+
+\itemdomanda{Un corpo di 2 kg va a Est a 40 m/s. Una forza di 10 N verso Nord agisce per 6 s. Velocità finale?}{
+    \item 30 m/s
+    \item 45 m/s
+    \item 50 m/s
+    \item 55 m/s
+    \item 70 m/s
+}
+
+\itemdomanda{Fionda con corde (Hooke). Allungamento $x \rightarrow$ velocità $v$. Allungamento $2x \rightarrow$ velocità?}{
+    \item $v/2$
+    \item $v$
+    \item $\sqrt{2}v$
+    \item $2v$
+    \item $4v$
+}
+
+\itemdomanda{Carica $q = 1.6 \times 10^{-19} C$ riceve forza $1.6 \times 10^{-17} N$. Campo E?}{
+    \item 1000 N/C stesso verso
+    \item 200 N/C verso opposto
+    \item 50 N/C perpendicolare
+    \item 150 N/C verso opposto
+    \item 100 N/C stesso verso
+}
+
+\itemdomanda{Lampadina 10 W a 4 V per 10 s. Carica?}{
+    \item 25 C
+    \item 4 C
+    \item 100 C
+    \item 1 C
+    \item 10 C
+}
+
+\itemdomanda{Pila 5.5 V, 0.90 A. Carica in 30 secondi?}{
+    \item 12 C
+    \item 15 C
+    \item 21 C
+    \item 27 C
+    \item 31 C
+}
+
+\itemdomanda{Valore accettabile per carica positiva:}{
+    \item $4 \times 10^{-19} C$
+    \item $2.33 \times 10^{-19} C$
+    \item $1.9023 \times 10^{-19} C$
+    \item $4.8063 \times 10^{-19} C$
+    \item $1 \times 10^{-19} C$
+}
+
+\itemdomanda{Carica Q su sfera con cavità interna. Si distribuirà:}{
+    \item Sulle due superfici interna/esterna
+    \item Immediatamente dispersa
+    \item Sulla superficie interna della cavità
+    \item Nel volume del metallo
+    \item Sulla superficie esterna della sfera
+}
+
+\itemdomanda{Serie 1 $\mu F$ e 3 $\mu F$. ddp 100 V:}{
+    \item Capacità equivalente 4 $\mu F$
+    \item Capacità equivalente 2 $\mu F$
+    \item ddp ai capi sono diverse
+    \item cariche diverse
+    \item ddp capi 100 V ciascuno
+}
+
+\itemdomanda{C 100 $\mu F$ a 2 kV vs L 25 H a 4 A. Quale vera?}{
+    \item En. condensatore > En. induttore
+    \item Non confrontabili senza geometria
+    \item Non confrontabili natura diversa
+    \item Energie sono uguali
+    \item En. induttore > En. condensatore
+}
+
+\itemdomanda{Corpo + in equilibrio peso-campo E. Spostato giù e rilasciato:}{
+    \item Torna in posizione iniziale e si ferma
+    \item Moto armonico
+    \item Cade con accelerazione costante
+    \item Sale con accelerazione costante
+    \item Resta fermo
+}
+
+\itemdomanda{Sfere con $q_1 = -2 \mu C$ e $q_2 = 4 \mu C$, forza 1 N. Collegate e rimosso filo. Nuova forza?}{
+    \item 0 N
+    \item 0.125 N
+    \item 0.250 N
+    \item 1 N
+    \item 1.125 N
+}
+
+\itemdomanda{Analizzando la figura, in quale dei punti A, B e C il campo magnetico è più intenso? \\ \begin{tikzpicture}[scale=0.4, transform shape, >=Stealth]
+
+% --- Parametri Magnete ---
+\def\magW{2.5}  % Semilunghezza
+\def\magH{0.4}  % Semialtezza
+
+% --- Disegno Magnete ---
+\begin{scope}
+    % Nord (Grigio scuro)
+    \fill[gray!80] (-\magW, -\magH) rectangle (0, \magH);
+    % Sud (Grigio chiaro)
+    \fill[gray!20] (0, -\magH) rectangle (\magW, \magH);
+    % Contorno
+    \draw[thick] (-\magW, -\magH) rectangle (\magW, \magH);
+    \draw[thick] (0, -\magH) -- (0, \magH);
+    % Testi
+    \node[white, font=\sffamily\bfseries] at (-\magW/2, 0) {N};
+    \node[black, font=\sffamily\bfseries] at (\magW/2, 0) {S};
+\end{scope}
+
+% --- Linee di Campo ---
+\tikzset{fieldline/.style={gray!80, line width=0.6pt, postaction={decorate, decoration={markings, mark=at position 0.55 with {\arrow{>}}}}}}
+% Nota: Uso arrows.meta classico per semplicità di rendering
+\tikzset{linea/.style={draw=gray!70, thick, >={Stealth[length=5pt]}}}
+
+% 1. Loop chiusi (N -> S) sopra e sotto
+% Disegniamo archi che escono dalla faccia laterale e superiore del polo N
+\foreach \h in {0.5, 1.2, 2.2, 3.5} {
+    % Sopra
+    \draw[linea, ->] (-\magW+0.2, \magH) .. controls (-\magW-1.5, \magH+\h*1.5) and (\magW+1.5, \magH+\h*1.5) .. (\magW-0.2, \magH);
+    % Sotto
+    \draw[linea, ->] (-\magW+0.2, -\magH) .. controls (-\magW-1.5, -\magH-\h*1.5) and (\magW+1.5, -\magH-\h*1.5) .. (\magW-0.2, -\magH);
+}
+
+% 2. Linee che escono dal Polo Nord (Sinistra)
+\foreach \ang/\dist in {160/4, 180/5, 200/4} {
+    \draw[linea, ->] (-\magW, 0) -- ++(\ang:\dist);
+}
+% Curve angolate Nord
+\draw[linea, ->] (-\magW, \magH-0.1) .. controls (-\magW-2, \magH+1) .. (-5, 4);
+\draw[linea, ->] (-\magW, -\magH+0.1) .. controls (-\magW-2, -\magH-1) .. (-5, -4);
+
+% 3. Linee che entrano nel Polo Sud (Destra)
+\foreach \ang/\dist in {20/4, 0/5, -20/4} {
+    \draw[linea, <-] (\magW, 0) -- ++(\ang:\dist);
+}
+% Curve angolate Sud
+\draw[linea, <-] (\magW, \magH-0.1) .. controls (\magW+2, \magH+1) .. (5, 4);
+\draw[linea, <-] (\magW, -\magH+0.1) .. controls (\magW+2, -\magH-1) .. (5, -4);
+
+% --- Punti A, B, C ---
+\fill (0, -2) circle (1.5pt) node[below right] {A};
+\fill (-3.5, 1.5) circle (1.5pt) node[above left] {B};
+\fill (4.5, 3.5) circle (1.5pt) node[right] {C};
+
+% Clip per pulizia bordi
+\path (-6,-5) rectangle (6,5);
+
+\end{tikzpicture}}{
+    \item In A
+    \item In B
+    \item In C
+    \item In B e C
+    \item Campo omogeneo
+}
+
+\itemdomanda{Ferro stiro ($40 \Omega$). Pmax 1.65 kW a 220 V. Max lampadine 100 W?}{
+    \item 9 lampadine
+    \item nessuna lampadina
+    \item 4 lampadine
+    \item 16 lampadine
+    \item 6 lampadine
+}
+
+\itemdomanda{Limitatore 18 A a 220 V. Stufa 1 kW e Lavatrice 1.5 kW. Max lampadine 100 W?}{
+    \item 15
+    \item 12
+    \item 16
+    \item 14
+    \item 13
+}
+
+\itemdomanda{Cu ($1.7 \cdot 10^{-8}$) vs Pt ($11.7 \cdot 10^{-8}$) stessa lunghezza. Quale vera?}{
+    \item R uguale
+    \item Cu meno R sezione minore
+    \item Pt meno R sezione maggiore
+    \item Pt meno R rapporto $\rho/S$ minore
+    \item Cu meno R resistività minore
+}
+
+\itemdomanda{Batteria 36 V, parallelo 6 e 3 $\Omega$, serie R. Corrente 3 A. R?}{
+    \item 10 $\Omega$
+    \item 2 $\Omega$
+    \item 12 $\Omega$
+    \item 18 $\Omega$
+    \item 4 $\Omega$
+}
+
+\itemdomanda{Resistenza di un filo metallico è in proporzione:}{
+    \item Diretta resistività e lunghezza
+    \item Diretta sezione e lunghezza
+    \item Inversa resistività e sezione
+    \item Diretta resistività e sezione
+    \item Inversa resistività e lunghezza
+}
+
+\itemdomanda{Sfera A attratta da bacchetta +, B respinta. Possiamo concludere:}{
+    \item A e B possono avere carica nulla
+    \item B è carica positivamente, A può essere negativa o nulla
+    \item A e B cariche negativamente
+    \item A negativa, B negativa o nulla
+    \item A negativa e B positiva
+}
+
+\itemdomanda{Spinta di Archimede su cubo lato 10 cm immerso in acqua ($\rho = 1000 kg/m^3$):}{
+    \item 0.089 N
+    \item 0.98 N
+    \item 9.8 N
+    \item 98 N
+    \item Ignota senza densità cubo
+}
+
+\itemdomanda{Un sub risente di un aumento di pressione di 2 atm. Si trova a circa:}{
+    \item 10 metri
+    \item 20 metri
+    \item 30 metri
+    \item 40 metri
+    \item sta risalendo velocemente
+}
+
+\itemdomanda{Se un liquido scorre in una condotta con restringimento, quale di questi grafici rappresenta la portata in massa?}{
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi con stile locale
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Curva Parabolica (Concavità verso l'alto)
+    % Funzione: y = 0.5*(x-1.5)^2 + 0.8
+    \draw[thick, samples=100, domain=0.2:2.8] plot (\x, {0.5*(\x-1.5)*(\x-1.5) + 0.8});
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Linea Orizzontale (Costante)
+    \draw[thick] (0,1.8) -- (3,1.8);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Curva Parabolica (Concavità verso il basso)
+    % Funzione: y = -0.5*(x-1.5)^2 + 2.2
+    \draw[thick, samples=100, domain=0.1:2.9] plot (\x, {-0.5*(\x-1.5)*(\x-1.5) + 2.2});
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Funzione a campana (Gaussiana) su base costante
+    % y = baseline + ampiezza * exp(-(x-centro)^2 / larghezza)
+    \draw[thick, samples=100, domain=0:3] plot (\x, {0.6 + 1.4*exp(-(\x-1.5)*(\x-1.5)/0.2)});
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Funzione a "buca" invertita
+    % y = baseline - ampiezza * exp(-(x-centro)^2 / larghezza)
+    \draw[thick, samples=100, domain=0:3] plot (\x, {2.0 - 1.2*exp(-(\x-1.5)*(\x-1.5)/0.2)});
+\end{tikzpicture}
+}
+
+\itemdomanda{Una forza di 80 N viene applicata perpendicolarmente a un banco su 80 $cm^2$. La pressione è:}{
+    \item 100 Pa
+    \item 1000 Pa
+    \item 10000 Pa
+    \item 1000 atm
+    \item 10000 atm
+}
+
+\itemdomanda{Palmo mano vs punta dito a parità di forza. La pressione sarebbe:}{
+    \item minore
+    \item stessa
+    \item maggiore
+    \item forza minore
+    \item forza maggiore
+}
+
+\itemdomanda{Un sub risente di una pressione di 2 atm. Si può affermare che:}{
+    \item è a circa 10 m di profondità
+    \item è a circa 20 m di profondità
+    \item è a circa 30 m di profondità
+    \item è a circa 40 m di profondità
+    \item sta risalendo velocemente
+}
+
+\itemdomanda{Un oggetto emerge per 1/3 del proprio volume. Rapporto densità liquido/oggetto?}{
+    \item 1/3
+    \item 3
+    \item 2/3
+    \item 3/2
+    \item 5/3
+}
+
+\itemdomanda{Due corpi A e B, volume uguale, $m_B = 3m_A$. La spinta di Archimede su B è:}{
+    \item uguale a quella su A
+    \item nove volte quella su A
+    \item tre volte quella su A
+    \item un nono di quella su A
+    \item un terzo di quella su A
+}
+
+\itemdomanda{Tubo sezione costante ad U aperto un ramo e chiuso tappo T altro. Forza acqua sul tappo? \\ \begin{tikzpicture}[>=Stealth, thick, scale=0.6, transform shape, baseline=(current bounding box.center)]
+
+    % --- DEFINIZIONE PARMETRI ---
+    \def\tubeW{1.0}    % Larghezza del tubo
+    \def\innerR{1.0}   % Raggio della curva interna
+    % Il raggio esterno è calcolato automaticamente
+    \pgfmathsetmacro{\outerR}{\innerR + \tubeW}
+    
+    \def\liqH{5.0}     % Altezza liquido a sinistra (H) dai centri dei cerchi
+    \def\liqh{3.0}     % Altezza liquido a destra (h) dai centri dei cerchi
+    \def\blockH{1.2}   % Altezza del blocco T
+    
+    % Coordinate di base: Il centro dei semicerchi inferiori è (0,0)
+
+    % --- 1. LIQUIDO (Riempimento) ---
+    % Disegniamo il contorno del liquido e lo riempiamo
+    \fill[gray!40] 
+        (-\outerR, \liqH) -- (-\outerR, 0)          % Giù a sinistra esterno
+        arc[start angle=180, end angle=360, radius=\outerR] % Curva esterna
+        -- (\outerR, \liqh)                         % Su a destra esterno
+        -- (\innerR, \liqh)                         % Attraverso superficie dx
+        -- (\innerR, 0)                             % Giù a destra interno
+        arc[start angle=0, end angle=-180, radius=\innerR]  % Curva interna
+        -- (-\innerR, \liqH)                        % Su a sinistra interno
+        -- cycle;                                   % Chiude superficie sx
+
+    % --- 2. TUBO (Contorni) ---
+    % Contorno esterno
+    \draw[thick] (-\outerR, \liqH + 0.8) -- (-\outerR, 0) 
+        arc[start angle=180, end angle=360, radius=\outerR] 
+        -- (\outerR, \liqh + \blockH + 0.5);
+        
+    % Contorno interno
+    \draw[thick] (-\innerR, \liqH + 0.8) -- (-\innerR, 0) 
+        arc[start angle=180, end angle=360, radius=\innerR] % Corretto: ora segue il fondo
+        -- (\innerR, \liqh + \blockH + 0.8);
+
+    % --- 3. OGGETTO T ---
+    \fill[black] (\innerR, \liqh) rectangle (\outerR, \liqh + \blockH);
+    \node[white, font=\bfseries\large] at ($(\innerR, \liqh) + 0.5*(\tubeW, \blockH)$) {T};
+
+    % --- 4. LIVELLI E QUOTE ---
+    % Linea di riferimento inferiore (il punto più basso del tubo)
+    \coordinate (BottomPoint) at (0, -\outerR);
+    \draw[thin] (-\outerR - 1.2, -\outerR) -- (\outerR + 1.2, -\outerR);
+
+    % Livello 1 (Sinistra)
+    \draw[thin] (-\outerR, \liqH) -- (\outerR + 2.0, \liqH) node[right, font=\small] {livello 1};
+    % Quota H
+    \draw[<->, thin] (-\outerR - 0.8, -\outerR) -- (-\outerR - 0.8, \liqH) node[midway, fill=white, font=\small] {$H$};
+
+    % Livello 2 (Destra)
+    \draw[thin] (\outerR, \liqh) -- (-\outerR - 2.0, \liqh) node[left, font=\small] {livello 2};
+    % Quota h
+    \draw[<->, thin] (\outerR + 0.8, -\outerR) -- (\outerR + 0.8, \liqh) node[midway, fill=white, font=\small] {$h$};
+
+    % --- 5. ELEMENTO S ---
+    \node[circle, draw, thin, inner sep=1.5pt, font=\itshape\small, fill=white] at (0, -\outerR + \tubeW/2) {S};
+
+\end{tikzpicture} \\ }{
+    \item $\rho g (H-h)$ verso il basso
+    \item $\rho g h$ verso l'alto
+    \item $\rho g H S$ verso l'alto
+    \item $\rho g (H+h)$ verso il basso
+    \item $\rho g (H-h) S$ verso l'alto
+}
+
+\itemdomanda{Luce da aria a vetro. $v$ e $\lambda$ come cambiano?}{
+    \item $v$ aumenta e $\lambda$ aumenta
+    \item $v$ diminuisce e $\lambda$ aumenta
+    \item $v$ aumenta e $\lambda$ non cambia
+    \item $v$ aumenta e $\lambda$ diminuisce
+    \item $v$ diminuisce e $\lambda$ diminuisce
+}
+
+\itemdomanda{Distanza tra cresta e ventre successivo di un'onda sul lago:}{
+    \item $4\lambda$
+    \item $\lambda$
+    \item $2\lambda$
+    \item $\lambda/4$
+    \item $\lambda/2$
+}
+
+\itemdomanda{Il suono è:}{
+    \item onda in mezzo elastico con velocità dipendente dal mezzo
+    \item onda elastica nel vuoto a 340 m/s
+    \item onda in mezzo elastico a 300.000 m/s
+    \item onda elastica nel vuoto a 300.000 km/s
+    \item onda nel vuoto e mezzi a 340 m/s
+}
+
+\itemdomanda{Un oggetto è posto a una distanza di 60 cm da una lente sottile convergente. L'immagine prodotta dalla lente risulta capovolta e di dimensioni pari alla metà di quelle dell'oggetto originale. Qual è la distanza focale della lente?}{
+    \item 60 cm
+    \item 45 cm
+    \item 30 cm
+    \item 20 cm
+    \item 90 cm
+}
+
+\itemdomanda{Velocità luce nel vetro $1.97 \times 10^8$ m/s. Indice rifrazione?}{
+    \item 0.88
+    \item 1.34
+    \item 1.52
+    \item 1.66
+    \item 1.88
+}
+
+\itemdomanda{Intensità $I$ a distanza $d$. A distanza $2d$ vale:}{
+    \item $2I$
+    \item $I$
+    \item $I/4$
+    \item $I/2$
+    \item $I/16$
+}
+
+\itemdomanda{Indice rifrazione acqua 1.33. Velocità luce in acqua?}{
+    \item $3.00 \times 10^8$ m/s
+    \item $1.98 \times 10^8$ m/s
+    \item $2.05 \times 10^8$ m/s
+    \item $2.26 \times 10^8$ m/s
+    \item $4.52 \times 10^8$ m/s
+}
+
+\itemdomanda{Strisce colorate macchie olio pozzanghere dovute a:}{
+    \item interferenza e diffrazione
+    \item riflettività acqua/olio
+    \item cielo diffonde colori
+    \item interferenza strato sottile olio
+    \item diffrazione luce
+}
+
+\itemdomanda{Fenomeno ondulatorio NON evidenziabile con onde sonore:}{
+    \item Rifrazione
+    \item Interferenza
+    \item Polarizzazione
+    \item Riflessione
+    \item Diffrazione
+}
+
+\itemdomanda{Astronauta su Luna sente motori astronave. Scena inconsistente perché:}{
+    \item Leggi Fisica non valide
+    \item Gravità più piccola
+    \item Tuta assorbe suoni
+    \item Temperatura troppo alta
+    \item Luna priva di atmosfera (vuoto)
+}
+
+\itemdomanda{Quale serie di simboli è identica se letta in uno specchio piano?}{
+    \item 69
+    \item OTTO AMA
+    \item PROCCHIO
+    \item 88OTTO88
+    \item 88AMAOTTO88
+}
+
+\itemdomanda{La caloria è l'energia per alzare 1 g d'acqua distillata da $14.5^{\circ}C$ a $15.5^{\circ}C$:}{
+    \item senza altre specifiche
+    \item alla pressione atmosferica normale
+    \item per 1 kg d'acqua
+    \item alzandola di $1^{\circ}C$
+    \item per 1 kg d'acqua di $1^{\circ}C$
+}
+
+\itemdomanda{Macchina rendimento 75\%, lavoro 3.6 kJ. Calore assorbito?}{
+    \item 2.7 kJ
+    \item 4.8 kJ
+    \item 14.4 kJ
+    \item 0.9 kJ
+    \item 3.6 kJ
+}
+
+\itemdomanda{Durante l'ebollizione dell'acqua la temperatura:}{
+    \item rimane costante
+    \item aumenta con l'energia acquisita
+    \item diminuisce con l'energia acquisita
+    \item è sinusoidale
+    \item diminuisce poi aumenta
+}
+
+\itemdomanda{Sorgente fredda riceve 3 volte il lavoro compiuto. Efficienza?}{
+    \item 0.9
+    \item 1.33
+    \item 0.33
+    \item 0.67
+    \item 0.25
+}
+
+\itemdomanda{Escursione termica tra $25^{\circ}C$ e $16^{\circ}C$ espressa in Kelvin:}{
+    \item 282 K
+    \item 264 K
+    \item 9 K
+    \item 90 K
+    \item 273 K
+}
+
+\itemdomanda{Perché forchetta legno è meglio della metallica per rigirare spaghetti?}{
+    \item conducibilità termica metalli molto più grande
+    \item calore specifico metalli maggiore
+    \item conducibilità elettrica metalli maggiore
+    \item legno si elettrizza meno
+    \item legno è più leggero
+}
+
+\itemdomanda{Quale di questi grafici rappresenta le seguenti trasformazioni termodinamiche? \\ Trasformazioni: Isobara, Adiabatica, Isocora.}{
+        \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    \tikzset{
+        axis_style/.style={-{Stealth[scale=1.2]}, thick},
+        tick_style/.style={thin},
+        cycle_style/.style={thick, line cap=round, line join=round},
+        box_style/.style={draw, thick, minimum size=0.6cm, anchor=north east, font=\sffamily\bfseries}
+    }
+    
+    \draw[axis_style] (0,0) -- (3.5,0) node[right] {$V$};
+    \draw[axis_style] (0,0) -- (0,3.5) node[left] {$p$};
+    \node[below left] at (0,0) {0};
+    
+    \foreach \x in {1,2,3} \draw[tick_style] (\x, 0.08) -- (\x, -0.08);
+    \foreach \y in {1,2,3} \draw[tick_style] (0.08, \y) -- (-0.08, \y);
+    
+    \draw[cycle_style] (1,1) -- (1,3) -- (3,3);
+    \draw[cycle_style] (3,3) to[out=260, in=15] (1,1);
+    \end{tikzpicture}
+
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    \tikzset{
+        axis_style/.style={-{Stealth[scale=1.2]}, thick},
+        tick_style/.style={thin},
+        cycle_style/.style={thick, line cap=round, line join=round},
+        box_style/.style={draw, thick, minimum size=0.6cm, anchor=north east, font=\sffamily\bfseries}
+    }
+    
+    \draw[axis_style] (0,0) -- (3.5,0) node[right] {$V$};
+    \draw[axis_style] (0,0) -- (0,3.5) node[left] {$p$};
+    \node[below left] at (0,0) {0};
+    
+    \foreach \x in {1,2,3} \draw[tick_style] (\x, 0.08) -- (\x, -0.08);
+    \foreach \y in {1,2,3} \draw[tick_style] (0.08, \y) -- (-0.08, \y);
+    
+    % Ciclo B: Isocora -> Isobara -> Curva "rigonfia"
+    \draw[cycle_style] (1,1) -- (1,3) -- (3,3);
+    % Curva con concavità verso l'alto
+    \draw[cycle_style] (3,3) to[out=195, in=75] (1,1);
+    \end{tikzpicture}
+
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    \tikzset{
+        axis_style/.style={-{Stealth[scale=1.2]}, thick},
+        tick_style/.style={thin},
+        cycle_style/.style={thick, line cap=round, line join=round},
+        box_style/.style={draw, thick, minimum size=0.6cm, anchor=north east, font=\sffamily\bfseries}
+    }
+    
+    \draw[axis_style] (0,0) -- (3.5,0) node[right] {$V$};
+    \draw[axis_style] (0,0) -- (0,3.5) node[left] {$p$};
+    \node[below left] at (0,0) {0};
+    
+    \foreach \x in {1,2,3} \draw[tick_style] (\x, 0.08) -- (\x, -0.08);
+    \foreach \y in {1,2,3} \draw[tick_style] (0.08, \y) -- (-0.08, \y);
+    
+    % Ciclo C
+    % Vertici definiti per un'isoterma pV=3 che passa per (1,3) e (3,1)
+    \draw[cycle_style] (1,1) -- (3,1); % Isobara
+    % Espansione Isoterma p = 3/V calcolata matematicamente
+    \draw[cycle_style, samples=100, domain=3:1] plot (\x, {3/\x});
+    \draw[cycle_style] (1,3) -- (1,1); % Isocora
+    \end{tikzpicture}
+
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    \tikzset{
+        axis_style/.style={-{Stealth[scale=1.2]}, thick},
+        tick_style/.style={thin},
+        cycle_style/.style={thick, line cap=round, line join=round},
+        box_style/.style={draw, thick, minimum size=0.6cm, anchor=north east, font=\sffamily\bfseries}
+    }
+    
+    \draw[axis_style] (0,0) -- (3.5,0) node[right] {$V$};
+    \draw[axis_style] (0,0) -- (0,3.5) node[left] {$p$};
+    \node[below left] at (0,0) {0};
+    
+    \foreach \x in {1,2,3} \draw[tick_style] (\x, 0.08) -- (\x, -0.08);
+    \foreach \y in {1,2,3} \draw[tick_style] (0.08, \y) -- (-0.08, \y);
+    
+    % Ciclo D
+    % Isobara in alto, Isocora a destra, Isoterma pV=3 a chiudere
+    \draw[cycle_style] (1,3) -- (3,3) -- (3,1);
+    % Compressione Isoterma p = 3/V calcolata matematicamente
+    \draw[cycle_style, samples=100, domain=3:1] plot (\x, {3/\x});
+    \end{tikzpicture}
+
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    \tikzset{
+        axis_style/.style={-{Stealth[scale=1.2]}, thick},
+        tick_style/.style={thin},
+        cycle_style/.style={thick, line cap=round, line join=round},
+        box_style/.style={draw, thick, minimum size=0.6cm, anchor=north east, font=\sffamily\bfseries}
+    }
+    
+    \draw[axis_style] (0,0) -- (3.5,0) node[right] {$V$};
+    \draw[axis_style] (0,0) -- (0,3.5) node[left] {$p$};
+    \node[below left] at (0,0) {0};
+    
+    \foreach \x in {1,2,3} \draw[tick_style] (\x, 0.08) -- (\x, -0.08);
+    \foreach \y in {1,2,3} \draw[tick_style] (0.08, \y) -- (-0.08, \y);
+    
+    % Ciclo E (più ripido di C -> Adiabatica)
+    \draw[cycle_style] (1,1) -- (3,1); % Isobara
+    % Espansione Adiabatica p = k / V^1.4.
+    % Costante k calcolata per passare per (3,1): k = 1 * 3^1.4 ~= 4.655
+    % Il punto iniziale a V=1 sarà p = 4.655
+    \draw[cycle_style, samples=100, domain=3:1] plot (\x, {4.655 / pow(\x, 1.4)});
+    \draw[cycle_style] (1,4.655) -- (1,1); % Isocora
+    \end{tikzpicture}    
+
+}
+
+\itemdomanda{60 L a $20^{\circ}C$ con 20 L a $60^{\circ}C$. Temperatura finale?}{
+    \item $25^{\circ}C$
+    \item $28^{\circ}C$
+    \item $40^{\circ}C$
+    \item $30^{\circ}C$
+    \item $35^{\circ}C$
+}
+
+\itemdomanda{Motore tra $200^{\circ}C$ e $50^{\circ}C$ con rendimento 0.35:}{
+    \item eccellente
+    \item scarso
+    \item non esiste (sotto 1° principio)
+    \item non esiste (sopra rendimento Carnot)
+    \item valore fisso
+}
+
+\itemdomanda{Mezzo kg d'acqua a $25^{\circ}C$ riceve 5000 J. Temperatura finale?}{
+    \item circa $25.6^{\circ}C$
+    \item circa $27.4^{\circ}C$
+    \item temperatura costante
+    \item circa $23.8^{\circ}C$
+    \item circa $256.2^{\circ}C$
+}
+
+\itemdomanda{Costo scaldare 50 L da $20^{\circ}C$ a $60^{\circ}C$ (0.20 €/kWh)?}{
+    \item circa 0.92 €
+    \item circa 0.46 €
+    \item circa 0.13 €
+    \item circa 1.92 €
+    \item circa 1.66 €
+}
+
+\itemdomanda{Contenitore rigido aria a $27^{\circ}C$. Pressione raddoppia. Temperatura?}{
+    \item $216^{\circ}C$
+    \item $54^{\circ}C$
+    \item $573^{\circ}C$
+    \item $327^{\circ}C$
+    \item impossibile senza volume
+}
+
+\itemdomanda{La conducibilità termica si misura in:}{
+    \item $W/(m^2 \cdot K)$
+    \item $N/(m \cdot K)$
+    \item $J/(m^2 \cdot K \cdot s)$
+    \item $W/(m \cdot K)$
+    \item $W/(m^2 \cdot K \cdot s)$
+}
+
+\itemdomanda{Stesso calore a vetro e rame, $c_{vetro} > c_{rame}$. Allora:}{
+    \item rame riscalda prima ma T finale minore
+    \item rame avrà temperatura finale maggiore
+    \item vetro avrà temperatura finale maggiore
+    \item rame riscalda prima ma T finale uguale
+    \item temperature finali uguali
+}
+
+\itemdomanda{Le dimensioni dei coefficienti $a$ e $b$ della formula $l=at+bt^2$, sapendo che $l$ è una lunghezza [L] e $t$ un tempo [T], sono rispettivamente:}{
+    \item $[L^{-1}T]$ e $[L^{-2}T]$
+    \item $[LT^{-1}]$ e $[LT^{-2}]$
+    \item $[L^{-1}T^{-1}]$ e $[L^{-1}T^{-2}]$
+    \item $[L^{0}T^{-1}]$ e $[L^{-1}T^{0}]$
+    \item nessuna delle alternative
+}
+
+\itemdomanda{Si considerino le misure: 1. $T_1 = (8.4 \pm 0.1) s$; 2. $T_2 = (8.4 \pm 0.2) s$; 3. $T_3 = (16.8 \pm 0.1) s$; 4. $T_4 = (16.8 \pm 0.2) s$. Quale delle seguenti affermazioni è VERA?}{
+    \item La seconda e la quarta hanno lo stesso errore relativo
+    \item La prima e la quarta hanno lo stesso errore relativo
+    \item La prima misura è la più precisa
+    \item La seconda misura è la più precisa
+    \item La prima e la terza hanno lo stesso errore relativo
+}
+
+\itemdomanda{Velocità, impulso, potenza, intensità luminosa. Quante, tra queste, sono le grandezze fondamentali?}{
+    \item 1
+    \item 2
+    \item 3
+    \item 4
+    \item nessuna
+}
+
+\itemdomanda{Quale di queste quantità fisiche non è una grandezza vettoriale?}{
+    \item lavoro
+    \item campo elettrico
+    \item quantità di moto
+    \item accelerazione
+    \item forza
+}
+
+\itemdomanda{Due forze di 3 N e 4 N sono applicate allo stesso corpo. Quando l'angolo fra le due forze varia da $0^{\circ}$ a $90^{\circ}$, il modulo della forza risultante varia fra:}{
+    \item 1 N e 7 N
+    \item 7 N e 1 N
+    \item 5 N e 7 N
+    \item 7 N e 5 N
+    \item non varia
+}
+
+\itemdomanda{Dati due vettori $\vec{A}$ e $\vec{B}$ di modulo rispettivamente pari a 2 e 3, il vettore $\vec{c}$, somma dei due, ha modulo:}{
+    \item $\sqrt{13}$
+    \item indeterminabile
+    \item 5
+    \item 13
+    \item 6
+}
+
+\itemdomanda{Il rapporto tra peso specifico e densità di un corpo sulla Terra è:}{
+    \item inversamente proporzionale al volume
+    \item direttamente proporzionale alla massa
+    \item uguale per tutti i corpi
+    \item un numero puro
+    \item diverso per ogni corpo
+}
+
+\itemdomanda{Si considerino le misure: 1. $T_1 = (8.4 \pm 0.1) s$; 2. $T_2 = (8.4 \pm 0.2) s$; 3. $T_3 = (16.8 \pm 0.1) s$; 4. $T_4 = (16.8 \pm 0.2) s$. Quale delle seguenti affermazioni è VERA?}{
+    \item La prima
+    \item La seconda
+    \item La terza
+    \item La quarta
+    \item La terza e la quarta che hanno la stessa precisione
+}
+
+\itemdomanda{Indicando con "$\cdot$" il prodotto scalare e con "$\times$" il prodotto vettore, quale delle seguenti operazioni genera la proiezione del vettore $\vec{a}$ sul vettore $\vec{b}$?}{
+    \item $\vec{a} \times \frac{\vec{b}}{|\vec{b}|}$
+    \item $\vec{a} \times \vec{b}$
+    \item $\vec{a} \cdot \vec{b}$
+    \item $\vec{a} + \vec{b}$
+    \item $\vec{a} \cdot \frac{\vec{b}}{|\vec{b}|}$
+}
+
+\itemdomanda{Due bacinelle rigide di uguale volume sono completamente riempite rispettivamente di ceci (sfere di diametro $d_c = 8$ mm) e piselli (sfere di diametro $d_p = 6$ mm). Qual è approssimativamente il rapporto $N_c / N_p$ fra il numero di ceci e del numero dei piselli in esse contenuti?}{
+    \item circa 1.8
+    \item circa 2.4
+    \item circa 0.56
+    \item circa 0.75
+    \item circa 0.42
+}
+
+\itemdomanda{Siano $|\vec{a}| \neq 0$ e $\vec{a} + 2\vec{b} = 0$. Si può concludere che:}{
+    \item $|\vec{b}| = -|\vec{a}|/2$
+    \item $\vec{b} = -2$
+    \item $\vec{b} = |\vec{a}|/2$
+    \item $|\vec{b}| = |\vec{a}|/2$
+    \item $\vec{a} = - \vec{b}$
+}
+
+\itemdomanda{Un vettore $\vec{v}=3\vec{\omega}$ è:}{
+    \item ortogonale a $\vec{\omega}$ con modulo $v=3\omega$
+    \item ortogonale a $\vec{\omega}$ con modulo $v=\frac{1}{3}\omega$
+    \item parallelo e con lo stesso verso di $\vec{\omega}$ con modulo $v=3\omega$
+    \item parallelo ma con verso opposto a $\vec{\omega}$ con modulo $v=3\omega$
+    \item nessuna delle alternative
+}
+
+\itemdomanda{Quale, tra le grandezze proposte, appartiene al Sistema Internazionale (SI)?}{
+    \item La carica elettrica
+    \item La massa
+    \item La forza
+    \item La velocità
+    \item L'accelerazione
+}
+
+\itemdomanda{Due vettori giacciono sulla stessa retta e hanno verso opposto. Le rispettive intensità sono pari a 5 e 12. Quanto vale l'intensità del vettore risultante?}{
+    \item 7
+    \item -7
+    \item 13
+    \item 14
+    \item 17
+}
+
+\itemdomanda{Due vettori perpendicolari hanno intensità rispettivamente pari a 5 e 12. Quanto vale l'intensità del vettore risultante?}{
+    \item 7
+    \item 12
+    \item 13
+    \item 14
+    \item 17
+}
+\end{enumerate}
+
+\newpage
+\section*{Soluzioni Scienze}
+\begin{itemize}[leftmargin=*]
+\item [Scienze] Domanda 1: 2
+\item [Scienze] Domanda 2: 2
+\item [Scienze] Domanda 3: 3
+\item [Scienze] Domanda 4: 2
+\item [Scienze] Domanda 5: 2
+\item [Scienze] Domanda 6: 5
+\item [Scienze] Domanda 7: 5
+\item [Scienze] Domanda 8: 2
+\item [Scienze] Domanda 9: 1
+\item [Scienze] Domanda 10: 2
+\item [Scienze] Domanda 11: 2
+\item [Scienze] Domanda 12: 3
+\item [Scienze] Domanda 13: 1
+\item [Scienze] Domanda 14: 2
+\item [Scienze] Domanda 15: 2
+\item [Scienze] Domanda 16: 2
+\item [Scienze] Domanda 17: 3
+\item [Scienze] Domanda 18: 4
+\item [Scienze] Domanda 19: 3
+\item [Scienze] Domanda 20: 2
+\item [Scienze] Domanda 21: 4
+\item [Scienze] Domanda 22: 1
+\item [Scienze] Domanda 23: 3
+\item [Scienze] Domanda 24: 3
+\item [Scienze] Domanda 25: 5
+\item [Scienze] Domanda 26: 3
+\item [Scienze] Domanda 27: 1
+\item [Scienze] Domanda 28: 3
+\item [Scienze] Domanda 29: 5
+\item [Scienze] Domanda 30: 3
+\item [Scienze] Domanda 31: 1
+\item [Scienze] Domanda 32: 3
+\item [Scienze] Domanda 33: 1
+\item [Scienze] Domanda 34: 5
+\item [Scienze] Domanda 35: 1
+\item [Scienze] Domanda 36: 1
+\item [Scienze] Domanda 37: 3
+\item [Scienze] Domanda 38: 4
+\item [Scienze] Domanda 39: 5
+\item [Scienze] Domanda 40: 4
+\item [Scienze] Domanda 41: 2
+\item [Scienze] Domanda 42: 2
+\item [Scienze] Domanda 43: 3
+\item [Scienze] Domanda 44: 1
+\item [Scienze] Domanda 45: 2
+\item [Scienze] Domanda 46: 3
+\item [Scienze] Domanda 47: 3
+\item [Scienze] Domanda 48: 3
+\item [Scienze] Domanda 49: 2
+\item [Scienze] Domanda 50: 1
+\item [Scienze] Domanda 51: 5
+\item [Scienze] Domanda 52: 2
+\item [Scienze] Domanda 53: 2
+\item [Scienze] Domanda 54: 1
+\item [Scienze] Domanda 55: 2
+\item [Scienze] Domanda 56: 2
+\item [Scienze] Domanda 57: 1
+\item [Scienze] Domanda 58: 2
+\item [Scienze] Domanda 59: 3
+\item [Scienze] Domanda 60: 4
+\item [Scienze] Domanda 61: 4
+\item [Scienze] Domanda 62: 2
+\item [Scienze] Domanda 63: 3
+\item [Scienze] Domanda 64: 4
+\item [Scienze] Domanda 65: 3
+\item [Scienze] Domanda 66: 3
+\item [Scienze] Domanda 67: 2
+\item [Scienze] Domanda 68: 4
+\item [Scienze] Domanda 69: 2
+\item [Scienze] Domanda 70: 3
+\item [Scienze] Domanda 71: 3
+\item [Scienze] Domanda 72: 3
+\item [Scienze] Domanda 73: 3
+\item [Scienze] Domanda 74: 5
+\item [Scienze] Domanda 75: 2
+\item [Scienze] Domanda 76: 2
+\item [Scienze] Domanda 77: 2
+\item [Scienze] Domanda 78: 3
+\item [Scienze] Domanda 79: 2
+\item [Scienze] Domanda 80: 2
+\item [Scienze] Domanda 81: 4
+\item [Scienze] Domanda 82: 4
+\item [Scienze] Domanda 83: 1
+\item [Scienze] Domanda 84: 3
+\item [Scienze] Domanda 85: 4
+\item [Scienze] Domanda 86: 5
+\item [Scienze] Domanda 87: 1
+\item [Scienze] Domanda 88: 4
+\item [Scienze] Domanda 89: 4
+\item [Scienze] Domanda 90: 5
+\item [Scienze] Domanda 91: 3
+\item [Scienze] Domanda 92: 4
+\item [Scienze] Domanda 93: 5
+\item [Scienze] Domanda 94: 2
+\item [Scienze] Domanda 95: 2
+\item [Scienze] Domanda 96: 3
+\item [Scienze] Domanda 97: 4
+\item [Scienze] Domanda 98: 4
+\item [Scienze] Domanda 99: 1
+\item [Scienze] Domanda 100: 1
+\item [Scienze] Domanda 101: 2
+\item [Scienze] Domanda 102: 3
+\item [Scienze] Domanda 103: 2
+\item [Scienze] Domanda 104: 2
+\item [Scienze] Domanda 105: 3
+\item [Scienze] Domanda 106: 3
+\item [Scienze] Domanda 107: 1
+\item [Scienze] Domanda 108: 4
+\item [Scienze] Domanda 109: 1
+\item [Scienze] Domanda 110: 5
+\item [Scienze] Domanda 111: 5
+\item [Scienze] Domanda 112: 5
+\item [Scienze] Domanda 113: 1
+\item [Scienze] Domanda 114: 4
+\item [Scienze] Domanda 115: 3
+\item [Scienze] Domanda 116: 3
+\item [Scienze] Domanda 117: 4
+\item [Scienze] Domanda 118: 4
+\item [Scienze] Domanda 119: 3
+\item [Scienze] Domanda 120: 5
+\item [Scienze] Domanda 121: 4
+\item [Scienze] Domanda 122: 2
+\item [Scienze] Domanda 123: 2
+\item [Scienze] Domanda 124: 1
+\item [Scienze] Domanda 125: 5
+\item [Scienze] Domanda 126: 3
+\item [Scienze] Domanda 127: 1
+\item [Scienze] Domanda 128: 3
+\item [Scienze] Domanda 129: 4
+\item [Scienze] Domanda 130: 4
+\item [Scienze] Domanda 131: 2
+\item [Scienze] Domanda 132: 2
+\item [Scienze] Domanda 133: 4
+\item [Scienze] Domanda 134: 4
+\item [Scienze] Domanda 135: 2
+\item [Scienze] Domanda 136: 2
+\item [Scienze] Domanda 137: 2
+\item [Scienze] Domanda 138: 1
+\item [Scienze] Domanda 139: 1
+\item [Scienze] Domanda 140: 4
+\item [Scienze] Domanda 141: 2
+\item [Scienze] Domanda 142: 3
+\item [Scienze] Domanda 143: 3
+\item [Scienze] Domanda 144: 5
+\item [Scienze] Domanda 145: 5
+\item [Scienze] Domanda 146: 4
+\item [Scienze] Domanda 147: 3
+\item [Scienze] Domanda 148: 2
+\item [Scienze] Domanda 149: 1
+\item [Scienze] Domanda 150: 3
+\end{itemize}
+
+\end{document}
