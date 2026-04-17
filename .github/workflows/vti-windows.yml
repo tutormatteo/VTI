@@ -20,7 +20,25 @@ jobs:
       - name: Restore and publish
         run: |
           dotnet restore VTI.Windows/src/VTI.sln
-          dotnet publish VTI.Windows/src/VTI.App/VTI.App.csproj -c Release -r win-x64 --self-contained true -o publish/out
+          dotnet publish VTI.Windows/src/VTI.App/VTI.App.csproj -c Release -r win-x64 --self-contained true -o publish/out -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:IncludeAllContentForSelfExtract=true -p:EnableCompressionInSingleFile=true -p:DebugType=none
+
+      - name: Note for Windows users
+        shell: pwsh
+        run: |
+          @'
+          VTI — come avviare l'app
+          =======================
+
+          1. Estrai tutto lo zip in una cartella (es. Documenti o Desktop).
+          2. Doppio clic su VTI.exe.
+
+          Se Windows mostra SmartScreen: "Altre informazioni" poi "Esegui comunque".
+
+          Se nello zip ci sono altre cartelle o file accanto a VTI.exe, non spostare solo
+          l'exe: lascia tutto com'e nella stessa cartella.
+
+          Per generare i PDF serve LaTeX (MiKTeX o TeX Live) con pdflatex nel percorso.
+          '@ | Out-File -FilePath publish/out/COME_USARE_VTI.txt -Encoding utf8
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

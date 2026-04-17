@@ -1,5 +1,3 @@
-using System.Reflection;
-
 namespace VTI.Core;
 
 public enum LaTeXTemplate
@@ -11,12 +9,9 @@ public enum LaTeXTemplate
 
 public sealed class LaTeXService
 {
-    private static string TemplatesDirectory()
-    {
-        var loc = Assembly.GetExecutingAssembly().Location;
-        var dir = string.IsNullOrEmpty(loc) ? AppContext.BaseDirectory : Path.GetDirectoryName(loc)!;
-        return Path.Combine(dir, "Templates");
-    }
+    /// <summary>Templates ship next to VTI.exe; BaseDirectory works for normal and single-file publish.</summary>
+    private static string TemplatesDirectory() =>
+        Path.Combine(AppContext.BaseDirectory, "Templates");
 
     public string Render(LaTeXTemplate template, IReadOnlyDictionary<string, string> placeholders)
     {
