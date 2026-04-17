@@ -39,14 +39,11 @@ public sealed class QuesitoWriterService
 
     public static string MakeContent(string question, IReadOnlyList<string> options, int correctAnswer)
     {
-        var optionLines = string.Join("\n", options.Select(o => $"    \\item {o}"));
-        return $"""
-            \itemdomanda{{{question}}}{{
-            {optionLines}
-            }}
-
-            Risposta Corretta: {correctAnswer}
-            """;
+        var optionLines = string.Join("\n", options.Select(o => "    \\item " + o));
+        return "\\itemdomanda{" + question + "}{\n"
+            + optionLines
+            + "\n}\n\nRisposta Corretta: "
+            + correctAnswer.ToString();
     }
 
     public string? LatexBlockForPreview(NewQuesitoDraft draft)
