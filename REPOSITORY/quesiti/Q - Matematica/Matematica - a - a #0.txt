@@ -1,9 +1,9 @@
-\itemdomanda{a}{
-    \item a
-    \item a
-    \item a
-    \item a
-    \item a
+\itemdomanda{Quanti lati ha un poligono convesso con il nome di ``triangolo''?}{
+\item 2
+\item 3
+\item 4
+\item 5
+\item 6
 }
 
-Risposta Corretta: 1
+Risposta Corretta: 2

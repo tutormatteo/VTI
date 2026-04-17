@@ -1,0 +1,153 @@
+\documentclass[12pt]{article}
+\PassOptionsToPackage{table}{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\setlength{\parindent}{0pt}
+\definecolor{headercolor}{RGB}{220,220,220}
+\newcounter{quesito}
+\setcounter{quesito}{0}
+\newcommand{\nuovoquesito}{\stepcounter{quesito}\textbf{Domanda \arabic{quesito}.}}
+\newcommand{\itemdomanda}[2]{%
+    \par\noindent
+    \begin{minipage}[t]{\linewidth}
+        \nuovoquesito \\ #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{10pt}
+}
+\begin{document}
+\section*{Simulazione}
+\hfill Data: 17 apr 2026
+
+\itemdomanda{Se A è più alto di B e B è più alto di C, allora:}{
+    \item C è più alto di A
+    \item A è più basso di C
+    \item A è più alto di C
+    \item B è il più alto di tutti
+    \item Non si può stabilire nulla
+}
+
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Tutti i canarini ben nutriti cantano a squarciagola.
+        \item Nessun canarino che canti a squarciagola è malinconico.
+    \end{enumerate}
+    Quale conclusione è logicamente corretta?}{
+    \item Nessun canarino ben nutrito è malinconico
+    \item Qualche canarino ben nutrito è malinconico
+    \item Tutti i canarini malinconici sono ben nutriti
+    \item I canarini che non cantano sono sicuramente ben nutriti
+    \item Chi canta a squarciagola è malinconico
+}
+
+\itemdomanda{Considerando i dati in tabella l'unica relazione possibile tra le grandezze $x$ e $y$ è di:
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|>{\columncolor{headercolor}}c|c|c|c|c|c|c|}
+\hline
+$x$ & 2 & 4 & 6 & 8 & 10 & 12 \\ \hline
+$y$ & 1 & 4 & 7 & 10 & 13 & 16 \\ \hline
+\end{tabular}
+
+}{
+\item proporzionalità quadratica
+\item proporzionalità inversa
+\item proporzionalità diretta
+\item crescita lineare
+\item nessuna delle altre risposte
+}
+
+\itemdomanda{Considerando i dati in tabella l'unica relazione possibile tra le grandezze $x$ e $y$ è di:
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|>{\columncolor{headercolor}}c|c|c|c|c|c|c|}
+\hline
+$x$ & 2 & 4 & 6 & 8 & 10 & 12 \\ \hline
+$y$ & 101 & 202 & 303 & 404 & 505 & 606 \\ \hline
+\end{tabular}
+
+}{
+\item proporzionalità quadratica
+\item proporzionalità inversa
+\item proporzionalità diretta
+\item crescita lineare
+\item proporzionalità cubica
+}
+
+\itemdomanda{Considerando i dati in tabella l'unica relazione possibile tra le grandezze $x$ e $y$ è di:
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|>{\columncolor{headercolor}}c|c|c|c|c|c|c|}
+\hline
+$x$ & 2 & 4 & 6 & 8 & 10 & 12 \\ \hline
+$y$ & 50 & 25 & $\frac{50}{3}$ & $\frac{25}{2}$ & 10 & $\frac{25}{3}$ \\ \hline
+\end{tabular}
+
+}{
+\item proporzionalità quadratica
+\item proporzionalità inversa
+\item proporzionalità diretta
+\item crescita lineare
+\item nessuna delle altre risposte
+}
+
+\itemdomanda{Considerando i dati in tabella l'unica relazione possibile tra le grandezze $x$ e $y$ è di:
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|>{\columncolor{headercolor}}c|c|c|c|c|c|c|}
+\hline
+$x$ & 2 & 4 & 6 & 8 & 10 & 12 \\ \hline
+$y$ & 4 & 16 & 36 & 64 & 100 & 144 \\ \hline
+\end{tabular}
+
+}{
+\item proporzionalità quadratica
+\item proporzionalità inversa
+\item proporzionalità diretta
+\item crescita lineare
+\item proporzionalità cubica
+}
+
+\newpage
+\section*{Appendice: risposte corrette}
+\begin{longtable}{@{}r>{\raggedright\arraybackslash}p{0.14\linewidth}>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.42\linewidth}c@{}}
+\toprule
+\textbf{N.} & \textbf{Materia} & \textbf{Argomento} & \textbf{Titolo} & \textbf{Risp.} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{N.} & \textbf{Materia} & \textbf{Argomento} & \textbf{Titolo} & \textbf{Risp.} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{5}{r}{\footnotesize\textit{Continua}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+1 & Logica & Logica Deduttiva & Relazione transitiva & C \\
+2 & Logica & Logica Deduttiva & Sillogismo dei canarini & A \\
+3 & Matematica & Tipi di Relazione & Crescita lineare & D \\
+4 & Matematica & Tipi di Relazione & Proporzionalità diretta & C \\
+5 & Matematica & Tipi di Relazione & Proporzionalità inversa & B \\
+6 & Matematica & Tipi di Relazione & Proporzionalità quadratica & A
+\end{longtable}
+
+\end{document}

@@ -1,7 +1,7 @@
 \itemdomanda{Si legge sull'autobus: ``I passeggeri sono tenuti a pagare un ulteriore biglietto per ogni bagaglio che superi le seguenti dimensioni: \SI{50}{cm} $\times$ \SI{30}{cm} $\times$ \SI{25}{cm}''. Oltre a una lettura per confronto di volumi, la norma è di solito applicata intendendo che si paghi un supplemento se l'oggetto supera almeno una delle tre dimensioni massime indicate (\SI{50}{cm}, \SI{30}{cm}, \SI{25}{cm}). In questa interpretazione, quale affermazione segue correttamente?}{
     \item si deve pagare un biglietto per un pallone del diametro di \SI{20}{cm}
-    \item si deve pagare un biglietto per un bastone lungo \SI{90}{cm} e con il diametro di \SI{2}{cm} se tenuto orizzontalmente
-    \item si deve pagare un biglietto per un bastone lungo \SI{90}{cm} e con il diametro di \SI{2}{cm}
+    \item si deve pagare un biglietto per un bastone lungo \SI{40}{cm} e con il diametro di \SI{2}{cm}
+    \item si deve pagare un biglietto per un parallelepipedo di dimensioni \SI{48}{cm} $\times$ \SI{28}{cm} $\times$ \SI{24}{cm}
     \item si deve pagare un biglietto per un oggetto che supera \SI{50}{cm} di lunghezza oppure \SI{30}{cm} di altezza oppure \SI{25}{cm} di spessore
     \item si deve pagare un biglietto per un oggetto che supera \SI{50}{cm} di lunghezza e \SI{30}{cm} di altezza e \SI{25}{cm} di spessore
 }

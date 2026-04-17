@@ -25,13 +25,16 @@ public sealed class TestGeneratorService
         var safeDate = SanitizedSegment(dateString);
         var fileName = $"Test_{safeTitle}_{safeDate}_{timestamp}.tex";
         var texPath = Path.Combine(destinationFolder, fileName);
-        var body = string.Join("\n\n", quesiti.Select(q => q.LatexBlock));
+        var list = quesiti.ToList();
+        var body = string.Join("\n\n", list.Select(q => q.LatexBlock));
+        var solutions = SolutionsAppendixBuilder.BuildLongTable(list);
         var displayDate = date.ToString("d", new System.Globalization.CultureInfo("it-IT"));
         _latex.WriteRenderedTemplate(LaTeXTemplate.Test, new Dictionary<string, string>
         {
             ["TITLE"] = string.IsNullOrWhiteSpace(title) ? "Test personalizzato" : title,
             ["DATE"] = displayDate,
-            ["BODY"] = body
+            ["BODY"] = body,
+            ["SOLUTIONS"] = solutions
         }, texPath);
 
         try

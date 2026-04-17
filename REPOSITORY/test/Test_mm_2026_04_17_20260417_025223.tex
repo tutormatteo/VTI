@@ -1,0 +1,285 @@
+\documentclass[12pt]{article}
+\PassOptionsToPackage{table}{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\setlength{\parindent}{0pt}
+\definecolor{headercolor}{RGB}{220,220,220}
+\newcounter{quesito}
+\setcounter{quesito}{0}
+\newcommand{\nuovoquesito}{\stepcounter{quesito}\textbf{Domanda \arabic{quesito}.}}
+\newcommand{\itemdomanda}[2]{%
+    \par\noindent
+    \begin{minipage}[t]{\linewidth}
+        \nuovoquesito \\ #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{10pt}
+}
+\begin{document}
+\section*{mm}
+\hfill Data: 17 apr 2026
+
+\itemdomanda{Se dopodomani sarà giovedì, che giorno era ieri?}{
+    \item Lunedì
+    \item Martedì
+    \item Domenica
+    \item Mercoledì
+    \item Sabato
+}
+
+\itemdomanda{Un mattone pesa un chilo più mezzo mattone. Quanto pesa un mattone?}{
+    \item \SI{1.5}{kg}
+    \item \SI{2}{kg}
+    \item \SI{2.5}{kg}
+    \item \SI{3}{kg}
+    \item \SI{1}{kg}
+}
+
+\itemdomanda{Cinque amici sono in fila: Anna è davanti a Luca, Sara è dietro a Luca ma davanti a Paolo. Se Marco è il primo della fila, chi è l'ultimo?}{
+    \item Anna
+    \item Luca
+    \item Sara
+    \item Paolo
+    \item Marco
+}
+
+\itemdomanda{Ci sono cinque persone con diverse situazioni patrimoniali. Oronzo è più ricco di Rocco, le cui ricchezze sono più modeste di quelle di Silvio, e quest'ultimo a sua volta è più danaroso di Piero. Quirino è meno benestante di Piero, ma più agiato di Oronzo. Chi è il terzo in ordine di ricchezza?}{
+    \item Piero
+    \item Rocco
+    \item Oronzo
+    \item Silvio
+    \item Quirino
+}
+
+\itemdomanda{Quale numero va inserito al centro?
+\begin{center}
+\begin{tikzpicture}[scale=0.5]
+    \draw (0,0) grid (3,1);
+    \node at (0.5,0.5) {14};
+    \node at (1.5,0.5) {?};
+    \node at (2.5,0.5) {28};
+    \node[below] at (1.5,0) {\small (Relazione: $x = (A+B)/2$)};
+\end{tikzpicture}
+\end{center}}{
+    \item 21
+    \item 20
+    \item 19
+    \item 22
+    \item 42
+}
+
+\itemdomanda{Completare la serie: $2, 6, 12, 20, 30, \dots$}{
+    \item 36
+    \item 40
+    \item 42
+    \item 50
+    \item 44
+}
+
+\itemdomanda{Se un liquido scorre in una condotta con restringimento, quale di questi grafici rappresenta la portata in massa?}{
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi con stile locale
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Curva Parabolica (Concavità verso l'alto)
+    % Funzione: y = 0.5*(x-1.5)^2 + 0.8
+    \draw[thick, samples=100, domain=0.2:2.8] plot (\x, {0.5*(\x-1.5)*(\x-1.5) + 0.8});
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Linea Orizzontale (Costante)
+    \draw[thick] (0,1.8) -- (3,1.8);
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Curva Parabolica (Concavità verso il basso)
+    % Funzione: y = -0.5*(x-1.5)^2 + 2.2
+    \draw[thick, samples=100, domain=0.1:2.9] plot (\x, {-0.5*(\x-1.5)*(\x-1.5) + 2.2});
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Funzione a campana (Gaussiana) su base costante
+    % y = baseline + ampiezza * exp(-(x-centro)^2 / larghezza)
+    \draw[thick, samples=100, domain=0:3] plot (\x, {0.6 + 1.4*exp(-(\x-1.5)*(\x-1.5)/0.2)});
+\end{tikzpicture}
+    \item \begin{tikzpicture}[scale=0.5, baseline=(current bounding box.center)]
+    % Assi
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (3.5,0) node[below, pos=0.8] {posizione};
+    \draw[-{Stealth[scale=1.2]}, thick] (0,0) -- (0,3.5) node[left, rotate=90, pos=0.8, anchor=south] {portata};
+    
+    % Funzione a "buca" invertita
+    % y = baseline - ampiezza * exp(-(x-centro)^2 / larghezza)
+    \draw[thick, samples=100, domain=0:3] plot (\x, {2.0 - 1.2*exp(-(\x-1.5)*(\x-1.5)/0.2)});
+\end{tikzpicture}
+}
+
+\itemdomanda{Un sub risente di una pressione di 2 atm. Si può affermare che:}{
+    \item è a circa 10 m di profondità
+    \item è a circa 20 m di profondità
+    \item è a circa 30 m di profondità
+    \item è a circa 40 m di profondità
+    \item sta risalendo velocemente
+}
+
+\itemdomanda{Tubo sezione costante ad U aperto un ramo e chiuso tappo T altro. Forza acqua sul tappo? \\ \begin{tikzpicture}[>=Stealth, thick, scale=0.6, transform shape, baseline=(current bounding box.center)]
+
+    % --- DEFINIZIONE PARMETRI ---
+    \def\tubeW{1.0}    % Larghezza del tubo
+    \def\innerR{1.0}   % Raggio della curva interna
+    % Il raggio esterno è calcolato automaticamente
+    \pgfmathsetmacro{\outerR}{\innerR + \tubeW}
+    
+    \def\liqH{5.0}     % Altezza liquido a sinistra (H) dai centri dei cerchi
+    \def\liqh{3.0}     % Altezza liquido a destra (h) dai centri dei cerchi
+    \def\blockH{1.2}   % Altezza del blocco T
+    
+    % Coordinate di base: Il centro dei semicerchi inferiori è (0,0)
+
+    % --- 1. LIQUIDO (Riempimento) ---
+    % Disegniamo il contorno del liquido e lo riempiamo
+    \fill[gray!40] 
+        (-\outerR, \liqH) -- (-\outerR, 0)          % Giù a sinistra esterno
+        arc[start angle=180, end angle=360, radius=\outerR] % Curva esterna
+        -- (\outerR, \liqh)                         % Su a destra esterno
+        -- (\innerR, \liqh)                         % Attraverso superficie dx
+        -- (\innerR, 0)                             % Giù a destra interno
+        arc[start angle=0, end angle=-180, radius=\innerR]  % Curva interna
+        -- (-\innerR, \liqH)                        % Su a sinistra interno
+        -- cycle;                                   % Chiude superficie sx
+
+    % --- 2. TUBO (Contorni) ---
+    % Contorno esterno
+    \draw[thick] (-\outerR, \liqH + 0.8) -- (-\outerR, 0) 
+        arc[start angle=180, end angle=360, radius=\outerR] 
+        -- (\outerR, \liqh + \blockH + 0.5);
+        
+    % Contorno interno
+    \draw[thick] (-\innerR, \liqH + 0.8) -- (-\innerR, 0) 
+        arc[start angle=180, end angle=360, radius=\innerR] % Corretto: ora segue il fondo
+        -- (\innerR, \liqh + \blockH + 0.8);
+
+    % --- 3. OGGETTO T ---
+    \fill[black] (\innerR, \liqh) rectangle (\outerR, \liqh + \blockH);
+    \node[white, font=\bfseries\large] at ($(\innerR, \liqh) + 0.5*(\tubeW, \blockH)$) {T};
+
+    % --- 4. LIVELLI E QUOTE ---
+    % Linea di riferimento inferiore (il punto più basso del tubo)
+    \coordinate (BottomPoint) at (0, -\outerR);
+    \draw[thin] (-\outerR - 1.2, -\outerR) -- (\outerR + 1.2, -\outerR);
+
+    % Livello 1 (Sinistra)
+    \draw[thin] (-\outerR, \liqH) -- (\outerR + 2.0, \liqH) node[right, font=\small] {livello 1};
+    % Quota H
+    \draw[<->, thin] (-\outerR - 0.8, -\outerR) -- (-\outerR - 0.8, \liqH) node[midway, fill=white, font=\small] {$H$};
+
+    % Livello 2 (Destra)
+    \draw[thin] (\outerR, \liqh) -- (-\outerR - 2.0, \liqh) node[left, font=\small] {livello 2};
+    % Quota h
+    \draw[<->, thin] (\outerR + 0.8, -\outerR) -- (\outerR + 0.8, \liqh) node[midway, fill=white, font=\small] {$h$};
+
+    % --- 5. ELEMENTO S ---
+    \node[circle, draw, thin, inner sep=1.5pt, font=\itshape\small, fill=white] at (0, -\outerR + \tubeW/2) {S};
+
+\end{tikzpicture} \\ }{
+    \item $\rho g (H-h)$ verso il basso
+    \item $\rho g h$ verso l'alto
+    \item $\rho g H S$ verso l'alto
+    \item $\rho g (H+h)$ verso il basso
+    \item $\rho g (H-h) S$ verso l'alto
+}
+
+\itemdomanda{Un oggetto è posto a una distanza di 60 cm da una lente sottile convergente. L'immagine prodotta dalla lente risulta capovolta e di dimensioni pari alla metà di quelle dell'oggetto originale. Qual è la distanza focale della lente?}{
+    \item 60 cm
+    \item 45 cm
+    \item 30 cm
+    \item 20 cm
+    \item 90 cm
+}
+
+\itemdomanda{Strisce colorate macchie olio pozzanghere dovute a:}{
+    \item interferenza e diffrazione
+    \item riflettività acqua/olio
+    \item cielo diffonde colori
+    \item interferenza strato sottile olio
+    \item diffrazione luce
+}
+
+\itemdomanda{Perché forchetta legno è meglio della metallica per rigirare spaghetti?}{
+    \item conducibilità termica metalli molto più grande
+    \item calore specifico metalli maggiore
+    \item conducibilità elettrica metalli maggiore
+    \item legno si elettrizza meno
+    \item legno è più leggero
+}
+
+\itemdomanda{Stesso calore a vetro e rame, $c_{vetro} > c_{rame}$. Allora:}{
+    \item rame riscalda prima ma T finale minore
+    \item rame avrà temperatura finale maggiore
+    \item vetro avrà temperatura finale maggiore
+    \item rame riscalda prima ma T finale uguale
+    \item temperature finali uguali
+}
+
+\newpage
+\section*{Appendice: risposte corrette}
+\begin{longtable}{@{}r>{\raggedright\arraybackslash}p{0.14\linewidth}>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.42\linewidth}c@{}}
+\toprule
+\textbf{N.} & \textbf{Materia} & \textbf{Argomento} & \textbf{Titolo} & \textbf{Risp.} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{N.} & \textbf{Materia} & \textbf{Argomento} & \textbf{Titolo} & \textbf{Risp.} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{5}{r}{\footnotesize\textit{Continua}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+1 & Logica & Logica Analitica & Giorni della settimana & A \\
+2 & Logica & Logica Analitica & Ordinamento pesi & B \\
+3 & Logica & Logica Analitica & Posizionamento lineare & D \\
+4 & Logica & Logica Analitica & Relazioni d'ordine & E \\
+5 & Logica & Logica Numerica & Inserimento in griglia & A \\
+6 & Logica & Logica Numerica & Successione quadratica & C \\
+7 & Scienze & Fluidi & Portata massa grafico & B \\
+8 & Scienze & Fluidi & Profondità subacquea & A \\
+9 & Scienze & Fluidi & Tubo sezione U & E \\
+10 & Scienze & Onde e Ottica & Focale lente convergente & D \\
+11 & Scienze & Onde e Ottica & Macchie olio pozzanghere & D \\
+12 & Scienze & Termodinamica & Forchetta legno spaghetti & A \\
+13 & Scienze & Termodinamica & Vetro e rame & B
+\end{longtable}
+
+\end{document}

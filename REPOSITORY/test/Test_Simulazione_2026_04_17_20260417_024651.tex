@@ -1,0 +1,103 @@
+\documentclass[12pt]{article}
+\PassOptionsToPackage{table}{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\setlength{\parindent}{0pt}
+\definecolor{headercolor}{RGB}{220,220,220}
+\newcounter{quesito}
+\setcounter{quesito}{0}
+\newcommand{\nuovoquesito}{\stepcounter{quesito}\textbf{Domanda \arabic{quesito}.}}
+\newcommand{\itemdomanda}[2]{%
+    \par\noindent
+    \begin{minipage}[t]{\linewidth}
+        \nuovoquesito \\ #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{10pt}
+}
+\begin{document}
+\section*{Simulazione}
+\hfill Data: 17 apr 2026
+
+\itemdomanda{Se A è più alto di B e B è più alto di C, allora:}{
+    \item C è più alto di A
+    \item A è più basso di C
+    \item A è più alto di C
+    \item B è il più alto di tutti
+    \item Non si può stabilire nulla
+}
+
+\itemdomanda{Date le seguenti premesse:
+    \begin{enumerate}
+        \item Tutti i colibrì hanno un piumaggio coloratissimo.
+        \item Nessun uccello grosso si nutre di miele.
+        \item Gli uccelli che non si nutrono di miele hanno colori smorti.
+    \end{enumerate}
+    Ne consegue che:}{
+    \item I colibrì sono uccelli piccoli
+    \item I colibrì sono uccelli grossi
+    \item Gli uccelli con colori smorti sono colibrì
+    \item Nessun uccello piccolo si nutre di miele
+    \item Tutti gli uccelli grossi hanno il piumaggio colorato
+}
+
+\itemdomanda{Date le premesse:
+    \begin{enumerate}
+        \item Uno squalo non dubita mai di essere ben difeso.
+        \item Un pesce che non sappia danzare il minuetto è degno di disprezzo.
+        \item Un pesce non è sicuro di essere ben difeso se non ha tre file di denti.
+        \item Tutti i pesci, a parte gli squali, sono gentili con i bambini.
+        \item Nessun pesce grosso può danzare il minuetto.
+        \item Un pesce con tre file di denti non si può disprezzare.
+    \end{enumerate}
+    Quale conclusione se ne trae?}{
+    \item Tutti i pesci grossi sono gentili con i bambini
+    \item Gli squali sanno danzare il minuetto
+    \item Nessun pesce grosso ha tre file di denti
+    \item I pesci gentili con i bambini sono tutti squali
+    \item Chi non sa danzare il minuetto è uno squalo
+}
+
+\newpage
+\section*{Appendice: risposte corrette}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.18\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}>{\raggedright\arraybackslash}p{0.46\linewidth}c@{}}
+\toprule
+\textbf{Materia} & \textbf{Argomento} & \textbf{Titolo} & \textbf{Risp.} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Materia} & \textbf{Argomento} & \textbf{Titolo} & \textbf{Risp.} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\footnotesize\textit{Continua}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+Logica & Logica Deduttiva & Relazione transitiva & C \\
+Logica & Logica Deduttiva & Sillogismo dei colibrì & A \\
+Logica & Logica Deduttiva & Sillogismo dei pesci grossi & A
+\end{longtable}
+
+\end{document}

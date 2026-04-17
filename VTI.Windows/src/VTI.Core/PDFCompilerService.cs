@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+using System.Text;
 
 namespace VTI.Core;
 
@@ -69,13 +70,14 @@ public sealed class PDFCompilerService
 
     private static string RunPdflatex(string executable, string texFileName, string outputDirectory)
     {
+        var logPath = Path.Combine(outputDirectory, Path.GetFileNameWithoutExtension(texFileName) + ".log");
         var psi = new ProcessStartInfo
         {
             FileName = executable,
             WorkingDirectory = outputDirectory,
             UseShellExecute = false,
-            RedirectStandardOutput = true,
-            RedirectStandardError = true,
+            RedirectStandardOutput = false,
+            RedirectStandardError = false,
             CreateNoWindow = true,
             ArgumentList =
             {
@@ -88,12 +90,39 @@ public sealed class PDFCompilerService
             }
         };
         using var p = Process.Start(psi) ?? throw AppException.Io("Impossibile avviare pdflatex.");
-        var stdout = p.StandardOutput.ReadToEnd();
-        var stderr = p.StandardError.ReadToEnd();
         p.WaitForExit();
-        var log = stdout + stderr;
+        var log = ReadPdflatexLogFile(logPath);
         if (p.ExitCode != 0)
             throw AppException.PdfCompilationFailed(log);
         return log;
+    }
+
+    /// <summary>Reads the transcript written by pdfTeX to <c>basename.log</c> (UTF-8 with tolerant fallback).</summary>
+    private static string ReadPdflatexLogFile(string logPath)
+    {
+        try
+        {
+            if (!File.Exists(logPath))
+                return "(file .log non trovato: " + logPath + ")";
+            var bytes = File.ReadAllBytes(logPath);
+            return DecodeLogBytes(bytes);
+        }
+        catch (Exception ex)
+        {
+            return "Lettura log fallita: " + ex.Message;
+        }
+    }
+
+    private static string DecodeLogBytes(byte[] bytes)
+    {
+        if (bytes.Length == 0) return "";
+        try
+        {
+            return new UTF8Encoding(encoderShouldEmitUTF8Identifier: false, throwOnInvalidBytes: true).GetString(bytes);
+        }
+        catch (DecoderFallbackException)
+        {
+            return Encoding.Latin1.GetString(bytes);
+        }
     }
 }

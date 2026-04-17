@@ -1,0 +1,83 @@
+\documentclass[20pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage[table]{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{
+    shapes.geometric,
+    arrows.meta,
+    positioning,
+    calc,
+    patterns,
+    decorations.pathmorphing
+}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{siunitx}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{tasks}
+\usepackage{fancyhdr}
+\geometry{
+    a4paper,
+    left=20mm,
+    right=20mm,
+    top=20mm,
+    bottom=20mm,
+}
+\definecolor{headercolor}{RGB}{200,200,200}
+\newcounter{quesito}
+\setcounter{quesito}{0}
+\newcommand{\nuovoquesito}{\stepcounter{quesito}\textbf{Domanda \arabic{quesito}.}}
+\newcommand{\itemdomanda}[2]{%
+    \item \begin{minipage}[t]{\linewidth}
+        \nuovoquesito \\ #1
+        \begin{enumerate}[label=(\Alph*), nosep, leftmargin=*]
+            #2
+        \end{enumerate}
+    \end{minipage}
+    \vspace{10pt}
+}
+\pagestyle{fancy}
+\fancyhead[L]{{{HEADER_TITLE}}}
+\fancyhead[R]{\thepage}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\Huge \textbf{Eserciziario TOLC-I} \par}
+    \vspace{1cm}
+    {\Large \textbf{Volume {{VOLUME_TITLE}}} \par}
+    \vspace{4cm}
+    {\Large {{ACADEMIC_YEAR}} \par}
+    \vspace{4cm}
+    \vfill
+    {\large \copyright \ Scritto da Tutor \textbf{Matteo Zambito} \\
+    per il progetto \textit{"Verso il Test di Ingegneria"} \par}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+{{CONTENT}}
+
+\newpage
+\section*{Appendice: risposte corrette}
+{{SOLUTIONS}}
+
+\end{document}

@@ -32,23 +32,24 @@ public sealed class EserciziarioGeneratorService
             ? grouped.Keys.OrderBy(m => m).ToList()
             : materia is { } mm ? [mm] : [];
 
+        var inPdfOrder = new List<Quesito>();
         var content = string.Join("\n\n", orderedMaterie.Select(m =>
         {
             if (!grouped.TryGetValue(m, out var items) || items.Count == 0) return null;
-            var body = string.Join("\n\n", items.Select(q => q.LatexBlock));
-            return $"\\section{{{m.SectionTitle}}}\n\\begin{{enumerate}}[leftmargin=*]\n{body}\n\\end{{enumerate}}";
+            var byArgomento = items.GroupBy(q => q.Argomento).OrderBy(g => g.Key, StringComparer.OrdinalIgnoreCase);
+            var sectionTitle = LaTeXTextUtilities.EscapePlainText(m.SectionTitle);
+            var blocks = byArgomento.Select(g =>
+            {
+                foreach (var q in g.OrderBy(x => x.Indice))
+                    inPdfOrder.Add(q);
+                var body = string.Join("\n\n", g.OrderBy(x => x.Indice).Select(q => q.LatexBlock));
+                var sub = LaTeXTextUtilities.EscapePlainText(g.Key);
+                return $"\\subsection{{{sub}}}\n\\begin{{enumerate}}[leftmargin=*]\n{body}\n\\end{{enumerate}}";
+            });
+            return $"\\section{{{sectionTitle}}}\n\n{string.Join("\n\n", blocks)}";
         }).Where(s => s != null));
 
-        var solutions = string.Join("\n\n", orderedMaterie.Select(m =>
-        {
-            if (!grouped.TryGetValue(m, out var items) || items.Count == 0) return null;
-            var rows = string.Join("\n", items.Select((item, offset) =>
-            {
-                var answer = item.RispostaCorretta?.ToString() ?? "-";
-                return $"\\item [{m.RawValue}] Domanda {offset + 1}: {answer}";
-            }));
-            return $"\\section*{{Soluzioni {m.RawValue}}}\n\\begin{{itemize}}[leftmargin=*]\n{rows}\n\\end{{itemize}}";
-        }).Where(s => s != null));
+        var solutions = SolutionsAppendixBuilder.BuildLongTable(inPdfOrder);
 
         _latex.WriteRenderedTemplate(LaTeXTemplate.Eserciziario, new Dictionary<string, string>
         {
