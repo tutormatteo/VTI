@@ -16,14 +16,9 @@ DerivedData/
 # Build outputs (opzionale: non versionare app già compilata)
 VTI-App_macOS/
 
-# Cartella / zip locale di prova (non in repo)
+# Output publish Windows locale / CI (non versionare)
+VTI-windows-win-x64/
 VTI-windows-win-x64-snello/
-
-# Duplicati creati da macOS ("nome 2.ext") nella cartella bundle Windows
-VTI-windows-win-x64/* 2.dll
-VTI-windows-win-x64/* 2.exe
-VTI-windows-win-x64/* 2.pdb
-VTI-windows-win-x64/* 2.json
 
 # Log e artefatti LaTeX generati in locale (opzionale)
 # REPOSITORY/test/*.aux
