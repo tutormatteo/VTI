@@ -199,7 +199,7 @@ public partial class MainViewModel
             try
             {
                 var doc = _testGen.Generate(title, date, quesiti);
-                Application.Current.Dispatcher.Invoke(() =>
+                System.Windows.Application.Current.Dispatcher.Invoke(() =>
                 {
                     LastTestDocument = doc;
                     TestIsGenerating = false;
@@ -220,7 +220,7 @@ public partial class MainViewModel
             }
             catch (Exception ex)
             {
-                Application.Current.Dispatcher.Invoke(() =>
+                System.Windows.Application.Current.Dispatcher.Invoke(() =>
                 {
                     TestIsGenerating = false;
                     StatusMessage = new UserMessage(UserMessageKind.Error, ex.Message);
@@ -324,7 +324,7 @@ public partial class MainViewModel
             try
             {
                 var doc = _esercGen.Generate(scope, scope == EserciziarioScope.MateriaSingola ? mat : null, list);
-                Application.Current.Dispatcher.Invoke(() =>
+                System.Windows.Application.Current.Dispatcher.Invoke(() =>
                 {
                     LastEserciziarioDocument = doc;
                     EserciziarioIsGenerating = false;
@@ -336,7 +336,7 @@ public partial class MainViewModel
             }
             catch (Exception ex)
             {
-                Application.Current.Dispatcher.Invoke(() =>
+                System.Windows.Application.Current.Dispatcher.Invoke(() =>
                 {
                     EserciziarioIsGenerating = false;
                     StatusMessage = new UserMessage(UserMessageKind.Error, ex.Message);

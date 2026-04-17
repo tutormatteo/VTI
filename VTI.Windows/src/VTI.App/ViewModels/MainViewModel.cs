@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.IO;
 using System.Windows;
 using System.Windows.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -243,7 +244,7 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand]
     private void PickImportTxt()
     {
-        var dlg = new OpenFileDialog { Filter = "Testo|*.txt", Title = "Seleziona file TXT del quesito" };
+        var dlg = new Microsoft.Win32.OpenFileDialog { Filter = "Testo|*.txt", Title = "Seleziona file TXT del quesito" };
         if (dlg.ShowDialog() == true)
             ImportFilePath = dlg.FileName;
     }
@@ -382,7 +383,7 @@ public partial class MainViewModel : ObservableObject
         var suggested = SelectedRepositoryQuesito != null
             ? Path.ChangeExtension(SelectedRepositoryQuesito.FileName, ".png")
             : "Anteprima_quesito.png";
-        var dlg = new SaveFileDialog { Filter = "PNG|*.png", FileName = suggested };
+        var dlg = new Microsoft.Win32.SaveFileDialog { Filter = "PNG|*.png", FileName = suggested };
         if (dlg.ShowDialog() != true) return;
         try
         {
