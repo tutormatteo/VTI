@@ -47,7 +47,7 @@ public sealed class TestGeneratorService
 
     private static string SanitizedSegment(string value)
     {
-        var s = Regex.Replace(value.Trim().Replace(' ', "_"), @"[^a-zA-Z0-9]+", "_");
+        var s = Regex.Replace(value.Trim().Replace(' ', '_'), @"[^a-zA-Z0-9]+", "_");
         s = s.Trim('_');
         return string.IsNullOrEmpty(s) ? "Test" : s;
     }

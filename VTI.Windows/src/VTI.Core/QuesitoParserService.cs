@@ -80,10 +80,10 @@ public sealed class QuesitoParserService
         var firstOpen = text.IndexOf('{', idx);
         if (firstOpen < 0) return Array.Empty<string>();
         var first = ExtractBraceContent(text, firstOpen);
-        if (first is null) return Array.Empty<string>();
-        var second = ExtractBraceContent(text, first.NextIndex);
-        if (second is null) return Array.Empty<string>();
-        return second.Content.Split('\n')
+        if (!first.HasValue) return Array.Empty<string>();
+        var second = ExtractBraceContent(text, first.Value.NextIndex);
+        if (!second.HasValue) return Array.Empty<string>();
+        return second.Value.Content.Split('\n')
             .Select(s => s.Trim())
             .Where(s => s.StartsWith("\\item", StringComparison.Ordinal))
             .Select(s => s.Replace("\\item", "", StringComparison.Ordinal).Trim())
