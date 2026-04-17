@@ -4,7 +4,7 @@ using System.Windows.Controls;
 
 namespace VTI.App.Controls;
 
-public partial class PdfPreviewControl : UserControl
+public partial class PdfPreviewControl : System.Windows.Controls.UserControl
 {
     public static readonly DependencyProperty SourcePdfProperty = DependencyProperty.Register(
         nameof(SourcePdf),
