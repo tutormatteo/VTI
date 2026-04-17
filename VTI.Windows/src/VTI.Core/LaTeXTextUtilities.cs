@@ -17,7 +17,7 @@ public static class LaTeXTextUtilities
         value = NormalizeNfc(value ?? "");
         value = value.Replace("\r\n", "\n", StringComparison.Ordinal)
             .Replace('\r', '\n')
-            .Replace('\n', ' ', StringComparison.Ordinal);
+            .Replace('\n', ' ');
         var sb = new StringBuilder(value.Length + 8);
         foreach (var c in value)
         {
